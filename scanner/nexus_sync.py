@@ -105,6 +105,7 @@ def main():
     ap.add_argument("--db-dir", required=True)
     ap.add_argument("--last-scan")
     ap.add_argument("--out", required=True)
+    ap.add_argument("--status-version", type=int, help="current version of system/sync in NEXUS (needed to overwrite it)")
     ap.add_argument("--staff-dir", help="folder with staff/*.json exported from NEXUS – writes <out>/recipients.json for the alerts")
     a = ap.parse_args()
     now = (datetime.now(timezone.utc) + timedelta(hours=3)).strftime("%Y-%m-%dT%H:%M:%S") + TZ   # EAT, whatever the machine clock zone
@@ -156,7 +157,10 @@ def main():
         status["scanner"] = sc
     p = os.path.join(a.out, "docs", "sync_status.json")
     json.dump(status, open(p, "w", encoding="utf-8"), ensure_ascii=False)
-    writes.append({"op": "set", "collection": "system", "doc_id": "sync", "file_path": os.path.abspath(p)})
+    w = {"op": "set", "collection": "system", "doc_id": "sync", "file_path": os.path.abspath(p)}
+    if a.status_version:
+        w["if_version"] = a.status_version
+    writes.append(w)
 
     if a.staff_dir:
         staff = []
