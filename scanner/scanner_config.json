@@ -1,0 +1,842 @@
+{
+  "_help": "Settings for the Tanzania Tender Scanner / NORDIC NEXUS. Edit with Notepad. Keep the quotes and commas. Words and place names are lower-case. Never put passwords or keys in this file.",
+  "workbook_path": "../data/Nordic_Opportunity_Pipeline.xlsx",
+  "owner": "Frank",
+  "email_to": "",
+  "_email_help": "An email is sent only when tenders appear that were not reported before - never every 15 minutes.",
+  "sources": {
+    "_help": "every_minutes = how often each source is checked. The Windows schedule runs every hour; a source is read when its own interval has passed. enabled: true/false switches a source on or off.",
+    "nest": {
+      "enabled": true,
+      "every_minutes": 5,
+      "about": "NeST – all Mainland Tanzania public tenders (ministries, councils, TANROADS, TARURA, TANESCO, DAWASA, TPA, TPDC, NHC, hospitals, universities ...)"
+    },
+    "worldbank": {
+      "enabled": true,
+      "every_minutes": 30,
+      "about": "World Bank procurement notices for projects in Tanzania (Mainland and Zanzibar), civil works only",
+      "skip_notice_types": [
+        "award",
+        "general procurement notice"
+      ]
+    },
+    "tanroads": {
+      "enabled": true,
+      "every_minutes": 15,
+      "url": "https://www.tanroads.go.tz/tenders",
+      "about": "TANROADS website tender list (includes donor-funded road tenders)"
+    },
+    "web_pages": [
+      {
+        "name": "ZPPDA Zanzibar - open tenders",
+        "url": "https://tenders.zppda.go.tz/tenders/category/open-tender",
+        "source": "ZPPDA",
+        "client": "",
+        "region": "Zanzibar",
+        "every_minutes": 60,
+        "enabled": false,
+        "note": "Switched off 26 Sep 2026: the ZPPDA address does not resolve from the office network. Switch on again when the portal is back."
+      },
+      {
+        "name": "ZPPDA Zanzibar - international tenders",
+        "url": "https://tenders.zppda.go.tz/tenders/category/international-tenders",
+        "source": "ZPPDA",
+        "client": "",
+        "region": "Zanzibar",
+        "every_minutes": 60,
+        "enabled": false,
+        "note": "Switched off 26 Sep 2026: the ZPPDA address does not resolve from the office network. Switch on again when the portal is back."
+      },
+      {
+        "name": "CRDB Bank tenders",
+        "url": "https://crdbbank.co.tz/en/about-us/tender",
+        "source": "client site",
+        "client": "CRDB Bank PLC",
+        "client_type": "bank",
+        "every_minutes": 60,
+        "enabled": true
+      },
+      {
+        "name": "NMB Bank tenders",
+        "url": "https://www.nmbbank.co.tz/tenders",
+        "source": "client site",
+        "client": "NMB Bank PLC",
+        "client_type": "bank",
+        "every_minutes": 60,
+        "enabled": false,
+        "note": "Switched off 26 Sep 2026: NMB's site refuses automatic readers (HTTP 403). DDO Tenders picks up NMB newspaper adverts."
+      },
+      {
+        "name": "TANESCO current tenders",
+        "url": "https://www.tanesco.co.tz/index.php/procurement/current-tenders",
+        "source": "client site",
+        "client": "TANESCO",
+        "client_type": "parastatal",
+        "every_minutes": 60,
+        "enabled": false,
+        "about": "Substations, offices, staff houses, civil works for power projects",
+        "note": "Switched off 26 Sep 2026: the page builds its list with JavaScript, so it cannot be read. TANESCO tenders are also published on NeST, which is scanned."
+      },
+      {
+        "name": "TPA current tenders",
+        "url": "https://www.ports.go.tz/index.php/en/procurements/current-tenders-en",
+        "source": "client site",
+        "client": "Tanzania Ports Authority (TPA)",
+        "client_type": "parastatal",
+        "every_minutes": 60,
+        "enabled": true,
+        "about": "Port buildings, yards, jetties and civil works"
+      },
+      {
+        "name": "TARURA tenders",
+        "url": "https://tarura.go.tz/trr/matangazo",
+        "api_url": "https://tarura.go.tz:6032/api/v1/Documents/document-type-code/PR001",
+        "source": "client site",
+        "client": "TARURA",
+        "client_type": "government",
+        "every_minutes": 60,
+        "enabled": true,
+        "about": "Rural and urban roads, drains, culverts"
+      },
+      {
+        "name": "RUWASA current tenders",
+        "url": "https://www.ruwasa.go.tz/ruwasa-sm-Current-tender",
+        "source": "client site",
+        "client": "RUWASA",
+        "client_type": "government",
+        "every_minutes": 60,
+        "enabled": true,
+        "about": "Rural water supply schemes, tanks, pipelines"
+      },
+      {
+        "name": "TAA tenders",
+        "url": "https://www.taa.go.tz/tenders",
+        "source": "client site",
+        "client": "Tanzania Airports Authority (TAA)",
+        "client_type": "parastatal",
+        "every_minutes": 60,
+        "enabled": false,
+        "about": "Airport buildings, runways, aprons",
+        "note": "Switched off 26 Sep 2026: page not found (404). Replace the url when TAA publishes a tenders page."
+      },
+      {
+        "name": "Bank of Tanzania tenders",
+        "url": "https://www.bot.go.tz/CallsforTender",
+        "source": "client site",
+        "client": "Bank of Tanzania",
+        "client_type": "government",
+        "every_minutes": 60,
+        "enabled": true,
+        "about": "BoT branch buildings and renovations"
+      },
+      {
+        "name": "TEITI tenders",
+        "url": "https://www.teiti.go.tz/tenders",
+        "source": "client site",
+        "client": "TEITI",
+        "client_type": "government",
+        "every_minutes": 60,
+        "enabled": true
+      },
+      {
+        "name": "AfDB procurement notices – Tanzania",
+        "url": "https://www.afdb.org/en/documents/category/specific-procurement-notices",
+        "source": "donor",
+        "client": "",
+        "client_type": "donor",
+        "must_contain": [
+          "tanzania",
+          "zanzibar"
+        ],
+        "every_minutes": 60,
+        "enabled": true,
+        "about": "African Development Bank specific procurement notices; only notices naming Tanzania or Zanzibar are kept",
+        "every_item_is_a_tender": true
+      }
+    ],
+    "_web_pages_help": "To watch another Tanzanian tender page, copy one block, change name, url and client. The page must show its list without logging in. must_contain (optional) keeps only notices containing one of those words, e.g. [\"tanzania\"] on an international page. A page that keeps FAILING in last_scan.txt can be switched off with enabled: false.",
+    "ddo": {
+      "enabled": true,
+      "every_minutes": 15,
+      "url": "https://www.ddotenders.co.tz/tender.php?page=home",
+      "about": "DDO Tenders Portal – newspaper, private-sector, donor, NGO and embassy tenders across Tanzania (public list shows title, company, closing date and place)"
+    }
+  },
+  "min_days_left_to_record": 2,
+  "scan_every_minutes": 5,
+  "skip_if_previous_scan_running_minutes": 20,
+  "places_title_skip": [
+    "same",
+    "hai",
+    "mara"
+  ],
+  "_places_title_skip_help": "Place names that are also ordinary words; used only when matching the procuring entity district, not the tender title.",
+  "location_score": {
+    "near": 5,
+    "mid": 4,
+    "lindi": 3,
+    "far": 1
+  },
+  "keywords": {
+    "exclude": [
+      "auction",
+      "borehole",
+      "boreholes",
+      "catering",
+      "cleaning services",
+      "consultancy",
+      "debt collection",
+      "disposal",
+      "drilling",
+      "insurance services",
+      "kisima",
+      "labour based",
+      "security services",
+      "software",
+      "special group",
+      "special group type",
+      "supply of",
+      "uchimbaji",
+      "vacancies",
+      "vacancy",
+      "vijana",
+      "visima",
+      "wanawake",
+      "women",
+      "women's",
+      "youth",
+      "for sale",
+      "sale of",
+      "supervision",
+      "investors",
+      "investment opportunit",
+      "transportation services",
+      "cleaning",
+      "audit",
+      "information system",
+      "seedlings",
+      "capacity building",
+      "capacity-building",
+      "training",
+      "workshop facilitation"
+    ],
+    "fitout": [
+      "fit-out",
+      "fit out",
+      "fitout",
+      "interior",
+      "partitioning"
+    ],
+    "mep": [
+      "generator",
+      "electrical",
+      "mechanical",
+      "plumbing",
+      "air conditioning",
+      "hvac",
+      "lift",
+      "elevator",
+      "solar",
+      "power quality",
+      "street light",
+      "street lights",
+      "streetlight",
+      "cctv",
+      "fire alarm",
+      "fire fighting",
+      "traffic lights"
+    ],
+    "renovation": [
+      "renovation",
+      "renovations",
+      "rehabilitation",
+      "refurbishment",
+      "refurbish",
+      "ukarabati",
+      "remodelling",
+      "remodeling"
+    ],
+    "building": [
+      "building",
+      "buildings",
+      "office",
+      "offices",
+      "house",
+      "houses",
+      "residential",
+      "residence",
+      "school",
+      "classroom",
+      "classrooms",
+      "hospital",
+      "health centre",
+      "health center",
+      "dispensary",
+      "clinic",
+      "market",
+      "hall",
+      "hostel",
+      "dormitory",
+      "dormitories",
+      "block",
+      "blocks",
+      "complex",
+      "quarters",
+      "staff houses",
+      "running rooms",
+      "warehouse",
+      "godown",
+      "library",
+      "laboratory",
+      "workshop",
+      "canteen",
+      "toilet",
+      "toilets",
+      "fence",
+      "jengo",
+      "majengo",
+      "nyumba",
+      "darasa",
+      "madarasa",
+      "zahanati",
+      "kituo cha afya",
+      "soko",
+      "ofisi",
+      "bweni",
+      "prequalification of building contractors",
+      "construction of",
+      "construction works",
+      "construction work",
+      "construct",
+      "centre",
+      "center",
+      "boundary wall",
+      "factory",
+      "hotel",
+      "mosque",
+      "church",
+      "incubation",
+      "maintenance of building",
+      "maintenance of buildings",
+      "staff house",
+      "guest house",
+      "administration block",
+      "theatre",
+      "maternity",
+      "stadium",
+      "terminal",
+      "substation"
+    ],
+    "civil": [
+      "road",
+      "roads",
+      "pavement",
+      "culvert",
+      "culverts",
+      "bridge",
+      "bridges",
+      "drain",
+      "drains",
+      "drainage",
+      "barabara",
+      "tarmac",
+      "bitumen",
+      "gravel",
+      "water supply",
+      "sewer",
+      "sewerage",
+      "irrigation",
+      "dam",
+      "bwawa",
+      "jetty",
+      "storm",
+      "km",
+      "spot improvement",
+      "periodic maintenance",
+      "routine maintenance",
+      "surface dressing",
+      "civil works",
+      "pipeline",
+      "wash infrastructure",
+      "water infrastructure",
+      "water project",
+      "sanitation",
+      "runway",
+      "apron",
+      "port",
+      "retaining wall",
+      "gabion",
+      "earthworks",
+      "landscaping",
+      "paving",
+      "parking"
+    ],
+    "tender_words": [
+      "tender",
+      "tenders",
+      "invitation",
+      "bid",
+      "bids",
+      "bidding",
+      "zabuni",
+      "prequalification",
+      "pre-qualification",
+      "expression of interest",
+      "rfp",
+      "rfq",
+      "request for proposal",
+      "request for quotation",
+      "quotation",
+      "ifb",
+      "itb"
+    ]
+  },
+  "places": {
+    "dar es salaam": [
+      "Dar es Salaam",
+      "near"
+    ],
+    "ilala": [
+      "Dar es Salaam (Ilala)",
+      "near"
+    ],
+    "temeke": [
+      "Dar es Salaam (Temeke)",
+      "near"
+    ],
+    "kinondoni": [
+      "Dar es Salaam (Kinondoni)",
+      "near"
+    ],
+    "ubungo": [
+      "Dar es Salaam (Ubungo)",
+      "near"
+    ],
+    "kigamboni": [
+      "Dar es Salaam (Kigamboni)",
+      "near"
+    ],
+    "kijitonyama": [
+      "Dar es Salaam (Kijitonyama)",
+      "near"
+    ],
+    "mbezi": [
+      "Dar es Salaam (Mbezi)",
+      "near"
+    ],
+    "goba": [
+      "Dar es Salaam (Goba)",
+      "near"
+    ],
+    "pwani": [
+      "Pwani",
+      "near"
+    ],
+    "coast region": [
+      "Pwani",
+      "near"
+    ],
+    "kibaha": [
+      "Pwani (Kibaha)",
+      "near"
+    ],
+    "bagamoyo": [
+      "Pwani (Bagamoyo)",
+      "near"
+    ],
+    "chalinze": [
+      "Pwani (Chalinze)",
+      "near"
+    ],
+    "mkuranga": [
+      "Pwani (Mkuranga)",
+      "near"
+    ],
+    "kisarawe": [
+      "Pwani (Kisarawe)",
+      "near"
+    ],
+    "rufiji": [
+      "Pwani (Rufiji)",
+      "near"
+    ],
+    "kibiti": [
+      "Pwani (Kibiti)",
+      "near"
+    ],
+    "mafia": [
+      "Pwani (Mafia)",
+      "near"
+    ],
+    "morogoro": [
+      "Morogoro",
+      "mid"
+    ],
+    "gairo": [
+      "Morogoro (Gairo)",
+      "mid"
+    ],
+    "kilosa": [
+      "Morogoro (Kilosa)",
+      "mid"
+    ],
+    "ifakara": [
+      "Morogoro (Ifakara)",
+      "mid"
+    ],
+    "dodoma": [
+      "Dodoma",
+      "mid"
+    ],
+    "kongwa": [
+      "Dodoma (Kongwa)",
+      "mid"
+    ],
+    "mpwapwa": [
+      "Dodoma (Mpwapwa)",
+      "mid"
+    ],
+    "chamwino": [
+      "Dodoma (Chamwino)",
+      "mid"
+    ],
+    "tanga": [
+      "Tanga",
+      "mid"
+    ],
+    "korogwe": [
+      "Tanga (Korogwe)",
+      "mid"
+    ],
+    "lushoto": [
+      "Tanga (Lushoto)",
+      "mid"
+    ],
+    "handeni": [
+      "Tanga (Handeni)",
+      "mid"
+    ],
+    "muheza": [
+      "Tanga (Muheza)",
+      "mid"
+    ],
+    "pangani": [
+      "Tanga (Pangani)",
+      "mid"
+    ],
+    "mkinga": [
+      "Tanga (Mkinga)",
+      "mid"
+    ],
+    "bumbuli": [
+      "Tanga (Bumbuli)",
+      "mid"
+    ],
+    "lindi": [
+      "Lindi",
+      "lindi"
+    ],
+    "kilwa": [
+      "Lindi (Kilwa)",
+      "lindi"
+    ],
+    "nachingwea": [
+      "Lindi (Nachingwea)",
+      "lindi"
+    ],
+    "ruangwa": [
+      "Lindi (Ruangwa)",
+      "lindi"
+    ],
+    "mtwara": [
+      "Mtwara",
+      "lindi"
+    ],
+    "masasi": [
+      "Mtwara (Masasi)",
+      "lindi"
+    ],
+    "newala": [
+      "Mtwara (Newala)",
+      "lindi"
+    ],
+    "arusha": [
+      "Arusha",
+      "far"
+    ],
+    "monduli": [
+      "Arusha (Monduli)",
+      "far"
+    ],
+    "ngorongoro": [
+      "Arusha (Ngorongoro)",
+      "far"
+    ],
+    "loliondo": [
+      "Arusha (Loliondo)",
+      "far"
+    ],
+    "tarangire": [
+      "Manyara (Tarangire)",
+      "far"
+    ],
+    "kilimanjaro": [
+      "Kilimanjaro",
+      "far"
+    ],
+    "moshi": [
+      "Kilimanjaro (Moshi)",
+      "far"
+    ],
+    "hai": [
+      "Kilimanjaro (Hai)",
+      "far"
+    ],
+    "same": [
+      "Kilimanjaro (Same)",
+      "far"
+    ],
+    "mwanga": [
+      "Kilimanjaro (Mwanga)",
+      "far"
+    ],
+    "manyara": [
+      "Manyara",
+      "far"
+    ],
+    "babati": [
+      "Manyara (Babati)",
+      "far"
+    ],
+    "mbulu": [
+      "Manyara (Mbulu)",
+      "far"
+    ],
+    "kiteto": [
+      "Manyara (Kiteto)",
+      "far"
+    ],
+    "mwanza": [
+      "Mwanza",
+      "far"
+    ],
+    "nyamagana": [
+      "Mwanza (Nyamagana)",
+      "far"
+    ],
+    "ilemela": [
+      "Mwanza (Ilemela)",
+      "far"
+    ],
+    "kwimba": [
+      "Mwanza (Kwimba)",
+      "far"
+    ],
+    "mara": [
+      "Mara",
+      "far"
+    ],
+    "musoma": [
+      "Mara (Musoma)",
+      "far"
+    ],
+    "geita": [
+      "Geita",
+      "far"
+    ],
+    "bukombe": [
+      "Geita (Bukombe)",
+      "far"
+    ],
+    "kagera": [
+      "Kagera",
+      "far"
+    ],
+    "bukoba": [
+      "Kagera (Bukoba)",
+      "far"
+    ],
+    "biharamulo": [
+      "Kagera (Biharamulo)",
+      "far"
+    ],
+    "shinyanga": [
+      "Shinyanga",
+      "far"
+    ],
+    "kahama": [
+      "Shinyanga (Kahama)",
+      "far"
+    ],
+    "simiyu": [
+      "Simiyu",
+      "far"
+    ],
+    "tabora": [
+      "Tabora",
+      "far"
+    ],
+    "igunga": [
+      "Tabora (Igunga)",
+      "far"
+    ],
+    "sikonge": [
+      "Tabora (Sikonge)",
+      "far"
+    ],
+    "kigoma": [
+      "Kigoma",
+      "far"
+    ],
+    "katavi": [
+      "Katavi",
+      "far"
+    ],
+    "mpanda": [
+      "Katavi (Mpanda)",
+      "far"
+    ],
+    "rukwa": [
+      "Rukwa",
+      "far"
+    ],
+    "sumbawanga": [
+      "Rukwa (Sumbawanga)",
+      "far"
+    ],
+    "kalambo": [
+      "Rukwa (Kalambo)",
+      "far"
+    ],
+    "mbeya": [
+      "Mbeya",
+      "far"
+    ],
+    "mbarali": [
+      "Mbeya (Mbarali)",
+      "far"
+    ],
+    "songwe": [
+      "Songwe",
+      "far"
+    ],
+    "iringa": [
+      "Iringa",
+      "far"
+    ],
+    "mufindi": [
+      "Iringa (Mufindi)",
+      "far"
+    ],
+    "kilolo": [
+      "Iringa (Kilolo)",
+      "far"
+    ],
+    "njombe": [
+      "Njombe",
+      "far"
+    ],
+    "wanging'ombe": [
+      "Njombe (Wanging'ombe)",
+      "far"
+    ],
+    "ruvuma": [
+      "Ruvuma",
+      "far"
+    ],
+    "songea": [
+      "Ruvuma (Songea)",
+      "far"
+    ],
+    "mbinga": [
+      "Ruvuma (Mbinga)",
+      "far"
+    ],
+    "singida": [
+      "Singida",
+      "far"
+    ],
+    "iramba": [
+      "Singida (Iramba)",
+      "far"
+    ],
+    "ikungi": [
+      "Singida (Ikungi)",
+      "far"
+    ],
+    "zanzibar": [
+      "Zanzibar",
+      "mid"
+    ],
+    "unguja": [
+      "Zanzibar (Unguja)",
+      "mid"
+    ],
+    "pemba": [
+      "Zanzibar (Pemba)",
+      "mid"
+    ],
+    "stone town": [
+      "Zanzibar (Stone Town)",
+      "mid"
+    ],
+    "chake chake": [
+      "Zanzibar (Pemba, Chake Chake)",
+      "mid"
+    ],
+    "wete": [
+      "Zanzibar (Pemba, Wete)",
+      "mid"
+    ],
+    "mkoani": [
+      "Zanzibar (Pemba, Mkoani)",
+      "mid"
+    ],
+    "nungwi": [
+      "Zanzibar (Nungwi)",
+      "mid"
+    ],
+    "namichiga": [
+      "Lindi (Ruangwa)",
+      "lindi"
+    ]
+  },
+  "documents_folder": "",
+  "_documents_help": "A folder is created here for every new Pursue/Check tender, with a shortcut to its NeST page. Staff log in to NeST, download the document and save it in that folder.",
+  "alerts": {
+    "enabled": false,
+    "_help": "Run '3 - Save alert keys.bat' to set up email, SMS and WhatsApp and switch alerts on. One digest per person per channel: new Pursue/Check tenders and reminders 7, 3 and 1 day(s) before deadlines. Each item is sent once.",
+    "deadline_days": [
+      7,
+      3,
+      1
+    ],
+    "email": {
+      "enabled": false,
+      "method": "smtp",
+      "smtp_host": "mail.nordictz.co.tz",
+      "smtp_port": 465,
+      "smtp_user": "",
+      "from": "",
+      "_help": "Company mail server of nordictz.co.tz. Use a mailbox such as tenders@nordictz.co.tz (create it in the hosting control panel). method 'outlook' uses Outlook on this PC instead."
+    },
+    "sms": {
+      "enabled": false,
+      "provider": "Beem Africa",
+      "url": "https://apisms.beem.africa/v1/send",
+      "sender_id": "INFO",
+      "_help": "Open a Beem account (beem.africa), apply for sender ID NORDIC, then save the API key and secret with '3 - Save alert keys.bat'."
+    },
+    "whatsapp": {
+      "enabled": false,
+      "phone_number_id": "",
+      "api_version": "v21.0",
+      "template": "tender_alert",
+      "language": "en",
+      "_help": "Needs a WhatsApp Business Cloud API number (Meta Business account) and an approved template named tender_alert with one body variable {{1}}. Save the access token with '3 - Save alert keys.bat'."
+    },
+    "recipients": [],
+    "_recipients_help": "Staff come automatically from the NEXUS Staff page (recipients.json, refreshed by the NEXUS sync): their email, phone and alert choices. Add people who are not staff here, e.g. {\"name\":\"...\",\"email\":\"...\",\"phone\":\"+2557...\",\"by_email\":true,\"by_sms\":false,\"by_whatsapp\":false,\"gets\":[\"new\",\"deadline\"]}."
+  },
+  "_cloud_help": "Cloud copy for GitHub Actions. Alerts stay off until the office PC scanner is switched off, so nobody gets double alerts. Keys come from GitHub Secrets, never from this file."
+}
