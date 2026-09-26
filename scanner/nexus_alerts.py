@@ -294,7 +294,29 @@ def make_folders(cfg, tenders, log):
 
 
 # ------------------------------------------------------------------ entry point
+def write_feed(workbook_path, log=_log):
+    """data/nexus_feed.json – PUBLIC tender data ready for the NEXUS sync task (no code needed there)."""
+    import nexus_sync as NS
+    rows, out, seen = NS.read_workbook(workbook_path), [], set()
+    for o in rows:
+        i = NS.tender_id(o)
+        if i in seen:
+            continue
+        seen.add(i)
+        out.append({"id": i, "title": o.get("title", ""), "deadline": o.get("deadline", ""),
+                    "body": {**o, "status": o.get("status") or "Watching", "synced_by": "NEXUS auto-sync"}})
+    feed = {"generated": datetime.now().strftime("%Y-%m-%dT%H:%M:%S") + "+03:00",
+            "scanner": NS.scanner_status(os.path.join(HERE, "last_scan.txt")),
+            "workbook_rows": len(rows), "tenders": out}
+    with open(_abs("../data/nexus_feed.json"), "w", encoding="utf-8") as f:
+        json.dump(feed, f, ensure_ascii=False, indent=0)
+
+
 def after_scan(cfg, workbook_path, fresh, now=None, log=_log):
+    try:
+        write_feed(workbook_path, log)
+    except Exception as e:
+        log(f"NEXUS feed not written: {e}")
     acfg = cfg.get("alerts", {})
     now = now or datetime.now()
     try:
