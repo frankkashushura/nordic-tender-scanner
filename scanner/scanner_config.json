@@ -804,7 +804,7 @@
   "documents_folder": "",
   "_documents_help": "A folder is created here for every new Pursue/Check tender, with a shortcut to its NeST page. Staff log in to NeST, download the document and save it in that folder.",
   "alerts": {
-    "enabled": true,
+    "enabled": false,
     "_help": "Run '3 - Save alert keys.bat' to set up email, SMS and WhatsApp and switch alerts on. One digest per person per channel: new Pursue/Check tenders and reminders 7, 3 and 1 day(s) before deadlines. Each item is sent once.",
     "deadline_days": [
       7,
