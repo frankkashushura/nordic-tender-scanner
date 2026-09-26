@@ -1,0 +1,57 @@
+# NORDIC NEXUS – sends ONE test tender-alert email (nothing else changes).
+# Start it from the Actions tab → "Send test email" → Run workflow.
+# The mailbox password is read only from the secret SMTP_PASSWORD.
+name: Send test email
+
+on:
+  workflow_dispatch:
+    inputs:
+      to:
+        description: "Send to (comma-separated emails)"
+        required: true
+        default: "clemence.william@nordictz.co.tz,frankkashushura2008@proton.me"
+      mailbox:
+        description: "Sending mailbox"
+        required: true
+        default: "tenders@nordictz.co.tz"
+      host:
+        description: "Mail server"
+        required: true
+        default: "mail.nordictz.co.tz"
+      port:
+        description: "Port (465 SSL or 587 STARTTLS)"
+        required: true
+        default: "465"
+
+permissions:
+  contents: read
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Send the test email
+        working-directory: scanner
+        env:
+          TZ: Africa/Dar_es_Salaam
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          IN_TO: ${{ inputs.to }}
+          IN_MAILBOX: ${{ inputs.mailbox }}
+          IN_HOST: ${{ inputs.host }}
+          IN_PORT: ${{ inputs.port }}
+        run: |
+          set -o pipefail
+          python send_test_email.py --to "$IN_TO" --mailbox "$IN_MAILBOX" --host "$IN_HOST" --port "$IN_PORT" 2>&1 | tee result.txt
+      - name: Show the result
+        if: always()
+        working-directory: scanner
+        run: |
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          cat result.txt >> "$GITHUB_STEP_SUMMARY" || true
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
