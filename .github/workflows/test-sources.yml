@@ -1,0 +1,35 @@
+# Reads every tender source once and records which ones work from GitHub's computers.
+# Nothing is added to the pipeline. Start it from the Actions tab → "Test all sources" → Run workflow.
+name: Test all sources
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Read every source once (dry run)
+        env:
+          TZ: Africa/Dar_es_Salaam
+        working-directory: scanner
+        run: |
+          python tender_scanner.py --dry-run --all > ../data/source_test.txt 2>&1 || true
+          cat ../data/source_test.txt
+          cat ../data/source_test.txt >> "$GITHUB_STEP_SUMMARY"
+      - name: Save the test result
+        run: |
+          git config user.name "nexus-scanner"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/source_test.txt
+          git commit -q -m "Source test $(TZ=Africa/Dar_es_Salaam date '+%Y-%m-%d %H:%M') EAT" || exit 0
+          git push || (git pull --rebase -q && git push)
