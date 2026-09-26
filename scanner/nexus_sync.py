@@ -18,6 +18,7 @@ Rules (same as the manual "Import pipeline" button):
     are never overwritten
 """
 import argparse, glob, json, os, re
+# v3 (26 Sep 2026): also reads <db-dir>/tenders_export.json (one JSON array of {id, version, data}) written from an inline listing
 # v2 (26 Sep 2026): stable ids for notices without a tender number; tender updates carry if_version from versions.json
 from datetime import datetime, date, timedelta, timezone
 
@@ -101,6 +102,14 @@ def read_versions(path):
 def read_db(db_dir, versions=None):
     versions = versions or {}
     docs = {}
+    exp = os.path.join(db_dir, "tenders_export.json")
+    if os.path.exists(exp):
+        rows = json.load(open(exp, encoding="utf-8"))
+        rows = rows.get("documents", rows) if isinstance(rows, dict) else rows
+        for d in rows:
+            doc_id = d.get("id")
+            if doc_id:
+                docs[doc_id] = {"data": d.get("data", d), "version": d.get("version") or versions.get(doc_id)}
     for f in glob.glob(os.path.join(db_dir, "tenders", "*.json")):
         with open(f, encoding="utf-8") as fh:
             d = json.load(fh)
