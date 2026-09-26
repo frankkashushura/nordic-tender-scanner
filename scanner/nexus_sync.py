@@ -18,6 +18,7 @@ Rules (same as the manual "Import pipeline" button):
     are never overwritten
 """
 import argparse, glob, json, os, re
+# v2 (26 Sep 2026): stable ids for notices without a tender number; tender updates carry if_version from versions.json
 from datetime import datetime, date, timedelta, timezone
 
 XMAP = {'Tender no.': 'no', 'Date found': 'date_found', 'Source': 'source', 'Source URL': 'url', 'Client': 'client',
@@ -74,14 +75,38 @@ def read_workbook(path):
     return out
 
 
-def read_db(db_dir):
+PLACEHOLDER_NO = re.compile(r"^\s*(\(.*\)|n/?a|tbc|tba|none|not shown|-+|see .*)\s*$", re.I)
+
+
+def tender_id(o):
+    """Stable NEXUS id: the tender number, or – when the notice shows none – the scanner's source id."""
+    no = str(o.get("no") or "").strip()
+    if no and not PLACEHOLDER_NO.match(no):
+        return safe_id(no)
+    if o.get("source_id"):
+        return safe_id(o["source_id"])
+    return safe_id((o.get("client", "") + " " + o.get("title", "")).strip() or no)
+
+
+def read_versions(path):
+    """versions.json: {"<doc_id>": <version>, ...} as shown by the ArtifactData listing."""
+    if path and os.path.exists(path):
+        try:
+            return {str(k): int(v) for k, v in json.load(open(path, encoding="utf-8")).items() if v}
+        except (ValueError, TypeError, AttributeError):
+            pass
+    return {}
+
+
+def read_db(db_dir, versions=None):
+    versions = versions or {}
     docs = {}
     for f in glob.glob(os.path.join(db_dir, "tenders", "*.json")):
         with open(f, encoding="utf-8") as fh:
             d = json.load(fh)
         body = d.get("data", d)            # accept {"id","data","version"} or a bare body
         doc_id = d.get("id") or os.path.splitext(os.path.basename(f))[0]
-        docs[doc_id] = {"data": body, "version": d.get("version")}
+        docs[doc_id] = {"data": body, "version": d.get("version") or versions.get(doc_id)}
     return docs
 
 
@@ -105,6 +130,7 @@ def main():
     ap.add_argument("--db-dir", required=True)
     ap.add_argument("--last-scan")
     ap.add_argument("--out", required=True)
+    ap.add_argument("--versions", help="JSON file {doc_id: version} for the exported tenders (default <db-dir>/versions.json)")
     ap.add_argument("--status-version", type=int, help="current version of system/sync in NEXUS (needed to overwrite it)")
     ap.add_argument("--staff-dir", help="folder with staff/*.json exported from NEXUS – writes <out>/recipients.json for the alerts")
     a = ap.parse_args()
@@ -113,11 +139,13 @@ def main():
     for f in glob.glob(os.path.join(a.out, "writes_*.json")) + glob.glob(os.path.join(a.out, "docs", "*.json")):
         os.remove(f)
 
-    wb_rows, db = read_workbook(a.workbook), read_db(a.db_dir)
+    versions = read_versions(a.versions or os.path.join(a.db_dir, "versions.json"))
+    wb_rows, db = read_workbook(a.workbook), read_db(a.db_dir, versions)
+    missing_versions = []
     writes, added, updated, deadline_changes = [], [], [], []
     seen = set()
     for o in wb_rows:
-        doc_id = safe_id(o.get("no") or o.get("title"))
+        doc_id = tender_id(o)
         if doc_id in seen:
             continue
         seen.add(doc_id)
@@ -145,6 +173,9 @@ def main():
             op = {"op": "update"}
             if ex.get("version"):
                 op["if_version"] = ex["version"]
+            else:
+                missing_versions.append(doc_id)   # NEXUS refuses to change a record without its version
+                continue
             updated.append(o.get("title", doc_id))
         p = os.path.join(a.out, "docs", f"t_{len(writes):03d}.json")
         json.dump(body, open(p, "w", encoding="utf-8"), ensure_ascii=False)
@@ -172,7 +203,8 @@ def main():
         json.dump(writes[i:i + 50], open(os.path.join(a.out, f"writes_{i // 50:02d}.json"), "w", encoding="utf-8"), indent=0)
     print(json.dumps({"added": added, "updated": len(updated), "deadline_changes": deadline_changes,
                       "batches": (len(writes) + 49) // 50, "writes": len(writes),
-                      "scanner_last_scan": sc and sc["last_scan"]}, ensure_ascii=False))
+                      "scanner_last_scan": sc and sc["last_scan"],
+                      "skipped_no_version": missing_versions}, ensure_ascii=False))
 
 
 if __name__ == "__main__":
