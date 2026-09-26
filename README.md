@@ -1,0 +1,1 @@
+# nordic-tender-scanner
