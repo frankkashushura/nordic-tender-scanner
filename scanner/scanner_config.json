@@ -804,7 +804,7 @@
   "documents_folder": "",
   "_documents_help": "A folder is created here for every new Pursue/Check tender, with a shortcut to its NeST page. Staff log in to NeST, download the document and save it in that folder.",
   "alerts": {
-    "enabled": false,
+    "enabled": true,
     "_help": "Run '3 - Save alert keys.bat' to set up email, SMS and WhatsApp and switch alerts on. One digest per person per channel: new Pursue/Check tenders and reminders 7, 3 and 1 day(s) before deadlines. Each item is sent once.",
     "deadline_days": [
       7,
@@ -812,13 +812,13 @@
       1
     ],
     "email": {
-      "enabled": false,
+      "enabled": true,
       "method": "smtp",
-      "smtp_host": "mail.nordictz.co.tz",
+      "smtp_host": "smtp.gmail.com",
       "smtp_port": 465,
-      "smtp_user": "",
-      "from": "",
-      "_help": "Company mail server of nordictz.co.tz. Use a mailbox such as tenders@nordictz.co.tz (create it in the hosting control panel). method 'outlook' uses Outlook on this PC instead."
+      "smtp_user": "kashushuraconstruction@gmail.com",
+      "from": "kashushuraconstruction@gmail.com",
+      "_help": "Cloud: sends through Gmail (kashushuraconstruction@gmail.com) with a Google App password kept in the GitHub secret SMTP_PASSWORD. Staff list comes from the GitHub secret RECIPIENTS_JSON (NEXUS → Alerts → Copy staff list)."
     },
     "sms": {
       "enabled": false,
