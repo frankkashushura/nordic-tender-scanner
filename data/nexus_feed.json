@@ -1,12 +1,12 @@
 {
-"generated": "2026-09-27T22:55:43+03:00",
+"generated": "2026-09-27T23:10:06+03:00",
 "scanner": {
-"last_scan": "2026-09-27T22:55:00+03:00",
-"summary": "NeST: 71 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 199 notices read → no new tenders",
+"last_scan": "2026-09-27T23:10:00+03:00",
+"summary": "NeST: 71 notices read → no new tenders",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-09-27 22:55",
+"last_ok": "2026-09-27 23:10",
 "error": ""
 },
 {
