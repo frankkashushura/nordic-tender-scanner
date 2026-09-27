@@ -166,3 +166,32 @@
 2026-09-27 18:11:44  NeST: 71 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 199 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; RUWASA current tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read; AfDB procurement notices – Tanzania: FAILED (could not reach www.afdb.org (HTTP Error 403: Forbidden))  – failing repeatedly, check the source → no new tenders
 2026-09-27 18:26:54  NeST: 71 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 199 notices read → no new tenders
 2026-09-27 18:40:48  NeST: 71 notices read; World Bank (Tanzania, civil works): 26 notices read → no new tenders
+2026-09-27 18:52:36  NeST: 71 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 199 notices read → 6 new, 0 deadline change(s)
+
+Tender Scan – Sunday 27 September 2026, 18:52
+
+Sources checked:
+  NeST: 71 notices read
+  TANROADS website: 6 notices read
+  DDO Tenders (newspapers, private, donors): 199 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (6)
+  • closes Thu 01 Oct 10:00  TARURA - Arusha Regional Office – Construction of RC Bridge along Selela - Mbaash road  [Arusha (from client's office – confirm site)]  (S10/001/2026/2027/W/33; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Thu 01 Oct 13:00  TARURA - Tabora Regional Office – Periodic Maintenance Works 19.53km And Construction of 14 Box Culverts Along Simbo - Utuja - Uyui Border Road,  [Tabora (Igunga)]  (S10/025/2026/2027/W/69; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Fri 02 Oct 14:00  TANAPA - Southern Zone – Construction of 400 Meters Long Boardwalk at Kitulo National Park  [Mbeya (Mbarali) (from client's office – confirm site)]  (TR219/003/2026/2027/W/08; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Fri 02 Oct 14:00  TANROADS - Arusha Regional Office – Rehabilitation works of Karatu JCT - Mang'ola - Matala, Karatu Njiapanda - Matala, Makao Kimba - Matala Roads   [Arusha (from client's office – confirm site)]  (TR36/001/2026/2027/W/48; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Fri 02 Oct 14:00  TARURA - Kigoma Regional Office – Construction of Box Culvert at Ruzuguma River Along Mlati - Kagongo Road in Kigoma DC  [Kigoma]  (S10/074/2026/2027/W/56; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Fri 02 Oct 14:00  Wanging'ombe Water Supply and Sanitation Authority – CONSTRUCTION OF PHASE 1 WATER DISTRIBUTION SYSTEM FROM 28 TOWNS PROJECT WANGING’OMBE  [Njombe (Wanging'ombe) (from client's office – confirm site)]  (TR234/2026/2027/W/02; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+
+Screened out (see the 'Screened Out' sheet): 0
+Empty Pipeline rows left: 456
+
+2026-09-27 18:52:36  Report saved: /home/runner/work/nordic-tender-scanner/nordic-tender-scanner/scanner/reports/scan_2026-09-27_1852.txt
