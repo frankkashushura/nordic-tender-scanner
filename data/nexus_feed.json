@@ -1,12 +1,12 @@
 {
-"generated": "2026-09-27T06:46:48+03:00",
+"generated": "2026-09-27T06:58:30+03:00",
 "scanner": {
-"last_scan": "2026-09-27T06:46:00+03:00",
-"summary": "NeST: 71 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 199 notices read → no new tenders",
+"last_scan": "2026-09-27T06:58:00+03:00",
+"summary": "NeST: 71 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; RUWASA current tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read; AfDB procurement notices – Tanzania: FAILED (could not reach www.afdb.org (HTTP Error 403: Forbidden))  – failing repeatedly, check the source",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-09-27 06:46",
+"last_ok": "2026-09-27 06:58",
 "error": ""
 },
 {
@@ -21,7 +21,7 @@
 },
 {
 "name": "CRDB Bank tenders",
-"last_ok": "2026-09-27 05:57",
+"last_ok": "2026-09-27 06:58",
 "error": ""
 },
 {
@@ -31,33 +31,33 @@
 },
 {
 "name": "TPA current tenders",
-"last_ok": "2026-09-27 05:57",
+"last_ok": "2026-09-27 06:58",
 "error": ""
 },
 {
 "name": "TARURA tenders",
-"last_ok": "2026-09-27 05:57",
+"last_ok": "2026-09-27 06:58",
 "error": ""
 },
 {
 "name": "RUWASA current tenders",
-"last_ok": "2026-09-27 05:57",
+"last_ok": "2026-09-27 06:58",
 "error": ""
 },
 {
 "name": "Bank of Tanzania tenders",
-"last_ok": "2026-09-27 05:57",
+"last_ok": "2026-09-27 06:58",
 "error": ""
 },
 {
 "name": "TEITI tenders",
-"last_ok": "2026-09-27 05:57",
+"last_ok": "2026-09-27 06:58",
 "error": ""
 },
 {
 "name": "AfDB procurement notices – Tanzania",
 "last_ok": "2026-09-26 10:01",
-"error": "2026-09-27 05:57 could not reach www.afdb.org (HTTP Error 403: Forbidden)"
+"error": "2026-09-27 06:58 could not reach www.afdb.org (HTTP Error 403: Forbidden)"
 }
 ]
 },
