@@ -163,6 +163,14 @@
     }
   },
   "min_days_left_to_record": 2,
+  "always_keep_words": [
+    "construction",
+    "construct",
+    "constructing",
+    "ujenzi",
+    "kujenga"
+  ],
+  "_always_keep_words_help": "Tenders whose title has one of these words are never screened out for distance or type - they reach NEXUS as Check. Closed, closing in under 2 days, and 'exclude' words (e.g. borehole) still apply.",
   "scan_every_minutes": 5,
   "skip_if_previous_scan_running_minutes": 20,
   "places_title_skip": [
@@ -325,7 +333,9 @@
       "maternity",
       "stadium",
       "terminal",
-      "substation"
+      "substation",
+      "construction",
+      "ujenzi"
     ],
     "civil": [
       "road",

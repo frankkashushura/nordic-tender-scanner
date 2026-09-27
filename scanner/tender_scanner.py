@@ -540,7 +540,19 @@ def client_type(pe_l):
     return "government"
 
 
+CONSTRUCTION_WORDS = ["construction", "construct", "constructing", "ujenzi", "kujenga"]
+
+
 def screen(it, cat, zone, days, cfg):
+    res = _screen(it, cat, zone, days, cfg)
+    # construction tenders are never dropped for type or distance - they go to NEXUS as "Check" (user rule, 27 Sep 2026)
+    words = cfg.get("always_keep_words", CONSTRUCTION_WORDS)
+    if res[0] == "Drop" and has_any(it["title"].lower(), words) and (days is None or days >= cfg["min_days_left_to_record"]):
+        return "Check", f"Construction tender kept for review (would have been dropped: {res[1]})"
+    return res
+
+
+def _screen(it, cat, zone, days, cfg):
     tl, sub = it["title"].lower(), it.get("sub", "").lower()
     if days is None:
         if cat == "MEP":
