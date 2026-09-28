@@ -1,14 +1,14 @@
-2026-09-28 05:19  NeST: 72 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 199 notices read → no new tenders
+2026-09-28 05:35  NeST: 72 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 199 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; RUWASA current tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read; AfDB procurement notices – Tanzania: FAILED (could not reach www.afdb.org (HTTP Error 403: Forbidden))  – failing repeatedly, check the source → no new tenders
 
 Per source:
-  NeST: last OK 2026-09-28 05:19
+  NeST: last OK 2026-09-28 05:35
   World Bank (Tanzania, civil works): last OK 2026-09-28 05:19
-  TANROADS website: last OK 2026-09-28 05:19
-  CRDB Bank tenders: last OK 2026-09-28 04:22
-  DDO Tenders (newspapers, private, donors): last OK 2026-09-28 05:19
-  TPA current tenders: last OK 2026-09-28 04:22
-  TARURA tenders: last OK 2026-09-28 04:22
-  RUWASA current tenders: last OK 2026-09-28 04:22
-  Bank of Tanzania tenders: last OK 2026-09-28 04:22
-  TEITI tenders: last OK 2026-09-28 04:22
-  AfDB procurement notices – Tanzania: last OK 2026-09-26 10:01; last error 2026-09-28 04:22 could not reach www.afdb.org (HTTP Error 403: Forbidden)
+  TANROADS website: last OK 2026-09-28 05:35
+  CRDB Bank tenders: last OK 2026-09-28 05:35
+  DDO Tenders (newspapers, private, donors): last OK 2026-09-28 05:35
+  TPA current tenders: last OK 2026-09-28 05:35
+  TARURA tenders: last OK 2026-09-28 05:35
+  RUWASA current tenders: last OK 2026-09-28 05:35
+  Bank of Tanzania tenders: last OK 2026-09-28 05:35
+  TEITI tenders: last OK 2026-09-28 05:35
+  AfDB procurement notices – Tanzania: last OK 2026-09-26 10:01; last error 2026-09-28 05:35 could not reach www.afdb.org (HTTP Error 403: Forbidden)
