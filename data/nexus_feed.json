@@ -1,17 +1,17 @@
 {
-"generated": "2026-09-28T03:53:14+03:00",
+"generated": "2026-09-28T04:06:15+03:00",
 "scanner": {
-"last_scan": "2026-09-28T03:53:00+03:00",
-"summary": "NeST: 71 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 199 notices read → no new tenders",
+"last_scan": "2026-09-28T04:06:00+03:00",
+"summary": "NeST: 72 notices read; World Bank (Tanzania, civil works): 26 notices read → 1 new, 0 deadline change(s)",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-09-28 03:53",
+"last_ok": "2026-09-28 04:06",
 "error": ""
 },
 {
 "name": "World Bank (Tanzania, civil works)",
-"last_ok": "2026-09-28 03:34",
+"last_ok": "2026-09-28 04:06",
 "error": ""
 },
 {
@@ -61,7 +61,7 @@
 }
 ]
 },
-"workbook_rows": 44,
+"workbook_rows": 45,
 "tenders": [
 {
 "id": "7205-2026-2027-W-09",
@@ -1558,6 +1558,40 @@
 "next": "Read the notice and decide with the QS Director whether to pursue",
 "found_by": "Auto-scan",
 "source_id": "a04a7f85-961d-4ee6-889a-5c469878b5ec",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "S11-2026-2027-W-44",
+"title": "CONSTRUCTION OF KIDS SWIMMING POOLS AND CHANGING ROOMS AT PANDE GR",
+"deadline": "2026-10-02T14:00:00+03:00",
+"body": {
+"no": "S11/2026/2027/W/44",
+"date_found": "2026-09-28T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "Tanzania Wildlife Management Authority",
+"client_type": "government",
+"title": "CONSTRUCTION OF KIDS SWIMMING POOLS AND CHANGING ROOMS AT PANDE GR",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Morogoro (from client's office – confirm site)",
+"category": "building",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-10-02T14:00:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-09-25T00:00:00+03:00",
+"notice": "Small Works / Tender",
+"screen": "Pursue",
+"reason": "Auto (Small Works / Tender): Building works within reach of Dar",
+"next": "Get the tender document, confirm value, CRB class, site visit and bid security; brief the MD",
+"found_by": "Auto-scan",
+"source_id": "d1dafab8-6653-475c-8b5e-359835b182a4",
 "synced_by": "NEXUS auto-sync"
 }
 }
