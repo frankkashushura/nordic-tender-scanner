@@ -1,63 +1,63 @@
 {
-"generated": "2026-09-28T23:32:31+03:00",
+"generated": "2026-09-28T23:49:11+03:00",
 "scanner": {
-"last_scan": "2026-09-28T23:32:00+03:00",
-"summary": "NeST: 72 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 202 notices read → no new tenders",
+"last_scan": "2026-09-28T23:48:00+03:00",
+"summary": "NeST: 72 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 202 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; RUWASA current tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices ",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-09-28 23:32",
+"last_ok": "2026-09-28 23:48",
 "error": ""
 },
 {
 "name": "World Bank (Tanzania, civil works)",
-"last_ok": "2026-09-28 23:15",
+"last_ok": "2026-09-28 23:48",
 "error": ""
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-09-28 23:32",
+"last_ok": "2026-09-28 23:48",
 "error": ""
 },
 {
 "name": "CRDB Bank tenders",
-"last_ok": "2026-09-28 22:45",
+"last_ok": "2026-09-28 23:48",
 "error": ""
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-09-28 23:32",
+"last_ok": "2026-09-28 23:48",
 "error": ""
 },
 {
 "name": "TPA current tenders",
-"last_ok": "2026-09-28 22:45",
+"last_ok": "2026-09-28 23:48",
 "error": ""
 },
 {
 "name": "TARURA tenders",
-"last_ok": "2026-09-28 22:45",
+"last_ok": "2026-09-28 23:48",
 "error": ""
 },
 {
 "name": "RUWASA current tenders",
-"last_ok": "2026-09-28 22:45",
+"last_ok": "2026-09-28 23:48",
 "error": ""
 },
 {
 "name": "Bank of Tanzania tenders",
-"last_ok": "2026-09-28 22:45",
+"last_ok": "2026-09-28 23:48",
 "error": ""
 },
 {
 "name": "TEITI tenders",
-"last_ok": "2026-09-28 22:45",
+"last_ok": "2026-09-28 23:48",
 "error": ""
 },
 {
 "name": "AfDB procurement notices – Tanzania",
 "last_ok": "2026-09-26 10:01",
-"error": "2026-09-28 22:45 could not reach www.afdb.org (HTTP Error 403: Forbidden)"
+"error": "2026-09-28 23:48 could not reach www.afdb.org (HTTP Error 403: Forbidden)"
 }
 ]
 },
