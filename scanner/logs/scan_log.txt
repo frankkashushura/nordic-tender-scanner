@@ -433,3 +433,23 @@ Empty Pipeline rows left: 453
 2026-09-29 13:34:47  NeST: 56 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 202 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; RUWASA current tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read; AfDB procurement notices – Tanzania: FAILED (could not reach www.afdb.org (HTTP Error 403: Forbidden))  – failing repeatedly, check the source → no new tenders
 2026-09-29 13:51:17  NeST: 56 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 202 notices read → no new tenders
 2026-09-29 14:02:06  NeST: 56 notices read → no new tenders
+2026-09-29 14:21:18  NeST: 56 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 202 notices read → 1 new, 0 deadline change(s)
+
+Tender Scan – Tuesday 29 September 2026, 14:21
+
+Sources checked:
+  NeST: 56 notices read
+  World Bank (Tanzania, civil works): 27 notices read
+  TANROADS website: 6 notices read
+  DDO Tenders (newspapers, private, donors): 202 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (1)
+  • closes Mon 02 Nov 10:00  Tanzania National Roads Agency – Proposed Construction of Lwanji I Bridge (200m) span along Mtowisa – Ilemba Road Section.  [Dar es Salaam]  (TZ-TANROADS-564086-CW-RFB; World Bank – Invitation for Bids (Request for Bids))
+      https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00471685
+
+Screened out (see the 'Screened Out' sheet): 0
+Empty Pipeline rows left: 452
+
+2026-09-29 14:21:18  Report saved: /home/runner/work/nordic-tender-scanner/nordic-tender-scanner/scanner/reports/scan_2026-09-29_1421.txt

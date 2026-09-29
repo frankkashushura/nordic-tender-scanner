@@ -1,0 +1,16 @@
+Tender Scan – Tuesday 29 September 2026, 14:21
+
+Sources checked:
+  NeST: 56 notices read
+  World Bank (Tanzania, civil works): 27 notices read
+  TANROADS website: 6 notices read
+  DDO Tenders (newspapers, private, donors): 202 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (1)
+  • closes Mon 02 Nov 10:00  Tanzania National Roads Agency – Proposed Construction of Lwanji I Bridge (200m) span along Mtowisa – Ilemba Road Section.  [Dar es Salaam]  (TZ-TANROADS-564086-CW-RFB; World Bank – Invitation for Bids (Request for Bids))
+      https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00471685
+
+Screened out (see the 'Screened Out' sheet): 0
+Empty Pipeline rows left: 452

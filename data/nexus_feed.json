@@ -1,22 +1,22 @@
 {
-"generated": "2026-09-29T14:02:07+03:00",
+"generated": "2026-09-29T14:21:18+03:00",
 "scanner": {
-"last_scan": "2026-09-29T14:02:00+03:00",
-"summary": "NeST: 56 notices read → no new tenders",
+"last_scan": "2026-09-29T14:21:00+03:00",
+"summary": "NeST: 56 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 202 notices read → 1 new, 0 deadline change(s)",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-09-29 14:02",
+"last_ok": "2026-09-29 14:21",
 "error": ""
 },
 {
 "name": "World Bank (Tanzania, civil works)",
-"last_ok": "2026-09-29 13:34",
+"last_ok": "2026-09-29 14:21",
 "error": ""
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-09-29 13:51",
+"last_ok": "2026-09-29 14:21",
 "error": ""
 },
 {
@@ -26,7 +26,7 @@
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-09-29 13:51",
+"last_ok": "2026-09-29 14:21",
 "error": ""
 },
 {
@@ -61,7 +61,7 @@
 }
 ]
 },
-"workbook_rows": 47,
+"workbook_rows": 48,
 "tenders": [
 {
 "id": "7205-2026-2027-W-09",
@@ -1660,6 +1660,40 @@
 "next": "Get the tender document, confirm value, CRB class, site visit and bid security; brief the MD",
 "found_by": "Auto-scan",
 "source_id": "30e91cb5-e42b-43bf-94d5-80ead1662a53",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TZ-TANROADS-564086-CW-RFB",
+"title": "Proposed Construction of Lwanji I Bridge (200m) span along Mtowisa – Ilemba Road Section.",
+"deadline": "2026-11-02T10:00:00+03:00",
+"body": {
+"no": "TZ-TANROADS-564086-CW-RFB",
+"date_found": "2026-09-29T00:00:00+03:00",
+"source": "donor",
+"url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00471685",
+"client": "Tanzania National Roads Agency",
+"client_type": "donor",
+"title": "Proposed Construction of Lwanji I Bridge (200m) span along Mtowisa – Ilemba Road Section.",
+"scope": "World Bank project: Tanzania Roads to Inclusion and Socioeconomic Opportunities (RISE) Project (P164920)",
+"location": "Dar es Salaam",
+"category": "civil",
+"crb": "See tender document",
+"funding": "Y",
+"site_visit": "See tender document",
+"clar": "See tender document",
+"deadline": "2026-11-02T10:00:00+03:00",
+"bid_security": "See tender document",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-09-28T00:00:00+03:00",
+"notice": "World Bank – Invitation for Bids (Request for Bids)",
+"screen": "Check",
+"reason": "Auto (World Bank – Invitation for Bids): Civil works in Dar/Coast – confirm CRB class and margin",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "WB:OP00471685",
 "synced_by": "NEXUS auto-sync"
 }
 }
