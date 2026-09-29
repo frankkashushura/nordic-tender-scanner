@@ -411,3 +411,4 @@ Empty Pipeline rows left: 453
 2026-09-29 08:35:00  NeST: 56 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 202 notices read → no new tenders
 2026-09-29 08:50:38  AfDB procurement notices – Tanzania: FAILED – could not reach www.afdb.org (HTTP Error 403: Forbidden)
 2026-09-29 08:50:38  NeST: 56 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 202 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; RUWASA current tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read; AfDB procurement notices – Tanzania: FAILED (could not reach www.afdb.org (HTTP Error 403: Forbidden))  – failing repeatedly, check the source → no new tenders
+2026-09-29 09:01:12  NeST: 56 notices read → no new tenders
