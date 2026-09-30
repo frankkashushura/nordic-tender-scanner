@@ -1,21 +1,21 @@
 {
 "NeST": {
-"last_try": 1790739414.5460892,
-"last_ok": "2026-09-30 06:36",
+"last_try": 1790740379.4271069,
+"last_ok": "2026-09-30 06:52",
 "fails": 0,
 "last_count": 49,
 "baseline_done": true
 },
 "World Bank (Tanzania, civil works)": {
-"last_try": 1790738393.0594344,
-"last_ok": "2026-09-30 06:19",
+"last_try": 1790740380.885705,
+"last_ok": "2026-09-30 06:52",
 "fails": 0,
 "last_count": 27,
 "baseline_done": true
 },
 "TANROADS website": {
-"last_try": 1790739416.223667,
-"last_ok": "2026-09-30 06:36",
+"last_try": 1790740381.0903525,
+"last_ok": "2026-09-30 06:52",
 "fails": 0,
 "last_count": 6,
 "baseline_done": true
@@ -43,8 +43,8 @@
 "last_error": "2026-09-26 00:17 could not reach www.nmbbank.co.tz (HTTP Error 403: Forbidden)"
 },
 "DDO Tenders (newspapers, private, donors)": {
-"last_try": 1790739418.6617475,
-"last_ok": "2026-09-30 06:36",
+"last_try": 1790740383.418424,
+"last_ok": "2026-09-30 06:52",
 "fails": 0,
 "last_count": 202,
 "baseline_done": true
