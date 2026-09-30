@@ -1,12 +1,12 @@
 {
-"generated": "2026-09-30T03:53:04+03:00",
+"generated": "2026-09-30T04:08:04+03:00",
 "scanner": {
-"last_scan": "2026-09-30T03:52:00+03:00",
-"summary": "NeST: 56 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 202 notices read → no new tenders",
+"last_scan": "2026-09-30T04:07:00+03:00",
+"summary": "NeST: 49 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 202 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; RUWASA current tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read; AfDB procurement notices – Tanzania: FAILED (co",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-09-30 03:52",
+"last_ok": "2026-09-30 04:07",
 "error": ""
 },
 {
@@ -16,52 +16,52 @@
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-09-30 03:52",
+"last_ok": "2026-09-30 04:07",
 "error": ""
 },
 {
 "name": "CRDB Bank tenders",
-"last_ok": "2026-09-30 03:02",
+"last_ok": "2026-09-30 04:07",
 "error": ""
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-09-30 03:52",
+"last_ok": "2026-09-30 04:07",
 "error": ""
 },
 {
 "name": "TPA current tenders",
-"last_ok": "2026-09-30 03:02",
+"last_ok": "2026-09-30 04:07",
 "error": ""
 },
 {
 "name": "TARURA tenders",
-"last_ok": "2026-09-30 03:02",
+"last_ok": "2026-09-30 04:07",
 "error": ""
 },
 {
 "name": "RUWASA current tenders",
-"last_ok": "2026-09-30 03:02",
+"last_ok": "2026-09-30 04:07",
 "error": ""
 },
 {
 "name": "Bank of Tanzania tenders",
-"last_ok": "2026-09-30 03:02",
+"last_ok": "2026-09-30 04:07",
 "error": ""
 },
 {
 "name": "TEITI tenders",
-"last_ok": "2026-09-30 03:02",
+"last_ok": "2026-09-30 04:07",
 "error": ""
 },
 {
 "name": "AfDB procurement notices – Tanzania",
 "last_ok": "2026-09-26 10:01",
-"error": "2026-09-30 03:02 could not reach www.afdb.org (HTTP Error 403: Forbidden)"
+"error": "2026-09-30 04:07 could not reach www.afdb.org (HTTP Error 403: Forbidden)"
 }
 ]
 },
-"workbook_rows": 48,
+"workbook_rows": 52,
 "tenders": [
 {
 "id": "7205-2026-2027-W-09",
@@ -1694,6 +1694,142 @@
 "next": "Read the notice and decide with the QS Director whether to pursue",
 "found_by": "Auto-scan",
 "source_id": "WB:OP00471685",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TR153-2026-2027-W-04",
+"title": "CONSTRUCTION OF WATER SUPPLY SERVICE IMPROVEMENT PROJECT IN FOUR WATER STRESSED WARDS PHASE I IN BARIADI TOWN",
+"deadline": "2026-10-06T14:00:00+03:00",
+"body": {
+"no": "TR153/2026/2027/W/04",
+"date_found": "2026-09-30T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "Bariadi Urban Water Supply and Sanitation Authority",
+"client_type": "government",
+"title": "CONSTRUCTION OF WATER SUPPLY SERVICE IMPROVEMENT PROJECT IN FOUR WATER STRESSED WARDS PHASE I IN BARIADI TOWN",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Simiyu (from client's office – confirm site)",
+"category": "civil",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-10-06T14:00:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-09-29T00:00:00+03:00",
+"notice": "Small Works / Tender",
+"screen": "Check",
+"reason": "Auto (Small Works / Tender): Construction tender kept for review (would have been dropped: Remote civil works)",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "ef08abf9-8e2d-4513-9521-86c16ac2f43f",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TR36-018-2026-2027-W-62",
+"title": "ROAD SAFETY IMPROVEMENT IN COAST REGION",
+"deadline": "2026-10-06T14:00:00+03:00",
+"body": {
+"no": "TR36/018/2026/2027/W/62",
+"date_found": "2026-09-30T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "TANROADS - Pwani Regional Office",
+"client_type": "government",
+"title": "ROAD SAFETY IMPROVEMENT IN COAST REGION",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Pwani",
+"category": "civil",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-10-06T14:00:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-09-29T00:00:00+03:00",
+"notice": "Small Works / Tender",
+"screen": "Check",
+"reason": "Auto (Small Works / Tender): Civil works in Dar/Coast – confirm CRB class and margin",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "cd03841e-f8f4-4b27-96af-f9296f5d7434",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TR36-026-2026-2027-W-02",
+"title": "Periodic Maintenance works along Segera - Tanga - Chumbageni Jct road (T.013), Manga - Segera Road(T.002)and Muheza - Bombani Road (R522)",
+"deadline": "2026-10-07T14:00:00+03:00",
+"body": {
+"no": "TR36/026/2026/2027/W/02",
+"date_found": "2026-09-30T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "TANROADS - Tanga Regional Office",
+"client_type": "government",
+"title": "Periodic Maintenance works along Segera - Tanga - Chumbageni Jct road (T.013), Manga - Segera Road(T.002)and Muheza - Bombani Road (R522)",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Tanga",
+"category": "civil",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-10-07T14:00:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-09-30T00:00:00+03:00",
+"notice": "Small Works / Tender",
+"screen": "Check",
+"reason": "Auto (Small Works / Tender): Civil works – confirm site, CRB class and margin",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "95dfa0f8-7ef0-4e60-84a2-55d398c325e3",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "76G4-2026-2027-W-08",
+"title": "CONSTRUCTION OF BUS STAND AT NANGURUKURU",
+"deadline": "2026-10-12T14:00:00+03:00",
+"body": {
+"no": "76G4/2026/2027/W/08",
+"date_found": "2026-09-30T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "Kilwa District Council",
+"client_type": "government",
+"title": "CONSTRUCTION OF BUS STAND AT NANGURUKURU",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Lindi (Kilwa) (from client's office – confirm site)",
+"category": "building",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-10-12T14:00:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-09-29T00:00:00+03:00",
+"notice": "Small Works / Tender",
+"screen": "Check",
+"reason": "Auto (Small Works / Tender): Lindi/Mtwara – Nordic has worked there (Likong'o)",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "d8d998ce-ea90-40a9-b6a8-621b4100a533",
 "synced_by": "NEXUS auto-sync"
 }
 }
