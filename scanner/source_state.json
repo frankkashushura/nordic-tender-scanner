@@ -1,7 +1,7 @@
 {
 "NeST": {
-"last_try": 1790771289.226638,
-"last_ok": "2026-09-30 15:28",
+"last_try": 1790772763.1193843,
+"last_ok": "2026-09-30 15:52",
 "fails": 0,
 "last_count": 49,
 "baseline_done": true,
@@ -15,8 +15,8 @@
 "baseline_done": true
 },
 "TANROADS website": {
-"last_try": 1790771294.261315,
-"last_ok": "2026-09-30 15:28",
+"last_try": 1790772764.927058,
+"last_ok": "2026-09-30 15:52",
 "fails": 0,
 "last_count": 6,
 "baseline_done": true,
@@ -33,8 +33,8 @@
 "last_error": "2026-09-26 00:17 could not reach www.tenders.zppda.go.tz (<urlopen error [Errno 11001] getaddrinfo failed>)"
 },
 "CRDB Bank tenders": {
-"last_try": 1790768776.5895538,
-"last_ok": "2026-09-30 14:46",
+"last_try": 1790772769.6967237,
+"last_ok": "2026-09-30 15:52",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
@@ -45,8 +45,8 @@
 "last_error": "2026-09-26 00:17 could not reach www.nmbbank.co.tz (HTTP Error 403: Forbidden)"
 },
 "DDO Tenders (newspapers, private, donors)": {
-"last_try": 1790771296.7767098,
-"last_ok": "2026-09-30 15:28",
+"last_try": 1790772767.9563,
+"last_ok": "2026-09-30 15:52",
 "fails": 0,
 "last_count": 203,
 "baseline_done": true
@@ -57,23 +57,23 @@
 "last_error": "2026-09-26 01:15 no readable text on the page \u2013 it may load its list with JavaScript"
 },
 "TPA current tenders": {
-"last_try": 1790768778.0133884,
-"last_ok": "2026-09-30 14:46",
+"last_try": 1790772771.304929,
+"last_ok": "2026-09-30 15:52",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "TARURA tenders": {
-"last_try": 1790768780.1761656,
+"last_try": 1790772773.4268274,
 "fails": 0,
 "last_error": "2026-09-30 13:23 could not reach tarura.go.tz:6032 (<urlopen error timed out>)",
-"last_ok": "2026-09-30 14:46",
+"last_ok": "2026-09-30 15:52",
 "last_count": 0,
 "baseline_done": true
 },
 "RUWASA current tenders": {
-"last_try": 1790768781.7652633,
-"last_ok": "2026-09-30 14:46",
+"last_try": 1790772775.1531253,
+"last_ok": "2026-09-30 15:52",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
@@ -84,27 +84,27 @@
 "last_error": "2026-09-26 01:13 could not reach www.taa.go.tz (HTTP Error 404: Not Found)"
 },
 "Bank of Tanzania tenders": {
-"last_try": 1790768783.9769444,
-"last_ok": "2026-09-30 14:46",
+"last_try": 1790772777.59594,
+"last_ok": "2026-09-30 15:52",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true,
 "last_error": "2026-09-29 15:52 could not reach www.bot.go.tz (Remote end closed connection without response)"
 },
 "TEITI tenders": {
-"last_try": 1790768787.0815,
-"last_ok": "2026-09-30 14:46",
+"last_try": 1790772780.7277336,
+"last_ok": "2026-09-30 15:52",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true,
 "last_error": "2026-09-30 13:23 could not reach www.teiti.go.tz (<urlopen error timed out>)"
 },
 "AfDB procurement notices \u2013 Tanzania": {
-"last_try": 1790768789.7388568,
+"last_try": 1790772783.4617913,
 "last_ok": "2026-09-26 10:01",
-"fails": 89,
+"fails": 90,
 "last_count": 0,
 "baseline_done": true,
-"last_error": "2026-09-30 14:46 could not reach www.afdb.org (HTTP Error 403: Forbidden)"
+"last_error": "2026-09-30 15:52 could not reach www.afdb.org (HTTP Error 403: Forbidden)"
 }
 }
