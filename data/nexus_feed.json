@@ -1,12 +1,12 @@
 {
-"generated": "2026-10-01T02:25:13+03:00",
+"generated": "2026-10-01T02:40:06+03:00",
 "scanner": {
-"last_scan": "2026-10-01T02:25:00+03:00",
-"summary": "NeST: 49 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 203 notices read → no new tenders",
+"last_scan": "2026-10-01T02:39:00+03:00",
+"summary": "NeST: 49 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 203 notices read → no new tenders",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-10-01 02:25",
+"last_ok": "2026-10-01 02:39",
 "error": ""
 },
 {
@@ -16,7 +16,7 @@
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-10-01 02:25",
+"last_ok": "2026-10-01 02:39",
 "error": ""
 },
 {
@@ -26,7 +26,7 @@
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-10-01 02:25",
+"last_ok": "2026-10-01 02:39",
 "error": ""
 },
 {
