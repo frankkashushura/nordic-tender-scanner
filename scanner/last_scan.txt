@@ -1,14 +1,14 @@
-2026-10-01 00:37  NeST: 49 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 203 notices read → no new tenders
+2026-10-01 00:53  NeST: 49 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 203 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; RUWASA current tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read; AfDB procurement notices – Tanzania: FAILED (could not reach www.afdb.org (HTTP Error 403: Forbidden))  – failing repeatedly, check the source → no new tenders
 
 Per source:
-  NeST: last OK 2026-10-01 00:37
-  World Bank (Tanzania, civil works): last OK 2026-10-01 00:20
-  TANROADS website: last OK 2026-10-01 00:37
-  CRDB Bank tenders: last OK 2026-09-30 23:50
-  DDO Tenders (newspapers, private, donors): last OK 2026-10-01 00:37
-  TPA current tenders: last OK 2026-09-30 23:50
-  TARURA tenders: last OK 2026-09-30 23:50
-  RUWASA current tenders: last OK 2026-09-30 23:50
-  Bank of Tanzania tenders: last OK 2026-09-30 23:50
-  TEITI tenders: last OK 2026-09-30 23:50
-  AfDB procurement notices – Tanzania: last OK 2026-09-26 10:01; last error 2026-09-30 23:50 could not reach www.afdb.org (HTTP Error 403: Forbidden)
+  NeST: last OK 2026-10-01 00:53
+  World Bank (Tanzania, civil works): last OK 2026-10-01 00:53
+  TANROADS website: last OK 2026-10-01 00:53
+  CRDB Bank tenders: last OK 2026-10-01 00:53
+  DDO Tenders (newspapers, private, donors): last OK 2026-10-01 00:53
+  TPA current tenders: last OK 2026-10-01 00:53
+  TARURA tenders: last OK 2026-10-01 00:53
+  RUWASA current tenders: last OK 2026-10-01 00:53
+  Bank of Tanzania tenders: last OK 2026-10-01 00:53
+  TEITI tenders: last OK 2026-10-01 00:53
+  AfDB procurement notices – Tanzania: last OK 2026-09-26 10:01; last error 2026-10-01 00:53 could not reach www.afdb.org (HTTP Error 403: Forbidden)
