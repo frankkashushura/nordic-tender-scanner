@@ -1,16 +1,178 @@
 [
  {
-  "name": "AfDB SPN",
-  "url": "https://www.afdb.org/en/documents/category/specific-procurement-notices",
+  "name": "ZPPDA www open",
+  "url": "https://www.tenders.zppda.go.tz/tenders/category/open-tender",
   "bot": {
-   "error": "HTTP Error 403: Forbidden"
+   "error": "<urlopen error [Errno -2] Name or service not known>"
   },
   "browser": {
-   "error": "HTTP Error 403: Forbidden"
+   "error": "<urlopen error [Errno -2] Name or service not known>"
   }
  },
  {
-  "name": "RUWASA",
+  "name": "ZPPDA http open",
+  "url": "http://www.tenders.zppda.go.tz/tenders/category/open-tender",
+  "bot": {
+   "error": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  "browser": {
+   "error": "<urlopen error [Errno -2] Name or service not known>"
+  }
+ },
+ {
+  "name": "ZPPDA alt",
+  "url": "https://zppda.go.tz/tenders.zppda.go.tz/",
+  "bot": {
+   "error": "<urlopen error timed out>"
+  },
+  "browser": {
+   "error": "<urlopen error timed out>"
+  }
+ },
+ {
+  "name": "ZPPDA home",
+  "url": "https://www.tenders.zppda.go.tz/",
+  "bot": {
+   "error": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  "browser": {
+   "error": "<urlopen error [Errno -2] Name or service not known>"
+  }
+ },
+ {
+  "name": "TanzaniaTenders",
+  "url": "https://www.tanzaniatenders.com/tenders.php",
+  "bot": {
+   "status": 200,
+   "sec": 1.4,
+   "bytes": 55459,
+   "final": "https://www.tanzaniatenders.com/tenders.php",
+   "blocks": 120,
+   "tenderish": 23,
+   "sample": [
+    "Tenders Posted by Purchasers",
+    "Search Tenders Advance Search",
+    "Get Access to All Tanzania Tenders",
+    "Find the Latest Tenders in Tanzania"
+   ],
+   "kept": 0,
+   "kept_sample": []
+  },
+  "browser": {
+   "status": 200,
+   "sec": 1.4,
+   "bytes": 55459,
+   "final": "https://www.tanzaniatenders.com/tenders.php",
+   "blocks": 120,
+   "tenderish": 23,
+   "sample": [
+    "Tenders Posted by Purchasers",
+    "Search Tenders Advance Search",
+    "Get Access to All Tanzania Tenders",
+    "Find the Latest Tenders in Tanzania"
+   ],
+   "kept": 0,
+   "kept_sample": []
+  }
+ },
+ {
+  "name": "Zabuni",
+  "url": "https://zabuni.co.tz/",
+  "bot": {
+   "status": 200,
+   "sec": 3.2,
+   "bytes": 26487,
+   "final": "https://zabuni.co.tz/",
+   "blocks": 67,
+   "tenderish": 54,
+   "sample": [
+    "support@zabuni.co.tz",
+    "Total Tenders 53,740",
+    "Total Tenders 53,740",
+    "Total Tenders 53,740"
+   ],
+   "kept": 0,
+   "kept_sample": []
+  },
+  "browser": {
+   "status": 200,
+   "sec": 3.0,
+   "bytes": 26487,
+   "final": "https://zabuni.co.tz/",
+   "blocks": 67,
+   "tenderish": 54,
+   "sample": [
+    "support@zabuni.co.tz",
+    "Total Tenders 53,740",
+    "Total Tenders 53,740",
+    "Total Tenders 53,740"
+   ],
+   "kept": 0,
+   "kept_sample": []
+  }
+ },
+ {
+  "name": "Tendampya",
+  "url": "https://www.tendampya.tz/",
+  "bot": {
+   "status": 200,
+   "sec": 0.3,
+   "bytes": 1884,
+   "final": "https://www.tendampya.tz/",
+   "blocks": 0,
+   "tenderish": 0,
+   "sample": [],
+   "kept_err": "no readable text on the page – it may load its list with JavaScript"
+  },
+  "browser": {
+   "status": 200,
+   "sec": 0.3,
+   "bytes": 1884,
+   "final": "https://www.tendampya.tz/",
+   "blocks": 0,
+   "tenderish": 0,
+   "sample": [],
+   "kept_err": "no readable text on the page – it may load its list with JavaScript"
+  }
+ },
+ {
+  "name": "Mabumbe",
+  "url": "https://tender.mabumbe.com/",
+  "bot": {
+   "status": 200,
+   "sec": 0.5,
+   "bytes": 78812,
+   "final": "https://mabumbe.net/",
+   "blocks": 33,
+   "tenderish": 27,
+   "sample": [
+    "Tender Access Plans →",
+    "For Tender Publishers",
+    "Arusha Tender Full Time",
+    "Find Tenders in Tanzania"
+   ],
+   "kept": 0,
+   "kept_sample": []
+  },
+  "browser": {
+   "status": 200,
+   "sec": 0.4,
+   "bytes": 78812,
+   "final": "https://mabumbe.net/",
+   "blocks": 33,
+   "tenderish": 27,
+   "sample": [
+    "Tender Access Plans →",
+    "For Tender Publishers",
+    "Arusha Tender Full Time",
+    "Find Tenders in Tanzania"
+   ],
+   "kept": 0,
+   "kept_sample": []
+  }
+ },
+ {
+  "name": "RUWASA retry",
   "url": "https://www.ruwasa.go.tz/ruwasa-sm-Current-tender",
   "bot": {
    "error": "Remote end closed connection without response"
@@ -20,629 +182,13 @@
   }
  },
  {
-  "name": "ZPPDA open",
-  "url": "https://tenders.zppda.go.tz/tenders/category/open-tender",
-  "bot": {
-   "error": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  "browser": {
-   "error": "<urlopen error [Errno -2] Name or service not known>"
-  }
- },
- {
-  "name": "ZPPDA intl",
-  "url": "https://tenders.zppda.go.tz/tenders/category/international-tenders",
-  "bot": {
-   "error": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  "browser": {
-   "error": "<urlopen error [Errno -2] Name or service not known>"
-  }
- },
- {
-  "name": "NMB",
-  "url": "https://www.nmbbank.co.tz/tenders",
+  "name": "AfDB rss",
+  "url": "https://www.afdb.org/en/rss/procurement",
   "bot": {
    "error": "HTTP Error 403: Forbidden"
   },
   "browser": {
    "error": "HTTP Error 403: Forbidden"
-  }
- },
- {
-  "name": "TAA tenders",
-  "url": "https://www.taa.go.tz/tenders",
-  "bot": {
-   "error": "HTTP Error 404: Not Found"
-  },
-  "browser": {
-   "error": "HTTP Error 404: Not Found"
-  }
- },
- {
-  "name": "TANESCO",
-  "url": "https://www.tanesco.co.tz/index.php/procurement/current-tenders",
-  "bot": {
-   "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
-  },
-  "browser": {
-   "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
-  }
- },
- {
-  "name": "TanzaniaTenders.com",
-  "url": "https://www.tanzaniatenders.com/tenders.php",
-  "bot": {
-   "status": 200,
-   "sec": 2.1,
-   "bytes": 55459,
-   "final": "https://www.tanzaniatenders.com/tenders.php",
-   "blocks": 120,
-   "tenderish": 23,
-   "sample": [
-    "Tenders Posted by Purchasers",
-    "Search Tenders Advance Search",
-    "Get Access to All Tanzania Tenders",
-    "Find the Latest Tenders in Tanzania"
-   ],
-   "kept": 0,
-   "kept_sample": []
-  },
-  "browser": {
-   "status": 200,
-   "sec": 1.3,
-   "bytes": 55459,
-   "final": "https://www.tanzaniatenders.com/tenders.php",
-   "blocks": 120,
-   "tenderish": 23,
-   "sample": [
-    "Tenders Posted by Purchasers",
-    "Search Tenders Advance Search",
-    "Get Access to All Tanzania Tenders",
-    "Find the Latest Tenders in Tanzania"
-   ],
-   "kept": 0,
-   "kept_sample": []
-  }
- },
- {
-  "name": "UNDP TZ",
-  "url": "https://procurement-notices.undp.org/search.cfm?cur_off_id=TZA",
-  "bot": {
-   "status": 200,
-   "sec": 4.4,
-   "bytes": 1774431,
-   "final": "https://procurement-notices.undp.org/search.cfm?cur_off_id=TZA",
-   "blocks": 4918,
-   "tenderish": 785,
-   "sample": [
-    "Title RFQ - Macaneta",
-    "Title RFQ - Macaneta",
-    "Title RFQ - Macaneta",
-    "Title A2J/RFP/2026/03:"
-   ],
-   "kept": 0,
-   "kept_sample": []
-  },
-  "browser": {
-   "status": 200,
-   "sec": 4.1,
-   "bytes": 1774431,
-   "final": "https://procurement-notices.undp.org/search.cfm?cur_off_id=TZA",
-   "blocks": 4918,
-   "tenderish": 785,
-   "sample": [
-    "Title RFQ - Macaneta",
-    "Title RFQ - Macaneta",
-    "Title RFQ - Macaneta",
-    "Title A2J/RFP/2026/03:"
-   ],
-   "kept": 0,
-   "kept_sample": []
-  }
- },
- {
-  "name": "UNDP all",
-  "url": "https://procurement-notices.undp.org/",
-  "bot": {
-   "status": 200,
-   "sec": 3.1,
-   "bytes": 1021089,
-   "final": "https://procurement-notices.undp.org/",
-   "blocks": 2713,
-   "tenderish": 448,
-   "sample": [
-    "Title RFQ - Macaneta",
-    "Title RFQ - Macaneta",
-    "ITB - Invitation to bid",
-    "ITB - Invitation to bid"
-   ],
-   "kept": 0,
-   "kept_sample": []
-  },
-  "browser": {
-   "status": 200,
-   "sec": 2.6,
-   "bytes": 1021089,
-   "final": "https://procurement-notices.undp.org/",
-   "blocks": 2713,
-   "tenderish": 448,
-   "sample": [
-    "Title RFQ - Macaneta",
-    "Title RFQ - Macaneta",
-    "ITB - Invitation to bid",
-    "ITB - Invitation to bid"
-   ],
-   "kept": 0,
-   "kept_sample": []
-  }
- },
- {
-  "name": "TBA",
-  "url": "https://www.tba.go.tz/tenders",
-  "bot": {
-   "error": "HTTP Error 404: Not Found"
-  },
-  "browser": {
-   "error": "HTTP Error 404: Not Found"
-  }
- },
- {
-  "name": "DAWASA",
-  "url": "https://www.dawasa.go.tz/tenders",
-  "bot": {
-   "error": "Remote end closed connection without response"
-  },
-  "browser": {
-   "error": "Remote end closed connection without response"
-  }
- },
- {
-  "name": "DUWASA",
-  "url": "https://www.duwasa.go.tz/tenders",
-  "bot": {
-   "error": "Remote end closed connection without response"
-  },
-  "browser": {
-   "error": "Remote end closed connection without response"
-  }
- },
- {
-  "name": "MWAUWASA",
-  "url": "https://www.mwauwasa.go.tz/tenders",
-  "bot": {
-   "status": 200,
-   "sec": 2.1,
-   "bytes": 34968,
-   "final": "https://www.mwauwasa.go.tz/tenders",
-   "blocks": 25,
-   "tenderish": 2,
-   "sample": [
-    "260526-TD-MWA-IFB.pdf Deadline 2026-07-17",
-    "260526-TD-MWA-Vol_I_ITB.pdf Deadline 2026-07-17"
-   ],
-   "kept": 0,
-   "kept_sample": []
-  },
-  "browser": {
-   "status": 200,
-   "sec": 1.9,
-   "bytes": 34968,
-   "final": "https://www.mwauwasa.go.tz/tenders",
-   "blocks": 25,
-   "tenderish": 2,
-   "sample": [
-    "260526-TD-MWA-IFB.pdf Deadline 2026-07-17",
-    "260526-TD-MWA-Vol_I_ITB.pdf Deadline 2026-07-17"
-   ],
-   "kept": 0,
-   "kept_sample": []
-  }
- },
- {
-  "name": "AUWSA",
-  "url": "https://www.auwsa.go.tz/tenders",
-  "bot": {
-   "error": "HTTP Error 404: Not Found"
-  },
-  "browser": {
-   "error": "HTTP Error 404: Not Found"
-  }
- },
- {
-  "name": "NHC",
-  "url": "https://www.nhc.co.tz/tenders",
-  "bot": {
-   "status": 200,
-   "sec": 2.2,
-   "bytes": 58345,
-   "final": "https://www.nhc.co.tz/tenders",
-   "blocks": 62,
-   "tenderish": 0,
-   "sample": [],
-   "kept": 0,
-   "kept_sample": []
-  },
-  "browser": {
-   "status": 200,
-   "sec": 1.9,
-   "bytes": 58345,
-   "final": "https://www.nhc.co.tz/tenders",
-   "blocks": 62,
-   "tenderish": 0,
-   "sample": [],
-   "kept": 0,
-   "kept_sample": []
-  }
- },
- {
-  "name": "TRC",
-  "url": "https://www.trc.co.tz/tenders",
-  "bot": {
-   "status": 200,
-   "sec": 1.8,
-   "bytes": 24222,
-   "final": "https://www.trc.co.tz/tenders",
-   "blocks": 57,
-   "tenderish": 22,
-   "sample": [
-    "INVITATION TO CONSULTING SERVICES",
-    "ENGLISH Zabuni Maswali Wasiliana Nasi",
-    "ENGLISH Zabuni Maswali Wasiliana Nasi",
-    "INVITATION TO CONSULTING SERVICES Pakua"
-   ],
-   "kept": 1,
-   "kept_sample": [
-    "INVITATION TO EARLY MARKET ENGAGEMENT (EME) WORKSHOP (PHYSICAL AND VIRTUAL CONSULTATIVE MEETING)"
-   ]
-  },
-  "browser": {
-   "status": 200,
-   "sec": 1.6,
-   "bytes": 24222,
-   "final": "https://www.trc.co.tz/tenders",
-   "blocks": 57,
-   "tenderish": 22,
-   "sample": [
-    "INVITATION TO CONSULTING SERVICES",
-    "ENGLISH Zabuni Maswali Wasiliana Nasi",
-    "ENGLISH Zabuni Maswali Wasiliana Nasi",
-    "INVITATION TO CONSULTING SERVICES Pakua"
-   ],
-   "kept": 1,
-   "kept_sample": [
-    "INVITATION TO EARLY MARKET ENGAGEMENT (EME) WORKSHOP (PHYSICAL AND VIRTUAL CONSULTATIVE MEETING)"
-   ]
-  }
- },
- {
-  "name": "TCAA",
-  "url": "https://www.tcaa.go.tz/tenders",
-  "bot": {
-   "error": "HTTP Error 404: Not Found"
-  },
-  "browser": {
-   "error": "HTTP Error 404: Not Found"
-  }
- },
- {
-  "name": "TPDC",
-  "url": "https://www.tpdc.co.tz/tenders",
-  "bot": {
-   "error": "HTTP Error 404: Not Found"
-  },
-  "browser": {
-   "error": "HTTP Error 404: Not Found"
-  }
- },
- {
-  "name": "TEMESA",
-  "url": "https://www.temesa.go.tz/tenders",
-  "bot": {
-   "error": "HTTP Error 404: Not Found"
-  },
-  "browser": {
-   "error": "HTTP Error 404: Not Found"
-  }
- },
- {
-  "name": "Wizara Ujenzi",
-  "url": "https://www.ujenzi.go.tz/tenders",
-  "bot": {
-   "error": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  "browser": {
-   "error": "<urlopen error [Errno -2] Name or service not known>"
-  }
- },
- {
-  "name": "Wizara Maji",
-  "url": "https://www.maji.go.tz/tenders",
-  "bot": {
-   "status": 200,
-   "sec": 2.3,
-   "bytes": 24527,
-   "final": "https://www.maji.go.tz/tenders",
-   "blocks": 24,
-   "tenderish": 7,
-   "sample": [
-    "Zabuni CONSULTING SERVICES – FIRMS SELECTION: ENHANCING CLIMATE RESILIENCE ON WATER RESOURCES IN MKONDOA CATCHMENT (ECRWRMC) PROJECT Tarehe ",
-    "Zabuni CONSULTING SERVICES – FIRMS SELECTION: ENHANCING CLIMATE RESILIENCE ON WATER RESOURCES IN MKONDOA CATCHMENT (ECRWRMC) PROJECT Tarehe ",
-    "Zabuni CONSULTING SERVICES – FIRMS SELECTION: ENHANCING CLIMATE RESILIENCE ON WATER RESOURCES IN MKONDOA CATCHMENT (ECRWRMC) PROJECT Tarehe ",
-    "Habari Aug 10,2026 Tanzania yazindua Jukwaa la Nane la Wadau wa Maendeleo ya Bonde la Mto Nile Jul 24,2026 ​MKANDARASI BWAWA LA KIDUNDA ATAH"
-   ],
-   "kept": 1,
-   "kept_sample": [
-    "Habari Aug 10,2026 Tanzania yazindua Jukwaa la Nane la Wadau wa Maendeleo ya Bonde la Mto Nile Jul 24,2026 ​MKANDARASI B"
-   ]
-  },
-  "browser": {
-   "status": 200,
-   "sec": 1.8,
-   "bytes": 24527,
-   "final": "https://www.maji.go.tz/tenders",
-   "blocks": 24,
-   "tenderish": 7,
-   "sample": [
-    "Zabuni CONSULTING SERVICES – FIRMS SELECTION: ENHANCING CLIMATE RESILIENCE ON WATER RESOURCES IN MKONDOA CATCHMENT (ECRWRMC) PROJECT Tarehe ",
-    "Zabuni CONSULTING SERVICES – FIRMS SELECTION: ENHANCING CLIMATE RESILIENCE ON WATER RESOURCES IN MKONDOA CATCHMENT (ECRWRMC) PROJECT Tarehe ",
-    "Zabuni CONSULTING SERVICES – FIRMS SELECTION: ENHANCING CLIMATE RESILIENCE ON WATER RESOURCES IN MKONDOA CATCHMENT (ECRWRMC) PROJECT Tarehe ",
-    "Habari Aug 10,2026 Tanzania yazindua Jukwaa la Nane la Wadau wa Maendeleo ya Bonde la Mto Nile Jul 24,2026 ​MKANDARASI BWAWA LA KIDUNDA ATAH"
-   ],
-   "kept": 1,
-   "kept_sample": [
-    "Habari Aug 10,2026 Tanzania yazindua Jukwaa la Nane la Wadau wa Maendeleo ya Bonde la Mto Nile Jul 24,2026 ​MKANDARASI B"
-   ]
-  }
- },
- {
-  "name": "TAMISEMI",
-  "url": "https://www.tamisemi.go.tz/tenders",
-  "bot": {
-   "status": 200,
-   "sec": 3.1,
-   "bytes": 553,
-   "final": "https://tamisemi.go.tz/tenders",
-   "blocks": 0,
-   "tenderish": 0,
-   "sample": [],
-   "kept_err": "no readable text on the page – it may load its list with JavaScript"
-  },
-  "browser": {
-   "status": 200,
-   "sec": 2.5,
-   "bytes": 553,
-   "final": "https://tamisemi.go.tz/tenders",
-   "blocks": 0,
-   "tenderish": 0,
-   "sample": [],
-   "kept_err": "no readable text on the page – it may load its list with JavaScript"
-  }
- },
- {
-  "name": "MoH",
-  "url": "https://www.moh.go.tz/tenders",
-  "bot": {
-   "error": "HTTP Error 404: Not Found"
-  },
-  "browser": {
-   "error": "HTTP Error 404: Not Found"
-  }
- },
- {
-  "name": "MoEST",
-  "url": "https://www.moe.go.tz/tenders",
-  "bot": {
-   "status": 200,
-   "sec": 4.1,
-   "bytes": 110430,
-   "final": "https://www.moe.go.tz/sw/tenders",
-   "blocks": 15,
-   "tenderish": 0,
-   "sample": [],
-   "kept": 0,
-   "kept_sample": []
-  },
-  "browser": {
-   "status": 200,
-   "sec": 3.7,
-   "bytes": 110430,
-   "final": "https://www.moe.go.tz/sw/tenders",
-   "blocks": 15,
-   "tenderish": 0,
-   "sample": [],
-   "kept": 0,
-   "kept_sample": []
-  }
- },
- {
-  "name": "NSSF",
-  "url": "https://www.nssf.go.tz/tenders",
-  "bot": {
-   "error": "Remote end closed connection without response"
-  },
-  "browser": {
-   "error": "Remote end closed connection without response"
-  }
- },
- {
-  "name": "PSSSF",
-  "url": "https://www.psssf.go.tz/tenders",
-  "bot": {
-   "error": "HTTP Error 404: Not Found"
-  },
-  "browser": {
-   "error": "HTTP Error 404: Not Found"
-  }
- },
- {
-  "name": "MSD",
-  "url": "https://www.msd.go.tz/tenders",
-  "bot": {
-   "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
-  },
-  "browser": {
-   "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
-  }
- },
- {
-  "name": "Dodoma CC",
-  "url": "https://www.dodomacc.go.tz/tenders",
-  "bot": {
-   "status": 200,
-   "sec": 1.7,
-   "bytes": 553,
-   "final": "https://www.dodomacc.go.tz/tenders",
-   "blocks": 0,
-   "tenderish": 0,
-   "sample": [],
-   "kept_err": "no readable text on the page – it may load its list with JavaScript"
-  },
-  "browser": {
-   "status": 200,
-   "sec": 1.3,
-   "bytes": 553,
-   "final": "https://www.dodomacc.go.tz/tenders",
-   "blocks": 0,
-   "tenderish": 0,
-   "sample": [],
-   "kept_err": "no readable text on the page – it may load its list with JavaScript"
-  }
- },
- {
-  "name": "Dar CC",
-  "url": "https://www.dcc.go.tz/tenders",
-  "bot": {
-   "status": 200,
-   "sec": 1.6,
-   "bytes": 553,
-   "final": "https://www.dcc.go.tz/tenders",
-   "blocks": 0,
-   "tenderish": 0,
-   "sample": [],
-   "kept_err": "no readable text on the page – it may load its list with JavaScript"
-  },
-  "browser": {
-   "status": 200,
-   "sec": 1.4,
-   "bytes": 553,
-   "final": "https://www.dcc.go.tz/tenders",
-   "blocks": 0,
-   "tenderish": 0,
-   "sample": [],
-   "kept_err": "no readable text on the page – it may load its list with JavaScript"
-  }
- },
- {
-  "name": "Arusha CC",
-  "url": "https://www.arushacc.go.tz/tenders",
-  "bot": {
-   "status": 200,
-   "sec": 1.6,
-   "bytes": 553,
-   "final": "https://www.arushacc.go.tz/tenders",
-   "blocks": 0,
-   "tenderish": 0,
-   "sample": [],
-   "kept_err": "no readable text on the page – it may load its list with JavaScript"
-  },
-  "browser": {
-   "status": 200,
-   "sec": 1.3,
-   "bytes": 553,
-   "final": "https://www.arushacc.go.tz/tenders",
-   "blocks": 0,
-   "tenderish": 0,
-   "sample": [],
-   "kept_err": "no readable text on the page – it may load its list with JavaScript"
-  }
- },
- {
-  "name": "Mwanza CC",
-  "url": "https://www.mwanzacc.go.tz/tenders",
-  "bot": {
-   "status": 200,
-   "sec": 1.5,
-   "bytes": 553,
-   "final": "https://www.mwanzacc.go.tz/tenders",
-   "blocks": 0,
-   "tenderish": 0,
-   "sample": [],
-   "kept_err": "no readable text on the page – it may load its list with JavaScript"
-  },
-  "browser": {
-   "status": 200,
-   "sec": 1.1,
-   "bytes": 553,
-   "final": "https://www.mwanzacc.go.tz/tenders",
-   "blocks": 0,
-   "tenderish": 0,
-   "sample": [],
-   "kept_err": "no readable text on the page – it may load its list with JavaScript"
-  }
- },
- {
-  "name": "TANAPA",
-  "url": "https://www.tanzaniaparks.go.tz/tenders",
-  "bot": {
-   "error": "HTTP Error 404: Not Found"
-  },
-  "browser": {
-   "error": "HTTP Error 404: Not Found"
-  }
- },
- {
-  "name": "TFS",
-  "url": "https://www.tfs.go.tz/tenders",
-  "bot": {
-   "error": "HTTP Error 404: Not Found"
-  },
-  "browser": {
-   "error": "HTTP Error 404: Not Found"
-  }
- },
- {
-  "name": "UDSM",
-  "url": "https://www.udsm.ac.tz/tenders",
-  "bot": {
-   "error": "HTTP Error 404: Not Found"
-  },
-  "browser": {
-   "error": "HTTP Error 404: Not Found"
-  }
- },
- {
-  "name": "NeST published works",
-  "url": "https://nest.go.tz/tenders/published-tenders?category=W",
-  "bot": {
-   "status": 200,
-   "sec": 2.4,
-   "bytes": 74592,
-   "final": "https://nest.go.tz/tenders/published-tenders?category=W",
-   "blocks": 0,
-   "tenderish": 0,
-   "sample": [],
-   "kept_err": "no readable text on the page – it may load its list with JavaScript"
-  },
-  "browser": {
-   "status": 200,
-   "sec": 2.1,
-   "bytes": 74592,
-   "final": "https://nest.go.tz/tenders/published-tenders?category=W",
-   "blocks": 0,
-   "tenderish": 0,
-   "sample": [],
-   "kept_err": "no readable text on the page – it may load its list with JavaScript"
-  }
- },
- {
-  "name": "US Embassy TZ",
-  "url": "https://tz.usembassy.gov/embassy/dar-es-salaam/contracting-opportunities/",
-  "bot": {
-   "error": "HTTP Error 403: Forbidden"
-  },
-  "browser": {
-   "error": "HTTP Error 404: Not Found"
   }
  }
 ]
