@@ -1,22 +1,22 @@
 {
-"generated": "2026-10-01T14:38:15+03:00",
+"generated": "2026-10-01T14:53:19+03:00",
 "scanner": {
-"last_scan": "2026-10-01T14:37:00+03:00",
-"summary": "NeST: 40 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 207 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; RUWASA current tenders: FAILED (could not reach www.ruwasa.go.tz (Remote end closed connection without response)); Bank of Tanzania tenders: 0 notices read; TEI",
+"last_scan": "2026-10-01T14:53:00+03:00",
+"summary": "NeST: 40 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 207 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read → 2 new, 0 deadline change(s)",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-10-01 14:37",
+"last_ok": "2026-10-01 14:53",
 "error": ""
 },
 {
 "name": "World Bank (Tanzania, civil works)",
-"last_ok": "2026-10-01 14:21",
+"last_ok": "2026-10-01 14:53",
 "error": ""
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-10-01 14:37",
+"last_ok": "2026-10-01 14:53",
 "error": ""
 },
 {
@@ -26,7 +26,7 @@
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-10-01 14:37",
+"last_ok": "2026-10-01 14:53",
 "error": ""
 },
 {
@@ -40,11 +40,6 @@
 "error": ""
 },
 {
-"name": "RUWASA current tenders",
-"last_ok": "2026-10-01 12:16",
-"error": "2026-10-01 14:37 could not reach www.ruwasa.go.tz (Remote end closed connection without response)"
-},
-{
 "name": "Bank of Tanzania tenders",
 "last_ok": "2026-10-01 14:37",
 "error": ""
@@ -55,13 +50,13 @@
 "error": ""
 },
 {
-"name": "AfDB procurement notices – Tanzania",
-"last_ok": "2026-09-26 10:01",
-"error": "2026-10-01 14:37 could not reach www.afdb.org (HTTP Error 403: Forbidden)"
+"name": "TanzaniaTenders.com (newspapers, portals, private)",
+"last_ok": "2026-10-01 14:53",
+"error": ""
 }
 ]
 },
-"workbook_rows": 55,
+"workbook_rows": 57,
 "tenders": [
 {
 "id": "7205-2026-2027-W-09",
@@ -1932,6 +1927,72 @@
 "next": "Read the notice and decide with the QS Director whether to pursue",
 "found_by": "Auto-scan",
 "source_id": "2ecad80f-1cb6-40a7-8d62-4ada928b9c16",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TZT:150193893",
+"title": "Usambazaji Na Ufungaji Wa Milango Ya Mbao Katika Ujenzi Wa Ofisi Za Tarafa Zoisa, Makang'wa, Kibakwe, Mundemu, Pahi Na Goima",
+"deadline": "2026-10-08T10:00:00+03:00",
+"body": {
+"no": "(not shown)",
+"date_found": "2026-10-01T00:00:00+03:00",
+"source": "press",
+"url": "https://www.tanzaniatenders.com/tender/usambazaji-na-ufungaji-wa-milango-ya-mbao-katika-ujenzi-wa-ofisi-za-tarafa-zoisa-makang-wa-kibakwe-8f3c6e5.php",
+"client": "See advert",
+"client_type": "government",
+"title": "Usambazaji Na Ufungaji Wa Milango Ya Mbao Katika Ujenzi Wa Ofisi Za Tarafa Zoisa, Makang'wa, Kibakwe, Mundemu, Pahi Na Goima",
+"scope": "From press notice (1 lot) – read the tender document",
+"location": "Not stated – read the notice",
+"category": "building",
+"crb": "See tender document",
+"funding": "unknown",
+"site_visit": "See tender document",
+"clar": "See tender document",
+"deadline": "2026-10-08T10:00:00+03:00",
+"bid_security": "See tender document",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"notice": "TanzaniaTenders.com (newspapers / portals / private)",
+"screen": "Check",
+"reason": "Auto (TanzaniaTenders.com): Site not stated in the listing – read the notice · deadline read from the web page – confirm",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "TZT:150193893",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TZT:150157346",
+"title": "Tza23002-10012 - Construction Materials for Kidyama Water Supply Scheme",
+"deadline": "2026-10-16T10:00:00+03:00",
+"body": {
+"no": "(not shown)",
+"date_found": "2026-10-01T00:00:00+03:00",
+"source": "press",
+"url": "https://www.tanzaniatenders.com/tender/tza23002-10012-construction-materials-kidyama-water-supply-scheme-8f33822.php",
+"client": "See advert",
+"client_type": "government",
+"title": "Tza23002-10012 - Construction Materials for Kidyama Water Supply Scheme",
+"scope": "From press notice (1 lot) – read the tender document",
+"location": "Not stated – read the notice",
+"category": "civil",
+"crb": "See tender document",
+"funding": "unknown",
+"site_visit": "See tender document",
+"clar": "See tender document",
+"deadline": "2026-10-16T10:00:00+03:00",
+"bid_security": "See tender document",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"notice": "TanzaniaTenders.com (newspapers / portals / private)",
+"screen": "Check",
+"reason": "Auto (TanzaniaTenders.com): Civil works – confirm site, CRB class and margin · deadline read from the web page – confirm",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "TZT:150157346",
 "synced_by": "NEXUS auto-sync"
 }
 }
