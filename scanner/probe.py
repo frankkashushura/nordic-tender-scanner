@@ -19,6 +19,9 @@ for c in C:
         try:
             st, html, sec, final = fetch(url, ua)
             p = ts.Blocks(); p.feed(html)
+            if label == 'browser':
+                d = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data', 'probe_html'); os.makedirs(d, exist_ok=True)
+                open(os.path.join(d, re.sub(r'[^a-z0-9]+', '_', c['name'].lower()) + '.html'), 'w', encoding='utf-8').write(html)
             tw = [b[1] for b in p.blocks if ts.has_any(b[1].lower(), cfg["keywords"]["tender_words"]) or ts.TENDER_NO.search(b[1])]
             line[label] = {"status": st, "sec": sec, "bytes": len(html), "final": final, "blocks": len(p.blocks), "tenderish": len(tw), "sample": [x[:140] for x in sorted(tw, key=len)[:4]]}
             if label == "bot":
