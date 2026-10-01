@@ -1,12 +1,12 @@
 {
-"generated": "2026-10-01T06:25:12+03:00",
+"generated": "2026-10-01T06:43:03+03:00",
 "scanner": {
-"last_scan": "2026-10-01T06:24:00+03:00",
-"summary": "NeST: 40 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 203 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; RUWASA current tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices ",
+"last_scan": "2026-10-01T06:42:00+03:00",
+"summary": "NeST: 40 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 203 notices read → no new tenders",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-10-01 06:24",
+"last_ok": "2026-10-01 06:42",
 "error": ""
 },
 {
@@ -16,7 +16,7 @@
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-10-01 06:24",
+"last_ok": "2026-10-01 06:42",
 "error": ""
 },
 {
@@ -26,7 +26,7 @@
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-10-01 06:24",
+"last_ok": "2026-10-01 06:42",
 "error": ""
 },
 {
