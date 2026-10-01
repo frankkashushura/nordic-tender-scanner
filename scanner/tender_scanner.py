@@ -11,7 +11,8 @@ Sources (switch each on/off and set how often it is checked in scanner_config.js
   worldbank  World Bank procurement notices - Tanzania projects, civil works only
   tanroads   TANROADS website tender list
   ddo        DDO Tenders Portal – newspaper, private-sector, donor and NGO tenders across Tanzania
-  web_pages  any other tender page with a plain list (ZPPDA, TANESCO, TPA, RUWASA, TARURA, BoT, AfDB, CRDB, NMB, ...)
+  tanzaniatenders  TanzaniaTenders.com list (newspaper, portal and private tenders; first pages, newest first)
+  web_pages  any other tender page with a plain list (TPA, TARURA, BoT, TEITI, CRDB, ...)
 
 It only reads public pages - the same information anyone sees without logging in.
 It never logs in, downloads documents or submits anything.
@@ -322,6 +323,55 @@ def src_tanroads(cfg, fx):
 
 DDO_URL = "https://www.ddotenders.co.tz/tender.php?page=home"
 DDO_CARD = re.compile(r'<div class="caard vacancy-list" data-id="(\d+)">(.*?)<hr class="divider"', re.S)
+
+
+TZT_URL = "https://www.tanzaniatenders.com/tenders.php"
+TZT_CARD = re.compile(r'<div class="tender-card">(.*?)(?=<div class="tender-card">|<ul class="pagination"|$)', re.S)
+
+
+def src_tanzaniatenders(cfg, fx):
+    """TanzaniaTenders.com – Tanzanian aggregator of tenders from newspapers, government portals and private
+    buyers. The public list shows title, TZT reference and deadline (10 per page, newest first); the full
+    notice needs a TanzaniaTenders subscription or the original advert. Reads the first few pages."""
+    sc = cfg["sources"].get("tanzaniatenders", {})
+    base, pages = sc.get("url", TZT_URL), max(1, int(sc.get("pages", 5)))
+    out, seen = [], set()
+    for p in range(1, pages + 1):
+        if fx is not None:
+            if p > 1:
+                break
+            page = open(os.path.join(fx, "tanzaniatenders.html"), encoding="utf-8").read()
+        else:
+            page = http(base if p == 1 else f"{base}/{p}", tries=2, timeout=40)
+        cards = TZT_CARD.findall(page)
+        if not cards:
+            if p == 1:
+                raise RuntimeError("TanzaniaTenders page had no tender cards – the page layout may have changed")
+            break
+        for body in cards:
+            h = re.search(r'<a href="([^"]+)"[^>]*>\s*<p class="tender-card-heading">(.*?)</p>', body, re.S)
+            if not h:
+                continue
+            link, title = h.group(1), clean(html.unescape(re.sub(r"<[^>]+>", " ", h.group(2))))
+            ref = re.search(r"TZT Ref No\.:(?:&nbsp;|\s)*([^<]+)", body)
+            ref = clean(html.unescape(ref.group(1))) if ref else ""
+            d = re.search(r"Deadline:(?:&nbsp;|\s)*([^<]+)", body)
+            dl = parse_dt(clean(html.unescape(d.group(1)))) if d else None
+            if dl is not None and dl.hour == 0 and dl.minute == 0:
+                dl = dl.replace(hour=10)                     # closing hour not shown – assume 10:00 and confirm
+            key = "TZT:" + (ref or key_of(title))
+            if not title or key in seen:
+                continue
+            seen.add(key)
+            out.append({
+                "key": key, "source": "press", "source_url": link, "no": "", "client": "See advert",
+                "client_type": None, "title": title[:300], "loc_text": "", "pe_region": "", "pe_district": "",
+                "deadline": dl, "deadline_guess": True, "invited": None,
+                "notice_type": "TanzaniaTenders.com (newspapers / portals / private)", "sub": "", "lots": 1,
+                "login_fields": DOC})
+        if fx is None and p < pages:
+            time.sleep(1)
+    return out
 
 
 def src_ddo(cfg, fx):
@@ -882,6 +932,8 @@ def run(args, cfg):
         jobs.append(("TANROADS website", S["tanroads"], lambda: src_tanroads(cfg, fx)))
     if S.get("ddo", {}).get("enabled"):
         jobs.append(("DDO Tenders (newspapers, private, donors)", S["ddo"], lambda: src_ddo(cfg, fx)))
+    if S.get("tanzaniatenders", {}).get("enabled"):
+        jobs.append(("TanzaniaTenders.com (newspapers, portals, private)", S["tanzaniatenders"], lambda: src_tanzaniatenders(cfg, fx)))
     for i, pg in enumerate(S.get("web_pages", [])):
         if pg.get("enabled", True):
             jobs.append((pg["name"], pg, (lambda pg=pg, i=i: src_webpage(pg, cfg, fx, i))))

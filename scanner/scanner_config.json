@@ -28,26 +28,6 @@
     },
     "web_pages": [
       {
-        "name": "ZPPDA Zanzibar - open tenders",
-        "url": "https://tenders.zppda.go.tz/tenders/category/open-tender",
-        "source": "ZPPDA",
-        "client": "",
-        "region": "Zanzibar",
-        "every_minutes": 60,
-        "enabled": false,
-        "note": "Switched off 26 Sep 2026: the ZPPDA address does not resolve from the office network. Switch on again when the portal is back."
-      },
-      {
-        "name": "ZPPDA Zanzibar - international tenders",
-        "url": "https://tenders.zppda.go.tz/tenders/category/international-tenders",
-        "source": "ZPPDA",
-        "client": "",
-        "region": "Zanzibar",
-        "every_minutes": 60,
-        "enabled": false,
-        "note": "Switched off 26 Sep 2026: the ZPPDA address does not resolve from the office network. Switch on again when the portal is back."
-      },
-      {
         "name": "CRDB Bank tenders",
         "url": "https://crdbbank.co.tz/en/about-us/tender",
         "source": "client site",
@@ -55,27 +35,6 @@
         "client_type": "bank",
         "every_minutes": 60,
         "enabled": true
-      },
-      {
-        "name": "NMB Bank tenders",
-        "url": "https://www.nmbbank.co.tz/tenders",
-        "source": "client site",
-        "client": "NMB Bank PLC",
-        "client_type": "bank",
-        "every_minutes": 60,
-        "enabled": false,
-        "note": "Switched off 26 Sep 2026: NMB's site refuses automatic readers (HTTP 403). DDO Tenders picks up NMB newspaper adverts."
-      },
-      {
-        "name": "TANESCO current tenders",
-        "url": "https://www.tanesco.co.tz/index.php/procurement/current-tenders",
-        "source": "client site",
-        "client": "TANESCO",
-        "client_type": "parastatal",
-        "every_minutes": 60,
-        "enabled": false,
-        "about": "Substations, offices, staff houses, civil works for power projects",
-        "note": "Switched off 26 Sep 2026: the page builds its list with JavaScript, so it cannot be read. TANESCO tenders are also published on NeST, which is scanned."
       },
       {
         "name": "TPA current tenders",
@@ -99,27 +58,6 @@
         "about": "Rural and urban roads, drains, culverts"
       },
       {
-        "name": "RUWASA current tenders",
-        "url": "https://www.ruwasa.go.tz/ruwasa-sm-Current-tender",
-        "source": "client site",
-        "client": "RUWASA",
-        "client_type": "government",
-        "every_minutes": 60,
-        "enabled": true,
-        "about": "Rural water supply schemes, tanks, pipelines"
-      },
-      {
-        "name": "TAA tenders",
-        "url": "https://www.taa.go.tz/tenders",
-        "source": "client site",
-        "client": "Tanzania Airports Authority (TAA)",
-        "client_type": "parastatal",
-        "every_minutes": 60,
-        "enabled": false,
-        "about": "Airport buildings, runways, aprons",
-        "note": "Switched off 26 Sep 2026: page not found (404). Replace the url when TAA publishes a tenders page."
-      },
-      {
         "name": "Bank of Tanzania tenders",
         "url": "https://www.bot.go.tz/CallsforTender",
         "source": "client site",
@@ -137,29 +75,21 @@
         "client_type": "government",
         "every_minutes": 60,
         "enabled": true
-      },
-      {
-        "name": "AfDB procurement notices – Tanzania",
-        "url": "https://www.afdb.org/en/documents/category/specific-procurement-notices",
-        "source": "donor",
-        "client": "",
-        "client_type": "donor",
-        "must_contain": [
-          "tanzania",
-          "zanzibar"
-        ],
-        "every_minutes": 60,
-        "enabled": true,
-        "about": "African Development Bank specific procurement notices; only notices naming Tanzania or Zanzibar are kept",
-        "every_item_is_a_tender": true
       }
     ],
-    "_web_pages_help": "To watch another Tanzanian tender page, copy one block, change name, url and client. The page must show its list without logging in. must_contain (optional) keeps only notices containing one of those words, e.g. [\"tanzania\"] on an international page. A page that keeps FAILING in last_scan.txt can be switched off with enabled: false.",
+    "_web_pages_help": "To watch another Tanzanian tender page, copy one block, change name, url and client. The page must show its list without logging in. must_contain (optional) keeps only notices containing one of those words, e.g. [\"tanzania\"] on an international page. A page that keeps FAILING in last_scan.txt can be switched off with enabled: false. Removed 1 Oct 2026 because they could not be read from GitHub's computers: ZPPDA (address does not exist), NMB and AfDB (refuse automatic readers, 403), TANESCO (JavaScript list, bad certificate), TAA (page removed, 404), RUWASA (closes the connection to foreign servers). Their tenders still reach NEXUS through NeST, DDO Tenders and TanzaniaTenders.com.",
     "ddo": {
       "enabled": true,
       "every_minutes": 15,
       "url": "https://www.ddotenders.co.tz/tender.php?page=home",
       "about": "DDO Tenders Portal – newspaper, private-sector, donor, NGO and embassy tenders across Tanzania (public list shows title, company, closing date and place)"
+    },
+    "tanzaniatenders": {
+      "enabled": true,
+      "every_minutes": 30,
+      "url": "https://www.tanzaniatenders.com/tenders.php",
+      "pages": 5,
+      "about": "TanzaniaTenders.com – newspaper, government-portal and private tenders across Tanzania (public list shows title, TZT reference and deadline; 10 per page, the first 5 pages are read)"
     }
   },
   "min_days_left_to_record": 2,
