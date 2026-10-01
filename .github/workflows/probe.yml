@@ -22,6 +22,6 @@ jobs:
         run: |
           git config user.name "nexus-scanner"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/source_probe.json
+          git add data/source_probe.json data/probe_html
           git commit -q -m "Source probe $(TZ=Africa/Dar_es_Salaam date '+%Y-%m-%d %H:%M') EAT" || exit 0
           git push || (git pull --rebase -q && git push)
