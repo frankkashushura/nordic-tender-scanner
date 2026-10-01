@@ -560,9 +560,25 @@ def locate(text_l, pe_region, pe_district, cfg):
     return (f"{reg} (from client's office – confirm site)" if reg else "Not stated – read the notice"), ("far" if reg else "unknown")
 
 
+SUPPLY_RE = re.compile(r"\b(supply of|supply and|supply,|supply &|supplies of|usambazaji|ugavi|ununuzi wa|purchase of|procurement of (?:goods|materials)|construction materials|building materials|delivery of)")
+WORKS_RE = re.compile(r"\b(construction of|ujenzi wa|rehabilitation|renovation|ukarabati|civil works|upgrading|extension of|completion of)")
+
+
+def supply_only(tl):
+    """Supply / goods tenders (supply of, usambazaji, construction materials ...) are not for Nordic –
+    unless the title starts with the works and the supply is only part of them."""
+    ms = SUPPLY_RE.search(tl)
+    if not ms:
+        return False
+    mw = WORKS_RE.search(tl)
+    return not (mw and mw.start() < ms.start())
+
+
 def categorise(tl, cfg):
     k = cfg["keywords"]
     if has_any(tl, k["exclude"]):
+        return None
+    if supply_only(tl):
         return None
     b, c, r, f, m = (has_any(tl, k[x]) for x in ("building", "civil", "renovation", "fitout", "mep"))
     if f:
