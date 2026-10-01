@@ -1,0 +1,26 @@
+Tender Scan – Thursday 01 October 2026, 04:13
+
+Sources checked:
+  NeST: 40 notices read
+  TANROADS website: 6 notices read
+  DDO Tenders (newspapers, private, donors): 203 notices read
+  CRDB Bank tenders: 0 notices read
+  TPA current tenders: 0 notices read
+  TARURA tenders: 0 notices read
+  RUWASA current tenders: 0 notices read
+  Bank of Tanzania tenders: 0 notices read
+  TEITI tenders: 0 notices read
+  AfDB procurement notices – Tanzania: FAILED (could not reach www.afdb.org (HTTP Error 403: Forbidden))  – failing repeatedly, check the source
+
+NEW – PURSUE (0)
+
+NEW – CHECK (3)
+  • closes Wed 07 Oct 14:00  City Council of Dodoma – Construction of house to City Director of The City Couuncil of Dodoma  [Dodoma]  (7205/2026/2027/W/10; Works Subcontracts / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Wed 07 Oct 14:00  Kyela District Council – Construction of New OPD and Emergency Department Building Block at Kyela District Hospital  [Mbeya (from client's office – confirm site)]  (78J5/2026/2027/W/04; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Thu 08 Oct 14:00  TANROADS - Kigoma Regional Office – Construction Box Culvert and Catchwater Drain along Kigoma - Ujiji Paved Trunk Road  [Kigoma]  (TR36/008/2026/2027/W/42; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+
+Screened out (see the 'Screened Out' sheet): 0
+Empty Pipeline rows left: 445
