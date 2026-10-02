@@ -908,3 +908,4 @@ Screened out (see the 'Screened Out' sheet): 0
 Empty Pipeline rows left: 436
 
 2026-10-02 11:52:40  Report saved: /home/runner/work/nordic-tender-scanner/nordic-tender-scanner/scanner/reports/scan_2026-10-02_1152.txt
+2026-10-02 12:06:15  NeST: 43 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read → no new tenders
