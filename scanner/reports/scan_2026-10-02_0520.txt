@@ -1,0 +1,29 @@
+Tender Scan – Friday 02 October 2026, 05:20
+
+Sources checked:
+  NeST: 43 notices read
+  World Bank (Tanzania, civil works): 27 notices read
+  TANROADS website: 6 notices read
+  DDO Tenders (newspapers, private, donors): 207 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+  CRDB Bank tenders: 0 notices read
+  TPA current tenders: 0 notices read
+  TARURA tenders: 0 notices read
+  Bank of Tanzania tenders: 0 notices read
+  TEITI tenders: 0 notices read
+
+NEW – PURSUE (1)
+  • closes Fri 16 Oct 16:00  Bank of Tanzania – Proposed Design and Construction of Staff Residential Houses at Bank of Tanzania Dodoma  [Dodoma]  (TR152/2026/2027/W/09; Design and Build / Tender)
+      https://nest.go.tz/tenders/published-tenders
+
+NEW – CHECK (2)
+  • closes Thu 08 Oct 14:00  Sokoine Regional Referral Hospital (lindi) – Proposed construction of Oxygen Plant Building at Sokoine Regional Referral Hospital - Lindi  [Lindi]  (52/063/2026/2027/W/03; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Thu 08 Oct 14:00  TANROADS - Morogoro Regional Office – Drainage works in improvement along Mahenge -Mwaya- Ilonga in Ulanga District  [Morogoro (from client's office – confirm site)]  (TR36/014/2026/2027/W/51; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+
+DEADLINE CHANGED AT SOURCE
+  • TR33/2026/2027/W/01: was 05 Oct 12:30, now 06 Oct 12:30
+
+Screened out (see the 'Screened Out' sheet): 1
+Empty Pipeline rows left: 440

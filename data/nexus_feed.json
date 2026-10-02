@@ -1,62 +1,62 @@
 {
-"generated": "2026-10-02T05:03:12+03:00",
+"generated": "2026-10-02T05:21:23+03:00",
 "scanner": {
-"last_scan": "2026-10-02T05:03:00+03:00",
-"summary": "NeST: 40 notices read → no new tenders",
+"last_scan": "2026-10-02T05:20:00+03:00",
+"summary": "NeST: 43 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 207 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices re",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-10-02 05:03",
+"last_ok": "2026-10-02 05:20",
 "error": ""
 },
 {
 "name": "World Bank (Tanzania, civil works)",
-"last_ok": "2026-10-02 04:35",
+"last_ok": "2026-10-02 05:20",
 "error": ""
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-10-02 04:50",
+"last_ok": "2026-10-02 05:20",
 "error": ""
 },
 {
 "name": "CRDB Bank tenders",
-"last_ok": "2026-10-02 04:19",
+"last_ok": "2026-10-02 05:20",
 "error": ""
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-10-02 04:50",
+"last_ok": "2026-10-02 05:20",
 "error": ""
 },
 {
 "name": "TPA current tenders",
-"last_ok": "2026-10-02 04:19",
+"last_ok": "2026-10-02 05:20",
 "error": ""
 },
 {
 "name": "TARURA tenders",
-"last_ok": "2026-10-02 04:19",
+"last_ok": "2026-10-02 05:20",
 "error": ""
 },
 {
 "name": "Bank of Tanzania tenders",
-"last_ok": "2026-10-02 04:19",
+"last_ok": "2026-10-02 05:20",
 "error": ""
 },
 {
 "name": "TEITI tenders",
-"last_ok": "2026-10-02 04:19",
+"last_ok": "2026-10-02 05:20",
 "error": ""
 },
 {
 "name": "TanzaniaTenders.com (newspapers, portals, private)",
-"last_ok": "2026-10-02 04:35",
+"last_ok": "2026-10-02 05:20",
 "error": ""
 }
 ]
 },
-"workbook_rows": 57,
+"workbook_rows": 60,
 "tenders": [
 {
 "id": "7205-2026-2027-W-09",
@@ -95,7 +95,7 @@
 {
 "id": "TR33-2026-2027-W-01",
 "title": "Proposed construction of office buildings and structures at Eastern Zonal Office (Morogoro)",
-"deadline": "2026-10-05T12:30:00+03:00",
+"deadline": "2026-10-06T12:30:00+03:00",
 "body": {
 "no": "TR33/2026/2027/W/01",
 "date_found": "2026-09-24T00:00:00+03:00",
@@ -111,7 +111,7 @@
 "funding": "unknown",
 "site_visit": "NeST login needed",
 "clar": "NeST login needed",
-"deadline": "2026-10-05T12:30:00+03:00",
+"deadline": "2026-10-06T12:30:00+03:00",
 "bid_security": "NeST login needed",
 "docs": "N",
 "status": "Watching",
@@ -120,7 +120,7 @@
 "notice": "Small Works",
 "screen": "Pursue",
 "reason": "Building works within reach of Dar; 11 days left",
-"next": "Download document; check CRB class and bid security",
+"next": "Deadline changed at source 02-Oct (was 05-Oct 12:30). Download document; check CRB class and bid security",
 "found_by": "Manual scan",
 "source_id": "8021c469-1ab2-4f17-8090-49aee45b3951",
 "synced_by": "NEXUS auto-sync"
@@ -1993,6 +1993,108 @@
 "next": "Read the notice and decide with the QS Director whether to pursue",
 "found_by": "Auto-scan",
 "source_id": "TZT:150157346",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "52-063-2026-2027-W-03",
+"title": "Proposed construction of Oxygen Plant Building at Sokoine Regional Referral Hospital - Lindi",
+"deadline": "2026-10-08T14:00:00+03:00",
+"body": {
+"no": "52/063/2026/2027/W/03",
+"date_found": "2026-10-02T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "Sokoine Regional Referral Hospital (lindi)",
+"client_type": "government",
+"title": "Proposed construction of Oxygen Plant Building at Sokoine Regional Referral Hospital - Lindi",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Lindi",
+"category": "building",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-10-08T14:00:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-10-01T00:00:00+03:00",
+"notice": "Small Works / Tender",
+"screen": "Check",
+"reason": "Auto (Small Works / Tender): Lindi/Mtwara – Nordic has worked there (Likong'o)",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "1f05d8e5-1e65-4474-b335-be9236a50eca",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TR36-014-2026-2027-W-51",
+"title": "Drainage works in improvement along Mahenge -Mwaya- Ilonga in Ulanga District",
+"deadline": "2026-10-08T14:00:00+03:00",
+"body": {
+"no": "TR36/014/2026/2027/W/51",
+"date_found": "2026-10-02T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "TANROADS - Morogoro Regional Office",
+"client_type": "government",
+"title": "Drainage works in improvement along Mahenge -Mwaya- Ilonga in Ulanga District",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Morogoro (from client's office – confirm site)",
+"category": "civil",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-10-08T14:00:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-10-01T00:00:00+03:00",
+"notice": "Small Works / Tender",
+"screen": "Check",
+"reason": "Auto (Small Works / Tender): Civil works – confirm site, CRB class and margin",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "982a1526-b688-4ad0-8a0e-197a7fd0e7db",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TR152-2026-2027-W-09",
+"title": "Proposed Design and Construction of Staff Residential Houses at Bank of Tanzania Dodoma",
+"deadline": "2026-10-16T16:00:00+03:00",
+"body": {
+"no": "TR152/2026/2027/W/09",
+"date_found": "2026-10-02T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "Bank of Tanzania",
+"client_type": "government",
+"title": "Proposed Design and Construction of Staff Residential Houses at Bank of Tanzania Dodoma",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Dodoma",
+"category": "building",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-10-16T16:00:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-10-01T00:00:00+03:00",
+"notice": "Design and Build / Tender",
+"screen": "Pursue",
+"reason": "Auto (Design and Build / Tender): Building works within reach of Dar",
+"next": "Get the tender document, confirm value, CRB class, site visit and bid security; brief the MD",
+"found_by": "Auto-scan",
+"source_id": "116e9c36-d566-49b7-bb20-6dce4ba4e87c",
 "synced_by": "NEXUS auto-sync"
 }
 }
