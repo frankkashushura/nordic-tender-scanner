@@ -1,8 +1,8 @@
-2026-10-03 02:14  NeST: 43 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 208 notices read → no new tenders
+2026-10-03 02:28  NeST: 43 notices read; World Bank (Tanzania, civil works): 26 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read → no new tenders
 
 Per source:
-  NeST: last OK 2026-10-03 02:14
-  World Bank (Tanzania, civil works): last OK 2026-10-03 01:46
+  NeST: last OK 2026-10-03 02:28
+  World Bank (Tanzania, civil works): last OK 2026-10-03 02:28
   TANROADS website: last OK 2026-10-03 02:14
   CRDB Bank tenders: last OK 2026-10-03 01:46
   DDO Tenders (newspapers, private, donors): last OK 2026-10-03 02:14
@@ -10,4 +10,4 @@ Per source:
   TARURA tenders: last OK 2026-10-03 01:58
   Bank of Tanzania tenders: last OK 2026-10-03 01:58
   TEITI tenders: last OK 2026-10-03 01:58
-  TanzaniaTenders.com (newspapers, portals, private): last OK 2026-10-03 01:46
+  TanzaniaTenders.com (newspapers, portals, private): last OK 2026-10-03 02:28
