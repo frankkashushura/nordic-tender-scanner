@@ -1,62 +1,62 @@
 {
-"generated": "2026-10-02T08:19:33+03:00",
+"generated": "2026-10-02T08:36:02+03:00",
 "scanner": {
-"last_scan": "2026-10-02T08:19:00+03:00",
-"summary": "NeST: 43 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 207 notices read → no new tenders",
+"last_scan": "2026-10-02T08:35:00+03:00",
+"summary": "NeST: 43 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 207 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices re",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-10-02 08:19",
+"last_ok": "2026-10-02 08:35",
 "error": ""
 },
 {
 "name": "World Bank (Tanzania, civil works)",
-"last_ok": "2026-10-02 08:00",
+"last_ok": "2026-10-02 08:35",
 "error": ""
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-10-02 08:19",
+"last_ok": "2026-10-02 08:35",
 "error": ""
 },
 {
 "name": "CRDB Bank tenders",
-"last_ok": "2026-10-02 07:30",
+"last_ok": "2026-10-02 08:35",
 "error": ""
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-10-02 08:19",
+"last_ok": "2026-10-02 08:35",
 "error": ""
 },
 {
 "name": "TPA current tenders",
-"last_ok": "2026-10-02 07:30",
+"last_ok": "2026-10-02 08:35",
 "error": ""
 },
 {
 "name": "TARURA tenders",
-"last_ok": "2026-10-02 07:30",
+"last_ok": "2026-10-02 08:35",
 "error": ""
 },
 {
 "name": "Bank of Tanzania tenders",
-"last_ok": "2026-10-02 07:30",
+"last_ok": "2026-10-02 08:35",
 "error": ""
 },
 {
 "name": "TEITI tenders",
-"last_ok": "2026-10-02 07:30",
+"last_ok": "2026-10-02 08:35",
 "error": ""
 },
 {
 "name": "TanzaniaTenders.com (newspapers, portals, private)",
-"last_ok": "2026-10-02 08:00",
+"last_ok": "2026-10-02 08:35",
 "error": ""
 }
 ]
 },
-"workbook_rows": 60,
+"workbook_rows": 63,
 "tenders": [
 {
 "id": "7205-2026-2027-W-09",
@@ -2095,6 +2095,105 @@
 "next": "Get the tender document, confirm value, CRB class, site visit and bid security; brief the MD",
 "found_by": "Auto-scan",
 "source_id": "116e9c36-d566-49b7-bb20-6dce4ba4e87c",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TZT:150282058",
+"title": "Provision of Decoration Services to Tra Tanga Regional Office and its District",
+"deadline": "2026-10-09T10:00:00+03:00",
+"body": {
+"no": "(not shown)",
+"date_found": "2026-10-02T00:00:00+03:00",
+"source": "press",
+"url": "https://www.tanzaniatenders.com/tender/provision-decoration-services-tra-tanga-regional-office-and-its-district-8f51f4a.php",
+"client": "See advert",
+"client_type": "government",
+"title": "Provision of Decoration Services to Tra Tanga Regional Office and its District",
+"scope": "From press notice (1 lot) – read the tender document",
+"location": "Tanga",
+"category": "building",
+"crb": "See tender document",
+"funding": "unknown",
+"site_visit": "See tender document",
+"clar": "See tender document",
+"deadline": "2026-10-09T10:00:00+03:00",
+"bid_security": "See tender document",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"notice": "TanzaniaTenders.com (newspapers / portals / private)",
+"screen": "Pursue",
+"reason": "Auto (TanzaniaTenders.com): Building works within reach of Dar · deadline read from the web page – confirm",
+"next": "Get the tender document, confirm value, CRB class, site visit and bid security; brief the MD",
+"found_by": "Auto-scan",
+"source_id": "TZT:150282058",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TZT:150282049",
+"title": "Ujenzi Katika Ujenzi Wa Ofisi Za Tarafa Pahi, Mundemu, Zoisa, Makang'wa, Kibakwe Na Goima",
+"deadline": "2026-10-09T10:00:00+03:00",
+"body": {
+"no": "(not shown)",
+"date_found": "2026-10-02T00:00:00+03:00",
+"source": "press",
+"url": "https://www.tanzaniatenders.com/tender/ujenzi-katika-ujenzi-wa-ofisi-za-tarafa-pahi-mundemu-zoisa-makang-wa-kibakwe-na-goima-8f51f41.php",
+"client": "See advert",
+"client_type": "government",
+"title": "Ujenzi Katika Ujenzi Wa Ofisi Za Tarafa Pahi, Mundemu, Zoisa, Makang'wa, Kibakwe Na Goima",
+"scope": "From press notice (1 lot) – read the tender document",
+"location": "Not stated – read the notice",
+"category": "building",
+"crb": "See tender document",
+"funding": "unknown",
+"site_visit": "See tender document",
+"clar": "See tender document",
+"deadline": "2026-10-09T10:00:00+03:00",
+"bid_security": "See tender document",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"notice": "TanzaniaTenders.com (newspapers / portals / private)",
+"screen": "Check",
+"reason": "Auto (TanzaniaTenders.com): Site not stated in the listing – read the notice · deadline read from the web page – confirm",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "TZT:150282049",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TZT:150282086",
+"title": "Procurement of Laboratory Equipments for Tari Ilonga under Afdp Project",
+"deadline": "2026-10-15T10:00:00+03:00",
+"body": {
+"no": "(not shown)",
+"date_found": "2026-10-02T00:00:00+03:00",
+"source": "press",
+"url": "https://www.tanzaniatenders.com/tender/procurement-laboratory-equipments-tari-ilonga-under-afdp-project-8f51f66.php",
+"client": "See advert",
+"client_type": "government",
+"title": "Procurement of Laboratory Equipments for Tari Ilonga under Afdp Project",
+"scope": "From press notice (1 lot) – read the tender document",
+"location": "Not stated – read the notice",
+"category": "building",
+"crb": "See tender document",
+"funding": "unknown",
+"site_visit": "See tender document",
+"clar": "See tender document",
+"deadline": "2026-10-15T10:00:00+03:00",
+"bid_security": "See tender document",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"notice": "TanzaniaTenders.com (newspapers / portals / private)",
+"screen": "Check",
+"reason": "Auto (TanzaniaTenders.com): Site not stated in the listing – read the notice · deadline read from the web page – confirm",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "TZT:150282086",
 "synced_by": "NEXUS auto-sync"
 }
 }

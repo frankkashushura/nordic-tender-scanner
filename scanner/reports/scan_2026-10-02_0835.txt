@@ -1,0 +1,26 @@
+Tender Scan – Friday 02 October 2026, 08:35
+
+Sources checked:
+  NeST: 43 notices read
+  World Bank (Tanzania, civil works): 27 notices read
+  TANROADS website: 6 notices read
+  DDO Tenders (newspapers, private, donors): 207 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+  CRDB Bank tenders: 0 notices read
+  TPA current tenders: 0 notices read
+  TARURA tenders: 0 notices read
+  Bank of Tanzania tenders: 0 notices read
+  TEITI tenders: 0 notices read
+
+NEW – PURSUE (1)
+  • closes Fri 09 Oct 10:00  See advert – Provision of Decoration Services to Tra Tanga Regional Office and its District  [Tanga]  (no number; TanzaniaTenders.com (newspapers / portals / private))
+      https://www.tanzaniatenders.com/tender/provision-decoration-services-tra-tanga-regional-office-and-its-district-8f51f4a.php
+
+NEW – CHECK (2)
+  • closes Fri 09 Oct 10:00  See advert – Ujenzi Katika Ujenzi Wa Ofisi Za Tarafa Pahi, Mundemu, Zoisa, Makang'wa, Kibakwe Na Goima  [Not stated – read the notice]  (no number; TanzaniaTenders.com (newspapers / portals / private))
+      https://www.tanzaniatenders.com/tender/ujenzi-katika-ujenzi-wa-ofisi-za-tarafa-pahi-mundemu-zoisa-makang-wa-kibakwe-na-goima-8f51f41.php
+  • closes Thu 15 Oct 10:00  See advert – Procurement of Laboratory Equipments for Tari Ilonga under Afdp Project  [Not stated – read the notice]  (no number; TanzaniaTenders.com (newspapers / portals / private))
+      https://www.tanzaniatenders.com/tender/procurement-laboratory-equipments-tari-ilonga-under-afdp-project-8f51f66.php
+
+Screened out (see the 'Screened Out' sheet): 0
+Empty Pipeline rows left: 437
