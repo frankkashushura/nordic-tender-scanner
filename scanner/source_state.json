@@ -1,7 +1,7 @@
 {
 "NeST": {
-"last_try": 1790981190.5715606,
-"last_ok": "2026-10-03 01:46",
+"last_try": 1790981911.6653552,
+"last_ok": "2026-10-03 01:58",
 "fails": 0,
 "last_count": 43,
 "baseline_done": true,
@@ -65,10 +65,10 @@
 "last_error": "2026-10-03 00:45 could not reach www.ports.go.tz (<urlopen error timed out>)"
 },
 "TARURA tenders": {
-"last_try": 1790977710.0696514,
+"last_try": 1790981913.1924725,
 "fails": 0,
 "last_error": "2026-09-30 13:23 could not reach tarura.go.tz:6032 (<urlopen error timed out>)",
-"last_ok": "2026-10-03 00:45",
+"last_ok": "2026-10-03 01:58",
 "last_count": 0,
 "baseline_done": true
 },
@@ -86,16 +86,16 @@
 "last_error": "2026-09-26 01:13 could not reach www.taa.go.tz (HTTP Error 404: Not Found)"
 },
 "Bank of Tanzania tenders": {
-"last_try": 1790977711.8078203,
-"last_ok": "2026-10-03 00:45",
+"last_try": 1790981914.7540967,
+"last_ok": "2026-10-03 01:58",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true,
 "last_error": "2026-09-29 15:52 could not reach www.bot.go.tz (Remote end closed connection without response)"
 },
 "TEITI tenders": {
-"last_try": 1790977714.2495363,
-"last_ok": "2026-10-03 00:45",
+"last_try": 1790981916.7402596,
+"last_ok": "2026-10-03 01:58",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true,
