@@ -564,14 +564,23 @@ SUPPLY_RE = re.compile(r"\b(supply of|supply and|supply,|supply &|supplies of|us
 WORKS_RE = re.compile(r"\b(construction of|ujenzi wa|rehabilitation|renovation|ukarabati|civil works|upgrading|extension of|completion of)")
 
 
+# goods / services tenders (equipment, furniture, vehicles, decoration, cleaning, security services ...) – dropped
+# unless the title also has building/civil works words (construction, rehabilitation, maintenance of buildings, works ...)
+GOODS_RE = re.compile(r"\b(procurement of (?!(?:a |the )?(?:works?|contractors?|civil|construction)\b)|provision of|hire of|hiring of|acquisition of|equipments?\b|furniture|vehicles?\b|motor ?cycles?|uniforms?\b|stationer|printing|decorations?\b|fumigation|catering|cleaning|security guard|services\b|huduma ya|vifaa)")
+WORKS_ANY_RE = re.compile(r"\b(construct|ujenzi|kujenga|rehabilitat|renovat|ukarabati|refurbish|remodel|fit-?out|upgrading|extension of|completion of|repairs? of|maintenance of (?:the |office |staff )?buildings?|building maintenance|maintenance of (?:office|offices|houses?|premises|staff houses|quarters)|works?\b)")
+
+
 def supply_only(tl):
-    """Supply / goods tenders (supply of, usambazaji, construction materials ...) are not for Nordic –
-    unless the title starts with the works and the supply is only part of them."""
+    """Supply / goods / services tenders are not for Nordic.
+    1) supply of, usambazaji, construction materials ... – unless the title starts with the works and the supply is only part of them;
+    2) goods & services (equipment, decoration, cleaning, hire of vehicles ...) – unless the title also has works words
+       (e.g. 'Maintenance of building and equipments' is kept)."""
     ms = SUPPLY_RE.search(tl)
-    if not ms:
-        return False
-    mw = WORKS_RE.search(tl)
-    return not (mw and mw.start() < ms.start())
+    if ms:
+        mw = WORKS_RE.search(tl)
+        if not (mw and mw.start() < ms.start()):
+            return True
+    return bool(GOODS_RE.search(tl)) and not WORKS_ANY_RE.search(tl)
 
 
 def categorise(tl, cfg):
