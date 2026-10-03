@@ -1,22 +1,22 @@
 {
-"generated": "2026-10-03T04:57:58+03:00",
+"generated": "2026-10-03T05:10:45+03:00",
 "scanner": {
-"last_scan": "2026-10-03T04:55:00+03:00",
-"summary": "NeST: 43 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read → no new tenders",
+"last_scan": "2026-10-03T05:10:00+03:00",
+"summary": "NeST: 33 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 208 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read → 0 new, 1 deadline change(s)",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-10-03 04:55",
+"last_ok": "2026-10-03 05:10",
 "error": ""
 },
 {
 "name": "World Bank (Tanzania, civil works)",
-"last_ok": "2026-10-03 04:26",
+"last_ok": "2026-10-03 05:10",
 "error": ""
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-10-03 04:43",
+"last_ok": "2026-10-03 05:10",
 "error": ""
 },
 {
@@ -26,7 +26,7 @@
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-10-03 04:43",
+"last_ok": "2026-10-03 05:10",
 "error": ""
 },
 {
@@ -51,7 +51,7 @@
 },
 {
 "name": "TanzaniaTenders.com (newspapers, portals, private)",
-"last_ok": "2026-10-03 04:26",
+"last_ok": "2026-10-03 05:10",
 "error": ""
 }
 ]
@@ -129,7 +129,7 @@
 {
 "id": "TR126-2026-2027-W-10",
 "title": "Construction of running rooms and houses for TRC staff",
-"deadline": "2026-10-02T14:00:00+03:00",
+"deadline": "2026-10-06T14:00:00+03:00",
 "body": {
 "no": "TR126/2026/2027/W/10",
 "date_found": "2026-09-24T00:00:00+03:00",
@@ -145,7 +145,7 @@
 "funding": "unknown",
 "site_visit": "NeST login needed",
 "clar": "NeST login needed",
-"deadline": "2026-10-02T14:00:00+03:00",
+"deadline": "2026-10-06T14:00:00+03:00",
 "bid_security": "NeST login needed",
 "docs": "N",
 "status": "Watching",
@@ -154,7 +154,7 @@
 "notice": "Small Works",
 "screen": "Pursue",
 "reason": "Repeat-able parastatal housing client; confirm site locations",
-"next": "Download document; confirm sites and number of lots",
+"next": "Deadline changed at source 03-Oct (was 02-Oct 14:00). Download document; confirm sites and number of lots",
 "found_by": "Manual scan",
 "source_id": "e617135e-e227-4d65-9771-bd3210e77e15",
 "synced_by": "NEXUS auto-sync"
