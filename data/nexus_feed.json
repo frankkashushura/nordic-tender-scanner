@@ -1,37 +1,37 @@
 {
-"generated": "2026-10-03T05:34:34+03:00",
+"generated": "2026-10-03T05:59:38+03:00",
 "scanner": {
-"last_scan": "2026-10-03T05:34:00+03:00",
-"summary": "NeST: 33 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 208 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read → no new tenders",
+"last_scan": "2026-10-03T05:59:00+03:00",
+"summary": "NeST: 33 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 208 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read → 1 new, 0 deadline change(s)",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-10-03 05:34",
+"last_ok": "2026-10-03 05:59",
 "error": ""
 },
 {
 "name": "World Bank (Tanzania, civil works)",
-"last_ok": "2026-10-03 05:10",
+"last_ok": "2026-10-03 05:59",
 "error": ""
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-10-03 05:34",
+"last_ok": "2026-10-03 05:59",
 "error": ""
 },
 {
 "name": "CRDB Bank tenders",
-"last_ok": "2026-10-03 04:55",
+"last_ok": "2026-10-03 05:59",
 "error": ""
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-10-03 05:34",
+"last_ok": "2026-10-03 05:59",
 "error": ""
 },
 {
 "name": "TPA current tenders",
-"last_ok": "2026-10-03 04:55",
+"last_ok": "2026-10-03 05:59",
 "error": ""
 },
 {
@@ -51,12 +51,12 @@
 },
 {
 "name": "TanzaniaTenders.com (newspapers, portals, private)",
-"last_ok": "2026-10-03 05:10",
+"last_ok": "2026-10-03 05:59",
 "error": ""
 }
 ]
 },
-"workbook_rows": 64,
+"workbook_rows": 65,
 "tenders": [
 {
 "id": "7205-2026-2027-W-09",
@@ -2227,6 +2227,39 @@
 "next": "Get the tender document, confirm value, CRB class, site visit and bid security; brief the MD",
 "found_by": "Auto-scan",
 "source_id": "TZT:150306243",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TZT:150356302",
+"title": "Bdi25003-10004 - Public Work Contract for “Construction of Perimeter Fence and Site Development Works at Nsumbu Environmental and Climatic Monitoring Center and at the Lake Tanganyika Research Unit”",
+"deadline": "2026-10-23T10:00:00+03:00",
+"body": {
+"no": "(not shown)",
+"date_found": "2026-10-03T00:00:00+03:00",
+"source": "press",
+"url": "https://www.tanzaniatenders.com/tender/bdi25003-10004-public-work-contract-construction-perimeter-fence-and-site-development-works-nsu-8f6414e.php",
+"client": "See advert",
+"client_type": "government",
+"title": "Bdi25003-10004 - Public Work Contract for “Construction of Perimeter Fence and Site Development Works at Nsumbu Environmental and Climatic Monitoring Center and at the Lake Tanganyika Research Unit”",
+"scope": "From press notice (1 lot) – read the tender document",
+"location": "Not stated – read the notice",
+"category": "building",
+"crb": "See tender document",
+"funding": "unknown",
+"site_visit": "See tender document",
+"clar": "See tender document",
+"deadline": "2026-10-23T10:00:00+03:00",
+"bid_security": "See tender document",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"notice": "TanzaniaTenders.com (newspapers / portals / private)",
+"screen": "Check",
+"reason": "Auto (TanzaniaTenders.com): Site not stated in the listing – read the notice · deadline read from the web page – confirm",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "TZT:150356302",
 "synced_by": "NEXUS auto-sync"
 }
 }
