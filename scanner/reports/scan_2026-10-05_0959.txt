@@ -1,0 +1,17 @@
+Tender Scan – Monday 05 October 2026, 09:59
+
+Sources checked:
+  NeST: 37 notices read
+  TANROADS website: 6 notices read
+  DDO Tenders (newspapers, private, donors): 214 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (2)
+  • closes Thu 08 Oct 10:00  Geita Greenfields Mineral Exploration Limited – Renovation for offices  [Dodoma]  (no number; DDO Tenders (newspaper / private / donor))
+      https://www.ddotenders.co.tz/tender.php?page=home
+  • closes Fri 16 Oct 10:00  DIRECT AID SOCIETY – Maintenance Works at School  [Kilimanjaro (Moshi)]  (2026TZAWAT5023; DDO Tenders (newspaper / private / donor))
+      https://www.ddotenders.co.tz/tender.php?page=home
+
+Screened out (see the 'Screened Out' sheet): 0
+Empty Pipeline rows left: 428

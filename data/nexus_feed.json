@@ -1,12 +1,12 @@
 {
-"generated": "2026-10-05T09:33:29+03:00",
+"generated": "2026-10-05T09:59:41+03:00",
 "scanner": {
-"last_scan": "2026-10-05T09:32:00+03:00",
-"summary": "NeST: 37 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 208 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices re",
+"last_scan": "2026-10-05T09:59:00+03:00",
+"summary": "NeST: 37 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 214 notices read → 2 new, 0 deadline change(s)",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-10-05 09:32",
+"last_ok": "2026-10-05 09:59",
 "error": ""
 },
 {
@@ -16,7 +16,7 @@
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-10-05 09:32",
+"last_ok": "2026-10-05 09:59",
 "error": ""
 },
 {
@@ -26,7 +26,7 @@
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-10-05 09:32",
+"last_ok": "2026-10-05 09:59",
 "error": ""
 },
 {
@@ -56,7 +56,7 @@
 }
 ]
 },
-"workbook_rows": 70,
+"workbook_rows": 72,
 "tenders": [
 {
 "id": "7205-2026-2027-W-09",
@@ -2427,6 +2427,74 @@
 "next": "Read the notice and decide with the QS Director whether to pursue",
 "found_by": "Auto-scan",
 "source_id": "TZT:150425183",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "DDO:3067",
+"title": "Renovation for offices",
+"deadline": "2026-10-08T10:00:00+03:00",
+"body": {
+"no": "(not shown)",
+"date_found": "2026-10-05T00:00:00+03:00",
+"source": "press",
+"url": "https://www.ddotenders.co.tz/tender.php?page=home",
+"client": "Geita Greenfields Mineral Exploration Limited",
+"client_type": "parastatal (verify)",
+"title": "Renovation for offices",
+"scope": "From press notice (1 lot) – read the tender document",
+"location": "Dodoma",
+"category": "renovation",
+"crb": "See tender document",
+"funding": "unknown",
+"site_visit": "See tender document",
+"clar": "See tender document",
+"deadline": "2026-10-08T10:00:00+03:00",
+"bid_security": "See tender document",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-10-05T00:00:00+03:00",
+"notice": "DDO Tenders (newspaper / private / donor)",
+"screen": "Check",
+"reason": "Auto (DDO Tenders): Good fit but little time left · deadline read from the web page – confirm",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "DDO:3067",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "2026TZAWAT5023",
+"title": "Maintenance Works at School",
+"deadline": "2026-10-16T10:00:00+03:00",
+"body": {
+"no": "2026TZAWAT5023",
+"date_found": "2026-10-05T00:00:00+03:00",
+"source": "press",
+"url": "https://www.ddotenders.co.tz/tender.php?page=home",
+"client": "DIRECT AID SOCIETY",
+"client_type": "government",
+"title": "Maintenance Works at School",
+"scope": "From press notice (1 lot) – read the tender document",
+"location": "Kilimanjaro (Moshi)",
+"category": "building",
+"crb": "See tender document",
+"funding": "unknown",
+"site_visit": "See tender document",
+"clar": "See tender document",
+"deadline": "2026-10-16T10:00:00+03:00",
+"bid_security": "See tender document",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-10-05T00:00:00+03:00",
+"notice": "DDO Tenders (newspaper / private / donor)",
+"screen": "Check",
+"reason": "Auto (DDO Tenders): Building works but remote from Dar · deadline read from the web page – confirm",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "DDO:3071",
 "synced_by": "NEXUS auto-sync"
 }
 }
