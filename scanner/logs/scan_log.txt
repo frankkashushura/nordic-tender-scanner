@@ -1085,3 +1085,26 @@ Empty Pipeline rows left: 433
 2026-10-05 02:57:47  NeST: 33 notices read → no new tenders
 2026-10-05 03:24:31  NeST: 33 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 208 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read → no new tenders
 2026-10-05 03:49:54  NeST: 33 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 208 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read → no new tenders
+2026-10-05 04:05:38  NeST: 37 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 208 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read → 2 new, 0 deadline change(s)
+
+Tender Scan – Monday 05 October 2026, 04:05
+
+Sources checked:
+  NeST: 37 notices read
+  World Bank (Tanzania, civil works): 26 notices read
+  TANROADS website: 6 notices read
+  DDO Tenders (newspapers, private, donors): 208 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (2)
+  • closes Mon 12 Oct 14:00  Tarime District Council – MAINTENANCE OF NYANGOTO VILLAGE ROADS, CONSTRUCTION OF COMPOSITE CULVERTS (5NOs) AND 3160m LINED STONE PITCHIN  [Mara (from client's office – confirm site)]  (77H2/2026/2027/W/26; Small Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Mon 12 Oct 14:00  TARURA - Singida Regional Office – UPGRADING OF SOKOINE ROAD 14 TO STONE PAVEMENT SURFACE AND SPOT IMPROVEMENT AND CONSTRUCTION OF CULVERTS ALONG  [Singida]  (S10/023/2026/2027/W/85; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+
+Screened out (see the 'Screened Out' sheet): 1
+Empty Pipeline rows left: 431
+
+2026-10-05 04:05:38  Report saved: /home/runner/work/nordic-tender-scanner/nordic-tender-scanner/scanner/reports/scan_2026-10-05_0405.txt

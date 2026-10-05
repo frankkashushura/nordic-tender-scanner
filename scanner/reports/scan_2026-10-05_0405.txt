@@ -1,0 +1,19 @@
+Tender Scan – Monday 05 October 2026, 04:05
+
+Sources checked:
+  NeST: 37 notices read
+  World Bank (Tanzania, civil works): 26 notices read
+  TANROADS website: 6 notices read
+  DDO Tenders (newspapers, private, donors): 208 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (2)
+  • closes Mon 12 Oct 14:00  Tarime District Council – MAINTENANCE OF NYANGOTO VILLAGE ROADS, CONSTRUCTION OF COMPOSITE CULVERTS (5NOs) AND 3160m LINED STONE PITCHIN  [Mara (from client's office – confirm site)]  (77H2/2026/2027/W/26; Small Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Mon 12 Oct 14:00  TARURA - Singida Regional Office – UPGRADING OF SOKOINE ROAD 14 TO STONE PAVEMENT SURFACE AND SPOT IMPROVEMENT AND CONSTRUCTION OF CULVERTS ALONG  [Singida]  (S10/023/2026/2027/W/85; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+
+Screened out (see the 'Screened Out' sheet): 1
+Empty Pipeline rows left: 431
