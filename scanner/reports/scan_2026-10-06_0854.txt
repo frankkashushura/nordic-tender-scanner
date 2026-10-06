@@ -1,0 +1,15 @@
+Tender Scan – Tuesday 06 October 2026, 08:54
+
+Sources checked:
+  NeST: 35 notices read
+  World Bank (Tanzania, civil works): 26 notices read
+  TANROADS website: 6 notices read
+  DDO Tenders (newspapers, private, donors): 216 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (0)
+
+Screened out (see the 'Screened Out' sheet): 1
+Empty Pipeline rows left: 426
