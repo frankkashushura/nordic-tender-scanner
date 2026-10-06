@@ -1,22 +1,22 @@
 {
-"generated": "2026-10-06T05:07:12+03:00",
+"generated": "2026-10-06T05:25:40+03:00",
 "scanner": {
-"last_scan": "2026-10-06T05:07:00+03:00",
-"summary": "NeST: 37 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 214 notices read → no new tenders",
+"last_scan": "2026-10-06T05:25:00+03:00",
+"summary": "NeST: 35 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 214 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read → 2 new, 0 deadline change(s)",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-10-06 05:07",
+"last_ok": "2026-10-06 05:25",
 "error": ""
 },
 {
 "name": "World Bank (Tanzania, civil works)",
-"last_ok": "2026-10-06 04:39",
+"last_ok": "2026-10-06 05:25",
 "error": ""
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-10-06 05:07",
+"last_ok": "2026-10-06 05:25",
 "error": ""
 },
 {
@@ -26,7 +26,7 @@
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-10-06 05:07",
+"last_ok": "2026-10-06 05:25",
 "error": ""
 },
 {
@@ -51,12 +51,12 @@
 },
 {
 "name": "TanzaniaTenders.com (newspapers, portals, private)",
-"last_ok": "2026-10-06 04:39",
+"last_ok": "2026-10-06 05:25",
 "error": ""
 }
 ]
 },
-"workbook_rows": 72,
+"workbook_rows": 74,
 "tenders": [
 {
 "id": "7205-2026-2027-W-09",
@@ -2495,6 +2495,74 @@
 "next": "Read the notice and decide with the QS Director whether to pursue",
 "found_by": "Auto-scan",
 "source_id": "DDO:3071",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "87V4-2026-2027-W-11",
+"title": "CONSTRUCTION OF THE EXECUTIVE DIRECTOR'S RESIDENTIAL HOUSE AT MULEBA DISTRICT COUNCIL",
+"deadline": "2026-10-12T10:00:00+03:00",
+"body": {
+"no": "87V4/2026/2027/W/11",
+"date_found": "2026-10-06T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "Muleba District Council",
+"client_type": "government",
+"title": "CONSTRUCTION OF THE EXECUTIVE DIRECTOR'S RESIDENTIAL HOUSE AT MULEBA DISTRICT COUNCIL",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Kagera (from client's office – confirm site)",
+"category": "building",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-10-12T10:00:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-10-05T00:00:00+03:00",
+"notice": "Small Works / Tender",
+"screen": "Check",
+"reason": "Auto (Small Works / Tender): Construction tender kept for review (would have been dropped: Remote and closing soon)",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "f07667a1-2f4d-4022-aab2-3012d0645bb0",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "S10-020-2026-2027-W-51",
+"title": "Construction of Three Cell Box Culvert (5.0m x 2.5m) and Single Cell (2.5m x 2.0m) Box Culvert along Ligunga - Kindamba Road",
+"deadline": "2026-10-12T12:00:00+03:00",
+"body": {
+"no": "S10/020/2026/2027/W/51",
+"date_found": "2026-10-06T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "TARURA - Ruvuma Regional Office",
+"client_type": "government",
+"title": "Construction of Three Cell Box Culvert (5.0m x 2.5m) and Single Cell (2.5m x 2.0m) Box Culvert along Ligunga - Kindamba Road",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Ruvuma (Songea) (from client's office – confirm site)",
+"category": "civil",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-10-12T12:00:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-10-05T00:00:00+03:00",
+"notice": "Small Works / Tender",
+"screen": "Check",
+"reason": "Auto (Small Works / Tender): Construction tender kept for review (would have been dropped: Remote civil works)",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "cf3c3d0f-9a71-40a5-b4f2-51e041a3e270",
 "synced_by": "NEXUS auto-sync"
 }
 }

@@ -1,0 +1,19 @@
+Tender Scan – Tuesday 06 October 2026, 05:25
+
+Sources checked:
+  NeST: 35 notices read
+  World Bank (Tanzania, civil works): 26 notices read
+  TANROADS website: 6 notices read
+  DDO Tenders (newspapers, private, donors): 214 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (2)
+  • closes Mon 12 Oct 10:00  Muleba District Council – CONSTRUCTION OF THE EXECUTIVE DIRECTOR'S RESIDENTIAL HOUSE AT MULEBA DISTRICT COUNCIL  [Kagera (from client's office – confirm site)]  (87V4/2026/2027/W/11; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Mon 12 Oct 12:00  TARURA - Ruvuma Regional Office – Construction of Three Cell Box Culvert (5.0m x 2.5m) and Single Cell (2.5m x 2.0m) Box Culvert along Ligunga -  [Ruvuma (Songea) (from client's office – confirm site)]  (S10/020/2026/2027/W/51; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+
+Screened out (see the 'Screened Out' sheet): 1
+Empty Pipeline rows left: 426
