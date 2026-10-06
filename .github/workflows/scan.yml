@@ -48,4 +48,11 @@ jobs:
           git add -A data scanner
           if git diff --cached --quiet; then echo "nothing changed"; exit 0; fi
           git commit -q -m "Scan $(TZ=Africa/Dar_es_Salaam date '+%Y-%m-%d %H:%M') EAT"
-          git push || (git pull --rebase -q && git push)
+          # another commit may have landed meanwhile: retry, keeping this scan's version of the generated files
+          for i in 1 2 3 4 5; do
+            git push -q && exit 0
+            git pull --rebase -X theirs -q || { git rebase --abort 2>/dev/null; git pull --no-rebase -X ours -q --no-edit || true; }
+            sleep $((i * 4))
+          done
+          echo "::warning::Results could not be saved this time - the next scan saves them again."
+          exit 0
