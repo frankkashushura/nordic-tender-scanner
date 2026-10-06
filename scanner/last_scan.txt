@@ -1,13 +1,13 @@
-2026-10-06 22:19  NeST: 35 notices read; TANROADS website: FAILED (could not reach www.tanroads.go.tz (Remote end closed connection without response)); DDO Tenders (newspapers, private, donors): 216 notices read → no new tenders
+2026-10-06 22:36  NeST: 35 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 216 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read → no new tenders
 
 Per source:
-  NeST: last OK 2026-10-06 22:19
-  World Bank (Tanzania, civil works): last OK 2026-10-06 22:00
-  TANROADS website: last OK 2026-10-06 21:46; last error 2026-10-06 22:19 could not reach www.tanroads.go.tz (Remote end closed connection without response)
+  NeST: last OK 2026-10-06 22:36
+  World Bank (Tanzania, civil works): last OK 2026-10-06 22:36
+  TANROADS website: last OK 2026-10-06 22:36
   CRDB Bank tenders: last OK 2026-10-06 21:46
-  DDO Tenders (newspapers, private, donors): last OK 2026-10-06 22:19
+  DDO Tenders (newspapers, private, donors): last OK 2026-10-06 22:36
   TPA current tenders: last OK 2026-10-06 21:46
   TARURA tenders: last OK 2026-10-06 21:46
   Bank of Tanzania tenders: last OK 2026-10-06 21:46
   TEITI tenders: last OK 2026-10-06 21:46
-  TanzaniaTenders.com (newspapers, portals, private): last OK 2026-10-06 22:00
+  TanzaniaTenders.com (newspapers, portals, private): last OK 2026-10-06 22:36
