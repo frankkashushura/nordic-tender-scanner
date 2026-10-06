@@ -1,7 +1,7 @@
 {
 "NeST": {
-"last_try": 1791313249.5988028,
-"last_ok": "2026-10-06 22:00",
+"last_try": 1791314355.3054745,
+"last_ok": "2026-10-06 22:19",
 "fails": 0,
 "last_count": 35,
 "baseline_done": true,
@@ -15,12 +15,12 @@
 "baseline_done": true
 },
 "TANROADS website": {
-"last_try": 1791313251.9432642,
+"last_try": 1791314357.8269446,
 "last_ok": "2026-10-06 21:46",
-"fails": 1,
+"fails": 2,
 "last_count": 7,
 "baseline_done": true,
-"last_error": "2026-10-06 22:00 could not reach www.tanroads.go.tz (Remote end closed connection without response)"
+"last_error": "2026-10-06 22:19 could not reach www.tanroads.go.tz (Remote end closed connection without response)"
 },
 "ZPPDA Zanzibar - open tenders": {
 "last_try": 1790371033.0076451,
@@ -45,8 +45,8 @@
 "last_error": "2026-09-26 00:17 could not reach www.nmbbank.co.tz (HTTP Error 403: Forbidden)"
 },
 "DDO Tenders (newspapers, private, donors)": {
-"last_try": 1791313272.7439623,
-"last_ok": "2026-10-06 22:00",
+"last_try": 1791314378.3741798,
+"last_ok": "2026-10-06 22:19",
 "fails": 0,
 "last_count": 216,
 "baseline_done": true
