@@ -1,0 +1,15 @@
+Tender Scan – Tuesday 06 October 2026, 15:17
+
+Sources checked:
+  NeST: 35 notices read
+  TANROADS website: 7 notices read
+  DDO Tenders (newspapers, private, donors): 216 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (1)
+  • closes Mon 02 Nov 10:00  TANROADS – CONSTRUCTION OF LWANJI I BRIDGE (200M) SPAN ALONG MTOWISA – ILEMBA ROAD SECTION  [Headquarters (from client's office – confirm site)]  (AE/001/2026/27/HQ/W/18 (TZ-TANROADS-564086-CW-RFB); TANROADS website)
+      https://www.tanroads.go.tz/view/200
+
+Screened out (see the 'Screened Out' sheet): 0
+Empty Pipeline rows left: 425

@@ -1296,3 +1296,22 @@ Empty Pipeline rows left: 426
 2026-10-06 14:24:47  NeST: 35 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 216 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read → no new tenders
 2026-10-06 14:41:24  NeST: 35 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 216 notices read → no new tenders
 2026-10-06 14:57:06  NeST: 35 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 6 notices read; DDO Tenders (newspapers, private, donors): 216 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read → no new tenders
+2026-10-06 15:17:11  NeST: 35 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 216 notices read → 1 new, 0 deadline change(s)
+
+Tender Scan – Tuesday 06 October 2026, 15:17
+
+Sources checked:
+  NeST: 35 notices read
+  TANROADS website: 7 notices read
+  DDO Tenders (newspapers, private, donors): 216 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (1)
+  • closes Mon 02 Nov 10:00  TANROADS – CONSTRUCTION OF LWANJI I BRIDGE (200M) SPAN ALONG MTOWISA – ILEMBA ROAD SECTION  [Headquarters (from client's office – confirm site)]  (AE/001/2026/27/HQ/W/18 (TZ-TANROADS-564086-CW-RFB); TANROADS website)
+      https://www.tanroads.go.tz/view/200
+
+Screened out (see the 'Screened Out' sheet): 0
+Empty Pipeline rows left: 425
+
+2026-10-06 15:17:11  Report saved: /home/runner/work/nordic-tender-scanner/nordic-tender-scanner/scanner/reports/scan_2026-10-06_1517.txt
