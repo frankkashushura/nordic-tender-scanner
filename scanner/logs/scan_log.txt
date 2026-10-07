@@ -1360,3 +1360,37 @@ Empty Pipeline rows left: 425
 2026-10-07 02:58:55  NeST: 35 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read → no new tenders
 2026-10-07 03:29:16  NeST: 35 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 216 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read → no new tenders
 2026-10-07 03:55:25  NeST: 35 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 216 notices read → no new tenders
+2026-10-07 04:13:22  NeST: 29 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 216 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read → 5 new, 0 deadline change(s)
+
+Tender Scan – Wednesday 07 October 2026, 04:12
+
+Sources checked:
+  NeST: 29 notices read
+  World Bank (Tanzania, civil works): 26 notices read
+  TANROADS website: 7 notices read
+  DDO Tenders (newspapers, private, donors): 216 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+  CRDB Bank tenders: 0 notices read
+  TPA current tenders: 0 notices read
+  TARURA tenders: 0 notices read
+  Bank of Tanzania tenders: 0 notices read
+  TEITI tenders: 0 notices read
+
+NEW – PURSUE (2)
+  • closes Tue 13 Oct 14:00  National Museum of Tanzania – Construction and installation of tourism facilities (inc. reception point, exhibition gallery, pedestal, walkw  [Dar es Salaam (Ilala) (from client's office – confirm site)]  (TR72/2026/2027/W/06; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Thu 15 Oct 14:00  Tanga City Council – To facilitate completion of dormitory at usagara secondary school  [Tanga (from client's office – confirm site)]  (8626/2026/2027/W/16; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+
+NEW – CHECK (3)
+  • closes Tue 13 Oct 14:00  Forestry and Wood Industries Training Centre (fwitc) – Construction of Dormitory  [Iringa (Mufindi) (from client's office – confirm site)]  (2165A/2026/2027/W/01; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Tue 13 Oct 14:00  Tanzania Investment and Special Economic Zones – Rehabilitation and Construction of fence Wall at TISEZA Office Mabibo  [Dar es Salaam (Ilala) (from client's office – confirm site)]  (44/002/2026/2027/W/17; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Tue 13 Oct 14:00  Ushetu District Council – CONSTRUCTION OF ISANGA SECONDARY SCHOOL, USHETU DC- PRIMARY EDUCATION  [Shinyanga (Kahama) (from client's office – confirm site)]  (83P9/2026/2027/W/03; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+
+Screened out (see the 'Screened Out' sheet): 1
+Empty Pipeline rows left: 420
+
+2026-10-07 04:13:22  Report saved: /home/runner/work/nordic-tender-scanner/nordic-tender-scanner/scanner/reports/scan_2026-10-07_0412.txt
