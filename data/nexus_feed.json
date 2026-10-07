@@ -1,57 +1,57 @@
 {
-"generated": "2026-10-07T15:48:41+03:00",
+"generated": "2026-10-07T16:08:12+03:00",
 "scanner": {
-"last_scan": "2026-10-07T15:48:00+03:00",
-"summary": "NeST: 29 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 217 notices read → no new tenders",
+"last_scan": "2026-10-07T16:07:00+03:00",
+"summary": "NeST: 29 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 217 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices re",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-10-07 15:48",
+"last_ok": "2026-10-07 16:07",
 "error": ""
 },
 {
 "name": "World Bank (Tanzania, civil works)",
-"last_ok": "2026-10-07 15:22",
+"last_ok": "2026-10-07 16:07",
 "error": ""
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-10-07 15:48",
+"last_ok": "2026-10-07 16:07",
 "error": ""
 },
 {
 "name": "CRDB Bank tenders",
-"last_ok": "2026-10-07 14:58",
+"last_ok": "2026-10-07 16:07",
 "error": ""
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-10-07 15:48",
+"last_ok": "2026-10-07 16:07",
 "error": ""
 },
 {
 "name": "TPA current tenders",
-"last_ok": "2026-10-07 14:58",
+"last_ok": "2026-10-07 16:07",
 "error": ""
 },
 {
 "name": "TARURA tenders",
-"last_ok": "2026-10-07 14:58",
+"last_ok": "2026-10-07 16:07",
 "error": ""
 },
 {
 "name": "Bank of Tanzania tenders",
-"last_ok": "2026-10-07 14:58",
+"last_ok": "2026-10-07 16:07",
 "error": ""
 },
 {
 "name": "TEITI tenders",
-"last_ok": "2026-10-07 14:58",
+"last_ok": "2026-10-07 16:07",
 "error": ""
 },
 {
 "name": "TanzaniaTenders.com (newspapers, portals, private)",
-"last_ok": "2026-10-07 15:22",
+"last_ok": "2026-10-07 16:07",
 "error": ""
 }
 ]
