@@ -1,7 +1,7 @@
 {
 "NeST": {
-"last_try": 1791371112.13149,
-"last_ok": "2026-10-07 14:05",
+"last_try": 1791372289.0200634,
+"last_ok": "2026-10-07 14:24",
 "fails": 0,
 "last_count": 29,
 "baseline_done": true,
@@ -15,8 +15,8 @@
 "baseline_done": true
 },
 "TANROADS website": {
-"last_try": 1791370309.7795613,
-"last_ok": "2026-10-07 13:51",
+"last_try": 1791372290.5783296,
+"last_ok": "2026-10-07 14:24",
 "fails": 0,
 "last_count": 7,
 "baseline_done": true,
@@ -45,8 +45,8 @@
 "last_error": "2026-09-26 00:17 could not reach www.nmbbank.co.tz (HTTP Error 403: Forbidden)"
 },
 "DDO Tenders (newspapers, private, donors)": {
-"last_try": 1791370312.7447286,
-"last_ok": "2026-10-07 13:51",
+"last_try": 1791372293.6314363,
+"last_ok": "2026-10-07 14:24",
 "fails": 0,
 "last_count": 217,
 "baseline_done": true
