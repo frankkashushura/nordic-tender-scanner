@@ -1469,3 +1469,40 @@ Empty Pipeline rows left: 420
 2026-10-08 02:58:44  NeST: 29 notices read → no new tenders
 2026-10-08 03:27:59  NeST: 29 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 217 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read → no new tenders
 2026-10-08 03:54:30  NeST: 29 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 217 notices read → no new tenders
+2026-10-08 04:11:51  NeST: 36 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 217 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read → 9 new, 0 deadline change(s)
+
+Tender Scan – Thursday 08 October 2026, 04:11
+
+Sources checked:
+  NeST: 36 notices read
+  World Bank (Tanzania, civil works): 26 notices read
+  TANROADS website: 7 notices read
+  DDO Tenders (newspapers, private, donors): 217 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (9)
+  • closes Thu 15 Oct 10:00  Kakonko District Council – CONSTRUCTION RCH AND WAITING BAY FOR HEALTH,SOCIAL,WALEFARE AND NUTRITION SERVICES DIVISION AT KAKONKO DISTRIC  [Kigoma (from client's office – confirm site)]  (74E7/2026/2027/W/09; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Thu 15 Oct 10:00  Songea Municipal Council – PROPOSED COMPLETION OF RESIDENTIAL HOUSE FOR COUNCIL HEAD OF DEPARTMENTS AT SONGEA MUNICIPAL  [Ruvuma (Songea)]  (8219/2026/2027/W/11; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Thu 15 Oct 14:00  Buchosa District Council – CONSTRUCTION OF A MODERN MARKET TO BE BUILT IN NYEHUNGE TOWN ,BUCHOSA DISTRICT ,MWANZA REGION ,TANZANIA  [Mwanza]  (81M9/2026/2027/W/01; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Thu 15 Oct 14:00  Tanzania Broadcasting Corporation – Procurement for construction of fance walls for TBC transmition sites  [Dar es Salaam (Temeke) (from client's office – confirm site)]  (TR61/2026/2027/W/06; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Thu 15 Oct 14:00  Hai District Council – Construction & Rehabilitation work of Single Box Culvert (1mx1m) Kalali-Kasau Road and Nkwashowa Pedestrian Br  [Kilimanjaro (Hai) (from client's office – confirm site)]  (75F4/2026/2027/W/24; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Thu 15 Oct 14:00  Ushetu District Council – CONSTRUCTION OF KALO SECONDARY SCHOOL USHETU DISTRICT COUNCIL- PRIMARY EDUCATION DIVISION  [Shinyanga (Kahama) (from client's office – confirm site)]  (83P9/2026/2027/W/04; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Thu 15 Oct 14:00  Tanzania National Parks – CONSTRUCTION OF BRIDGES AT VIBOKO VYA NAABI, BANAGI AND WARANGI YA JUU IN SERENGETI NATIONAL PARK  [Arusha (from client's office – confirm site)]  (TR219/2026/2027/W/10; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Thu 15 Oct 14:00  Mbeya Regional Secretariat – PROPOSED CONSTRUCTION OF RAS HOUSE PHASE II  [Mbeya (from client's office – confirm site)]  (78/2026/2027/W/07; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Fri 23 Oct 14:00  Bank of Tanzania - Mwanza Branch – Proposed Construction of a Security Guard Hut, Car Shade, and Waiting Lounge at the Bank of Tanzania Office Pr  [Mwanza]  (TR152/006/2026/2027/W/05; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+
+Screened out (see the 'Screened Out' sheet): 0
+Empty Pipeline rows left: 411
+
+2026-10-08 04:11:51  Report saved: /home/runner/work/nordic-tender-scanner/nordic-tender-scanner/scanner/reports/scan_2026-10-08_0411.txt
