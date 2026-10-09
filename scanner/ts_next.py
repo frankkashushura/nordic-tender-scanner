@@ -31,7 +31,7 @@ try:                      # use the Windows certificate store, so sites with inc
     truststore.inject_into_ssl()
 except Exception:
     pass
-VERSION = "3.1 NORDIC NEXUS (10 Oct 2026) – blocked-site fallbacks, web-search sources"
+VERSION = "3.1 NORDIC NEXUS (10 Oct 2026) – blocked-site fallbacks, web-search and JSON-API sources"
 UA = "Nordic-Tender-Scanner/2.0 (tender monitoring for a Tanzanian contractor)"
 OPEN_STATUSES = ("Watching", "Preparing")
 LOGIN = "NeST login needed"
@@ -154,55 +154,108 @@ def fetch_page(page_cfg, url=None):
     raise RuntimeError(" | ".join(errors)[:300])
 
 
-class _RSS(HTMLParser):
-    """Reads <item><title><link><description><pubDate> from an RSS feed (search results)."""
-    def __init__(self):
-        super().__init__(); self.items, self.cur, self.tag = [], None, None
-    def handle_starttag(self, tag, attrs):
-        if tag == "item":
-            self.cur = {"title": "", "link": "", "description": "", "pubdate": ""}
-        self.tag = tag
-    def handle_endtag(self, tag):
-        if tag == "item" and self.cur is not None:
-            self.items.append(self.cur); self.cur = None
-        self.tag = None
-    def handle_data(self, d):
-        if self.cur is not None and self.tag in self.cur:
-            self.cur[self.tag] += d
+def _ddg(query):
+    """Web search through DuckDuckGo's plain-HTML page: [(title, link, snippet)]."""
+    from urllib.parse import quote_plus, unquote, urlparse, parse_qs
+    raw = http("https://html.duckduckgo.com/html/?kl=wt-wt&q=" + quote_plus(query), tries=2, timeout=45, headers=BROWSER_HEADERS)
+    out = []
+    for m in re.finditer(r'<a[^>]+class="result__a"[^>]+href="([^"]+)"[^>]*>(.*?)</a>(.*?)(?=<a[^>]+class="result__a"|$)', raw, re.S):
+        href, title, rest = m.group(1), m.group(2), m.group(3)
+        q = parse_qs(urlparse(html.unescape(href)).query)
+        link = unquote(q["uddg"][0]) if "uddg" in q else html.unescape(href)
+        sn = re.search(r'class="result__snippet"[^>]*>(.*?)</a>', rest, re.S)
+        strip = lambda x: clean(html.unescape(re.sub(r"<[^>]+>", " ", x or "")))
+        if "duckduckgo.com/y.js" in link:      # adverts
+            continue
+        out.append((strip(title), link, strip(sn.group(1) if sn else "")))
+    if not out and "result__a" not in raw and "No results" not in raw:
+        raise RuntimeError("the search engine did not return a result page")
+    return out
+
+
+def _item(page_cfg, slug, title, link, text, deadline=None, posted=None, no=""):
+    m = TENDER_NO.search(text)
+    no = no or (m.group(0) if m else "")
+    return {"key": f"WEB:{slug}:" + (norm(no) if no else key_of(norm(title)[:140])), "source": page_cfg.get("source", "client site"),
+            "source_url": link or page_cfg.get("url", ""), "no": no,
+            "client": page_cfg.get("client") or "", "client_type": page_cfg.get("client_type"),
+            "title": clean(title)[:300], "loc_text": text[:300], "pe_region": page_cfg.get("region", ""), "pe_district": "",
+            "deadline": deadline, "deadline_guess": False, "invited": posted,
+            "notice_type": f"{page_cfg['name']} (web page)", "sub": "", "lots": 1, "login_fields": DOC, "web": True}
+
+
+def _wanted(page_cfg, cfg, text):
+    tl = text.lower()
+    if not (page_cfg.get("every_item_is_a_tender") or has_any(tl, cfg["keywords"]["tender_words"]) or TENDER_NO.search(text)):
+        return False
+    if page_cfg.get("must_contain") and not any(w.lower() in tl for w in page_cfg["must_contain"]):
+        return False
+    return categorise(tl, cfg) is not None
 
 
 def src_search(page_cfg, cfg, fx, slug):
-    """Sites that cannot be read directly: ask a search engine (Bing news-style RSS) for their recent tender pages."""
-    from urllib.parse import quote_plus
-    raw = open(os.path.join(fx, f"web_{slug}.rss"), encoding="utf-8").read() if fx is not None else \
-        http("https://www.bing.com/search?format=rss&count=50&setlang=en&q=" + quote_plus(page_cfg["search"]),
-             tries=2, timeout=45, headers=BROWSER_HEADERS)
-    p = _RSS(); p.feed(raw.replace("<link/>", "<link></link>"))
-    if not p.items and "<rss" not in raw[:500].lower():
-        raise RuntimeError("the search engine did not return results")
-    kw, out = cfg["keywords"], []
-    for it in p.items:
-        title = clean(html.unescape(it["title"])); desc = clean(html.unescape(it["description"]))
-        text = title + " " + desc; tl = text.lower()
-        if page_cfg.get("url_contains") and page_cfg["url_contains"].lower() not in it["link"].lower():
+    """Sites that refuse to be read directly: find their tender notices through a web search (site: query)."""
+    rows = json.load(open(os.path.join(fx, f"web_{slug}.json"), encoding="utf-8")) if fx is not None else _ddg(page_cfg["search"])
+    out = []
+    for title, link, snip in rows:
+        if page_cfg.get("url_contains") and not any(u in link.lower() for u in page_cfg["url_contains"]):
             continue
-        if not (has_any(tl, kw["tender_words"]) or TENDER_NO.search(text)):
+        text = title + " " + snip
+        if _wanted(page_cfg, cfg, text):
+            it = _item(page_cfg, slug, title, link, text)
+            it["notice_type"] = f"{page_cfg['name']} (web search)"
+            out.append(it)
+    return out
+
+
+def _path(obj, path):
+    """Picks a value from JSON by a dotted path ("item.title", "metadata.title.0")."""
+    for k in path.split("."):
+        if obj is None:
+            return None
+        if isinstance(obj, list):
+            obj = obj[int(k)] if k.isdigit() and int(k) < len(obj) else None
+        else:
+            obj = obj.get(k)
+    return obj
+
+
+def src_api(page_cfg, cfg, fx, slug):
+    """Public JSON search APIs (EU Funding & Tenders, UK Contracts Finder ...): "api": {method, url, body, form, items,
+    title, link, link_template, deadline, posted, text, no}."""
+    a = page_cfg["api"]
+    if fx is not None:
+        j = json.load(open(os.path.join(fx, f"web_{slug}.json"), encoding="utf-8"))
+    else:
+        if a.get("form"):                  # multipart form (EU search API)
+            import uuid
+            bnd = uuid.uuid4().hex
+            body = "".join(f'--{bnd}\r\nContent-Disposition: form-data; name="{k}"; filename="blob"\r\nContent-Type: application/json\r\n\r\n{json.dumps(v)}\r\n'
+                           for k, v in a["form"].items()) + f"--{bnd}--\r\n"
+            req = urllib.request.Request(a["url"], data=body.encode(), method="POST",
+                                         headers={**BROWSER_HEADERS, "Accept": "application/json", "Content-Type": f"multipart/form-data; boundary={bnd}"})
+            with OPENER.open(req, timeout=60) as r:
+                j = json.loads(r.read().decode("utf-8", "replace"))
+        else:
+            data = json.dumps(a["body"]).encode() if a.get("body") is not None else (b"" if a.get("method") == "POST" else None)
+            req = urllib.request.Request(a["url"], data=data, method=a.get("method", "GET"),
+                                         headers={**BROWSER_HEADERS, "Accept": "application/json", "Content-Type": "application/json"})
+            with OPENER.open(req, timeout=60) as r:
+                j = json.loads(r.read().decode("utf-8", "replace"))
+    rows = _path(j, a["items"]) or []
+    out = []
+    for r in rows:
+        val = lambda k: (lambda v: " ".join(map(str, v)) if isinstance(v, list) else (str(v) if v is not None else ""))(_path(r, a[k])) if a.get(k) else ""
+        title = clean(html.unescape(re.sub(r"<[^>]+>", " ", val("title"))))
+        text = clean(title + " " + html.unescape(re.sub(r"<[^>]+>", " ", val("text"))))
+        if not title or not _wanted(page_cfg, cfg, text):
             continue
-        if page_cfg.get("must_contain") and not any(w.lower() in tl for w in page_cfg["must_contain"]):
+        link = val("link") or (a["link_template"].format(**{k: val(k) for k in ("id",) if a.get(k)}) if a.get("link_template") else "")
+        dl = parse_dt(val("deadline")) if a.get("deadline") else None
+        posted = parse_dt(val("posted")) if a.get("posted") else None
+        if posted and (datetime.now() - posted).days > page_cfg.get("max_age_days", 90):
             continue
-        if categorise(tl, cfg) is None:
-            continue
-        posted = parse_dt(it["pubdate"]) if it["pubdate"] else None
-        if posted and (datetime.now() - posted).days > page_cfg.get("max_age_days", 45):
-            continue
-        m = TENDER_NO.search(text)
-        out.append({
-            "key": f"WEB:{slug}:" + (norm(m.group(0)) if m else key_of(norm(title)[:140])), "source": page_cfg.get("source", "client site"),
-            "source_url": it["link"] or page_cfg.get("url", ""), "no": m.group(0) if m else "",
-            "client": page_cfg.get("client") or "", "client_type": page_cfg.get("client_type"),
-            "title": title[:300], "loc_text": desc[:300], "pe_region": page_cfg.get("region", ""), "pe_district": "",
-            "deadline": None, "deadline_guess": False, "invited": posted,
-            "notice_type": f"{page_cfg['name']} (web search)", "sub": "", "lots": 1, "login_fields": DOC, "web": True})
+        out.append(_item(page_cfg, slug, title, link, text, deadline=dl, posted=posted, no=val("no")))
     return out
 
 
@@ -586,6 +639,8 @@ def src_webpage(page_cfg, cfg, fx, idx):
         return src_json_list(page_cfg, cfg, fx, slug)
     if page_cfg.get("search"):
         return src_search(page_cfg, cfg, fx, slug)
+    if page_cfg.get("api"):
+        return src_api(page_cfg, cfg, fx, slug)
     page = open(os.path.join(fx, f"web_{slug}.html"), encoding="utf-8").read() if fx is not None else fetch_page(page_cfg)
     p = Blocks(); p.feed(page)
     if not p.blocks:
