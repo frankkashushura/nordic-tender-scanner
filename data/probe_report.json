@@ -1,372 +1,1977 @@
 {
- "at": "2026-10-09 22:14 UTC",
- "round": 3,
+ "at": "2026-10-09 23:19 UTC",
+ "round": 4,
  "results": [
   {
-   "name": "TRC tenders",
-   "ok": true,
-   "n": 1,
-   "items": [
-    {
-     "title": "INVITATION TO EARLY MARKET ENGAGEMENT (EME) WORKSHOP (PHYSICAL AND VIRTUAL CONSULTATIVE MEETING)",
-     "deadline": "",
-     "no": "",
-     "url": "https://www.trc.co.tz/uploads/vacancies/sw1776962195-23042026-INVITATION TO EME WORKSHOP.pdf"
-    }
-   ],
-   "kept": [
-    {
-     "title": "INVITATION TO EARLY MARKET ENGAGEMENT (EME) WORKSHOP (PHYSICAL AND VIRTUAL CONSULTATIVE MEETING)",
-     "why": "Auto (TRC tenders): Deadline not shown on the source page \u2013 open the link and read the notice"
-    }
-   ],
-   "dropped": [],
-   "sec": 2.3
-  },
-  {
-   "name": "TCRA tenders",
-   "ok": true,
-   "n": 4,
-   "items": [
-    {
-     "title": "Tenders 0 5 29 th Nov, 2022 DESIGN AND INSTALLATION OF MULTIPURPOSE CONFERENCE HALL FACILITIES TO THE PAPU HOUSE Download View",
-     "deadline": "",
-     "no": "",
-     "url": "https://www.tcra.go.tz/tcra-tovuti/2022/mamlaka-website/documents/tenders/en_1669799349_INVITATION_FOR_TENDERS_Conference_Hall_Facilities_PAPU_House_b8fc297abe."
+   "name": "TANESCO tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.tanesco.co.tz (<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer cer"
     },
-    {
-     "title": "EXTENSION OF TENDER SUBMISSION DEADLINE FOR PROPOSED DESIGN AND INSTALLATION OF MULTIPURPOSE CONFERENCE HALL FACILITIES AT PAPU HOUSE PROJECT (TENDER NO. AE-020",
-     "deadline": "",
-     "no": "020/HQ/2022-23/W/05",
-     "url": "https://www.tcra.go.tz/tcra-tovuti/2023/mamlaka-website/documents/tenders/en_1673772233_Extension_of_Tender_Submission_Deadline_for_Proposed_design_and_Installa"
-    },
-    {
-     "title": "9 6 12 th Jan, 2023 EXTENSION OF TENDER SUBMISSION DEADLINE FOR PROPOSED DESIGN AND INSTALLATION OF MULTIPURPOSE CONFERENCE HALL FACILITIES AT PAPU HOUSE PROJEC",
-     "deadline": "",
-     "no": "020/HQ/2022-23/W/05",
-     "url": "https://www.tcra.go.tz/tcra-tovuti/2023/mamlaka-website/documents/tenders/en_1673772233_Extension_of_Tender_Submission_Deadline_for_Proposed_design_and_Installa"
-    },
-    {
-     "title": "Tenders 9 6 12 th Jan, 2023 EXTENSION OF TENDER SUBMISSION DEADLINE FOR PROPOSED DESIGN AND INSTALLATION OF MULTIPURPOSE CONFERENCE HALL FACILITIES AT PAPU HOUS",
-     "deadline": "",
-     "no": "020/HQ/2022-23/W/05",
-     "url": "https://www.tcra.go.tz/tcra-tovuti/2023/mamlaka-website/documents/tenders/en_1673772233_Extension_of_Tender_Submission_Deadline_for_Proposed_design_and_Installa"
+    "reader": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 12923
     }
-   ],
-   "kept": [
-    {
-     "title": "Tenders 0 5 29 th Nov, 2022 DESIGN AND INSTALLATION OF MULTIPURPOSE CONFERENCE HALL FACILITIES TO THE PAPU HOUSE Downloa",
-     "why": "Auto (TCRA tenders): Deadline not shown on the source page \u2013 open the link and read the notice"
-    },
-    {
-     "title": "EXTENSION OF TENDER SUBMISSION DEADLINE FOR PROPOSED DESIGN AND INSTALLATION OF MULTIPURPOSE CONFERENCE HALL FACILITIES ",
-     "why": "Auto (TCRA tenders): Deadline not shown on the source page \u2013 open the link and read the notice"
-    }
-   ],
-   "dropped": [],
-   "sec": 2.2
-  },
-  {
-   "name": "Azania Bank tenders",
+   },
+   "used": "reader",
    "ok": false,
-   "error": "could not reach www.azaniabank.co.tz (HTTP Error 403: Forbidden)",
-   "sec": 16.7
+   "error": "no readable text on the page \u2013 it may load its list with JavaScript",
+   "sec": 13.5
   },
   {
-   "name": "NBC Bank procurement",
+   "name": "TANESCO tenders (alt)",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.tanesco.co.tz (<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer cer"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 12923
+    }
+   },
+   "used": "reader",
+   "ok": false,
+   "error": "no readable text on the page \u2013 it may load its list with JavaScript",
+   "sec": 17.1
+  },
+  {
+   "name": "MSD tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.msd.go.tz (<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certifi"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 50,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 65246
+    }
+   },
+   "used": "reader",
    "ok": true,
    "n": 0,
    "items": [],
    "kept": [],
-   "dropped": [],
-   "sec": 1.6
+   "sec": 8.4
   },
   {
-   "name": "Ministry of Water tenders",
+   "name": "WHC tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.whc.go.tz (<urlopen error timed out>)"
+    },
+    "reader": {
+     "ok": false,
+     "error": "could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)"
+    }
+   },
+   "ok": false,
+   "error": "no route worked",
+   "sec": 68.0
+  },
+  {
+   "name": "TIC tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.tic.go.tz (<urlopen error timed out>)"
+    },
+    "reader": {
+     "ok": false,
+     "error": "could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)"
+    }
+   },
+   "ok": false,
+   "error": "no route worked",
+   "sec": 71.2
+  },
+  {
+   "name": "ZPPDA open tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach tenders.zppda.go.tz (<urlopen error [Errno -2] Name or service not known>)"
+    },
+    "reader": {
+     "ok": false,
+     "error": "could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)"
+    }
+   },
+   "ok": false,
+   "error": "no route worked",
+   "sec": 1.7
+  },
+  {
+   "name": "NMB Bank tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.nmbbank.co.tz (HTTP Error 403: Forbidden)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 5825
+    }
+   },
+   "used": "reader",
+   "ok": false,
+   "error": "no readable text on the page \u2013 it may load its list with JavaScript",
+   "sec": 8.3
+  },
+  {
+   "name": "MUHAS tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.muhas.ac.tz (HTTP Error 404: Not Found)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 233,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 283346
+    }
+   },
+   "used": "reader",
    "ok": true,
    "n": 0,
    "items": [],
    "kept": [],
-   "dropped": [],
-   "sec": 2.2
+   "sec": 34.4
   },
   {
-   "name": "REA tenders",
+   "name": "TAA tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.taa.go.tz (HTTP Error 404: Not Found)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 6592
+    }
+   },
+   "used": "reader",
+   "ok": false,
+   "error": "no readable text on the page \u2013 it may load its list with JavaScript",
+   "sec": 21.2
+  },
+  {
+   "name": "RUWASA tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 26,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 23544
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 26,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 23461
+    }
+   },
+   "used": "direct",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 26.4
+  },
+  {
+   "name": "NHC tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 62,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 58345
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 63,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 57592
+    }
+   },
+   "used": "direct",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 27.2
+  },
+  {
+   "name": "TBA procurement",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 25,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 39366
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 25,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 36770
+    }
+   },
+   "used": "direct",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 30.2
+  },
+  {
+   "name": "TBA announcements",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 16,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 38775
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 16,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 36189
+    }
+   },
+   "used": "direct",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 26.8
+  },
+  {
+   "name": "DAWASA announcements",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 30,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 59730
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 30,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 57955
+    }
+   },
+   "used": "direct",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 28.9
+  },
+  {
+   "name": "TPDC tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.tpdc.co.tz (HTTP Error 404: Not Found)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 3,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 3139
+    }
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 28.4
+  },
+  {
+   "name": "EWURA public notices",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 70,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 81566
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 70,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 77902
+    }
+   },
+   "used": "direct",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 27.7
+  },
+  {
+   "name": "TANAPA",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.tanzaniaparks.go.tz (HTTP Error 404: Not Found)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 5,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 22433
+    }
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 25.9
+  },
+  {
+   "name": "NCAA",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.ncaa.go.tz (HTTP Error 404: Not Found)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 156,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 281521
+    }
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 29.7
+  },
+  {
+   "name": "PSSSF",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.psssf.go.tz (HTTP Error 404: Not Found)"
+    },
+    "reader": {
+     "ok": false,
+     "error": "could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)"
+    }
+   },
+   "ok": false,
+   "error": "no route worked",
+   "sec": 30.9
+  },
+  {
+   "name": "TTCL tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 24,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 20906
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 24,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 20602
+    }
+   },
+   "used": "direct",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 25.3
+  },
+  {
+   "name": "ATCL tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.airtanzania.co.tz (The read operation timed out)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 5,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 42996
+    }
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 105.7
+  },
+  {
+   "name": "TAMISEMI tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 553
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 527
+    }
+   },
+   "used": "direct",
+   "ok": false,
+   "error": "no readable text on the page \u2013 it may load its list with JavaScript",
+   "sec": 31.8
+  },
+  {
+   "name": "MNH tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 5180
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 5315
+    }
+   },
+   "used": "direct",
+   "ok": false,
+   "error": "no readable text on the page \u2013 it may load its list with JavaScript",
+   "sec": 31.1
+  },
+  {
+   "name": "TIB tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 865
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 845
+    }
+   },
+   "used": "direct",
+   "ok": false,
+   "error": "no readable text on the page \u2013 it may load its list with JavaScript",
+   "sec": 31.4
+  },
+  {
+   "name": "TCB tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 30
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 69
+    }
+   },
+   "used": "direct",
+   "ok": false,
+   "error": "no readable text on the page \u2013 it may load its list with JavaScript",
+   "sec": 31.5
+  },
+  {
+   "name": "KCMC tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 4470
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 4446
+    }
+   },
+   "used": "direct",
+   "ok": false,
+   "error": "no readable text on the page \u2013 it may load its list with JavaScript",
+   "sec": 28.6
+  },
+  {
+   "name": "Dodoma City Council tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 553
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 527
+    }
+   },
+   "used": "direct",
+   "ok": false,
+   "error": "no readable text on the page \u2013 it may load its list with JavaScript",
+   "sec": 30.4
+  },
+  {
+   "name": "Dar es Salaam City Council tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 553
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 527
+    }
+   },
+   "used": "direct",
+   "ok": false,
+   "error": "no readable text on the page \u2013 it may load its list with JavaScript",
+   "sec": 28.9
+  },
+  {
+   "name": "Arusha City Council tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 553
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 527
+    }
+   },
+   "used": "direct",
+   "ok": false,
+   "error": "no readable text on the page \u2013 it may load its list with JavaScript",
+   "sec": 29.6
+  },
+  {
+   "name": "Mwanza City Council tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 553
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 527
+    }
+   },
+   "used": "direct",
+   "ok": false,
+   "error": "no readable text on the page \u2013 it may load its list with JavaScript",
+   "sec": 29.9
+  },
+  {
+   "name": "Kinondoni MC tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 553
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 527
+    }
+   },
+   "used": "direct",
+   "ok": false,
+   "error": "no readable text on the page \u2013 it may load its list with JavaScript",
+   "sec": 30.4
+  },
+  {
+   "name": "Ilala MC tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.ilalamc.go.tz (<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate"
+    },
+    "reader": {
+     "ok": false,
+     "error": "could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)"
+    }
+   },
+   "ok": false,
+   "error": "no route worked",
+   "sec": 33.2
+  },
+  {
+   "name": "Temeke MC tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 553
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 527
+    }
+   },
+   "used": "direct",
+   "ok": false,
+   "error": "no readable text on the page \u2013 it may load its list with JavaScript",
+   "sec": 31.3
+  },
+  {
+   "name": "Ubungo MC tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 553
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 527
+    }
+   },
+   "used": "direct",
+   "ok": false,
+   "error": "no readable text on the page \u2013 it may load its list with JavaScript",
+   "sec": 31.3
+  },
+  {
+   "name": "Morogoro MC tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 553
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 527
+    }
+   },
+   "used": "direct",
+   "ok": false,
+   "error": "no readable text on the page \u2013 it may load its list with JavaScript",
+   "sec": 31.4
+  },
+  {
+   "name": "Tanga City Council tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 553
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 527
+    }
+   },
+   "used": "direct",
+   "ok": false,
+   "error": "no readable text on the page \u2013 it may load its list with JavaScript",
+   "sec": 31.2
+  },
+  {
+   "name": "Mbeya City Council tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 553
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 527
+    }
+   },
+   "used": "direct",
+   "ok": false,
+   "error": "no readable text on the page \u2013 it may load its list with JavaScript",
+   "sec": 31.5
+  },
+  {
+   "name": "Moshi MC tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 553
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 527
+    }
+   },
+   "used": "direct",
+   "ok": false,
+   "error": "no readable text on the page \u2013 it may load its list with JavaScript",
+   "sec": 31.6
+  },
+  {
+   "name": "TendersOnTime Tanzania",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.tendersontime.com (HTTP Error 403: Forbidden)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 5752
+    }
+   },
+   "used": "reader",
+   "ok": false,
+   "error": "no readable text on the page \u2013 it may load its list with JavaScript",
+   "sec": 29.6
+  },
+  {
+   "name": "Mwananchi zabuni",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.mwananchi.co.tz (HTTP Error 404: Not Found)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 7,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 7669
+    }
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 31.2
+  },
+  {
+   "name": "The Citizen tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 80564
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 41734
+    }
+   },
+   "used": "direct",
+   "ok": false,
+   "error": "no readable text on the page \u2013 it may load its list with JavaScript",
+   "sec": 28.8
+  },
+  {
+   "name": "Daily News tenders",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach dailynews.co.tz (HTTP Error 404: Not Found)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 12,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 74656
+    }
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 35.0
+  },
+  {
+   "name": "Exim Bank Tanzania",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 15,
+     "tenderish": 3,
+     "construction": 0,
+     "bytes": 58125
+    }
+   },
+   "used": "direct",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 0.6
+  },
+  {
+   "name": "Stanbic Tanzania",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.stanbicbank.co.tz (HTTP Error 404: Not Found)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 81,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 193588
+    }
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 33.5
+  },
+  {
+   "name": "PPRA tender portal news",
+   "grp": "tz",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 62,
+     "tenderish": 8,
+     "construction": 4,
+     "bytes": 68683
+    }
+   },
+   "used": "direct",
    "ok": true,
    "n": 1,
    "items": [
-    {
-     "title": "Who we are. Our vision, our mission and what we do About Us What We Do Our Organization Rural Energy Board (REB). REB, REF and Development Partners Rural Energy",
-     "deadline": "",
-     "no": "",
-     "url": "https://www.rea.go.tz/category/tenders"
-    }
+    "09th May 2026 Invitation Letter to Participate in the Annual Public Procurement Governance Workshop, 2026"
    ],
    "kept": [],
-   "dropped": [],
-   "sec": 0.5
+   "sec": 2.5
   },
   {
-   "name": "DART tenders",
-   "ok": true,
-   "n": 1,
-   "items": [
-    {
-     "title": "15 Oct, 2024 Request for Expression of Interest to Invest in Transit-Oriented Development (TOD) at Gerezani BRT Terminal in Dar es Salaam",
-     "deadline": "2024-10-15 00:00:00",
-     "no": "",
-     "url": "https://www.dart.go.tz/publications/tenders"
+   "name": "Web search \u2013 government tenders (English)",
+   "grp": "tz",
+   "kind": "search",
+   "routes": {
+    "search": {
+     "ok": true,
+     "items": 10,
+     "dated": 10,
+     "sample": [
+      "Free and printable custom invitation templates | Canva",
+      "Evite: Online Invitations, Event Pages, and Greeting Cards",
+      "Invitations & Invitation Templates | Zazzle",
+      "Free Online Invitation Maker | Greetings Island"
+     ]
     }
-   ],
-   "kept": [],
-   "dropped": [],
-   "sec": 2.2
+   },
+   "ok": false,
+   "error": "'url'",
+   "sec": 0.2
   },
   {
-   "name": "TASAC tenders",
-   "ok": true,
-   "n": 0,
-   "items": [],
-   "kept": [],
-   "dropped": [],
-   "sec": 2.1
-  },
-  {
-   "name": "TMDA tenders",
-   "ok": true,
-   "n": 0,
-   "items": [],
-   "kept": [],
-   "dropped": [],
-   "sec": 2.4
-  },
-  {
-   "name": "DUWASA tenders",
-   "ok": true,
-   "n": 1,
-   "items": [
-    {
-     "title": "INVITATION FOR BIDS (IFB) No.: TR159/2024/2025/W/01 CONSTRUCTION OF SEWERAGE NETWORKS FOR IMPROVEMENT OF SEWERAGE SERVICES IN DODOMA CAPITAL CITY. Deadline 2025",
-     "deadline": "2025-02-05 00:00:00",
-     "no": "TR159/2024/2025/W/01",
-     "url": "https://www.duwasa.go.tz/uploads/tenders/en-1734443427-INVITATION FOR BIDS.pdf"
+   "name": "Web search \u2013 government zabuni (Swahili)",
+   "grp": "tz",
+   "kind": "search",
+   "routes": {
+    "search": {
+     "ok": true,
+     "items": 10,
+     "dated": 10,
+     "sample": [
+      "Introducing Microsoft Ink Canvas",
+      "Contact Us - Microsoft Support",
+      "Hardware Dev Center | Microsoft Community Hub",
+      "Microsoft Security | Microsoft Community Hub"
+     ]
     }
-   ],
-   "kept": [],
-   "dropped": [],
-   "sec": 1.9
+   },
+   "ok": false,
+   "error": "'url'",
+   "sec": 0.2
   },
   {
-   "name": "MWAUWASA tenders",
-   "ok": true,
-   "n": 0,
-   "items": [],
-   "kept": [],
-   "dropped": [],
-   "sec": 1.8
+   "name": "Web search \u2013 companies and NGOs",
+   "grp": "tz",
+   "kind": "search",
+   "routes": {
+    "search": {
+     "ok": true,
+     "items": 10,
+     "dated": 10,
+     "sample": [
+      "need in put. | Ford Focus ST Forum",
+      "WTB: LSD (Prefer Wavetec but open to other options)",
+      "How about interior noise levels? | Page 2 | Ford Focus ST Forum",
+      "RS pricing on web | Page 8 | Ford Focus ST Forum"
+     ]
+    }
+   },
+   "ok": false,
+   "error": "'url'",
+   "sec": 0.2
   },
   {
-   "name": "Ministry of Finance tenders",
-   "ok": true,
-   "n": 0,
-   "items": [],
-   "kept": [],
-   "dropped": [],
-   "sec": 3.5
+   "name": "Web search \u2013 universities and colleges",
+   "grp": "tz",
+   "kind": "search",
+   "routes": {
+    "search": {
+     "ok": true,
+     "items": 10,
+     "dated": 10,
+     "sample": [
+      "Free and printable custom invitation templates | Canva",
+      "Evite: Online Invitations, Event Pages, and Greeting Cards",
+      "Invitations & Invitation Templates | Zazzle",
+      "Free Online Invitation Maker | Greetings Island"
+     ]
+    }
+   },
+   "ok": false,
+   "error": "'url'",
+   "sec": 0.2
   },
   {
-   "name": "SUA tenders (zabuni)",
-   "ok": true,
-   "n": 3,
-   "items": [
-    {
-     "title": "TANGAZO LA ZABUNI:HUDUMA YA KUWAPATA MAFUNDI WA KUFANYA UKARABATI WA MAJENGO MBALIMBALI YA OFISI, NYUMBA ZA WANYAMA NA UTAFITI KAMPASI KUU YA SUA",
-     "deadline": "",
-     "no": "",
-     "url": "https://www.sua.ac.tz/zabuni"
+   "name": "Web search \u2013 NMB / banks",
+   "grp": "tz",
+   "kind": "search",
+   "routes": {
+    "search": {
+     "ok": true,
+     "items": 3,
+     "dated": 3,
+     "sample": [
+      "Diagnostic Imaging Center at Saddle Brook",
+      "CONTACT US - Diagnostic Imaging Center at Saddle Brook",
+      "PHYSICIAN'S ORDER FORM - Diagnostic Imaging Center at Saddle Brook"
+     ]
+    }
+   },
+   "ok": false,
+   "error": "'url'",
+   "sec": 0.1
+  },
+  {
+   "name": "Web search \u2013 TANESCO",
+   "grp": "tz",
+   "kind": "search",
+   "routes": {
+    "search": {
+     "ok": true,
+     "items": 10,
+     "dated": 10,
+     "sample": [
+      "Best Apps to Learn New Skills in 2026 (Top 10 Reviewed)",
+      "The 10 Best Microlearning Apps for Daily Growth (2026)",
+      "Apps That Make You Smarter: Best Free Learning Apps in 2026 - Nibble Blog",
+      "Our 8 Favorite Learning Apps of 2026 - Lifewire"
+     ]
+    }
+   },
+   "ok": false,
+   "error": "'url'",
+   "sec": 0.2
+  },
+  {
+   "name": "AfDB procurement (Tanzania)",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.afdb.org (HTTP Error 403: Forbidden)"
     },
-    {
-     "title": "6. Waombaji wote wanatakiwa kuhudhuria kikao maalumu (Pre-bid meeting) tarehe 1/6/2020 siku ya Jumatatu saa 3:00 asubuhi, jengo la Utawala la Chuo Kikuu cha Sok",
-     "deadline": "2020-06-01 00:00:00",
-     "no": "",
-     "url": "https://www.sua.ac.tz/zabuni"
-    },
-    {
-     "title": "5.Kotesheni zote katika uhalisia wake ( original ) pamoja na nakala [ moja ] zinazofanana, zilizojazwa kwa usahihi na kuwekwa kwenye bahasha isiyo na maandishi ",
-     "deadline": "",
-     "no": "PA/012/2019-2020/HQ/W/22",
-     "url": "https://www.sua.ac.tz/zabuni"
+    "reader": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 5977
     }
-   ],
-   "kept": [
-    {
-     "title": "TANGAZO LA ZABUNI:HUDUMA YA KUWAPATA MAFUNDI WA KUFANYA UKARABATI WA MAJENGO MBALIMBALI YA OFISI, NYUMBA ZA WANYAMA NA U",
-     "why": "Auto (SUA tenders): Deadline not shown on the source page \u2013 open the link and read the notice"
-    },
-    {
-     "title": "5.Kotesheni zote katika uhalisia wake ( original ) pamoja na nakala [ moja ] zinazofanana, zilizojazwa kwa usahihi na ku",
-     "why": "Auto (SUA tenders): Deadline not shown on the source page \u2013 open the link and read the notice"
+   },
+   "used": "reader",
+   "ok": false,
+   "error": "no readable text on the page \u2013 it may load its list with JavaScript",
+   "sec": 29.8
+  },
+  {
+   "name": "AfDB \u2013 Tanzania notices (web search)",
+   "grp": "intl",
+   "kind": "search",
+   "routes": {
+    "search": {
+     "ok": true,
+     "items": 10,
+     "dated": 10,
+     "sample": [
+      "Tanzania - Wikipedia",
+      "Tanzania | Religion, Currency, Country, Map, Population, & Language ...",
+      "Tanzania - United States Department of State",
+      "History of Tanzania - Wikipedia"
+     ]
     }
-   ],
-   "dropped": [],
-   "sec": 7.9
+   },
+   "ok": false,
+   "error": "'url'",
+   "sec": 0.2
   },
   {
-   "name": "Tanzania Posts announcements",
-   "ok": true,
-   "n": 0,
-   "items": [],
-   "kept": [],
-   "dropped": [],
-   "sec": 9.6
-  },
-  {
-   "name": "TRA public notices",
-   "ok": true,
-   "n": 0,
-   "items": [],
-   "kept": [],
-   "dropped": [],
-   "sec": 5.3
-  },
-  {
-   "name": "UDSM announcements",
-   "ok": true,
-   "n": 0,
-   "items": [],
-   "kept": [],
-   "dropped": [],
-   "sec": 2.2
-  },
-  {
-   "name": "TAWA announcements",
-   "ok": true,
-   "n": 0,
-   "items": [],
-   "kept": [],
-   "dropped": [],
-   "sec": 2.4
-  },
-  {
-   "name": "Ministry of Health notices",
-   "ok": true,
-   "n": 0,
-   "items": [],
-   "kept": [],
-   "dropped": [],
-   "sec": 3.0
-  },
-  {
-   "name": "NSSF tenders",
-   "ok": true,
-   "n": 1,
-   "items": [
-    {
-     "title": "Tenders News How Do I NSSF YATUNUKIWA ISO 9001:2015, YAAHIDI HUDUMA BORA ZAIDI 06 Oct 2026 NSSF YAUNGA MKONO AJENDA YA NISHATI SAFI NA UHIFADHI WA MAZINGIRA KUE",
-     "deadline": "2026-10-06 00:00:00",
-     "no": "",
-     "url": "https://www.nssf.go.tz/tenders/general-procurement-notice#home"
+   "name": "dgMarket \u2013 Tanzania",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.dgmarket.com (HTTP Error 403: Forbidden)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 5929
     }
-   ],
-   "kept": [],
-   "dropped": [],
-   "sec": 2.0
+   },
+   "used": "reader",
+   "ok": false,
+   "error": "no readable text on the page \u2013 it may load its list with JavaScript",
+   "sec": 32.9
   },
   {
-   "name": "NM-AIST tenders",
+   "name": "AFD (France) \u2013 Tanzania",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 16,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 32662
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 16,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 30406
+    }
+   },
+   "used": "direct",
    "ok": true,
    "n": 0,
    "items": [],
    "kept": [],
-   "dropped": [],
-   "sec": 8.6
+   "sec": 34.2
   },
   {
-   "name": "BidDetail \u2013 Tanzania tenders",
-   "ok": true,
-   "n": 3,
-   "items": [
-    {
-     "title": "Construction Tenders",
-     "deadline": "",
-     "no": "",
-     "url": "https://www.biddetail.com/tanzania-tenders/construction-tenders"
+   "name": "EAC procurement (Arusha)",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.eac.int (HTTP Error 404: Not Found)"
     },
-    {
-     "title": "Tenders Are Invited For Construction Of Perimeter Fence And Site ......",
-     "deadline": "",
-     "no": "",
-     "url": "https://www.biddetail.com/latest-tenders/118925699$c13e5f5e-7a4b-4be7-a2f2-2558c7049441"
-    },
-    {
-     "title": "Tenders are invited for Construction Of Lwanji I Bridge (200M) Sp ......",
-     "deadline": "",
-     "no": "",
-     "url": "https://www.biddetail.com/latest-tenders/119128722$8a01940b-aa90-4a08-9217-c0af8103e7de"
+    "reader": {
+     "ok": true,
+     "blocks": 3,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 2471
     }
-   ],
-   "kept": [
-    {
-     "title": "Construction Tenders",
-     "why": "Auto (BidDetail \u2013 Tanzania tenders): Deadline not shown on the source page \u2013 open the link and read the notice"
-    },
-    {
-     "title": "Tenders Are Invited For Construction Of Perimeter Fence And Site ......",
-     "why": "Auto (BidDetail \u2013 Tanzania tenders): Deadline not shown on the source page \u2013 open the link and read the notice"
-    },
-    {
-     "title": "Tenders are invited for Construction Of Lwanji I Bridge (200M) Sp ......",
-     "why": "Auto (BidDetail \u2013 Tanzania tenders): Deadline not shown on the source page \u2013 open the link and read the notice"
-    }
-   ],
-   "dropped": [],
-   "sec": 1.6
-  },
-  {
-   "name": "ZoomTanzania tenders",
+   },
+   "used": "reader",
    "ok": true,
    "n": 0,
    "items": [],
    "kept": [],
-   "dropped": [],
+   "sec": 34.5
+  },
+  {
+   "name": "EAC tenders (Arusha)",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.eac.int (HTTP Error 404: Not Found)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 3,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 2471
+    }
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 36.6
+  },
+  {
+   "name": "African Court (Arusha)",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.african-court.org (HTTP Error 500: Internal Server Error)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 2,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 2462
+    }
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 35.4
+  },
+  {
+   "name": "TradeMark Africa procurement",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 252,
+     "tenderish": 125,
+     "construction": 0,
+     "bytes": 2168909
+    }
+   },
+   "used": "direct",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 1.3
+  },
+  {
+   "name": "IFAD procurement notices",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.ifad.org (HTTP Error 403: Forbidden)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 5,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 14268
+    }
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 33.2
+  },
+  {
+   "name": "IsDB project tenders",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 18,
+     "tenderish": 8,
+     "construction": 1,
+     "bytes": 27553
+    }
+   },
+   "used": "direct",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
    "sec": 1.2
   },
   {
-   "name": "TendersInfo \u2013 Tanzania",
-   "ok": true,
-   "n": 2,
-   "items": [
-    {
-     "title": "Tanzania construction Tenders",
-     "deadline": "",
-     "no": "",
-     "url": "https://www.tendersinfo.com/global-tanzania-tenders.php"
-    },
-    {
-     "title": "Tanzania Bridges and Tunnels Tenders",
-     "deadline": "",
-     "no": "",
-     "url": "https://www.tendersinfo.com/global-tanzania-tenders.php"
+   "name": "EU Funding & Tenders \u2013 Tanzania",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "reader": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 59942
     }
-   ],
-   "kept": [
-    {
-     "title": "Tanzania construction Tenders",
-     "why": "Auto (TendersInfo \u2013 Tanzania): Deadline not shown on the source page \u2013 open the link and read the notice"
-    },
-    {
-     "title": "Tanzania Bridges and Tunnels Tenders",
-     "why": "Auto (TendersInfo \u2013 Tanzania): Deadline not shown on the source page \u2013 open the link and read the notice"
-    }
-   ],
-   "dropped": [],
-   "sec": 1.6
+   },
+   "used": "reader",
+   "ok": false,
+   "error": "no readable text on the page \u2013 it may load its list with JavaScript",
+   "sec": 31.6
   },
   {
-   "name": "TendersInfo \u2013 Tanzania construction",
+   "name": "UK Find a Tender \u2013 Tanzania",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 481,
+     "tenderish": 50,
+     "construction": 9,
+     "bytes": 172507
+    }
+   },
+   "used": "direct",
+   "ok": true,
+   "n": 6,
+   "items": [
+    "Utilities dynamic market - A dynamic market that can only be used by utility organisations to award utilities contracts. Tender notices may ",
+    "Dynamic market - Arrangements that suppliers who meet the conditions for membership can join, which allow them to bid for future contracts r",
+    "Dynamic purchasing system - Similar to a dynamic market, but only allowed for commonly used purchases. Tender notices are not required for f",
+    "Select all Deselect all UK1: Pipeline notice UK2: Preliminary market engagement notice UK3: Planned procurement notice UK4: Tender notice UK",
+    "Procurement Act 2023 Select all Deselect all UK1: Pipeline notice UK2: Preliminary market engagement notice UK3: Planned procurement notice ",
+    "Open opportunities - Planning or Tender stage notices with deadlines in the future Pipeline - Potential future contracts and dynamic markets"
+   ],
+   "kept": [
+    "Utilities dynamic market - A dynamic market that can only be used by utility organisations to award utilities  || Auto (UK Find a Tender \u2013 Tanzania): Deadline not shown on th",
+    "Dynamic market - Arrangements that suppliers who meet the conditions for membership can join, which allow them || Auto (UK Find a Tender \u2013 Tanzania): Deadline not shown on th",
+    "Dynamic purchasing system - Similar to a dynamic market, but only allowed for commonly used purchases. Tender  || Auto (UK Find a Tender \u2013 Tanzania): Deadline not shown on th",
+    "Select all Deselect all UK1: Pipeline notice UK2: Preliminary market engagement notice UK3: Planned procuremen || Auto (UK Find a Tender \u2013 Tanzania): Deadline not shown on th",
+    "Procurement Act 2023 Select all Deselect all UK1: Pipeline notice UK2: Preliminary market engagement notice UK || Auto (UK Find a Tender \u2013 Tanzania): Deadline not shown on th",
+    "Open opportunities - Planning or Tender stage notices with deadlines in the future Pipeline - Potential future || Auto (UK Find a Tender \u2013 Tanzania): Deadline not shown on th"
+   ],
+   "sec": 3.3
+  },
+  {
+   "name": "UK Contracts Finder \u2013 Tanzania",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 437,
+     "tenderish": 29,
+     "construction": 0,
+     "bytes": 199770
+    }
+   },
+   "used": "direct",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 4.1
+  },
+  {
+   "name": "CanadaBuys \u2013 Tanzania",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach canadabuys.canada.ca (HTTP Error 403: Forbidden)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 11,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 22345
+    }
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 31.1
+  },
+  {
+   "name": "Irish eTenders \u2013 Tanzania",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.etenders.gov.ie (HTTP Error 500: Internal Server Error)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 9,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 16149
+    }
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 33.3
+  },
+  {
+   "name": "Enabel (Belgium) procurement",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 101,
+     "tenderish": 4,
+     "construction": 0,
+     "bytes": 142429
+    }
+   },
+   "used": "direct",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 1.3
+  },
+  {
+   "name": "Global Fund business opportunities",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 44,
+     "tenderish": 3,
+     "construction": 0,
+     "bytes": 47965
+    }
+   },
+   "used": "direct",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 0.5
+  },
+  {
+   "name": "Gavi tenders",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.gavi.org (HTTP Error 404: Not Found)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 15,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 174485
+    }
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 36.6
+  },
+  {
+   "name": "African Union bids",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 77,
+     "tenderish": 15,
+     "construction": 0,
+     "bytes": 114372
+    }
+   },
+   "used": "direct",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 0.3
+  },
+  {
+   "name": "SADC procurement",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.sadc.int (HTTP Error 404: Not Found)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 87,
+     "tenderish": 4,
+     "construction": 0,
+     "bytes": 105591
+    }
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 34.5
+  },
+  {
+   "name": "IOM Tanzania procurement",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach tanzania.iom.int (HTTP Error 403: Forbidden)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 65,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 82249
+    }
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 35.3
+  },
+  {
+   "name": "DevelopmentAid \u2013 Tanzania tenders",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.developmentaid.org (HTTP Error 403: Forbidden)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 5980
+    }
+   },
+   "used": "reader",
    "ok": false,
-   "error": "could not reach www.tendersinfo.com (HTTP Error 404: Not Found)",
-   "sec": 18.1
+   "error": "no readable text on the page \u2013 it may load its list with JavaScript",
+   "sec": 33.6
+  },
+  {
+   "name": "UNGM \u2013 Tanzania (reader)",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 46,
+     "tenderish": 5,
+     "construction": 0,
+     "bytes": 142816
+    }
+   },
+   "used": "direct",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 0.9
+  },
+  {
+   "name": "GIZ Tanzania tenders (web search)",
+   "grp": "intl",
+   "kind": "search",
+   "routes": {
+    "search": {
+     "ok": true,
+     "items": 10,
+     "dated": 10,
+     "sample": [
+      "Tanzania - Wikipedia",
+      "Tanzania | Religion, Currency, Country, Map, Population, & Language ...",
+      "Tanzania - United States Department of State",
+      "History of Tanzania - Wikipedia"
+     ]
+    }
+   },
+   "ok": false,
+   "error": "'url'",
+   "sec": 0.2
+  },
+  {
+   "name": "KfW / GTAI Tanzania tenders (web search)",
+   "grp": "intl",
+   "kind": "search",
+   "routes": {
+    "search": {
+     "ok": true,
+     "items": 9,
+     "dated": 9,
+     "sample": [
+      "Tanzania - Wikipedia",
+      "Tansania \u2013 Wikipedia",
+      "Tanzania | Religion, Currency, Country, Map, Population ...",
+      "Tanzania Maps & Facts - World Atlas"
+     ]
+    }
+   },
+   "ok": false,
+   "error": "'url'",
+   "sec": 0.2
+  },
+  {
+   "name": "JICA Tanzania tenders (web search)",
+   "grp": "intl",
+   "kind": "search",
+   "routes": {
+    "search": {
+     "ok": true,
+     "items": 10,
+     "dated": 10,
+     "sample": [
+      "Tanzania - Wikipedia",
+      "Tanzania | Religion, Currency, Country, Map, Population, & Language ...",
+      "Tanzania - United States Department of State",
+      "History of Tanzania - Wikipedia"
+     ]
+    }
+   },
+   "ok": false,
+   "error": "'url'",
+   "sec": 0.2
+  },
+  {
+   "name": "US Embassy Tanzania solicitations (web search)",
+   "grp": "intl",
+   "kind": "search",
+   "routes": {
+    "search": {
+     "ok": true,
+     "items": 10,
+     "dated": 10,
+     "sample": [
+      "SOLICITATION Definition & Meaning - Merriam-Webster",
+      "What Is Solicitation? Definition, Types & Penalties (2026)",
+      "SOLICITATION Definition & Meaning | Dictionary.com",
+      "Solicitation - Wikipedia"
+     ]
+    }
+   },
+   "ok": false,
+   "error": "'url'",
+   "sec": 0.3
+  },
+  {
+   "name": "EU Delegation Tanzania (web search)",
+   "grp": "intl",
+   "kind": "search",
+   "routes": {
+    "search": {
+     "ok": true,
+     "items": 10,
+     "dated": 10,
+     "sample": [
+      "Tanzania - Wikipedia",
+      "Tanzania | Religion, Currency, Country, Map, Population, & Language ...",
+      "Tanzania - United States Department of State",
+      "History of Tanzania - Wikipedia"
+     ]
+    }
+   },
+   "ok": false,
+   "error": "'url'",
+   "sec": 0.2
+  },
+  {
+   "name": "EIB Tanzania (web search)",
+   "grp": "intl",
+   "kind": "search",
+   "routes": {
+    "search": {
+     "ok": true,
+     "items": 10,
+     "dated": 10,
+     "sample": [
+      "Tanzania - Wikipedia",
+      "Tanzania | Religion, Currency, Country, Map, Population, & Language ...",
+      "Tanzania - United States Department of State",
+      "History of Tanzania - Wikipedia"
+     ]
+    }
+   },
+   "ok": false,
+   "error": "'url'",
+   "sec": 0.2
+  },
+  {
+   "name": "UN agencies Tanzania (web search)",
+   "grp": "intl",
+   "kind": "search",
+   "routes": {
+    "search": {
+     "ok": true,
+     "items": 10,
+     "dated": 10,
+     "sample": [
+      "Tanzania - Wikipedia",
+      "Tanzania | Religion, Currency, Country, Map, Population, & Language ...",
+      "Tanzania - United States Department of State",
+      "History of Tanzania - Wikipedia"
+     ]
+    }
+   },
+   "ok": false,
+   "error": "'url'",
+   "sec": 0.2
+  },
+  {
+   "name": "Embassies in Dar es Salaam (web search)",
+   "grp": "intl",
+   "kind": "search",
+   "routes": {
+    "search": {
+     "ok": true,
+     "items": 10,
+     "dated": 10,
+     "sample": [
+      "Embassy Suites by Hilton - Spacious Two-Room Suite Hotels",
+      "Homepage - Websites of U.S. Missions and Offices Providing Consular ...",
+      "Find a U.S. embassy - USAGov",
+      "Find U.S. Embassies and Consulates - Travel"
+     ]
+    }
+   },
+   "ok": false,
+   "error": "'url'",
+   "sec": 0.2
+  },
+  {
+   "name": "NGOs in Tanzania (web search)",
+   "grp": "intl",
+   "kind": "search",
+   "routes": {
+    "search": {
+     "ok": true,
+     "items": 10,
+     "dated": 10,
+     "sample": [
+      "Tanzania - Wikipedia",
+      "Tanzania | Religion, Currency, Country, Map, Population, & Language ...",
+      "Tanzania - United States Department of State",
+      "History of Tanzania - Wikipedia"
+     ]
+    }
+   },
+   "ok": false,
+   "error": "'url'",
+   "sec": 0.3
+  },
+  {
+   "name": "Aga Khan Tanzania (web search)",
+   "grp": "intl",
+   "kind": "search",
+   "routes": {
+    "search": {
+     "ok": true,
+     "items": 10,
+     "dated": 10,
+     "sample": [
+      "American Gastroenterological Association Homepage",
+      "Home - American Gas Association",
+      "Ranges & Kitchen Appliances | AGA Ranges USA",
+      "AGA cooker - Wikipedia"
+     ]
+    }
+   },
+   "ok": false,
+   "error": "'url'",
+   "sec": 0.2
+  },
+  {
+   "name": "Mining companies Tanzania (web search)",
+   "grp": "intl",
+   "kind": "search",
+   "routes": {
+    "search": {
+     "ok": true,
+     "items": 10,
+     "dated": 10,
+     "sample": [
+      "Tanzania - Wikipedia",
+      "Tanzania | Religion, Currency, Country, Map, Population, & Language ...",
+      "Tanzania - United States Department of State",
+      "History of Tanzania - Wikipedia"
+     ]
+    }
+   },
+   "ok": false,
+   "error": "'url'",
+   "sec": 0.2
+  },
+  {
+   "name": "World Bank Tanzania (web search)",
+   "grp": "intl",
+   "kind": "search",
+   "routes": {
+    "search": {
+     "ok": true,
+     "items": 10,
+     "dated": 10,
+     "sample": [
+      "Tanzania - Wikipedia",
+      "Tanzania | Religion, Currency, Country, Map, Population, & Language ...",
+      "Tanzania - United States Department of State",
+      "History of Tanzania - Wikipedia"
+     ]
+    }
+   },
+   "ok": false,
+   "error": "'url'",
+   "sec": 0.3
   }
  ]
 }
