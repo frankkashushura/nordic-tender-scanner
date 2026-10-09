@@ -1,19 +1,19 @@
 {
-"generated": "2026-10-10T02:56:30+03:00",
+"generated": "2026-10-10T02:58:08+03:00",
 "scanner": {
-"last_scan": "2026-10-10T02:55:00+03:00",
-"summary": "NeST: 33 notices read; PPRA public notices: 1 notices read; Exim Bank Tanzania tenders: 0 notices read; UK Find a Tender – Tanzania: 6 notices read; UK Contracts Finder – Tanzania: 0 notices read; EU Funding & Tenders – Tanzania: 0 notices read; TradeMark Africa procurement: 0 notices read; Islamic Development Bank tenders: 0 notices read; African Union bids: 0 notices read; Enab",
+"last_scan": "2026-10-10T02:56:00+03:00",
+"summary": "NeST: 33 notices read; World Bank (Tanzania, civil works): 27 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; PPRA public notices: 1 notices read; Exim Bank Tanzania tenders: 0 notices read; UK Find a Tender – Tanzania: 6 notices read; UK Contracts Finder – Tanzania: 0 notices read; EU Funding & Tenders – Tanzania: 0 notices read; TradeMark Afri",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-10-10 02:55",
+"last_ok": "2026-10-10 02:56",
 "error": "",
 "url": "https://nest.go.tz/tenders/published-tenders",
 "group": "tz"
 },
 {
 "name": "World Bank (Tanzania, civil works)",
-"last_ok": "2026-10-10 02:26",
+"last_ok": "2026-10-10 02:56",
 "error": "",
 "url": "https://projects.worldbank.org/en/projects-operations/procurement?countrycode_exact=TZ",
 "group": "intl"
@@ -69,7 +69,7 @@
 },
 {
 "name": "TanzaniaTenders.com (newspapers, portals, private)",
-"last_ok": "2026-10-10 02:26",
+"last_ok": "2026-10-10 02:56",
 "error": "",
 "url": "https://www.tanzaniatenders.com/tenders.php",
 "group": "tz"
@@ -223,189 +223,189 @@
 },
 {
 "name": "PPRA public notices",
-"last_ok": "2026-10-10 02:55",
+"last_ok": "2026-10-10 02:56",
 "error": "",
 "url": "https://www.ppra.go.tz/publications/public-notices",
 "group": "tz"
 },
 {
 "name": "Exim Bank Tanzania tenders",
-"last_ok": "2026-10-10 02:55",
+"last_ok": "2026-10-10 02:56",
 "error": "",
 "url": "https://www.eximbank.co.tz/tenders",
 "group": "tz"
 },
 {
 "name": "UK Find a Tender – Tanzania",
-"last_ok": "2026-10-10 02:55",
+"last_ok": "2026-10-10 02:56",
 "error": "",
 "url": "https://www.find-tender.service.gov.uk/Search/Results?keywords=Tanzania",
 "group": "intl"
 },
 {
 "name": "UK Contracts Finder – Tanzania",
-"last_ok": "2026-10-10 02:55",
+"last_ok": "2026-10-10 02:56",
 "error": "",
 "url": "https://www.contractsfinder.service.gov.uk/Search/Results?keywords=Tanzania",
 "group": "intl"
 },
 {
 "name": "EU Funding & Tenders – Tanzania",
-"last_ok": "2026-10-10 02:55",
+"last_ok": "2026-10-10 02:56",
 "error": "",
 "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-tenders?keywords=Tanzania",
 "group": "intl"
 },
 {
 "name": "TradeMark Africa procurement",
-"last_ok": "2026-10-10 02:55",
+"last_ok": "2026-10-10 02:56",
 "error": "",
 "url": "https://www.trademarkafrica.com/procurement/",
 "group": "intl"
 },
 {
 "name": "Islamic Development Bank tenders",
-"last_ok": "2026-10-10 02:55",
+"last_ok": "2026-10-10 02:56",
 "error": "",
 "url": "https://www.isdb.org/project-procurement/tenders",
 "group": "intl"
 },
 {
 "name": "African Union bids",
-"last_ok": "2026-10-10 02:55",
+"last_ok": "2026-10-10 02:56",
 "error": "",
 "url": "https://au.int/en/bids",
 "group": "intl"
 },
 {
 "name": "Enabel (Belgium) procurement",
-"last_ok": "2026-10-10 02:55",
+"last_ok": "2026-10-10 02:56",
 "error": "",
 "url": "https://www.enabel.be/public-procurement/",
 "group": "intl"
 },
 {
 "name": "Global Fund business opportunities",
-"last_ok": "2026-10-10 02:55",
+"last_ok": "2026-10-10 02:56",
 "error": "",
 "url": "https://www.theglobalfund.org/en/business-opportunities/",
 "group": "intl"
 },
 {
 "name": "SADC procurement",
-"last_ok": "2026-10-10 02:55",
+"last_ok": "2026-10-10 02:56",
 "error": "",
 "url": "https://www.sadc.int/procurement",
 "group": "intl"
 },
 {
 "name": "IOM procurement",
-"last_ok": "2026-10-10 02:55",
+"last_ok": "2026-10-10 02:56",
 "error": "",
 "url": "https://www.iom.int/procurement-opportunities",
 "group": "intl"
 },
 {
 "name": "UNESCO procurement",
-"last_ok": "2026-10-10 02:55",
+"last_ok": "2026-10-10 02:56",
 "error": "",
 "url": "https://www.unesco.org/en/procurement",
 "group": "intl"
 },
 {
 "name": "WFP procurement",
-"last_ok": "2026-10-10 02:55",
+"last_ok": "2026-10-10 02:56",
 "error": "",
 "url": "https://www.wfp.org/procurement",
 "group": "intl"
 },
 {
 "name": "GlobalTenders – Tanzania",
-"last_ok": "2026-10-10 02:55",
+"last_ok": "2026-10-10 02:56",
 "error": "",
 "url": "https://www.globaltenders.com/tanzania-tenders.php",
 "group": "intl"
 },
 {
 "name": "TenderImpulse – Tanzania",
-"last_ok": "2026-10-10 02:55",
+"last_ok": "2026-10-10 02:56",
 "error": "",
 "url": "https://www.tenderimpulse.com/tanzania-tenders",
 "group": "intl"
 },
 {
 "name": "Lake Victoria Basin Commission procurement",
-"last_ok": "2026-10-10 02:55",
+"last_ok": "2026-10-10 02:56",
 "error": "",
 "url": "https://www.lvbcom.org/procurement",
 "group": "intl"
 },
 {
 "name": "East African Development Bank procurement",
-"last_ok": "2026-10-10 02:55",
+"last_ok": "2026-10-10 02:56",
 "error": "",
 "url": "https://eadb.org/procurement/",
 "group": "intl"
 },
 {
 "name": "TDB Group procurement",
-"last_ok": "2026-10-10 02:55",
+"last_ok": "2026-10-10 02:56",
 "error": "",
 "url": "https://www.tdbgroup.org/procurement/",
 "group": "intl"
 },
 {
 "name": "IUCEA procurement",
-"last_ok": "2026-10-10 02:55",
+"last_ok": "2026-10-10 02:56",
 "error": "",
 "url": "https://www.iucea.org/procurement/",
 "group": "intl"
 },
 {
 "name": "ESAMI (Arusha) procurement",
-"last_ok": "2026-10-10 02:55",
+"last_ok": "2026-10-10 02:56",
 "error": "",
 "url": "https://esami-africa.org/procurement",
 "group": "intl"
 },
 {
 "name": "Shelter Afrique procurement",
-"last_ok": "2026-10-10 02:55",
+"last_ok": "2026-10-10 02:56",
 "error": "",
 "url": "https://www.shelterafrique.org/procurement/",
 "group": "intl"
 },
 {
 "name": "OPEC Fund procurement",
-"last_ok": "2026-10-10 02:55",
+"last_ok": "2026-10-10 02:56",
 "error": "",
 "url": "https://opecfund.org/procurement",
 "group": "intl"
 },
 {
 "name": "IRC (International Rescue Committee) procurement",
-"last_ok": "2026-10-10 02:55",
+"last_ok": "2026-10-10 02:56",
 "error": "",
 "url": "https://www.rescue.org/procurement",
 "group": "intl"
 },
 {
 "name": "Norwegian Refugee Council procurement",
-"last_ok": "2026-10-10 02:55",
+"last_ok": "2026-10-10 02:56",
 "error": "",
 "url": "https://www.nrc.no/procurement/",
 "group": "intl"
 },
 {
 "name": "Welthungerhilfe tenders",
-"last_ok": "2026-10-10 02:55",
+"last_ok": "2026-10-10 02:56",
 "error": "",
 "url": "https://www.welthungerhilfe.org/tenders",
 "group": "intl"
 },
 {
 "name": "Concern Worldwide tenders",
-"last_ok": "2026-10-10 02:55",
+"last_ok": "2026-10-10 02:56",
 "error": "",
 "url": "https://www.concern.net/tenders",
 "group": "intl"
