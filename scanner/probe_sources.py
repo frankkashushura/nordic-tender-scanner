@@ -10,96 +10,43 @@ cfg = json.load(open(os.path.join(HERE, "scanner_config.json"), encoding="utf-8"
 KW = cfg["keywords"]
 FX = os.path.join(HERE, "..", "data", "probe_fx"); os.makedirs(FX, exist_ok=True)
 _rl = threading.Lock(); _last = [0.0]
-# kind: page (fetch a list page) or search (Bing RSS). grp: tz / intl
+# round 5 candidates
 TZW = ["tanzania", "dar es salaam", "dodoma", "arusha", "mwanza", "zanzibar", "tanga", "mbeya", "morogoro", "moshi", "kigoma", "mtwara", "lindi", "iringa", "tabora", "pwani", "bagamoyo"]
 C = []
-def page(name, url, client="", ctype="", grp="tz", **kw): C.append(dict(kind="page", name=name, url=url, client=client, client_type=ctype, grp=grp, **kw))
-def search(name, q, client="", ctype="", grp="tz", **kw): C.append(dict(kind="search", name=name, search=q, client=client, client_type=ctype, grp=grp, **kw))
-
-# --- previously blocked or empty Tanzanian sites
-page("TANESCO tenders", "https://www.tanesco.co.tz/procurement/tenders", "TANESCO", "parastatal")
-page("TANESCO tenders (alt)", "https://www.tanesco.co.tz/index.php/procurement/tenders", "TANESCO", "parastatal")
-page("MSD tenders", "https://www.msd.go.tz/tenders", "Medical Stores Department (MSD)", "government")
-page("WHC tenders", "https://www.whc.go.tz/tenders", "Watumishi Housing Investments", "parastatal")
-page("TIC tenders", "https://www.tic.go.tz/tenders", "Tanzania Investment Centre", "government")
-page("ZPPDA open tenders", "https://tenders.zppda.go.tz/", "ZPPDA (Zanzibar)", "government", region="Zanzibar")
-page("NMB Bank tenders", "https://www.nmbbank.co.tz/tenders", "NMB Bank", "bank")
-page("MUHAS tenders", "https://www.muhas.ac.tz/tenders", "MUHAS", "government", region="Dar es Salaam")
-page("TAA tenders", "https://www.taa.go.tz/tenders", "Tanzania Airports Authority (TAA)", "government")
-page("RUWASA tenders", "https://www.ruwasa.go.tz/tenders", "RUWASA", "government")
-page("NHC tenders", "https://www.nhc.co.tz/tenders", "National Housing Corporation (NHC)", "parastatal")
-page("TBA procurement", "https://www.tba.go.tz/pages/procurement-management-unit", "Tanzania Buildings Agency (TBA)", "government")
-page("TBA announcements", "https://www.tba.go.tz/announcements", "Tanzania Buildings Agency (TBA)", "government")
-page("DAWASA announcements", "https://www.dawasa.go.tz/announcements", "DAWASA", "parastatal", region="Dar es Salaam")
-page("TPDC tenders", "https://www.tpdc.co.tz/tenders", "TPDC", "parastatal")
-page("EWURA public notices", "https://www.ewura.go.tz/publications/public-notice", "EWURA", "government")
-page("TANAPA", "https://www.tanzaniaparks.go.tz/tenders", "TANAPA", "government")
-page("NCAA", "https://www.ncaa.go.tz/tenders", "Ngorongoro Conservation Area Authority", "government", region="Arusha")
-page("PSSSF", "https://www.psssf.go.tz/tenders", "PSSSF", "parastatal")
-page("TTCL tenders", "https://www.ttcl.co.tz/ttcl-tenders", "TTCL", "parastatal")
-page("ATCL tenders", "https://www.airtanzania.co.tz/tenders", "Air Tanzania", "parastatal")
-page("TAMISEMI tenders", "https://www.tamisemi.go.tz/tenders", "PO-RALG (TAMISEMI)", "government")
-page("MNH tenders", "https://www.mnh.or.tz/tenders", "Muhimbili National Hospital", "government", region="Dar es Salaam")
-page("TIB tenders", "https://www.tib.co.tz/tenders", "TIB Development Bank", "bank")
-page("TCB tenders", "https://www.tcbbank.co.tz/tenders", "Tanzania Commercial Bank", "bank")
-page("KCMC tenders", "https://www.kcmc.ac.tz/tenders", "KCMC", "government", region="Kilimanjaro")
-for cc, nm, rg in [("dodomacc", "Dodoma City Council", "Dodoma"), ("dcc", "Dar es Salaam City Council", "Dar es Salaam"), ("arushacc", "Arusha City Council", "Arusha"),
-                   ("mwanzacc", "Mwanza City Council", "Mwanza"), ("kinondonimc", "Kinondoni MC", "Dar es Salaam"), ("ilalamc", "Ilala MC", "Dar es Salaam"),
-                   ("temekemc", "Temeke MC", "Dar es Salaam"), ("ubungomc", "Ubungo MC", "Dar es Salaam"), ("morogoromc", "Morogoro MC", "Morogoro"),
-                   ("tangacc", "Tanga City Council", "Tanga"), ("mbeyacc", "Mbeya City Council", "Mbeya"), ("moshimc", "Moshi MC", "Kilimanjaro")]:
-    page(nm + " tenders", f"https://www.{cc}.go.tz/tenders", nm, "government", region=rg)
-page("TendersOnTime Tanzania", "https://www.tendersontime.com/tanzania-tenders/", "", "", source="aggregator")
-page("Mwananchi zabuni", "https://www.mwananchi.co.tz/mw/habari/zabuni", "", "", source="aggregator")
-page("The Citizen tenders", "https://www.thecitizen.co.tz/tanzania/notices/tenders", "", "", source="aggregator")
-page("Daily News tenders", "https://dailynews.co.tz/category/tenders/", "", "", source="aggregator")
-page("Exim Bank Tanzania", "https://www.eximbank.co.tz/tenders", "Exim Bank Tanzania", "bank")
-page("Stanbic Tanzania", "https://www.stanbicbank.co.tz/tanzania/personal/about-us/tenders", "Stanbic Bank Tanzania", "bank")
-page("PPRA tender portal news", "https://www.ppra.go.tz/publications/public-notices", "PPRA", "government")
-# --- Tanzanian web searches (catch any government / company site that blocks direct reading)
-search("Web search – government tenders (English)", 'site:go.tz "invitation for tenders" construction', source="web search")
-search("Web search – government zabuni (Swahili)", 'site:go.tz "tangazo la zabuni" ujenzi', source="web search")
-search("Web search – companies and NGOs", 'site:co.tz OR site:or.tz tender "construction" Tanzania', source="web search", must_contain=TZW)
-search("Web search – universities and colleges", 'site:ac.tz "invitation for tender" OR "invitation for bids"', source="web search")
-search("Web search – NMB / banks", '(site:nmbbank.co.tz OR site:crdbbank.co.tz OR site:nbc.co.tz OR site:stanbicbank.co.tz) tender', source="web search")
-search("Web search – TANESCO", 'site:tanesco.co.tz tender', "TANESCO", "parastatal")
-
-# --- International / donor sources active in Tanzania
-page("AfDB procurement (Tanzania)", "https://www.afdb.org/en/projects-and-operations/procurement", "African Development Bank", "donor", grp="intl", must_contain=TZW)
-search("AfDB – Tanzania notices (web search)", 'site:afdb.org Tanzania "invitation for bids" OR "procurement notice"', "African Development Bank", "donor", grp="intl", must_contain=TZW)
-page("dgMarket – Tanzania", "https://www.dgmarket.com/tenders/list.do?locationISO=tz", "", "", grp="intl", source="aggregator")
-page("AFD (France) – Tanzania", "https://afd.dgmarket.com/tenders/list.do?locationISO=tz", "Agence Française de Développement", "donor", grp="intl")
-page("EAC procurement (Arusha)", "https://www.eac.int/procurement", "East African Community", "donor", grp="intl", region="Arusha")
-page("EAC tenders (Arusha)", "https://www.eac.int/tenders", "East African Community", "donor", grp="intl", region="Arusha")
-page("African Court (Arusha)", "https://www.african-court.org/wpafc/procurement/", "African Court on Human and Peoples' Rights", "donor", grp="intl", region="Arusha")
-page("TradeMark Africa procurement", "https://www.trademarkafrica.com/procurement/", "TradeMark Africa", "donor", grp="intl", must_contain=TZW)
-page("IFAD procurement notices", "https://www.ifad.org/en/procurement-notices", "IFAD", "donor", grp="intl", must_contain=TZW)
-page("IsDB project tenders", "https://www.isdb.org/project-procurement/tenders", "Islamic Development Bank", "donor", grp="intl", must_contain=TZW)
-page("EU Funding & Tenders – Tanzania", "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-tenders?keywords=Tanzania", "European Commission", "donor", grp="intl", via="reader")
-page("UK Find a Tender – Tanzania", "https://www.find-tender.service.gov.uk/Search/Results?keywords=Tanzania", "UK Government (FCDO)", "donor", grp="intl")
-page("UK Contracts Finder – Tanzania", "https://www.contractsfinder.service.gov.uk/Search/Results?keywords=Tanzania", "UK Government (FCDO)", "donor", grp="intl")
-page("CanadaBuys – Tanzania", "https://canadabuys.canada.ca/en/tender-opportunities?search_filter=Tanzania", "Government of Canada", "donor", grp="intl")
-page("Irish eTenders – Tanzania", "https://www.etenders.gov.ie/epps/quickSearchAction.do?searchType=projectFTS&latest=true&searchString=Tanzania", "Irish Aid", "donor", grp="intl")
-page("Enabel (Belgium) procurement", "https://www.enabel.be/public-procurement/", "Enabel", "donor", grp="intl", must_contain=TZW)
-page("Global Fund business opportunities", "https://www.theglobalfund.org/en/business-opportunities/", "The Global Fund", "donor", grp="intl", must_contain=TZW)
-page("Gavi tenders", "https://www.gavi.org/our-alliance/work-with-us/tenders", "Gavi", "donor", grp="intl", must_contain=TZW)
-page("African Union bids", "https://au.int/en/bids", "African Union", "donor", grp="intl", must_contain=TZW)
-page("SADC procurement", "https://www.sadc.int/procurement", "SADC", "donor", grp="intl", must_contain=TZW)
-page("IOM Tanzania procurement", "https://tanzania.iom.int/procurement", "IOM Tanzania", "donor", grp="intl")
-page("DevelopmentAid – Tanzania tenders", "https://www.developmentaid.org/tenders/search?locations=196", "", "", grp="intl", source="aggregator", must_contain=TZW)
-page("UNGM – Tanzania (reader)", "https://www.ungm.org/Public/Notice?Countries=210", "UN agencies", "donor", grp="intl")
-search("GIZ Tanzania tenders (web search)", '(site:giz.de OR site:ausschreibungen.giz.de) Tanzania tender OR Ausschreibung', "GIZ", "donor", grp="intl", must_contain=TZW)
-search("KfW / GTAI Tanzania tenders (web search)", '(site:gtai.de OR site:kfw-entwicklungsbank.de) Tansania Ausschreibung OR tender', "KfW-funded", "donor", grp="intl", must_contain=TZW + ["tansania"])
-search("JICA Tanzania tenders (web search)", 'site:jica.go.jp Tanzania tender OR bidding', "JICA", "donor", grp="intl", must_contain=TZW)
-search("US Embassy Tanzania solicitations (web search)", 'site:tz.usembassy.gov solicitation OR tender OR "request for quotations"', "US Embassy Dar es Salaam", "donor", grp="intl")
-search("EU Delegation Tanzania (web search)", '(site:eeas.europa.eu OR site:ec.europa.eu) Tanzania tender construction', "EU Delegation", "donor", grp="intl", must_contain=TZW)
-search("EIB Tanzania (web search)", 'site:eib.org Tanzania procurement OR tender', "European Investment Bank", "donor", grp="intl", must_contain=TZW)
-search("UN agencies Tanzania (web search)", '(site:unicef.org OR site:wfp.org OR site:unhcr.org OR site:unops.org OR site:fao.org) Tanzania "invitation to bid" OR tender', "UN agencies", "donor", grp="intl", must_contain=TZW)
-search("Embassies in Dar es Salaam (web search)", 'embassy "Dar es Salaam" tender OR "request for quotation" construction OR renovation', "Embassies", "donor", grp="intl", must_contain=TZW)
-search("NGOs in Tanzania (web search)", 'Tanzania NGO "invitation to tender" construction OR renovation OR rehabilitation', "NGOs", "ngo", grp="intl", must_contain=TZW)
-search("Aga Khan Tanzania (web search)", 'Aga Khan Tanzania tender construction OR "expression of interest"', "Aga Khan Development Network", "ngo", grp="intl", must_contain=TZW)
-search("Mining companies Tanzania (web search)", 'Tanzania mine tender construction "expression of interest" OR "invitation to tender"', "Mining companies", "private", grp="intl", must_contain=TZW)
-search("World Bank Tanzania (web search)", 'site:worldbank.org Tanzania "invitation for bids" OR "request for bids" works', "World Bank-funded", "donor", grp="intl", must_contain=TZW)
-
+def page(name, url, client="", ctype="", grp="intl", **kw): C.append(dict(kind="page", name=name, url=url, client=client, client_type=ctype, grp=grp, **kw))
+for n, u in [("IOM procurement", "https://www.iom.int/procurement-opportunities"), ("UNESCO procurement", "https://www.unesco.org/en/procurement"),
+             ("WHO AFRO procurement", "https://www.afro.who.int/about-us/procurement"), ("FAO bidding", "https://www.fao.org/unfao/procurement/bidding-opportunities/en"),
+             ("UN-Habitat procurement", "https://unhabitat.org/procurement"), ("ILO tenders", "https://www.ilo.org/about-ilo/how-ilo-works/procurement"),
+             ("Danida tenders", "https://um.dk/en/danida/tenders"), ("GIZ procurement", "https://www.giz.de/en/workingwithgiz/procurement.html"),
+             ("KfW tenders", "https://www.kfw-entwicklungsbank.de/International-financing/KfW-Development-Bank/Tenders/"),
+             ("AfDB specific procurement notices", "https://www.afdb.org/en/documents/project-related-procurement/procurement-notices/specific-procurement-notices"),
+             ("AfDB general procurement notices", "https://www.afdb.org/en/documents/project-related-procurement/procurement-notices/general-procurement-notices"),
+             ("GlobalTenders Tanzania", "https://www.globaltenders.com/government-tenders-tanzania"), ("GlobalTenders Tanzania 2", "https://www.globaltenders.com/tanzania-tenders.php"),
+             ("TenderImpulse Tanzania", "https://www.tenderimpulse.com/tanzania-tenders"), ("TendersGo Tanzania", "https://www.tendersgo.com/tanzania-tenders"),
+             ("EAC procurement notices", "https://www.eac.int/procurement/procurement-notices"), ("EAC tenders 2", "https://www.eac.int/procurement/tenders"),
+             ("African Court tenders", "https://www.african-court.org/wpafc/tenders/"), ("African Court procurement cat", "https://www.african-court.org/wpafc/category/procurement/"),
+             ("IRMCT procurement", "https://www.irmct.org/en/about/procurement"), ("LVBC procurement", "https://www.lvbcom.org/procurement"),
+             ("EADB procurement", "https://eadb.org/procurement/"), ("TDB Group procurement", "https://www.tdbgroup.org/procurement/"),
+             ("AUDA-NEPAD procurement", "https://www.nepad.org/procurement"), ("Nile Basin procurement", "https://nilebasin.org/procurement"),
+             ("UNOPS Tanzania", "https://www.unops.org/tanzania"), ("UNICEF supply tenders", "https://www.unicef.org/supply/tenders"),
+             ("WFP procurement", "https://www.wfp.org/procurement"), ("UNHCR procurement", "https://www.unhcr.org/what-we-do/how-we-work/procurement"),
+             ("Global Fund sourcing", "https://www.theglobalfund.org/en/sourcing-management/"), ("JICA notices", "https://www.jica.go.jp/english/about/announce/notice/index.html"),
+             ("US Embassy Tanzania business", "https://tz.usembassy.gov/business/"), ("British Council Tanzania", "https://www.britishcouncil.co.tz/about/procurement"),
+             ("Aga Khan University procurement", "https://www.aku.edu/about/Pages/procurement.aspx"), ("World Bank TZ projects procurement", "https://projects.worldbank.org/en/projects-operations/procurement?srce=both&countrycode_exact=TZ"),
+             ("UK Contracts Finder", "https://www.contractsfinder.service.gov.uk/Search/Results?keywords=Tanzania"), ("PPRA notices", "https://www.ppra.go.tz/publications/public-notices"),
+             ("Exim Bank Tanzania", "https://www.eximbank.co.tz/tenders"), ("Equity Bank Tanzania", "https://equitygroupholdings.com/tz/tenders"),
+             ("CRDB Foundation", "https://crdbbank.co.tz/en/about-us/tender"), ("Absa Tanzania", "https://www.absa.co.tz/about-us/tenders/"),
+             ("DTB Tanzania", "https://diamondtrust.co.tz/tenders"), ("KCB Tanzania", "https://tz.kcbgroup.com/tenders"),
+             ("Mwalimu Commercial Bank", "https://www.mwalimubank.co.tz/tenders"), ("Vodacom Tanzania", "https://vodacom.co.tz/tenders"),
+             ("Tanzania Breweries", "https://www.tanzaniabreweries.co.tz/tenders"), ("GGML Geita Gold", "https://www.geitamine.com/tenders"),
+             ("Barrick Tanzania", "https://www.barrick.com/English/operations/tanzania/default.aspx"), ("Puma Energy Tanzania", "https://pumaenergy.com/en/tanzania/tenders")]:
+    page(n, u, grp="tz" if n in ("PPRA notices", "Exim Bank Tanzania", "Equity Bank Tanzania", "CRDB Foundation", "Absa Tanzania", "DTB Tanzania", "KCB Tanzania", "Mwalimu Commercial Bank", "Vodacom Tanzania", "Tanzania Breweries", "GGML Geita Gold", "Barrick Tanzania", "Puma Energy Tanzania") else "intl")
+API = [("EC F&T search API (GET)", "GET", "https://api.tech.ec.europa.eu/search-api/prod/rest/search?apiKey=SEDIA&text=Tanzania&pageSize=20&pageNumber=1", None),
+       ("EC F&T search API (POST)", "POST", "https://api.tech.ec.europa.eu/search-api/prod/rest/search?apiKey=SEDIA&text=Tanzania&pageSize=20&pageNumber=1", {}),
+       ("Contracts Finder API", "POST", "https://www.contractsfinder.service.gov.uk/api/rest/2/search_notices/json", {"searchCriteria": {"keyword": "Tanzania"}, "size": 20}),
+       ("Find a Tender OCDS", "GET", "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages?limit=5", None),
+       ("UNDP notices page", "GET", "https://procurement-notices.undp.org/search.cfm?cur_off_id=TZA", None),
+       ("DuckDuckGo html", "GET", "https://html.duckduckgo.com/html/?q=site%3Ago.tz+%22invitation+for+tenders%22", None)]
 
 def reader(url):
     with _rl:                                   # the free page reader allows about 20 requests a minute
@@ -158,10 +105,24 @@ def run(a):
     return r
 
 
+def api(a):
+    n, m, u, body = a
+    try:
+        req = ts.urllib.request.Request(u, data=json.dumps(body).encode() if body is not None else None, method=m,
+                                        headers={**ts.BROWSER_HEADERS, "Content-Type": "application/json", "Accept": "application/json, text/html"})
+        with ts.OPENER.open(req, timeout=40) as r:
+            t = r.read().decode("utf-8", "replace")
+        return {"name": n, "ok": True, "bytes": len(t), "head": t[:600], "tanzania": t.lower().count("tanzania")}
+    except Exception as e:
+        return {"name": n, "ok": False, "error": str(e)[:200]}
+
+
 if __name__ == "__main__":
     with ThreadPoolExecutor(10) as ex:
         res = list(ex.map(run, enumerate(C)))
-    json.dump({"at": time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime()), "round": 4, "results": res},
+        apis = list(ex.map(api, API))
+    res.append({"name": "_api", "grp": "", "kind": "api", "routes": {}, "apis": apis})
+    json.dump({"at": time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime()), "round": 5, "results": res},
               open(os.path.join(HERE, "..", "data", "probe_report.json"), "w", encoding="utf-8"), indent=1)
     for r in res:
         print(r["name"][:40], r.get("ok"), r.get("used", ""), r.get("n"), r.get("error", "")[:80])
