@@ -75,6 +75,203 @@
         "client_type": "government",
         "every_minutes": 60,
         "enabled": true
+      },
+      {
+        "name": "TRC tenders",
+        "url": "https://www.trc.co.tz/tenders",
+        "source": "client site",
+        "client": "Tanzania Railways Corporation (TRC)",
+        "client_type": "parastatal",
+        "every_minutes": 60,
+        "enabled": true,
+        "about": "Railway stations, yards, buildings and civil works"
+      },
+      {
+        "name": "TCRA tenders",
+        "url": "https://www.tcra.go.tz/tenders",
+        "source": "client site",
+        "client": "Tanzania Communications Regulatory Authority (TCRA)",
+        "client_type": "government",
+        "every_minutes": 60,
+        "enabled": true
+      },
+      {
+        "name": "Azania Bank tenders",
+        "url": "https://www.azaniabank.co.tz/tenders",
+        "source": "client site",
+        "client": "Azania Bank",
+        "client_type": "bank",
+        "every_minutes": 60,
+        "enabled": true,
+        "about": "Branch fit-outs and refurbishments"
+      },
+      {
+        "name": "NBC Bank procurement",
+        "url": "https://www.nbc.co.tz/en/procurement/",
+        "source": "client site",
+        "client": "NBC Bank",
+        "client_type": "bank",
+        "every_minutes": 60,
+        "enabled": true
+      },
+      {
+        "name": "Ministry of Water tenders",
+        "url": "https://www.maji.go.tz/tenders",
+        "source": "client site",
+        "client": "Ministry of Water",
+        "client_type": "government",
+        "every_minutes": 60,
+        "enabled": true
+      },
+      {
+        "name": "REA tenders",
+        "url": "https://www.rea.go.tz/category/tenders",
+        "source": "client site",
+        "client": "Rural Energy Agency (REA)",
+        "client_type": "government",
+        "every_minutes": 60,
+        "enabled": true
+      },
+      {
+        "name": "DART tenders",
+        "url": "https://www.dart.go.tz/publications/tenders",
+        "source": "client site",
+        "client": "DART (Dar Rapid Transit Agency)",
+        "client_type": "government",
+        "every_minutes": 60,
+        "enabled": true,
+        "region": "Dar es Salaam"
+      },
+      {
+        "name": "TASAC tenders",
+        "url": "https://www.tasac.go.tz/publications/tender",
+        "source": "client site",
+        "client": "TASAC",
+        "client_type": "government",
+        "every_minutes": 60,
+        "enabled": true
+      },
+      {
+        "name": "TMDA tenders",
+        "url": "https://www.tmda.go.tz/tenders",
+        "source": "client site",
+        "client": "Tanzania Medicines and Medical Devices Authority (TMDA)",
+        "client_type": "government",
+        "every_minutes": 60,
+        "enabled": true
+      },
+      {
+        "name": "DUWASA tenders",
+        "url": "https://www.duwasa.go.tz/tenders",
+        "source": "client site",
+        "client": "DUWASA (Dodoma water)",
+        "client_type": "parastatal",
+        "every_minutes": 60,
+        "enabled": true,
+        "region": "Dodoma"
+      },
+      {
+        "name": "MWAUWASA tenders",
+        "url": "https://www.mwauwasa.go.tz/tenders",
+        "source": "client site",
+        "client": "MWAUWASA (Mwanza water)",
+        "client_type": "parastatal",
+        "every_minutes": 60,
+        "enabled": true,
+        "region": "Mwanza"
+      },
+      {
+        "name": "Ministry of Finance tenders",
+        "url": "https://www.mof.go.tz/pages/tenders",
+        "source": "client site",
+        "client": "Ministry of Finance",
+        "client_type": "government",
+        "every_minutes": 60,
+        "enabled": true
+      },
+      {
+        "name": "SUA tenders (zabuni)",
+        "url": "https://www.sua.ac.tz/zabuni",
+        "source": "client site",
+        "client": "Sokoine University of Agriculture (SUA)",
+        "client_type": "government",
+        "every_minutes": 60,
+        "enabled": true,
+        "region": "Morogoro"
+      },
+      {
+        "name": "Tanzania Posts announcements",
+        "url": "https://www.posta.co.tz/sw/announcement/all-announcement/",
+        "source": "client site",
+        "client": "Tanzania Posts Corporation",
+        "client_type": "parastatal",
+        "every_minutes": 60,
+        "enabled": true
+      },
+      {
+        "name": "TRA public notices",
+        "url": "https://www.tra.go.tz/public-notice/all",
+        "source": "client site",
+        "client": "Tanzania Revenue Authority (TRA)",
+        "client_type": "government",
+        "every_minutes": 60,
+        "enabled": true
+      },
+      {
+        "name": "UDSM announcements",
+        "url": "https://www.udsm.ac.tz",
+        "source": "client site",
+        "client": "University of Dar es Salaam",
+        "client_type": "government",
+        "every_minutes": 60,
+        "enabled": true,
+        "region": "Dar es Salaam"
+      },
+      {
+        "name": "TAWA announcements",
+        "url": "https://www.tawa.go.tz/announcements",
+        "source": "client site",
+        "client": "Tanzania Wildlife Management Authority (TAWA)",
+        "client_type": "government",
+        "every_minutes": 60,
+        "enabled": true
+      },
+      {
+        "name": "Ministry of Health notices",
+        "url": "https://www.moh.go.tz",
+        "source": "client site",
+        "client": "Ministry of Health",
+        "client_type": "government",
+        "every_minutes": 60,
+        "enabled": true
+      },
+      {
+        "name": "NM-AIST tenders",
+        "url": "https://www.nm-aist.ac.tz/tenders/all",
+        "source": "client site",
+        "client": "NM-AIST",
+        "client_type": "government",
+        "every_minutes": 60,
+        "enabled": true,
+        "region": "Arusha"
+      },
+      {
+        "name": "BidDetail – Tanzania tenders",
+        "url": "https://www.biddetail.com/tanzania-tenders",
+        "source": "aggregator",
+        "client": "",
+        "client_type": "",
+        "every_minutes": 120,
+        "enabled": true
+      },
+      {
+        "name": "ZoomTanzania tenders",
+        "url": "https://www.zoomtanzania.net/tenders",
+        "source": "aggregator",
+        "client": "",
+        "client_type": "",
+        "every_minutes": 120,
+        "enabled": true
       }
     ],
     "_web_pages_help": "To watch another Tanzanian tender page, copy one block, change name, url and client. The page must show its list without logging in. must_contain (optional) keeps only notices containing one of those words, e.g. [\"tanzania\"] on an international page. A page that keeps FAILING in last_scan.txt can be switched off with enabled: false. Removed 1 Oct 2026 because they could not be read from GitHub's computers: ZPPDA (address does not exist), NMB and AfDB (refuse automatic readers, 403), TANESCO (JavaScript list, bad certificate), TAA (page removed, 404), RUWASA (closes the connection to foreign servers). Their tenders still reach NEXUS through NeST, DDO Tenders and TanzaniaTenders.com.",
