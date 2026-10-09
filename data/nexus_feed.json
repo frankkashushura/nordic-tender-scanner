@@ -1,12 +1,12 @@
 {
-"generated": "2026-10-09T03:32:57+03:00",
+"generated": "2026-10-09T04:00:03+03:00",
 "scanner": {
-"last_scan": "2026-10-09T03:32:00+03:00",
-"summary": "NeST: 36 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 220 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read → no new tenders",
+"last_scan": "2026-10-09T03:59:00+03:00",
+"summary": "NeST: 33 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 220 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read → 2 new, 0 deadline change(s)",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-10-09 03:32",
+"last_ok": "2026-10-09 03:59",
 "error": ""
 },
 {
@@ -16,37 +16,37 @@
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-10-09 03:32",
+"last_ok": "2026-10-09 03:59",
 "error": ""
 },
 {
 "name": "CRDB Bank tenders",
-"last_ok": "2026-10-09 02:59",
+"last_ok": "2026-10-09 03:59",
 "error": ""
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-10-09 03:32",
+"last_ok": "2026-10-09 03:59",
 "error": ""
 },
 {
 "name": "TPA current tenders",
-"last_ok": "2026-10-09 02:59",
+"last_ok": "2026-10-09 03:59",
 "error": ""
 },
 {
 "name": "TARURA tenders",
-"last_ok": "2026-10-09 02:59",
+"last_ok": "2026-10-09 03:59",
 "error": ""
 },
 {
 "name": "Bank of Tanzania tenders",
-"last_ok": "2026-10-09 02:59",
+"last_ok": "2026-10-09 03:59",
 "error": ""
 },
 {
 "name": "TEITI tenders",
-"last_ok": "2026-10-09 02:59",
+"last_ok": "2026-10-09 03:59",
 "error": ""
 },
 {
@@ -56,7 +56,7 @@
 }
 ]
 },
-"workbook_rows": 89,
+"workbook_rows": 91,
 "tenders": [
 {
 "id": "7205-2026-2027-W-09",
@@ -3072,6 +3072,74 @@
 "next": "Read the notice and decide with the QS Director whether to pursue",
 "found_by": "Auto-scan",
 "source_id": "6451d6af-2bd8-48ae-a56a-8a7d682eb75e",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "S10-009-2026-2027-W-186",
+"title": "Rehabilitation of Langoni - Karansi road to gravel Standards,Construction of Ndarara II Road(1.5km)to gravel standard, Construction of Esinyari(Olkolili) Slab Culvert in Siha District.",
+"deadline": "2026-10-15T10:00:00+03:00",
+"body": {
+"no": "S10/009/2026/2027/W/186",
+"date_found": "2026-10-09T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "TARURA - Kilimanjaro Regional Office",
+"client_type": "government",
+"title": "Rehabilitation of Langoni - Karansi road to gravel Standards,Construction of Ndarara II Road(1.5km)to gravel standard, Construction of Esinyari(Olkolili) Slab Culvert in Siha District.",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Kilimanjaro (Moshi) (from client's office – confirm site)",
+"category": "renovation",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-10-15T10:00:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-10-08T00:00:00+03:00",
+"notice": "Small Works / Tender",
+"screen": "Check",
+"reason": "Auto (Small Works / Tender): Construction tender kept for review (would have been dropped: Remote and closing soon)",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "63d9974f-e65a-4eb0-a3aa-3741d7215ab6",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TR152-004-2026-2027-W-02",
+"title": "PROPOSED IMPROVEMENT OF EXTERNAL AREAS AND FIXTURES OF NANENANE BUILDINGS AT THE BANK OF TANZANIA, MBEYA BRANCH.",
+"deadline": "2026-10-16T16:00:00+03:00",
+"body": {
+"no": "TR152/004/2026/2027/W/02",
+"date_found": "2026-10-09T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "Bank of Tanzania - Mbeya Branch",
+"client_type": "government",
+"title": "PROPOSED IMPROVEMENT OF EXTERNAL AREAS AND FIXTURES OF NANENANE BUILDINGS AT THE BANK OF TANZANIA, MBEYA BRANCH.",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Mbeya",
+"category": "building",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-10-16T16:00:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-10-09T00:00:00+03:00",
+"notice": "Small Works / Tender",
+"screen": "Check",
+"reason": "Auto (Small Works / Tender): Building works but remote from Dar",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "9b89bfa3-0496-4cf2-a051-93c1558f7010",
 "synced_by": "NEXUS auto-sync"
 }
 }
