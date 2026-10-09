@@ -1,0 +1,2437 @@
+{
+ "at": "2026-10-09 22:00 UTC",
+ "results": [
+  {
+   "name": "TBA \u2013 Tanzania Buildings Agency",
+   "client": "Tanzania Buildings Agency (TBA)",
+   "client_type": "government",
+   "home": "https://www.tba.go.tz",
+   "best": {
+    "url": "https://www.tba.go.tz/pages/procurement-management-unit",
+    "ok": true,
+    "bytes": 39366,
+    "blocks": 25,
+    "tenderish": 0,
+    "construction": 0,
+    "samples": [],
+    "sec": 1.6
+   },
+   "tried": [
+    {
+     "url": "https://www.tba.go.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.tba.go.tz (HTTP Error 404: Not Found)",
+     "sec": 1.9
+    },
+    {
+     "url": "https://www.tba.go.tz/pages/tenders",
+     "ok": true,
+     "bytes": 39918,
+     "blocks": 17,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.5
+    },
+    {
+     "url": "https://www.tba.go.tz/zabuni",
+     "ok": false,
+     "error": "could not reach www.tba.go.tz (HTTP Error 404: Not Found)",
+     "sec": 1.3
+    },
+    {
+     "url": "https://www.tba.go.tz",
+     "ok": true,
+     "bytes": 91488,
+     "blocks": 183,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.9
+    },
+    {
+     "url": "https://www.tba.go.tz/pages/procurement-management-unit",
+     "ok": true,
+     "bytes": 39366,
+     "blocks": 25,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.6
+    }
+   ]
+  },
+  {
+   "name": "NHC \u2013 National Housing Corporation",
+   "client": "National Housing Corporation (NHC)",
+   "client_type": "parastatal",
+   "home": "https://www.nhc.co.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.nhc.co.tz/tenders",
+     "ok": true,
+     "bytes": 58345,
+     "blocks": 62,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 2.9
+    },
+    {
+     "url": "https://www.nhc.co.tz/en/tenders",
+     "ok": true,
+     "bytes": 58345,
+     "blocks": 62,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.4
+    },
+    {
+     "url": "https://www.nhc.co.tz/procurement",
+     "ok": true,
+     "bytes": 58345,
+     "blocks": 62,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.7
+    },
+    {
+     "url": "https://www.nhc.co.tz",
+     "ok": true,
+     "bytes": 58345,
+     "blocks": 62,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.8
+    }
+   ]
+  },
+  {
+   "name": "Watumishi Housing (WHC)",
+   "client": "Watumishi Housing Investments",
+   "client_type": "parastatal",
+   "home": "https://www.whc.go.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.whc.go.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.whc.go.tz (<urlopen error timed out>)",
+     "sec": 26.0
+    },
+    {
+     "url": "https://www.whc.go.tz/pages/tenders",
+     "ok": false,
+     "error": "could not reach www.whc.go.tz (<urlopen error timed out>)",
+     "sec": 25.3
+    },
+    {
+     "url": "https://www.whc.go.tz",
+     "ok": false,
+     "error": "could not reach www.whc.go.tz (<urlopen error timed out>)",
+     "sec": 25.0
+    }
+   ]
+  },
+  {
+   "name": "DAWASA",
+   "client": "DAWASA",
+   "client_type": "parastatal",
+   "home": "https://www.dawasa.go.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.dawasa.go.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.dawasa.go.tz (HTTP Error 404: Not Found)",
+     "sec": 2.0
+    },
+    {
+     "url": "https://www.dawasa.go.tz/zabuni",
+     "ok": false,
+     "error": "could not reach www.dawasa.go.tz (HTTP Error 404: Not Found)",
+     "sec": 1.3
+    },
+    {
+     "url": "https://www.dawasa.go.tz",
+     "ok": true,
+     "bytes": 117143,
+     "blocks": 142,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.9
+    }
+   ]
+  },
+  {
+   "name": "TPDC",
+   "client": "TPDC",
+   "client_type": "parastatal",
+   "home": "https://www.tpdc.co.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.tpdc.co.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.tpdc.co.tz (HTTP Error 404: Not Found)",
+     "sec": 2.3
+    },
+    {
+     "url": "https://www.tpdc.co.tz/procurement",
+     "ok": false,
+     "error": "could not reach www.tpdc.co.tz (HTTP Error 404: Not Found)",
+     "sec": 1.3
+    },
+    {
+     "url": "https://www.tpdc.co.tz",
+     "ok": true,
+     "bytes": 46722,
+     "blocks": 102,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.7
+    }
+   ]
+  },
+  {
+   "name": "TRC \u2013 Tanzania Railways Corporation",
+   "client": "Tanzania Railways Corporation (TRC)",
+   "client_type": "parastatal",
+   "home": "https://www.trc.co.tz",
+   "best": {
+    "url": "https://www.trc.co.tz/tenders",
+    "ok": true,
+    "bytes": 24064,
+    "blocks": 56,
+    "tenderish": 22,
+    "construction": 3,
+    "samples": [
+     "INVITATION TO EARLY MARKET ENGAGEMENT (EME) WORKSHOP (PHYSICAL AND VIRTUAL CONSULTATIVE MEETING)",
+     "INVITATION TO EARLY MARKET ENGAGEMENT (EME) WORKSHOP (PHYSICAL AND VIRTUAL CONSULTATIVE MEETING) Pakua",
+     "Zabuni Document INVITATION TO EARLY MARKET ENGAGEMENT (EME) WORKSHOP (PHYSICAL AND VIRTUAL CONSULTATIVE MEETING) Pakua"
+    ],
+    "sec": 2.8
+   },
+   "tried": [
+    {
+     "url": "https://www.trc.co.tz/tenders",
+     "ok": true,
+     "bytes": 24064,
+     "blocks": 56,
+     "tenderish": 22,
+     "construction": 3,
+     "samples": [
+      "INVITATION TO EARLY MARKET ENGAGEMENT (EME) WORKSHOP (PHYSICAL AND VIRTUAL CONSULTATIVE MEETING)",
+      "INVITATION TO EARLY MARKET ENGAGEMENT (EME) WORKSHOP (PHYSICAL AND VIRTUAL CONSULTATIVE MEETING) Pakua",
+      "Zabuni Document INVITATION TO EARLY MARKET ENGAGEMENT (EME) WORKSHOP (PHYSICAL AND VIRTUAL CONSULTATIVE MEETING) Pakua"
+     ],
+     "sec": 2.8
+    }
+   ]
+  },
+  {
+   "name": "TANESCO",
+   "client": "TANESCO",
+   "client_type": "parastatal",
+   "home": "https://www.tanesco.co.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.tanesco.co.tz/procurement/tenders",
+     "ok": false,
+     "error": "could not reach www.tanesco.co.tz (<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:101",
+     "sec": 1.8
+    },
+    {
+     "url": "https://www.tanesco.co.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.tanesco.co.tz (<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:101",
+     "sec": 0.9
+    },
+    {
+     "url": "https://www.tanesco.co.tz",
+     "ok": false,
+     "error": "could not reach www.tanesco.co.tz (<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:101",
+     "sec": 0.9
+    }
+   ]
+  },
+  {
+   "name": "REA \u2013 Rural Energy Agency",
+   "client": "Rural Energy Agency (REA)",
+   "client_type": "government",
+   "home": "https://www.rea.go.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.rea.go.tz/tenders",
+     "ok": true,
+     "bytes": 31667,
+     "blocks": 31,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 0.8
+    },
+    {
+     "url": "https://www.rea.go.tz/Tenders",
+     "ok": true,
+     "bytes": 31667,
+     "blocks": 31,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 51.0
+    },
+    {
+     "url": "https://www.rea.go.tz",
+     "ok": true,
+     "bytes": 51357,
+     "blocks": 141,
+     "tenderish": 5,
+     "construction": 2,
+     "samples": [
+      "Who we are. Our vision, our mission and what we do About Us What We Do Our Organization Rural Energy Board (REB). REB, REF and Development Partners Rural Energy",
+      "Who we are. Our vision, our mission and what we do About Us What We Do Our Organization Rural Energy Board (REB). REB, REF and Development Partners Rural Energy"
+     ],
+     "sec": 50.9
+    }
+   ]
+  },
+  {
+   "name": "TEMESA",
+   "client": "TEMESA",
+   "client_type": "government",
+   "home": "https://www.temesa.go.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.temesa.go.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.temesa.go.tz (HTTP Error 404: Not Found)",
+     "sec": 2.0
+    },
+    {
+     "url": "https://www.temesa.go.tz",
+     "ok": false,
+     "error": "could not reach www.temesa.go.tz (Remote end closed connection without response)",
+     "sec": 5.4
+    }
+   ]
+  },
+  {
+   "name": "TAMISEMI (PO-RALG)",
+   "client": "PO-RALG (TAMISEMI)",
+   "client_type": "government",
+   "home": "https://www.tamisemi.go.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.tamisemi.go.tz/tenders",
+     "ok": true,
+     "bytes": 553,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 2.8
+    },
+    {
+     "url": "https://www.tamisemi.go.tz/zabuni",
+     "ok": true,
+     "bytes": 553,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 2.1
+    },
+    {
+     "url": "https://www.tamisemi.go.tz",
+     "ok": true,
+     "bytes": 553,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 2.1
+    }
+   ]
+  },
+  {
+   "name": "Ministry of Health",
+   "client": "Ministry of Health",
+   "client_type": "government",
+   "home": "https://www.moh.go.tz",
+   "best": {
+    "url": "https://www.moh.go.tz/procurement",
+    "ok": true,
+    "bytes": 46048,
+    "blocks": 15,
+    "tenderish": 1,
+    "construction": 0,
+    "samples": [],
+    "sec": 2.0
+   },
+   "tried": [
+    {
+     "url": "https://www.moh.go.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.moh.go.tz (HTTP Error 404: Not Found)",
+     "sec": 2.3
+    },
+    {
+     "url": "https://www.moh.go.tz",
+     "ok": true,
+     "bytes": 103450,
+     "blocks": 124,
+     "tenderish": 2,
+     "construction": 0,
+     "samples": [],
+     "sec": 2.3
+    },
+    {
+     "url": "https://www.moh.go.tz/procurement",
+     "ok": true,
+     "bytes": 46048,
+     "blocks": 15,
+     "tenderish": 1,
+     "construction": 0,
+     "samples": [],
+     "sec": 2.0
+    }
+   ]
+  },
+  {
+   "name": "Ministry of Education",
+   "client": "Ministry of Education, Science and Technology",
+   "client_type": "government",
+   "home": "https://www.moe.go.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.moe.go.tz/en/tenders",
+     "ok": true,
+     "bytes": 110453,
+     "blocks": 15,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 2.6
+    },
+    {
+     "url": "https://www.moe.go.tz/tenders",
+     "ok": true,
+     "bytes": 110453,
+     "blocks": 15,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 2.9
+    },
+    {
+     "url": "https://www.moe.go.tz",
+     "ok": true,
+     "bytes": 267878,
+     "blocks": 101,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 4.3
+    }
+   ]
+  },
+  {
+   "name": "Ministry of Works",
+   "client": "Ministry of Works",
+   "client_type": "government",
+   "home": "https://www.mow.go.tz",
+   "best": {
+    "url": "https://www.mow.go.tz/pages/procurement-management",
+    "ok": true,
+    "bytes": 35963,
+    "blocks": 31,
+    "tenderish": 1,
+    "construction": 0,
+    "samples": [],
+    "sec": 1.6
+   },
+   "tried": [
+    {
+     "url": "https://www.mow.go.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.mow.go.tz (HTTP Error 404: Not Found)",
+     "sec": 2.1
+    },
+    {
+     "url": "https://www.mow.go.tz",
+     "ok": true,
+     "bytes": 76551,
+     "blocks": 218,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.9
+    },
+    {
+     "url": "https://www.mow.go.tz/pages/procurement-management",
+     "ok": true,
+     "bytes": 35963,
+     "blocks": 31,
+     "tenderish": 1,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.6
+    }
+   ]
+  },
+  {
+   "name": "Ministry of Water",
+   "client": "Ministry of Water",
+   "client_type": "government",
+   "home": "https://www.maji.go.tz",
+   "best": {
+    "url": "https://www.maji.go.tz/tenders",
+    "ok": true,
+    "bytes": 24527,
+    "blocks": 24,
+    "tenderish": 7,
+    "construction": 0,
+    "samples": [],
+    "sec": 2.6
+   },
+   "tried": [
+    {
+     "url": "https://www.maji.go.tz/tenders",
+     "ok": true,
+     "bytes": 24527,
+     "blocks": 24,
+     "tenderish": 7,
+     "construction": 0,
+     "samples": [],
+     "sec": 2.6
+    }
+   ]
+  },
+  {
+   "name": "NSSF",
+   "client": "NSSF",
+   "client_type": "parastatal",
+   "home": "https://www.nssf.go.tz",
+   "best": {
+    "url": "https://www.nssf.go.tz/tenders/general-procurement-notice",
+    "ok": true,
+    "bytes": 29299,
+    "blocks": 29,
+    "tenderish": 4,
+    "construction": 4,
+    "samples": [
+     "Tenders News How Do I NSSF YATUNUKIWA ISO 9001:2015, YAAHIDI HUDUMA BORA ZAIDI 06 Oct 2026 NSSF YAUNGA MKONO AJENDA YA NISHATI SAFI NA UHIFADHI WA MAZINGIRA KUE",
+     "Tenders News How Do I NSSF YATUNUKIWA ISO 9001:2015, YAAHIDI HUDUMA BORA ZAIDI 06 Oct 2026 NSSF YAUNGA MKONO AJENDA YA NISHATI SAFI NA UHIFADHI WA MAZINGIRA KUE",
+     "Tenders News How Do I NSSF YATUNUKIWA ISO 9001:2015, YAAHIDI HUDUMA BORA ZAIDI 06 Oct 2026 NSSF YAUNGA MKONO AJENDA YA NISHATI SAFI NA UHIFADHI WA MAZINGIRA KUE",
+     "Tenders News How Do I NSSF YATUNUKIWA ISO 9001:2015, YAAHIDI HUDUMA BORA ZAIDI 06 Oct 2026 NSSF YAUNGA MKONO AJENDA YA NISHATI SAFI NA UHIFADHI WA MAZINGIRA KUE"
+    ],
+    "sec": 1.7
+   },
+   "tried": [
+    {
+     "url": "https://www.nssf.go.tz/tenders",
+     "ok": true,
+     "bytes": 41796,
+     "blocks": 65,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 3.5
+    },
+    {
+     "url": "https://www.nssf.go.tz/procurement",
+     "ok": false,
+     "error": "could not reach www.nssf.go.tz (HTTP Error 404: Not Found)",
+     "sec": 1.3
+    },
+    {
+     "url": "https://www.nssf.go.tz",
+     "ok": true,
+     "bytes": 41796,
+     "blocks": 65,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 2.2
+    },
+    {
+     "url": "https://www.nssf.go.tz/tenders/general-procurement-notice",
+     "ok": true,
+     "bytes": 29299,
+     "blocks": 29,
+     "tenderish": 4,
+     "construction": 4,
+     "samples": [
+      "Tenders News How Do I NSSF YATUNUKIWA ISO 9001:2015, YAAHIDI HUDUMA BORA ZAIDI 06 Oct 2026 NSSF YAUNGA MKONO AJENDA YA NISHATI SAFI NA UHIFADHI WA MAZINGIRA KUE",
+      "Tenders News How Do I NSSF YATUNUKIWA ISO 9001:2015, YAAHIDI HUDUMA BORA ZAIDI 06 Oct 2026 NSSF YAUNGA MKONO AJENDA YA NISHATI SAFI NA UHIFADHI WA MAZINGIRA KUE",
+      "Tenders News How Do I NSSF YATUNUKIWA ISO 9001:2015, YAAHIDI HUDUMA BORA ZAIDI 06 Oct 2026 NSSF YAUNGA MKONO AJENDA YA NISHATI SAFI NA UHIFADHI WA MAZINGIRA KUE",
+      "Tenders News How Do I NSSF YATUNUKIWA ISO 9001:2015, YAAHIDI HUDUMA BORA ZAIDI 06 Oct 2026 NSSF YAUNGA MKONO AJENDA YA NISHATI SAFI NA UHIFADHI WA MAZINGIRA KUE"
+     ],
+     "sec": 1.7
+    },
+    {
+     "url": "https://www.nssf.go.tz/tenders/n",
+     "ok": true,
+     "bytes": 29287,
+     "blocks": 29,
+     "tenderish": 4,
+     "construction": 4,
+     "samples": [
+      "Tenders News How Do I NSSF YATUNUKIWA ISO 9001:2015, YAAHIDI HUDUMA BORA ZAIDI 06 Oct 2026 NSSF YAUNGA MKONO AJENDA YA NISHATI SAFI NA UHIFADHI WA MAZINGIRA KUE",
+      "Tenders News How Do I NSSF YATUNUKIWA ISO 9001:2015, YAAHIDI HUDUMA BORA ZAIDI 06 Oct 2026 NSSF YAUNGA MKONO AJENDA YA NISHATI SAFI NA UHIFADHI WA MAZINGIRA KUE",
+      "Tenders News How Do I NSSF YATUNUKIWA ISO 9001:2015, YAAHIDI HUDUMA BORA ZAIDI 06 Oct 2026 NSSF YAUNGA MKONO AJENDA YA NISHATI SAFI NA UHIFADHI WA MAZINGIRA KUE",
+      "Tenders News How Do I NSSF YATUNUKIWA ISO 9001:2015, YAAHIDI HUDUMA BORA ZAIDI 06 Oct 2026 NSSF YAUNGA MKONO AJENDA YA NISHATI SAFI NA UHIFADHI WA MAZINGIRA KUE"
+     ],
+     "sec": 1.6
+    }
+   ]
+  },
+  {
+   "name": "PSSSF",
+   "client": "PSSSF",
+   "client_type": "parastatal",
+   "home": "https://www.psssf.go.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.psssf.go.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.psssf.go.tz (HTTP Error 404: Not Found)",
+     "sec": 3.1
+    },
+    {
+     "url": "https://www.psssf.go.tz",
+     "ok": true,
+     "bytes": 110566,
+     "blocks": 82,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 2.2
+    }
+   ]
+  },
+  {
+   "name": "TRA",
+   "client": "Tanzania Revenue Authority (TRA)",
+   "client_type": "government",
+   "home": "https://www.tra.go.tz",
+   "best": {
+    "url": "https://tanesw.tra.go.tz/ptle/",
+    "ok": true,
+    "bytes": 1469,
+    "blocks": 0,
+    "tenderish": 0,
+    "construction": 0,
+    "samples": [],
+    "sec": 2.2
+   },
+   "tried": [
+    {
+     "url": "https://www.tra.go.tz/index.php/tenders",
+     "ok": false,
+     "error": "could not reach www.tra.go.tz (<urlopen error timed out>)",
+     "sec": 29.3
+    },
+    {
+     "url": "https://www.tra.go.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.tra.go.tz (<urlopen error timed out>)",
+     "sec": 26.7
+    },
+    {
+     "url": "https://www.tra.go.tz",
+     "ok": true,
+     "bytes": 109926,
+     "blocks": 170,
+     "tenderish": 17,
+     "construction": 0,
+     "samples": [],
+     "sec": 2.5
+    },
+    {
+     "url": "https://tanesw.tra.go.tz/ptle/",
+     "ok": true,
+     "bytes": 1469,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 2.2
+    },
+    {
+     "url": "https://www.tra.go.tz/images/uploads/public_notice/english/PUBLIC_NOTICE_FOR_CUSTOMS_LICENSES_2027..pdf",
+     "ok": true,
+     "bytes": 3015103,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 8.7
+    },
+    {
+     "url": "https://www.tra.go.tz/images/uploads/public_notice/english/ADVERT_ETS.pdf",
+     "ok": true,
+     "bytes": 2099689,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 6.3
+    }
+   ]
+  },
+  {
+   "name": "TCAA",
+   "client": "TCAA",
+   "client_type": "government",
+   "home": "https://www.tcaa.go.tz",
+   "best": {
+    "url": "https://www.tcaa.go.tz/announcements/invitation-for-applications-for-air-service-and-ground-handling-service-licences",
+    "ok": true,
+    "bytes": 95884,
+    "blocks": 32,
+    "tenderish": 2,
+    "construction": 0,
+    "samples": [],
+    "sec": 2.1
+   },
+   "tried": [
+    {
+     "url": "https://www.tcaa.go.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.tcaa.go.tz (HTTP Error 404: Not Found)",
+     "sec": 2.1
+    },
+    {
+     "url": "https://www.tcaa.go.tz",
+     "ok": true,
+     "bytes": 158611,
+     "blocks": 133,
+     "tenderish": 3,
+     "construction": 0,
+     "samples": [],
+     "sec": 2.6
+    },
+    {
+     "url": "https://www.tcaa.go.tz/announcements/invitation-for-applications-for-air-service-and-ground-handling-service-licences",
+     "ok": true,
+     "bytes": 95884,
+     "blocks": 32,
+     "tenderish": 2,
+     "construction": 0,
+     "samples": [],
+     "sec": 2.1
+    }
+   ]
+  },
+  {
+   "name": "EWURA",
+   "client": "EWURA",
+   "client_type": "government",
+   "home": "https://www.ewura.go.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.ewura.go.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.ewura.go.tz (HTTP Error 404: Not Found)",
+     "sec": 1.9
+    },
+    {
+     "url": "https://www.ewura.go.tz",
+     "ok": true,
+     "bytes": 177043,
+     "blocks": 116,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 2.3
+    }
+   ]
+  },
+  {
+   "name": "TANAPA",
+   "client": "TANAPA",
+   "client_type": "government",
+   "home": "https://www.tanzaniaparks.go.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.tanzaniaparks.go.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.tanzaniaparks.go.tz (HTTP Error 404: Not Found)",
+     "sec": 2.1
+    },
+    {
+     "url": "https://www.tanzaniaparks.go.tz",
+     "ok": true,
+     "bytes": 105743,
+     "blocks": 129,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 2.0
+    }
+   ]
+  },
+  {
+   "name": "NCAA \u2013 Ngorongoro",
+   "client": "Ngorongoro Conservation Area Authority",
+   "client_type": "government",
+   "home": "https://www.ncaa.go.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.ncaa.go.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.ncaa.go.tz (HTTP Error 404: Not Found)",
+     "sec": 2.3
+    },
+    {
+     "url": "https://www.ncaa.go.tz",
+     "ok": true,
+     "bytes": 409500,
+     "blocks": 298,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 3.0
+    }
+   ]
+  },
+  {
+   "name": "TFS \u2013 Forest Service",
+   "client": "Tanzania Forest Service (TFS)",
+   "client_type": "government",
+   "home": "https://www.tfs.go.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.tfs.go.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.tfs.go.tz (HTTP Error 404: Not Found)",
+     "sec": 2.0
+    },
+    {
+     "url": "https://www.tfs.go.tz",
+     "ok": true,
+     "bytes": 63127,
+     "blocks": 112,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 2.3
+    }
+   ]
+  },
+  {
+   "name": "TASAF",
+   "client": "TASAF",
+   "client_type": "government",
+   "home": "https://www.tasaf.go.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.tasaf.go.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.tasaf.go.tz (HTTP Error 404: Not Found)",
+     "sec": 1.8
+    },
+    {
+     "url": "https://www.tasaf.go.tz",
+     "ok": true,
+     "bytes": 44297,
+     "blocks": 87,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.6
+    }
+   ]
+  },
+  {
+   "name": "MSD \u2013 Medical Stores",
+   "client": "Medical Stores Department (MSD)",
+   "client_type": "government",
+   "home": "https://www.msd.go.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.msd.go.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.msd.go.tz (<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>)",
+     "sec": 1.5
+    },
+    {
+     "url": "https://www.msd.go.tz",
+     "ok": false,
+     "error": "could not reach www.msd.go.tz (<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>)",
+     "sec": 1.0
+    }
+   ]
+  },
+  {
+   "name": "TBS",
+   "client": "Tanzania Bureau of Standards",
+   "client_type": "government",
+   "home": "https://www.tbs.go.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.tbs.go.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.tbs.go.tz (HTTP Error 404: Not Found)",
+     "sec": 2.0
+    },
+    {
+     "url": "https://www.tbs.go.tz",
+     "ok": true,
+     "bytes": 130053,
+     "blocks": 114,
+     "tenderish": 10,
+     "construction": 0,
+     "samples": [],
+     "sec": 2.3
+    }
+   ]
+  },
+  {
+   "name": "NEMC",
+   "client": "NEMC",
+   "client_type": "government",
+   "home": "https://www.nemc.or.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.nemc.or.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.nemc.or.tz (HTTP Error 404: Not Found)",
+     "sec": 2.0
+    },
+    {
+     "url": "https://www.nemc.or.tz",
+     "ok": true,
+     "bytes": 109503,
+     "blocks": 146,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 2.1
+    }
+   ]
+  },
+  {
+   "name": "TCRA",
+   "client": "TCRA",
+   "client_type": "government",
+   "home": "https://www.tcra.go.tz",
+   "best": {
+    "url": "https://www.tcra.go.tz/tenders",
+    "ok": true,
+    "bytes": 216782,
+    "blocks": 61,
+    "tenderish": 34,
+    "construction": 4,
+    "samples": [
+     "EXTENSION OF TENDER SUBMISSION DEADLINE FOR PROPOSED DESIGN AND INSTALLATION OF MULTIPURPOSE CONFERENCE HALL FACILITIES AT PAPU HOUSE PROJECT (TENDER NO. AE-020",
+     "9 6 12 th Jan, 2023 EXTENSION OF TENDER SUBMISSION DEADLINE FOR PROPOSED DESIGN AND INSTALLATION OF MULTIPURPOSE CONFERENCE HALL FACILITIES AT PAPU HOUSE PROJEC",
+     "Tenders 9 6 12 th Jan, 2023 EXTENSION OF TENDER SUBMISSION DEADLINE FOR PROPOSED DESIGN AND INSTALLATION OF MULTIPURPOSE CONFERENCE HALL FACILITIES AT PAPU HOUS",
+     "Tenders 0 5 29 th Nov, 2022 DESIGN AND INSTALLATION OF MULTIPURPOSE CONFERENCE HALL FACILITIES TO THE PAPU HOUSE Download View"
+    ],
+    "sec": 2.2
+   },
+   "tried": [
+    {
+     "url": "https://www.tcra.go.tz/tenders",
+     "ok": true,
+     "bytes": 216782,
+     "blocks": 61,
+     "tenderish": 34,
+     "construction": 4,
+     "samples": [
+      "EXTENSION OF TENDER SUBMISSION DEADLINE FOR PROPOSED DESIGN AND INSTALLATION OF MULTIPURPOSE CONFERENCE HALL FACILITIES AT PAPU HOUSE PROJECT (TENDER NO. AE-020",
+      "9 6 12 th Jan, 2023 EXTENSION OF TENDER SUBMISSION DEADLINE FOR PROPOSED DESIGN AND INSTALLATION OF MULTIPURPOSE CONFERENCE HALL FACILITIES AT PAPU HOUSE PROJEC",
+      "Tenders 9 6 12 th Jan, 2023 EXTENSION OF TENDER SUBMISSION DEADLINE FOR PROPOSED DESIGN AND INSTALLATION OF MULTIPURPOSE CONFERENCE HALL FACILITIES AT PAPU HOUS",
+      "Tenders 0 5 29 th Nov, 2022 DESIGN AND INSTALLATION OF MULTIPURPOSE CONFERENCE HALL FACILITIES TO THE PAPU HOUSE Download View"
+     ],
+     "sec": 2.2
+    }
+   ]
+  },
+  {
+   "name": "LATRA",
+   "client": "LATRA",
+   "client_type": "government",
+   "home": "https://www.latra.go.tz",
+   "best": {
+    "url": "https://www.latra.go.tz/pages/procurement-management-unit",
+    "ok": true,
+    "bytes": 49489,
+    "blocks": 43,
+    "tenderish": 5,
+    "construction": 0,
+    "samples": [],
+    "sec": 1.7
+   },
+   "tried": [
+    {
+     "url": "https://www.latra.go.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.latra.go.tz (HTTP Error 404: Not Found)",
+     "sec": 1.9
+    },
+    {
+     "url": "https://www.latra.go.tz",
+     "ok": true,
+     "bytes": 81105,
+     "blocks": 105,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.5
+    },
+    {
+     "url": "https://www.latra.go.tz/pages/procurement-management-unit",
+     "ok": true,
+     "bytes": 49489,
+     "blocks": 43,
+     "tenderish": 5,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.7
+    },
+    {
+     "url": "https://www.latra.go.tz/announcements/invitation-to-a-stakeholders-meeting-to-collect-views-on-the-process-of-reviewing-public-road-transport-fares-karimjee-hall-dar-es-salaam",
+     "ok": true,
+     "bytes": 49799,
+     "blocks": 38,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.7
+    }
+   ]
+  },
+  {
+   "name": "TTCL",
+   "client": "TTCL",
+   "client_type": "parastatal",
+   "home": "https://www.ttcl.co.tz",
+   "best": {
+    "url": "https://www.ttcl.co.tz/ttcl-tenders",
+    "ok": true,
+    "bytes": 20906,
+    "blocks": 24,
+    "tenderish": 0,
+    "construction": 0,
+    "samples": [],
+    "sec": 1.6
+   },
+   "tried": [
+    {
+     "url": "https://www.ttcl.co.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.ttcl.co.tz (HTTP Error 404: Not Found)",
+     "sec": 2.1
+    },
+    {
+     "url": "https://www.ttcl.co.tz",
+     "ok": true,
+     "bytes": 40126,
+     "blocks": 57,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.8
+    },
+    {
+     "url": "https://www.ttcl.co.tz/ttcl-tenders",
+     "ok": true,
+     "bytes": 20906,
+     "blocks": 24,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.6
+    }
+   ]
+  },
+  {
+   "name": "TPC Posta",
+   "client": "Tanzania Posts Corporation",
+   "client_type": "parastatal",
+   "home": "https://www.posta.co.tz",
+   "best": {
+    "url": "https://www.posta.co.tz/media/publications/pdfs/TPC_Tender_Motor_Vehicles.pdf",
+    "ok": true,
+    "bytes": 111715,
+    "blocks": 0,
+    "tenderish": 0,
+    "construction": 0,
+    "samples": [],
+    "sec": 13.9
+   },
+   "tried": [
+    {
+     "url": "https://www.posta.co.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.posta.co.tz (HTTP Error 404: Not Found)",
+     "sec": 2.2
+    },
+    {
+     "url": "https://www.posta.co.tz",
+     "ok": true,
+     "bytes": 77341,
+     "blocks": 136,
+     "tenderish": 4,
+     "construction": 0,
+     "samples": [],
+     "sec": 9.1
+    },
+    {
+     "url": "https://www.posta.co.tz/media/publications/pdfs/TPC_Tender_Motor_Vehicles.pdf",
+     "ok": true,
+     "bytes": 111715,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 13.9
+    }
+   ]
+  },
+  {
+   "name": "ATCL",
+   "client": "Air Tanzania",
+   "client_type": "parastatal",
+   "home": "https://www.airtanzania.co.tz",
+   "best": {
+    "url": "https://www.airtanzania.co.tz/tenders",
+    "ok": true,
+    "bytes": 44250,
+    "blocks": 5,
+    "tenderish": 0,
+    "construction": 0,
+    "samples": [],
+    "sec": 1.6
+   },
+   "tried": [
+    {
+     "url": "https://www.airtanzania.co.tz/tenders",
+     "ok": true,
+     "bytes": 44450,
+     "blocks": 5,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 4.5
+    },
+    {
+     "url": "https://www.airtanzania.co.tz",
+     "ok": true,
+     "bytes": 106968,
+     "blocks": 128,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 6.2
+    },
+    {
+     "url": "https://www.airtanzania.co.tz/tenders",
+     "ok": true,
+     "bytes": 44250,
+     "blocks": 5,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.6
+    }
+   ]
+  },
+  {
+   "name": "TIC",
+   "client": "Tanzania Investment Centre",
+   "client_type": "government",
+   "home": "https://www.tic.go.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.tic.go.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.tic.go.tz (<urlopen error timed out>)",
+     "sec": 26.0
+    },
+    {
+     "url": "https://www.tic.go.tz",
+     "ok": false,
+     "error": "could not reach www.tic.go.tz (<urlopen error timed out>)",
+     "sec": 25.3
+    }
+   ]
+  },
+  {
+   "name": "NIDA",
+   "client": "NIDA",
+   "client_type": "government",
+   "home": "https://www.nida.go.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.nida.go.tz/tenders",
+     "ok": true,
+     "bytes": 82377,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 3.9
+    },
+    {
+     "url": "https://www.nida.go.tz",
+     "ok": true,
+     "bytes": 82377,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 2.0
+    }
+   ]
+  },
+  {
+   "name": "TMA",
+   "client": "Tanzania Meteorological Authority",
+   "client_type": "government",
+   "home": "https://www.meteo.go.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.meteo.go.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.meteo.go.tz (HTTP Error 404: Not Found)",
+     "sec": 2.0
+    },
+    {
+     "url": "https://www.meteo.go.tz",
+     "ok": true,
+     "bytes": 109107,
+     "blocks": 150,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 2.1
+    }
+   ]
+  },
+  {
+   "name": "GST \u2013 Geological Survey",
+   "client": "Geological Survey of Tanzania",
+   "client_type": "government",
+   "home": "https://www.gst.go.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.gst.go.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.gst.go.tz (HTTP Error 404: Not Found)",
+     "sec": 1.9
+    },
+    {
+     "url": "https://www.gst.go.tz",
+     "ok": true,
+     "bytes": 102576,
+     "blocks": 104,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.9
+    }
+   ]
+  },
+  {
+   "name": "UDSM",
+   "client": "University of Dar es Salaam",
+   "client_type": "university",
+   "home": "https://www.udsm.ac.tz",
+   "best": {
+    "url": "https://www.udsm.ac.tz/announcement/invitation-pre-qualification",
+    "ok": true,
+    "bytes": 52728,
+    "blocks": 11,
+    "tenderish": 6,
+    "construction": 0,
+    "samples": [],
+    "sec": 2.0
+   },
+   "tried": [
+    {
+     "url": "https://www.udsm.ac.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.udsm.ac.tz (HTTP Error 404: Not Found)",
+     "sec": 1.4
+    },
+    {
+     "url": "https://www.udsm.ac.tz/web/index.php/tenders",
+     "ok": false,
+     "error": "could not reach www.udsm.ac.tz (HTTP Error 404: Not Found)",
+     "sec": 0.9
+    },
+    {
+     "url": "https://www.udsm.ac.tz",
+     "ok": true,
+     "bytes": 225857,
+     "blocks": 682,
+     "tenderish": 10,
+     "construction": 0,
+     "samples": [],
+     "sec": 2.5
+    },
+    {
+     "url": "https://www.udsm.ac.tz/procurement",
+     "ok": true,
+     "bytes": 51471,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.5
+    },
+    {
+     "url": "https://www.udsm.ac.tz/announcement/invitation-apply-university-dar-es-salaam-merit-scholarships-academic-year-20252026",
+     "ok": true,
+     "bytes": 52756,
+     "blocks": 14,
+     "tenderish": 1,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.7
+    },
+    {
+     "url": "https://www.udsm.ac.tz/announcement/invitation-bids-supply-installation-and-commissioning-ict-infrastructure-university",
+     "ok": true,
+     "bytes": 52545,
+     "blocks": 8,
+     "tenderish": 4,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.6
+    },
+    {
+     "url": "https://www.udsm.ac.tz/announcement/invitation-pre-qualification",
+     "ok": true,
+     "bytes": 52728,
+     "blocks": 11,
+     "tenderish": 6,
+     "construction": 0,
+     "samples": [],
+     "sec": 2.0
+    }
+   ]
+  },
+  {
+   "name": "UDOM",
+   "client": "University of Dodoma",
+   "client_type": "university",
+   "home": "https://www.udom.ac.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.udom.ac.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.udom.ac.tz (HTTP Error 404: Not Found)",
+     "sec": 1.9
+    },
+    {
+     "url": "https://www.udom.ac.tz",
+     "ok": true,
+     "bytes": 101574,
+     "blocks": 99,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.8
+    },
+    {
+     "url": "https://www.udom.ac.tz/directorates/index?id=VFZSQlBRPT0=",
+     "ok": false,
+     "error": "could not reach www.udom.ac.tz (HTTP Error 500: Internal Server Error)",
+     "sec": 1.3
+    }
+   ]
+  },
+  {
+   "name": "SUA",
+   "client": "Sokoine University",
+   "client_type": "university",
+   "home": "https://www.sua.ac.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.sua.ac.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.sua.ac.tz (HTTP Error 404: Not Found)",
+     "sec": 2.4
+    },
+    {
+     "url": "https://www.sua.ac.tz",
+     "ok": true,
+     "bytes": 106056,
+     "blocks": 235,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 2.2
+    }
+   ]
+  },
+  {
+   "name": "MUHAS",
+   "client": "MUHAS",
+   "client_type": "university",
+   "home": "https://www.muhas.ac.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.muhas.ac.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.muhas.ac.tz (HTTP Error 403: Forbidden)",
+     "sec": 2.8
+    },
+    {
+     "url": "https://www.muhas.ac.tz",
+     "ok": false,
+     "error": "could not reach www.muhas.ac.tz (HTTP Error 403: Forbidden)",
+     "sec": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Ardhi University",
+   "client": "Ardhi University",
+   "client_type": "university",
+   "home": "https://www.aru.ac.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.aru.ac.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.aru.ac.tz (HTTP Error 404: Not Found)",
+     "sec": 1.9
+    },
+    {
+     "url": "https://www.aru.ac.tz",
+     "ok": true,
+     "bytes": 84627,
+     "blocks": 79,
+     "tenderish": 9,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.9
+    },
+    {
+     "url": "https://www.aru.ac.tz/uploads/documents/en-1707553332-Invitation for Tenders.pdf",
+     "ok": false,
+     "error": "URL can't contain control characters. '/uploads/documents/en-1707553332-Invitation for Tenders.pdf' (found at least ' ')",
+     "sec": 0.0
+    },
+    {
+     "url": "https://www.aru.ac.tz/uploads/announcements/en-1742397338-Request for Bids March 2025.pdf",
+     "ok": false,
+     "error": "URL can't contain control characters. '/uploads/announcements/en-1742397338-Request for Bids March 2025.pdf' (found at least ' ')",
+     "sec": 0.0
+    },
+    {
+     "url": "https://www.aru.ac.tz/uploads/announcements/en-1791369522-3Round Admission.pdf",
+     "ok": false,
+     "error": "URL can't contain control characters. '/uploads/announcements/en-1791369522-3Round Admission.pdf' (found at least ' ')",
+     "sec": 0.0
+    },
+    {
+     "url": "https://www.aru.ac.tz/uploads/announcements/en-1788887347-CREDIT TRANSFER_APPLICATIONS.pdf",
+     "ok": false,
+     "error": "URL can't contain control characters. '/uploads/announcements/en-1788887347-CREDIT TRANSFER_APPLICATIONS.pdf' (found at least ' ')",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Mzumbe University",
+   "client": "Mzumbe University",
+   "client_type": "university",
+   "home": "https://www.mzumbe.ac.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.mzumbe.ac.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.mzumbe.ac.tz (HTTP Error 404: Not Found)",
+     "sec": 1.3
+    },
+    {
+     "url": "https://www.mzumbe.ac.tz",
+     "ok": true,
+     "bytes": 191824,
+     "blocks": 360,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 4.1
+    },
+    {
+     "url": "https://www.mzumbe.ac.tz/en/administrations/units/procurement-management-unit/",
+     "ok": false,
+     "error": "could not reach www.mzumbe.ac.tz (HTTP Error 404: Not Found)",
+     "sec": 0.5
+    }
+   ]
+  },
+  {
+   "name": "NM-AIST",
+   "client": "NM-AIST",
+   "client_type": "university",
+   "home": "https://www.nm-aist.ac.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.nm-aist.ac.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.nm-aist.ac.tz (HTTP Error 404: Not Found)",
+     "sec": 3.0
+    },
+    {
+     "url": "https://www.nm-aist.ac.tz",
+     "ok": true,
+     "bytes": 248944,
+     "blocks": 178,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 8.8
+    }
+   ]
+  },
+  {
+   "name": "DIT",
+   "client": "Dar es Salaam Institute of Technology",
+   "client_type": "university",
+   "home": "https://www.dit.ac.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.dit.ac.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.dit.ac.tz (HTTP Error 404: Not Found)",
+     "sec": 3.4
+    },
+    {
+     "url": "https://www.dit.ac.tz",
+     "ok": false,
+     "error": "IncompleteRead(71656 bytes read)",
+     "sec": 3.0
+    }
+   ]
+  },
+  {
+   "name": "Muhimbili National Hospital",
+   "client": "Muhimbili National Hospital",
+   "client_type": "hospital",
+   "home": "https://www.mnh.or.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.mnh.or.tz/tenders",
+     "ok": true,
+     "bytes": 5180,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.7
+    },
+    {
+     "url": "https://www.mnh.or.tz",
+     "ok": true,
+     "bytes": 5180,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Benjamin Mkapa Hospital",
+   "client": "Benjamin Mkapa Hospital",
+   "client_type": "hospital",
+   "home": "https://www.bmh.or.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.bmh.or.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.bmh.or.tz (HTTP Error 404: Not Found)",
+     "sec": 1.9
+    },
+    {
+     "url": "https://www.bmh.or.tz",
+     "ok": true,
+     "bytes": 131458,
+     "blocks": 253,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 2.4
+    }
+   ]
+  },
+  {
+   "name": "KCMC",
+   "client": "KCMC",
+   "client_type": "hospital",
+   "home": "https://www.kcmc.ac.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.kcmc.ac.tz/tenders",
+     "ok": true,
+     "bytes": 4470,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.8
+    },
+    {
+     "url": "https://www.kcmc.ac.tz",
+     "ok": true,
+     "bytes": 212019,
+     "blocks": 220,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 2.2
+    }
+   ]
+  },
+  {
+   "name": "NBC Bank",
+   "client": "NBC Bank",
+   "client_type": "bank",
+   "home": "https://www.nbc.co.tz",
+   "best": {
+    "url": "https://www.nbc.co.tz/en/procurement/",
+    "ok": true,
+    "bytes": 92773,
+    "blocks": 413,
+    "tenderish": 11,
+    "construction": 0,
+    "samples": [],
+    "sec": 1.3
+   },
+   "tried": [
+    {
+     "url": "https://www.nbc.co.tz/en/tenders",
+     "ok": false,
+     "error": "could not reach www.nbc.co.tz (HTTP Error 404: Not Found)",
+     "sec": 2.2
+    },
+    {
+     "url": "https://www.nbc.co.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.nbc.co.tz (HTTP Error 404: Not Found)",
+     "sec": 1.1
+    },
+    {
+     "url": "https://www.nbc.co.tz",
+     "ok": true,
+     "bytes": 89597,
+     "blocks": 358,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 2.6
+    },
+    {
+     "url": "https://www.nbc.co.tz/en/procurement/",
+     "ok": true,
+     "bytes": 92773,
+     "blocks": 413,
+     "tenderish": 11,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.3
+    }
+   ]
+  },
+  {
+   "name": "TCB Bank",
+   "client": "Tanzania Commercial Bank",
+   "client_type": "bank",
+   "home": "https://www.tcbbank.co.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.tcbbank.co.tz/tenders",
+     "ok": true,
+     "bytes": 30,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.7
+    },
+    {
+     "url": "https://www.tcbbank.co.tz",
+     "ok": true,
+     "bytes": 38971,
+     "blocks": 126,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.4
+    }
+   ]
+  },
+  {
+   "name": "Azania Bank",
+   "client": "Azania Bank",
+   "client_type": "bank",
+   "home": "https://www.azaniabank.co.tz",
+   "best": {
+    "url": "https://www.azaniabank.co.tz/tenders",
+    "ok": true,
+    "bytes": 118557,
+    "blocks": 211,
+    "tenderish": 126,
+    "construction": 9,
+    "samples": [
+     "Tender Document General Office Stationary(Feb 2026)",
+     "Tender Document General Office Stationary(Feb 2026) Tender Document",
+     "Pre-qualification for Contractors for Remodeling, Fit-out, Refurbishment Works for Bank Branches (May 2025)",
+     "Pre-qualification for Contractors for Remodeling, Fit-out, Refurbishment Works for Bank Branches (May 2025) Tender Document"
+    ],
+    "sec": 2.3
+   },
+   "tried": [
+    {
+     "url": "https://www.azaniabank.co.tz/tenders",
+     "ok": true,
+     "bytes": 118557,
+     "blocks": 211,
+     "tenderish": 126,
+     "construction": 9,
+     "samples": [
+      "Tender Document General Office Stationary(Feb 2026)",
+      "Tender Document General Office Stationary(Feb 2026) Tender Document",
+      "Pre-qualification for Contractors for Remodeling, Fit-out, Refurbishment Works for Bank Branches (May 2025)",
+      "Pre-qualification for Contractors for Remodeling, Fit-out, Refurbishment Works for Bank Branches (May 2025) Tender Document"
+     ],
+     "sec": 2.3
+    }
+   ]
+  },
+  {
+   "name": "TIB Development Bank",
+   "client": "TIB Development Bank",
+   "client_type": "bank",
+   "home": "https://www.tib.co.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.tib.co.tz/tenders",
+     "ok": true,
+     "bytes": 22,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.9
+    },
+    {
+     "url": "https://www.tib.co.tz",
+     "ok": true,
+     "bytes": 343,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.2
+    }
+   ]
+  },
+  {
+   "name": "DSE",
+   "client": "Dar es Salaam Stock Exchange",
+   "client_type": "private",
+   "home": "https://www.dse.co.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.dse.co.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.dse.co.tz (<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.d",
+     "sec": 0.9
+    },
+    {
+     "url": "https://www.dse.co.tz",
+     "ok": false,
+     "error": "could not reach www.dse.co.tz (<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.d",
+     "sec": 0.7
+    }
+   ]
+  },
+  {
+   "name": "Zanzibar ZPPDA",
+   "client": "ZPPDA",
+   "client_type": "government",
+   "home": "https://www.zppda.go.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.zppda.go.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.zppda.go.tz (<urlopen error timed out>)",
+     "sec": 26.5
+    },
+    {
+     "url": "https://www.zppda.go.tz",
+     "ok": false,
+     "error": "could not reach www.zppda.go.tz (<urlopen error timed out>)",
+     "sec": 25.7
+    }
+   ]
+  },
+  {
+   "name": "Zanzibar ZECO",
+   "client": "ZECO",
+   "client_type": "parastatal",
+   "home": "https://www.zeco.go.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.zeco.go.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.zeco.go.tz (<urlopen error [Errno -2] Name or service not known>)",
+     "sec": 0.1
+    },
+    {
+     "url": "https://www.zeco.go.tz",
+     "ok": false,
+     "error": "could not reach www.zeco.go.tz (<urlopen error [Errno -2] Name or service not known>)",
+     "sec": 0.1
+    }
+   ]
+  },
+  {
+   "name": "Dodoma City Council",
+   "client": "Dodoma City Council",
+   "client_type": "government",
+   "home": "https://www.dodomacc.go.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.dodomacc.go.tz/tenders",
+     "ok": true,
+     "bytes": 553,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.6
+    },
+    {
+     "url": "https://www.dodomacc.go.tz",
+     "ok": true,
+     "bytes": 553,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.1
+    }
+   ]
+  },
+  {
+   "name": "Dar es Salaam City Council",
+   "client": "Dar es Salaam City Council",
+   "client_type": "government",
+   "home": "https://www.dcc.go.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.dcc.go.tz/tenders",
+     "ok": true,
+     "bytes": 553,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.7
+    },
+    {
+     "url": "https://www.dcc.go.tz",
+     "ok": true,
+     "bytes": 553,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.1
+    }
+   ]
+  },
+  {
+   "name": "Arusha City Council",
+   "client": "Arusha City Council",
+   "client_type": "government",
+   "home": "https://www.arushacc.go.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.arushacc.go.tz/tenders",
+     "ok": true,
+     "bytes": 553,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.7
+    },
+    {
+     "url": "https://www.arushacc.go.tz",
+     "ok": true,
+     "bytes": 553,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.1
+    }
+   ]
+  },
+  {
+   "name": "Mwanza City Council",
+   "client": "Mwanza City Council",
+   "client_type": "government",
+   "home": "https://www.mwanzacc.go.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.mwanzacc.go.tz/tenders",
+     "ok": true,
+     "bytes": 553,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.7
+    },
+    {
+     "url": "https://www.mwanzacc.go.tz",
+     "ok": true,
+     "bytes": 553,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.1
+    }
+   ]
+  },
+  {
+   "name": "Kinondoni MC",
+   "client": "Kinondoni Municipal Council",
+   "client_type": "government",
+   "home": "https://www.kinondonimc.go.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.kinondonimc.go.tz/tenders",
+     "ok": true,
+     "bytes": 553,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.7
+    },
+    {
+     "url": "https://www.kinondonimc.go.tz",
+     "ok": true,
+     "bytes": 553,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.1
+    }
+   ]
+  },
+  {
+   "name": "Ilala MC",
+   "client": "Ilala Municipal Council",
+   "client_type": "government",
+   "home": "https://www.ilalamc.go.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.ilalamc.go.tz/tenders",
+     "ok": false,
+     "error": "could not reach www.ilalamc.go.tz (<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'w",
+     "sec": 1.5
+    },
+    {
+     "url": "https://www.ilalamc.go.tz",
+     "ok": false,
+     "error": "could not reach www.ilalamc.go.tz (<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'w",
+     "sec": 0.8
+    }
+   ]
+  },
+  {
+   "name": "Temeke MC",
+   "client": "Temeke Municipal Council",
+   "client_type": "government",
+   "home": "https://www.temekemc.go.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.temekemc.go.tz/tenders",
+     "ok": true,
+     "bytes": 553,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.7
+    },
+    {
+     "url": "https://www.temekemc.go.tz",
+     "ok": true,
+     "bytes": 553,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.1
+    }
+   ]
+  },
+  {
+   "name": "UNOPS Tanzania (UNGM)",
+   "client": "UN agencies",
+   "client_type": "donor",
+   "home": "https://www.ungm.org",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.ungm.org/Public/Notice?Countries=210",
+     "ok": false,
+     "error": "could not reach www.ungm.org (HTTP Error 403: Forbidden)",
+     "sec": 0.3
+    },
+    {
+     "url": "https://www.ungm.org",
+     "ok": false,
+     "error": "could not reach www.ungm.org (HTTP Error 403: Forbidden)",
+     "sec": 0.3
+    }
+   ]
+  },
+  {
+   "name": "GIZ tenders",
+   "client": "GIZ",
+   "client_type": "donor",
+   "home": "https://www.giz.de",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.giz.de/en/workingwithgiz/tenders.html",
+     "ok": false,
+     "error": "could not reach www.giz.de (HTTP Error 404: Not Found)",
+     "sec": 1.6
+    },
+    {
+     "url": "https://www.giz.de",
+     "ok": true,
+     "bytes": 121004,
+     "blocks": 216,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.9
+    }
+   ]
+  },
+  {
+   "name": "AfDB procurement",
+   "client": "African Development Bank",
+   "client_type": "donor",
+   "home": "https://www.afdb.org",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.afdb.org/en/projects-and-operations/procurement",
+     "ok": false,
+     "error": "could not reach www.afdb.org (HTTP Error 403: Forbidden)",
+     "sec": 0.3
+    },
+    {
+     "url": "https://www.afdb.org",
+     "ok": false,
+     "error": "could not reach www.afdb.org (HTTP Error 403: Forbidden)",
+     "sec": 0.1
+    }
+   ]
+  },
+  {
+   "name": "Aga Khan Foundation TZ",
+   "client": "Aga Khan",
+   "client_type": "ngo",
+   "home": "https://www.akdn.org",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.akdn.org/where-we-work/eastern-africa/tanzania",
+     "ok": true,
+     "bytes": 518718,
+     "blocks": 122,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 2.7
+    },
+    {
+     "url": "https://www.akdn.org",
+     "ok": true,
+     "bytes": 732674,
+     "blocks": 232,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.2
+    }
+   ]
+  },
+  {
+   "name": "Tanzania Daily News tenders",
+   "client": "various",
+   "client_type": "aggregator",
+   "home": "https://dailynews.co.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://dailynews.co.tz/category/tenders",
+     "ok": false,
+     "error": "could not reach dailynews.co.tz (HTTP Error 404: Not Found)",
+     "sec": 1.3
+    },
+    {
+     "url": "https://dailynews.co.tz/tenders",
+     "ok": false,
+     "error": "could not reach dailynews.co.tz (HTTP Error 404: Not Found)",
+     "sec": 0.9
+    },
+    {
+     "url": "https://dailynews.co.tz",
+     "ok": true,
+     "bytes": 115275,
+     "blocks": 115,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 2.4
+    }
+   ]
+  },
+  {
+   "name": "The Citizen tenders",
+   "client": "various",
+   "client_type": "aggregator",
+   "home": "https://www.thecitizen.co.tz",
+   "best": {
+    "url": "https://www.thecitizen.co.tz/tanzania/notices/tenders",
+    "ok": true,
+    "bytes": 80564,
+    "blocks": 0,
+    "tenderish": 0,
+    "construction": 0,
+    "samples": [],
+    "sec": 0.6
+   },
+   "tried": [
+    {
+     "url": "https://www.thecitizen.co.tz/tanzania/tenders",
+     "ok": false,
+     "error": "could not reach www.thecitizen.co.tz (HTTP Error 404: Not Found)",
+     "sec": 0.6
+    },
+    {
+     "url": "https://www.thecitizen.co.tz",
+     "ok": true,
+     "bytes": 232822,
+     "blocks": 445,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 0.8
+    },
+    {
+     "url": "https://www.thecitizen.co.tz/tanzania/notices/tenders",
+     "ok": true,
+     "bytes": 80564,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 0.6
+    }
+   ]
+  },
+  {
+   "name": "Ajira / Zoom Tanzania tenders",
+   "client": "various",
+   "client_type": "aggregator",
+   "home": "https://www.zoomtanzania.net",
+   "best": {
+    "url": "https://www.zoomtanzania.net/tenders",
+    "ok": true,
+    "bytes": 140814,
+    "blocks": 97,
+    "tenderish": 29,
+    "construction": 0,
+    "samples": [],
+    "sec": 1.3
+   },
+   "tried": [
+    {
+     "url": "https://www.zoomtanzania.net/tenders",
+     "ok": true,
+     "bytes": 140814,
+     "blocks": 97,
+     "tenderish": 29,
+     "construction": 0,
+     "samples": [],
+     "sec": 1.3
+    }
+   ]
+  },
+  {
+   "name": "Tenders Info Tanzania",
+   "client": "various",
+   "client_type": "aggregator",
+   "home": "https://www.tendersinfo.com",
+   "best": {
+    "url": "https://www.tendersinfo.com/global-tanzania-tenders.php",
+    "ok": true,
+    "bytes": 89809,
+    "blocks": 185,
+    "tenderish": 137,
+    "construction": 2,
+    "samples": [
+     "Tanzania construction Tenders",
+     "Tanzania Bridges and Tunnels Tenders"
+    ],
+    "sec": 2.0
+   },
+   "tried": [
+    {
+     "url": "https://www.tendersinfo.com/global-tanzania-tenders.php",
+     "ok": true,
+     "bytes": 89809,
+     "blocks": 185,
+     "tenderish": 137,
+     "construction": 2,
+     "samples": [
+      "Tanzania construction Tenders",
+      "Tanzania Bridges and Tunnels Tenders"
+     ],
+     "sec": 2.0
+    }
+   ]
+  },
+  {
+   "name": "Global Tenders Tanzania",
+   "client": "various",
+   "client_type": "aggregator",
+   "home": "https://www.globaltenders.com",
+   "best": {
+    "url": "https://www.globaltenders.com/services",
+    "ok": true,
+    "bytes": 57688,
+    "blocks": 91,
+    "tenderish": 60,
+    "construction": 0,
+    "samples": [],
+    "sec": 0.2
+   },
+   "tried": [
+    {
+     "url": "https://www.globaltenders.com/government-tenders-tanzania.htm",
+     "ok": true,
+     "bytes": 2239,
+     "blocks": 3,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 0.4
+    },
+    {
+     "url": "https://www.globaltenders.com",
+     "ok": true,
+     "bytes": 77275,
+     "blocks": 122,
+     "tenderish": 34,
+     "construction": 0,
+     "samples": [],
+     "sec": 0.2
+    },
+    {
+     "url": "https://www.globaltenders.com/",
+     "ok": true,
+     "bytes": 77275,
+     "blocks": 122,
+     "tenderish": 34,
+     "construction": 0,
+     "samples": [],
+     "sec": 0.3
+    },
+    {
+     "url": "https://www.globaltenders.com/about-us",
+     "ok": true,
+     "bytes": 32701,
+     "blocks": 14,
+     "tenderish": 0,
+     "construction": 0,
+     "samples": [],
+     "sec": 0.2
+    },
+    {
+     "url": "https://www.globaltenders.com/services",
+     "ok": true,
+     "bytes": 57688,
+     "blocks": 91,
+     "tenderish": 60,
+     "construction": 0,
+     "samples": [],
+     "sec": 0.2
+    },
+    {
+     "url": "https://www.globaltenders.com/publish-global-tenders",
+     "ok": true,
+     "bytes": 57903,
+     "blocks": 25,
+     "tenderish": 15,
+     "construction": 2,
+     "samples": [
+      "Strong presence of Globaltenders.com in the global procurement market generates both high quality & quantity of responses. Publish your Tenders in Free To View ",
+      "Strong presence of Globaltenders.com in the global procurement market generates both high quality & quantity of responses. Publish your Tenders in Free To View "
+     ],
+     "sec": 0.2
+    }
+   ]
+  },
+  {
+   "name": "TendersOnTime Tanzania",
+   "client": "various",
+   "client_type": "aggregator",
+   "home": "https://www.tendersontime.com",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.tendersontime.com/tanzania-tenders/",
+     "ok": false,
+     "error": "could not reach www.tendersontime.com (HTTP Error 403: Forbidden)",
+     "sec": 0.2
+    },
+    {
+     "url": "https://www.tendersontime.com",
+     "ok": false,
+     "error": "could not reach www.tendersontime.com (HTTP Error 403: Forbidden)",
+     "sec": 0.2
+    }
+   ]
+  },
+  {
+   "name": "BidDetail Tanzania",
+   "client": "various",
+   "client_type": "aggregator",
+   "home": "https://www.biddetail.com",
+   "best": {
+    "url": "https://www.biddetail.com/tanzania-tenders",
+    "ok": true,
+    "bytes": 115401,
+    "blocks": 180,
+    "tenderish": 77,
+    "construction": 13,
+    "samples": [
+     "Tenders are invited for Construction Of Lwanji I Bridge (200M) Sp ......",
+     "TANZANIA NATIONAL ROADS AGENCY; Africa Tenders are invited for Construction Of Lwanji I Bridge (200M) Sp ......",
+     "4. TANZANIA NATIONAL ROADS AGENCY; Africa Tenders are invited for Construction Of Lwanji I Bridge (200M) Sp ......",
+     "4. TANZANIA NATIONAL ROADS AGENCY; Africa Tenders are invited for Construction Of Lwanji I Bridge (200M) Sp ...... Refer Document 02 Nov 2026 Tanzania 119128722"
+    ],
+    "sec": 1.7
+   },
+   "tried": [
+    {
+     "url": "https://www.biddetail.com/tanzania-tenders",
+     "ok": true,
+     "bytes": 115401,
+     "blocks": 180,
+     "tenderish": 77,
+     "construction": 13,
+     "samples": [
+      "Tenders are invited for Construction Of Lwanji I Bridge (200M) Sp ......",
+      "TANZANIA NATIONAL ROADS AGENCY; Africa Tenders are invited for Construction Of Lwanji I Bridge (200M) Sp ......",
+      "4. TANZANIA NATIONAL ROADS AGENCY; Africa Tenders are invited for Construction Of Lwanji I Bridge (200M) Sp ......",
+      "4. TANZANIA NATIONAL ROADS AGENCY; Africa Tenders are invited for Construction Of Lwanji I Bridge (200M) Sp ...... Refer Document 02 Nov 2026 Tanzania 119128722"
+     ],
+     "sec": 1.7
+    }
+   ]
+  },
+  {
+   "name": "Tenders Tanzania (tenders.co.tz)",
+   "client": "various",
+   "client_type": "aggregator",
+   "home": "https://www.tenders.co.tz",
+   "best": null,
+   "tried": [
+    {
+     "url": "https://www.tenders.co.tz/",
+     "ok": true,
+     "bytes": 5490,
+     "blocks": 1,
+     "tenderish": 1,
+     "construction": 0,
+     "samples": [],
+     "sec": 0.8
+    },
+    {
+     "url": "https://www.tenders.co.tz",
+     "ok": true,
+     "bytes": 5490,
+     "blocks": 1,
+     "tenderish": 1,
+     "construction": 0,
+     "samples": [],
+     "sec": 0.3
+    }
+   ]
+  }
+ ]
+}
