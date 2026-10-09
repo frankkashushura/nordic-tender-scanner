@@ -1657,3 +1657,4 @@ Screened out (see the 'Screened Out' sheet): 0
 Empty Pipeline rows left: 408
 
 2026-10-09 14:15:37  Report saved: /home/runner/work/nordic-tender-scanner/nordic-tender-scanner/scanner/reports/scan_2026-10-09_1415.txt
+2026-10-09 14:33:19  NeST: 33 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 223 notices read → no new tenders
