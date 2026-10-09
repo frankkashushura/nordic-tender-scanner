@@ -1738,3 +1738,4 @@ Empty Pipeline rows left: 408
 
 2026-10-10 01:22:15  Report saved: /home/runner/work/nordic-tender-scanner/nordic-tender-scanner/scanner/reports/scan_2026-10-10_0120.txt
 2026-10-10 01:37:51  NeST: 33 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 223 notices read → no new tenders
+2026-10-10 01:54:51  NeST: 33 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 223 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read → no new tenders
