@@ -1,27 +1,33 @@
-# One-off: checks candidate tender pages from GitHub's computers (nothing is added to the pipeline).
-name: Probe candidate sources
+# One-off check of candidate tender sites (run by hand). Writes data/probe_report.json. Adds nothing to the scan.
+name: Probe tender sites
+
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - "scanner/probe_sources.py"
+      - ".github/workflows/probe.yml"
+
 permissions:
   contents: write
+
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: pip
       - run: pip install -r requirements.txt
       - name: Probe
-        env:
-          TZ: Africa/Dar_es_Salaam
-        run: python scanner/probe.py
-      - name: Save
+        run: python scanner/probe_sources.py
+      - name: Save report
         run: |
           git config user.name "nexus-scanner"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/source_probe.json data/probe_html
-          git commit -q -m "Source probe $(TZ=Africa/Dar_es_Salaam date '+%Y-%m-%d %H:%M') EAT" || exit 0
-          git push || (git pull --rebase -q && git push)
+          git add data/probe_report.json
+          git commit -q -m "Probe report" || exit 0
+          for i in 1 2 3 4 5; do git push -q && exit 0; git pull --rebase -X theirs -q || true; sleep $((i*4)); done
