@@ -305,8 +305,23 @@ def write_feed(workbook_path, log=_log):
         seen.add(i)
         out.append({"id": i, "title": o.get("title", ""), "deadline": o.get("deadline", ""),
                     "body": {**o, "status": o.get("status") or "Watching", "synced_by": "NEXUS auto-sync"}})
+    sc = NS.scanner_status(os.path.join(HERE, "last_scan.txt"))
+    try:                                  # each source's own page and group, so NEXUS can link to it
+        src_cfg = json.load(open(os.path.join(HERE, "scanner_config.json"), encoding="utf-8"))["sources"]
+        info = {"NeST": ("https://nest.go.tz/tenders/published-tenders", "tz"),
+                "World Bank (Tanzania, civil works)": ("https://projects.worldbank.org/en/projects-operations/procurement?countrycode_exact=TZ", "intl"),
+                "TANROADS website": (src_cfg.get("tanroads", {}).get("url", ""), "tz"),
+                "DDO Tenders (newspapers, private, donors)": (src_cfg.get("ddo", {}).get("url", ""), "tz"),
+                "TanzaniaTenders.com (newspapers, portals, private)": (src_cfg.get("tanzaniatenders", {}).get("url", ""), "tz")}
+        for p in src_cfg.get("web_pages", []):
+            info[p["name"]] = (p.get("url", ""), p.get("group", "tz"))
+        for s_ in (sc or {}).get("sources", []):
+            u, g = info.get(s_["name"], ("", "tz"))
+            s_["url"], s_["group"] = u, g
+    except Exception as e:
+        log(f"NEXUS feed: source links not added ({e})")
     feed = {"generated": datetime.now().strftime("%Y-%m-%dT%H:%M:%S") + "+03:00",
-            "scanner": NS.scanner_status(os.path.join(HERE, "last_scan.txt")),
+            "scanner": sc,
             "workbook_rows": len(rows), "tenders": out}
     with open(_abs("../data/nexus_feed.json"), "w", encoding="utf-8") as f:
         json.dump(feed, f, ensure_ascii=False, indent=0)

@@ -12,7 +12,9 @@ Sources (switch each on/off and set how often it is checked in scanner_config.js
   tanroads   TANROADS website tender list
   ddo        DDO Tenders Portal – newspaper, private-sector, donor and NGO tenders across Tanzania
   tanzaniatenders  TanzaniaTenders.com list (newspaper, portal and private tenders; first pages, newest first)
-  web_pages  any other tender page with a plain list (TPA, TARURA, BoT, TEITI, CRDB, ...)
+  web_pages  any other tender page with a plain list (TPA, TARURA, BoT, TEITI, CRDB, ...), including
+             international / donor pages ("group": "intl") and public JSON search APIs ("api": {...}).
+             A page that refuses the scanner is read through a public page reader (r.jina.ai) instead.
 
 It only reads public pages - the same information anyone sees without logging in.
 It never logs in, downloads documents or submits anything.
@@ -31,7 +33,7 @@ try:                      # use the Windows certificate store, so sites with inc
     truststore.inject_into_ssl()
 except Exception:
     pass
-VERSION = "3.0 NORDIC NEXUS (26 Sep 2026)"
+VERSION = "3.1 NORDIC NEXUS (10 Oct 2026) – blocked-site fallbacks (page reader), JSON-API sources"
 UA = "Nordic-Tender-Scanner/2.0 (tender monitoring for a Tanzanian contractor)"
 OPEN_STATUSES = ("Watching", "Preparing")
 LOGIN = "NeST login needed"
@@ -98,16 +100,25 @@ from http import cookiejar as _cookiejar
 OPENER = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(_cookiejar.CookieJar()))
 
 
-def http(url, payload=None, tries=3, timeout=60):
+BROWSER_HEADERS = {   # some sites refuse unknown programs; these are the headers a normal browser sends
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-GB,en;q=0.9,sw;q=0.8"}
+READER = "https://r.jina.ai/"   # public page-reader service: fetches a page from its own network and returns the HTML
+
+
+def http(url, payload=None, tries=3, timeout=60, headers=None):
     data = json.dumps(payload).encode("utf-8") if payload is not None else None
-    headers = {"User-Agent": UA, "Accept": "application/json, text/html;q=0.9, */*;q=0.5"}
+    hdr = {"User-Agent": UA, "Accept": "application/json, text/html;q=0.9, */*;q=0.5"}
+    hdr.update(headers or {})
     if data is not None:
-        headers["Content-Type"] = "application/json"
+        hdr["Content-Type"] = "application/json"
+    opener = OPENER
     last = None
     for attempt in range(1, tries + 1):
         try:
-            req = urllib.request.Request(url, data=data, method="POST" if data else "GET", headers=headers)
-            with OPENER.open(req, timeout=timeout) as r:
+            req = urllib.request.Request(url, data=data, method="POST" if data else "GET", headers=hdr)
+            with opener.open(req, timeout=timeout) as r:
                 raw = r.read()
                 enc = r.headers.get_content_charset() or "utf-8"
                 return raw.decode(enc, errors="replace")
@@ -116,6 +127,104 @@ def http(url, payload=None, tries=3, timeout=60):
             if attempt < tries:
                 time.sleep(5 * attempt)
     raise RuntimeError(f"could not reach {url.split('/')[2]} ({last})")
+
+
+def fetch_page(page_cfg, url=None):
+    """Reads a tender page the way the page settings ask, trying other routes when the direct one is blocked:
+    1 direct (browser headers unless "browser": false),
+    2 through the public page reader (r.jina.ai) when the site refuses, times out or has a broken certificate
+      (certificates are always checked; the reader fetches the page from its own network)."""
+    url = url or page_cfg["url"]
+    hdr = BROWSER_HEADERS if page_cfg.get("browser", True) else None
+    via = page_cfg.get("via", "auto")
+    errors = []
+    if via != "reader":
+        try:
+            return http(url, tries=2, timeout=45, headers=hdr)
+        except RuntimeError as e:
+            errors.append(str(e))
+        if via == "direct":
+            raise RuntimeError(errors[-1])
+    try:
+        page = http(READER + url, tries=2, timeout=60,
+                    headers={"X-Return-Format": "html", "X-Timeout": "40", "Accept": "text/html"})
+        if len(page) < 200:
+            raise RuntimeError("page reader returned an empty page")
+        return page
+    except RuntimeError as e:
+        errors.append("reader: " + str(e))
+    raise RuntimeError(" | ".join(errors)[:300])
+
+
+def _item(page_cfg, slug, title, link, text, deadline=None, posted=None, no=""):
+    m = TENDER_NO.search(text)
+    no = no or (m.group(0) if m else "")
+    return {"key": f"WEB:{slug}:" + (norm(no) if no else key_of(norm(title)[:140])), "source": page_cfg.get("source", "client site"),
+            "source_url": link or page_cfg.get("url", ""), "no": no,
+            "client": page_cfg.get("client") or "", "client_type": page_cfg.get("client_type"),
+            "title": clean(title)[:300], "loc_text": text[:300], "pe_region": page_cfg.get("region", ""), "pe_district": "",
+            "deadline": deadline, "deadline_guess": False, "invited": posted,
+            "notice_type": f"{page_cfg['name']} (web page)", "sub": "", "lots": 1, "login_fields": DOC, "web": True}
+
+
+def _wanted(page_cfg, cfg, text):
+    tl = text.lower()
+    if not (page_cfg.get("every_item_is_a_tender") or has_any(tl, cfg["keywords"]["tender_words"]) or TENDER_NO.search(text)):
+        return False
+    if page_cfg.get("must_contain") and not any(w.lower() in tl for w in page_cfg["must_contain"]):
+        return False
+    return categorise(tl, cfg) is not None
+
+
+def _path(obj, path):
+    """Picks a value from JSON by a dotted path ("item.title", "metadata.title.0")."""
+    for k in path.split("."):
+        if obj is None:
+            return None
+        if isinstance(obj, list):
+            obj = obj[int(k)] if k.isdigit() and int(k) < len(obj) else None
+        else:
+            obj = obj.get(k)
+    return obj
+
+
+def src_api(page_cfg, cfg, fx, slug):
+    """Public JSON search APIs (EU Funding & Tenders, UK Contracts Finder ...): "api": {method, url, body, form, items,
+    title, link, link_template, deadline, posted, text, no}."""
+    a = page_cfg["api"]
+    if fx is not None:
+        j = json.load(open(os.path.join(fx, f"web_{slug}.json"), encoding="utf-8"))
+    else:
+        if a.get("form"):                  # multipart form (EU search API)
+            import uuid
+            bnd = uuid.uuid4().hex
+            body = "".join(f'--{bnd}\r\nContent-Disposition: form-data; name="{k}"; filename="blob"\r\nContent-Type: application/json\r\n\r\n{json.dumps(v)}\r\n'
+                           for k, v in a["form"].items()) + f"--{bnd}--\r\n"
+            req = urllib.request.Request(a["url"], data=body.encode(), method="POST",
+                                         headers={**BROWSER_HEADERS, "Accept": "application/json", "Content-Type": f"multipart/form-data; boundary={bnd}"})
+            with OPENER.open(req, timeout=60) as r:
+                j = json.loads(r.read().decode("utf-8", "replace"))
+        else:
+            data = json.dumps(a["body"]).encode() if a.get("body") is not None else (b"" if a.get("method") == "POST" else None)
+            req = urllib.request.Request(a["url"], data=data, method=a.get("method", "GET"),
+                                         headers={**BROWSER_HEADERS, "Accept": "application/json", "Content-Type": "application/json"})
+            with OPENER.open(req, timeout=60) as r:
+                j = json.loads(r.read().decode("utf-8", "replace"))
+    rows = _path(j, a["items"]) or []
+    out = []
+    for r in rows:
+        val = lambda k: (lambda v: " ".join(map(str, v)) if isinstance(v, list) else (str(v) if v is not None else ""))(_path(r, a[k])) if a.get(k) else ""
+        title = clean(html.unescape(re.sub(r"<[^>]+>", " ", val("title"))))
+        text = clean(title + " " + html.unescape(re.sub(r"<[^>]+>", " ", val("text"))))
+        if not title or not _wanted(page_cfg, cfg, text):
+            continue
+        link = val("link") or (a["link_template"].format(**{k: val(k) for k in ("id",) if a.get(k)}) if a.get("link_template") else "")
+        dl = parse_dt(val("deadline")) if a.get("deadline") else None
+        posted = parse_dt(val("posted")) if a.get("posted") else None
+        if posted and (datetime.now() - posted).days > page_cfg.get("max_age_days", 90):
+            continue
+        out.append(_item(page_cfg, slug, title, link, text, deadline=dl, posted=posted, no=val("no")))
+    return out
 
 
 MONTHS = {m: i for i, m in enumerate(["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
@@ -496,7 +605,9 @@ def src_webpage(page_cfg, cfg, fx, idx):
     slug = re.sub(r"[^a-z0-9]+", "_", page_cfg["name"].lower()).strip("_")
     if page_cfg.get("api_url"):
         return src_json_list(page_cfg, cfg, fx, slug)
-    page = open(os.path.join(fx, f"web_{slug}.html"), encoding="utf-8").read() if fx is not None else http(url)
+    if page_cfg.get("api"):
+        return src_api(page_cfg, cfg, fx, slug)
+    page = open(os.path.join(fx, f"web_{slug}.html"), encoding="utf-8").read() if fx is not None else fetch_page(page_cfg)
     p = Blocks(); p.feed(page)
     if not p.blocks:
         raise RuntimeError("no readable text on the page – it may load its list with JavaScript")
