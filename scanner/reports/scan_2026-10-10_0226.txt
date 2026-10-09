@@ -1,0 +1,57 @@
+Tender Scan – Saturday 10 October 2026, 02:26
+
+Sources checked:
+  NeST: 33 notices read
+  World Bank (Tanzania, civil works): 27 notices read
+  TANROADS website: 7 notices read
+  DDO Tenders (newspapers, private, donors): 223 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+  CRDB Bank tenders: 0 notices read
+  TPA current tenders: 0 notices read
+  TARURA tenders: 0 notices read
+  Bank of Tanzania tenders: 0 notices read
+  TEITI tenders: 0 notices read
+  TRC tenders: 1 notices read
+  TCRA tenders: 4 notices read
+  Azania Bank tenders: 6 notices read
+  NBC Bank procurement: 0 notices read
+  Ministry of Water tenders: 0 notices read
+  REA tenders: 1 notices read
+  DART tenders: 1 notices read
+  TASAC tenders: 0 notices read
+  TMDA tenders: 0 notices read
+  DUWASA tenders: 1 notices read
+  MWAUWASA tenders: 0 notices read
+  Ministry of Finance tenders: 0 notices read
+  SUA tenders (zabuni): 3 notices read
+  Tanzania Posts announcements: 0 notices read
+  TRA public notices: 0 notices read
+  UDSM announcements: 0 notices read
+  TAWA announcements: 0 notices read
+  Ministry of Health notices: 0 notices read
+  NM-AIST tenders: 0 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (9)
+  • closing date: see notice  Tanzania Railways Corporation (TRC) – INVITATION TO EARLY MARKET ENGAGEMENT (EME) WORKSHOP (PHYSICAL AND VIRTUAL CONSULTATIVE MEETING)  [Not stated – read the notice]  (no number; TRC tenders (web page))
+      https://www.trc.co.tz/uploads/vacancies/sw1776962195-23042026-INVITATION TO EME WORKSHOP.pdf
+  • closing date: see notice  Tanzania Communications Regulatory Authority (TCRA) – Tenders 0 5 29 th Nov, 2022 DESIGN AND INSTALLATION OF MULTIPURPOSE CONFERENCE HALL FACILITIES TO THE PAPU HOU  [Not stated – read the notice]  (no number; TCRA tenders (web page))
+      https://www.tcra.go.tz/tcra-tovuti/2022/mamlaka-website/documents/tenders/en_1669799349_INVITATION_FOR_TENDERS_Conference_Hall_Facilities_PAPU_House_b8fc297abe.pdf
+  • closing date: see notice  Tanzania Communications Regulatory Authority (TCRA) – EXTENSION OF TENDER SUBMISSION DEADLINE FOR PROPOSED DESIGN AND INSTALLATION OF MULTIPURPOSE CONFERENCE HALL F  [Not stated – read the notice]  (020/HQ/2022-23/W/05; TCRA tenders (web page))
+      https://www.tcra.go.tz/tcra-tovuti/2023/mamlaka-website/documents/tenders/en_1673772233_Extension_of_Tender_Submission_Deadline_for_Proposed_design_and_Installation_of_Multipurpose_Conference_Hall_06b81863fa.pdf
+  • closing date: see notice  Azania Bank – Tender Document General Office Stationary(Feb 2026)  [Not stated – read the notice]  (no number; Azania Bank tenders (web page))
+      https://www.azaniabank.co.tz/tenders
+  • closing date: see notice  Azania Bank – Call Center System with CRM Capabilities View Tender View Notice View Clarification  [Not stated – read the notice]  (no number; Azania Bank tenders (web page))
+      https://www.azaniabank.co.tz/tenders
+  • closing date: see notice  Azania Bank – Pre-qualification for Contractors for Remodeling, Fit-out, Refurbishment Works for Bank Branches (May 2025)  [Not stated – read the notice]  (no number; Azania Bank tenders (web page))
+      https://www.azaniabank.co.tz/tenders
+  • closing date: see notice  Azania Bank – Pre-Qualification Document: Provision of Refurbishment, Renovation, Remodelling, Office Partitioning and Fit-O  [Not stated – read the notice]  (no number; Azania Bank tenders (web page))
+      https://azaniabank.co.tz/wp-content/uploads/2022/05/PROVISION-OF-REFURBISHMENT-RENOVATION-REMODELING-OFFICE-PARTITIONING-AND-FIT-OUT-WORKS-OF-BANK-PREMISES-2022.-.pdf
+  • closing date: see notice  Sokoine University of Agriculture (SUA) – TANGAZO LA ZABUNI:HUDUMA YA KUWAPATA MAFUNDI WA KUFANYA UKARABATI WA MAJENGO MBALIMBALI YA OFISI, NYUMBA ZA WA  [Morogoro (from client's office – confirm site)]  (no number; SUA tenders (zabuni) (web page))
+      https://www.sua.ac.tz/zabuni
+  • closing date: see notice  Sokoine University of Agriculture (SUA) – 5.Kotesheni zote katika uhalisia wake ( original ) pamoja na nakala [ moja ] zinazofanana, zilizojazwa kwa usa  [Morogoro (from client's office – confirm site)]  (PA/012/2019-2020/HQ/W/22; SUA tenders (zabuni) (web page))
+      https://www.sua.ac.tz/zabuni
+
+Screened out (see the 'Screened Out' sheet): 0
+Empty Pipeline rows left: 399
