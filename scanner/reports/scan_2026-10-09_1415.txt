@@ -1,0 +1,17 @@
+Tender Scan – Friday 09 October 2026, 14:15
+
+Sources checked:
+  NeST: 33 notices read
+  World Bank (Tanzania, civil works): 27 notices read
+  TANROADS website: 7 notices read
+  DDO Tenders (newspapers, private, donors): 223 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (1)
+  • closes Tue 10 Nov 11:00  President's Office-finance and Planning – Integrated Tourism Development, Infrastructure and Livelihood Improvement in Unguja, (Nungwi village) - Constr  [Zanzibar (Unguja)]  (TZ-POFP-575401-CW-RFB; World Bank – Invitation for Bids (Request for Bids))
+      https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00473952
+
+Screened out (see the 'Screened Out' sheet): 0
+Empty Pipeline rows left: 408

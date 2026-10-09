@@ -1636,3 +1636,24 @@ Empty Pipeline rows left: 409
 2026-10-09 13:21:24  NeST: 33 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 223 notices read → no new tenders
 2026-10-09 13:40:44  NeST: 33 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 223 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read → no new tenders
 2026-10-09 13:57:41  NeST: 33 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 223 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read → no new tenders
+2026-10-09 14:15:37  NeST: 33 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 223 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read → 1 new, 0 deadline change(s)
+
+Tender Scan – Friday 09 October 2026, 14:15
+
+Sources checked:
+  NeST: 33 notices read
+  World Bank (Tanzania, civil works): 27 notices read
+  TANROADS website: 7 notices read
+  DDO Tenders (newspapers, private, donors): 223 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (1)
+  • closes Tue 10 Nov 11:00  President's Office-finance and Planning – Integrated Tourism Development, Infrastructure and Livelihood Improvement in Unguja, (Nungwi village) - Constr  [Zanzibar (Unguja)]  (TZ-POFP-575401-CW-RFB; World Bank – Invitation for Bids (Request for Bids))
+      https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00473952
+
+Screened out (see the 'Screened Out' sheet): 0
+Empty Pipeline rows left: 408
+
+2026-10-09 14:15:37  Report saved: /home/runner/work/nordic-tender-scanner/nordic-tender-scanner/scanner/reports/scan_2026-10-09_1415.txt
