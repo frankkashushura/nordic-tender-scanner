@@ -1,875 +1,777 @@
 {
- "at": "2026-10-09 23:30 UTC",
- "round": 6,
- "search": [
+ "at": "2026-10-09 23:35 UTC",
+ "round": 7,
+ "results": [
   {
-   "name": "TANESCO",
-   "ok": false,
-   "error": "the search engine did not return a result page"
-  },
-  {
-   "name": "NMB",
-   "ok": false,
-   "error": "the search engine did not return a result page"
-  },
-  {
-   "name": "TAA",
-   "ok": false,
-   "error": "the search engine did not return a result page"
-  },
-  {
-   "name": "ZPPDA",
-   "ok": false,
-   "error": "the search engine did not return a result page"
-  },
-  {
-   "name": "PSSSF",
-   "ok": false,
-   "error": "the search engine did not return a result page"
-  },
-  {
-   "name": "Councils sw",
-   "ok": false,
-   "error": "the search engine did not return a result page"
-  },
-  {
-   "name": "Gov en",
-   "ok": false,
-   "error": "the search engine did not return a result page"
-  },
-  {
-   "name": "AfDB TZ",
-   "ok": false,
-   "error": "the search engine did not return a result page"
-  },
-  {
-   "name": "GIZ TZ",
-   "ok": false,
-   "error": "the search engine did not return a result page"
-  },
-  {
-   "name": "JICA TZ",
-   "ok": false,
-   "error": "the search engine did not return a result page"
-  },
-  {
-   "name": "US Embassy TZ",
-   "ok": false,
-   "error": "the search engine did not return a result page"
-  },
-  {
-   "name": "EU TZ",
-   "ok": false,
-   "error": "the search engine did not return a result page"
-  },
-  {
-   "name": "Embassies",
-   "ok": false,
-   "error": "the search engine did not return a result page"
-  },
-  {
-   "name": "NGOs",
-   "ok": false,
-   "error": "the search engine did not return a result page"
-  },
-  {
-   "name": "Aga Khan",
-   "ok": false,
-   "error": "the search engine did not return a result page"
-  },
-  {
-   "name": "Mining",
-   "ok": false,
-   "error": "the search engine did not return a result page"
-  },
-  {
-   "name": "EIB TZ",
-   "ok": false,
-   "error": "the search engine did not return a result page"
-  }
- ],
- "api": [
-  {
-   "name": "UK Contracts Finder API",
+   "name": "UN Women procurement",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.unwomen.org (HTTP Error 403: Forbidden)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 156,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 168579
+    }
+   },
+   "used": "reader",
    "ok": true,
    "n": 0,
    "items": [],
-   "kept": 0
-  }
- ],
- "raw": [
-  {
-   "name": "EC all",
-   "ok": true,
-   "total": 417,
-   "first": [
-    {
-     "reference": "917992675",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/org-details/917992675",
-     "summary": "CTECO Tanzania",
-     "metadata": {
-      "es_SortDate": [
-       "2026-04-14T10:23:46.125+0200"
-      ],
-      "esIN_city": [
-       "Dodoma - Tanzania"
-      ],
-      "esST_organisationType": [
-       "31079053"
-      ],
-      "esST_legalEntityStatus": [
-       "LEGAL_PERSON"
-      ],
-      "language": [
-       "en"
-      ],
-      "esST_vat": [],
-      "type": [
-       "ORGANISATION"
-      ],
-      "esST_checksum": [
-       "999BFDC1FFFDA9CD0968A2A6C2E13F1F6A11B8DC2E50B3C3DD968B09EFF9E748"
-      ],
-      "esIN_noOfPartnerSearch": [
-       "0"
-      ],
-      "esBO_partnerSearchEnabled": [
-       "true"
-      ],
-      "esIN_pic": [
-       "917992675"
-      ],
-      "esST_FileName": [
-       "file.txt"
-      ],
-      "esDA_lastModified": [
-       "2026-04-14T10:23:46.045+0200"
-      ],
-      "DATASOURCE": [
-       "SEDIA_PERSON"
-      ],
-      "REFERENCE": [
-       "917992675"
-      ],
-      "esST_country": [
-       "20001030"
-      ],
-      "esIN_deprecatedPics": [],
-      "esIN_name": [
-       "CTECO Tanzania"
-      ],
-      "es_ContentType": [
-       "text/plain"
-      ],
-      "esDA_FirstIngestDate": [
-       "2024-11-23T08:45:19.122+0100"
-      ],
-      "esDA_IngestDate": [
-       "2026-04-14T10:23:46.149+0200"
-      ],
-      "esIN_registrationNum": [
-       "474/2013/CD/CBO/D.30"
-      ],
-      "url": [
-       "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/org-details/917992675"
-      ],
-      "esST_URL": [
-       "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/org-details/917992675"
-      ],
-      "esDA_QueueDate": [
-       "2026-04-14T10:23:46.135+0200"
-      ],
-      "esIN_utroPic": [],
-      "esNU_noOfProjects": [
-       "0"
-      ],
-      "esIN_erasmusCode": [],
-      "esST_hasPartnerSearch": [
-       "false"
-      ],
-      "esST_validationStatus": [
-       "31042521"
-      ],
-      "esIN_kohesioId": []
-     }
-    },
-    {
-     "reference": "912114766",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/org-details/912114766",
-     "summary": "Rlabs Tanzania",
-     "metadata": {
-      "es_SortDate": [
-       "2026-04-18T02:27:01.958+0200"
-      ],
-      "esIN_city": [
-       "Iringa"
-      ],
-      "esST_organisationType": [
-       "31079047"
-      ],
-      "esST_legalEntityStatus": [
-       "LEGAL_PERSON"
-      ],
-      "language": [
-       "en"
-      ],
-      "esST_vat": [],
-      "type": [
-       "ORGANISATION"
-      ],
-      "esST_checksum": [
-       "677EBBA7199112E80F082BC178F5F2422113544C45C0337374BF98F08CF6FE65"
-      ],
-      "esIN_noOfPartnerSearch": [
-       "0"
-      ],
-      "esBO_partnerSearchEnabled": [
-       "true"
-      ],
-      "esIN_pic": [
-       "912114766"
-      ],
-      "esST_FileName": [
-       "file.txt"
-      ],
-      "esDA_lastModified": [
-       "2026-04-18T02:27:01.857+0200"
-      ],
-      "DATASOURCE": [
-       "SEDIA_PERSON"
-      ],
-      "REFERENCE": [
-       "912114766"
-      ],
-      "esST_country": [
-       "20001030"
-      ],
-      "esIN_deprecatedPics": [],
-      "esIN_name": [
-       "Rlabs Tanzania"
-      ],
-      "es_ContentType": [
-       "text/plain"
-      ],
-      "esDA_FirstIngestDate": [
-       "2024-11-26T02:45:19.458+0100"
-      ],
-      "esDA_IngestDate": [
-       "2026-04-18T02:27:01.988+0200"
-      ],
-      "esIN_registrationNum": [
-       "IR/IMC/CBO NO.931"
-      ],
-      "url": [
-       "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/org-details/912114766"
-      ],
-      "esST_URL": [
-       "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/org-details/912114766"
-      ],
-      "esDA_QueueDate": [
-       "2026-04-18T02:27:01.972+0200"
-      ],
-      "esIN_utroPic": [],
-      "esNU_noOfProjects": [
-       "0"
-      ],
-      "esIN_erasmusCode": [],
-      "esST_hasPartnerSearch": [
-       "false"
-      ],
-      "esST_validationStatus": [
-       "31042521"
-      ],
-      "esIN_kohesioId": []
-     }
-    }
-   ],
-   "types": [
-    "None",
-    "['0']",
-    "['2']",
-    "['ORGANISATION']",
-    "['PERSON']"
-   ]
+   "kept": [],
+   "sec": 3.9
   },
   {
-   "name": "EC tenders open",
-   "ok": true,
-   "total": 2,
-   "first": [
-    {
-     "reference": "13290en",
-     "url": "https://etendering.ted.europa.eu/cft/cft-display.html?cftId=13290",
-     "summary": "Technical Assistance to support the implementation of the \u201cBlue economy for job creation and climate change adaptation\u201d programme in Tanzania",
-     "metadata": {
-      "procedureType": [
-       "RESTRICTED_PROCEDURE"
-      ],
-      "es_SortDate": [
-       "2023-02-10T00:00:00.000+0000"
-      ],
-      "sortStatus": [
-       "1"
-      ],
-      "contractType": [
-       "31095498"
-      ],
-      "twoStageDeadlineDate": [
-       "2023-03-13T16:00:59Z"
-      ],
-      "description": [
-       "This tender aims to contract long term Technical Assistance (TA) to support the implementation and coordination of the \u201cBlue economy for job creation and climate change adaptation\u201d programme and the related Team Europe Initiative (TEI) in Tanzania."
-      ],
-      "language": [
-       "en"
-      ],
-      "type": [
-       "0"
-      ],
-      "title": [
-       "Technical Assistance to support the implementation of the \u201cBlue economy for job creation and climate change adaptation\u201d programme in Tanzania"
-      ],
-      "esST_checksum": [
-       "150C6C035B0D54F658ED5A645EB941855A69E56B8F37A1FE3785FDC79A16354C"
-      ],
-      "cftId": [
-       "13290"
-      ],
-      "esST_FileName": [
-       "file.txt"
-      ],
-      "callIdentifier": [
-       "INTPA/DAR/2023/EA-RP/0015"
-      ],
-      "DATASOURCE": [
-       "SEDIA_PRD_CENTRICITY"
-      ],
-      "additionalCpvs": [
-       "[{\"mainCode\":\"73300000\"},{\"mainCode\":\"73000000\"}]"
-      ],
-      "frameworkProgramme": [
-       "111111"
-      ],
-      "identifier": [
-       "1a9cdbba-88ea-46c6-a2bf-6b42a0fcde6c"
-      ],
-      "caName": [
-       "DEVCO"
-      ],
-      "es_ContentType": [
-       "text/plain"
-      ],
-      "geographicalZones": [
-       "31085111",
-       "20001030"
-      ],
-      "programmePeriod": [
-       "2014 - 2020",
-       "2021 - 2027"
-      ],
-      "deadlineDate": [
-       "2023-03-13T16:00:59.000+0000"
-      ],
-      "esDA_IngestDate": [
-       "2023-05-26T06:32:54.129+0200"
-      ],
-      "es_Combine": [
-       "1"
-      ],
-      "corporate-search-version": [
-       "102"
-      ],
-      "url": [
-       "https://etendering.ted.europa.eu/cft/cft-display.html?cftId=13290"
-      ],
-      "esST_URL": [
-       "https://etendering.ted.europa.eu/cft/cft-display.html?cftId=13290"
-      ],
-      "esDA_QueueDate": [
-       "2023-05-26T06:32:23.886+0200"
-      ],
-      "lots": [
-       "[{\"number\":\"1\",\"description\":\"\"}]"
-      ],
-      "programmeDivisionProspect": [
-       "44995760"
-      ],
-      "geographicalZone": [
-       "20001030"
-      ],
-      "datasource": [
-       "SEDIA_PRD_CENTRICITY"
-      ],
-      "mainCpv": [
-       "73300000",
-       "73000000"
-      ],
-      "mainCpvCode": [
-       "{\"mainCode\":\"73300000\"}"
-      ],
-      "startDate": [
-       "2023-02-10T00:00:00.000+0000"
-      ],
-      "placesOfDeliveryOrPerformance": [
-       "TZ"
-      ],
-      "status": [
-       "31094502"
-      ]
-     }
+   "name": "UNFPA bid opportunities",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.unfpa.org (HTTP Error 404: Not Found)"
     },
-    {
-     "reference": "15662COMPETITIVE_CALLen",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46041400",
-     "summary": "KijaniSpace Innovation Programme",
-     "metadata": {
-      "es_SortDate": [
-       "2026-09-15T00:00:00.000+0000"
-      ],
-      "beneficiaryAdministration": [
-       "<p class=\"ql-align-justify\">The KijaniSpace Space-IoT Innovation Program will support selected SMEs and start-ups to improve existing agriculture-related products, services or applications using Copernicus and IoT resources. The program will support up to five selected SMEs or start-ups from Kenya, Uganda and Tanzania. Selected teams will carry out innovation experiments using Copernicus, Earth Observation and IoT resources made available through the \"Space-IoT Box\". The Innovation Program will include onboarding, online training, mentoring, innovation experiment implementation, product and market validation, pitch preparation and an in-person final showcase in Kenya.</p><p class=\"ql-align-justify\"><strong>Who Can Apply</strong></p><p class=\"ql-align-justify\">The open call is targeted at SMEs and start-ups that are legally established and operating in one of the following countries:</p><ol><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Kenya</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Uganda</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Tanzania</li></ol><p class=\"ql-align-justify\">Applicants may apply as a single organisation. Only one proposal will be accepted for funding per applicant or team member. Applicants must have an existing agriculture-related product, service or application linked to crop farming, fish farming or another relevant climate-smart agriculture use case.</p><p class=\"ql-align-justify\"><strong>Application Requirements</strong></p><p class=\"ql-align-justify\">Applicants need to complete an online application form available at:</p><p class=\"ql-align-justify\"><strong><u><a href=\"https://www.kijanispace.eu/space-iot-innovation-programme/\" rel=\"noopener noreferrer\" target=\"_blank\">https://www.kijanispace.eu/space-iot-innovation-programme/</a></u></strong></p><p class=\"ql-align-justify\">The proposals are submitted in PDF format using the provided proposal template. The proposal package will also include a declaration of honour and ethics self-assessment where required.</p><p class=\"ql-align-justify\"><strong>Financial Support</strong></p><p class=\"ql-align-justify\">Each selected SME or start-up may receive financial support of up to EUR 5,000. The financial support will cover eligible actual costs incurred during the implementation of the approved innovation experiment. Costs must be directly linked to the approved activities, milestones and expected deliverables. The payment arrangement will include:</p><ol><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>One pre-financing payment of 20% of the approved project budget.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>One final payment covering the remaining approved eligible costs after approval of the final report and corresponding deliverables.</li></ol><p class=\"ql-align-justify\">Selected beneficiaries will submit a financial statement at the end of the funded experiment for assessment by the KijaniSpace project coordinator.</p><p class=\"ql-align-justify\"><strong>Eligible Use of Funds</strong></p><p class=\"ql-align-justify\">Financial support may be used for activities directly linked to the approved innovation experiment, including:</p><ol><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Testing and improving the selected product, service or application using Space-IoT Box resources.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Implementing new features or services based on Copernicus and IoT technologies.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Collecting data, user feedback or stakeholder validation linked to the experiment.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Preparing technical documentation, validation evidence and impact summaries.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Participating in KijaniSpace virtual meetings, hackathons, showcase activities or related dissemination events.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Communication and dissemination activities linked to the funded experiment.</li></ol><p class=\"ql-align-justify\">Funding must be used only for the approved innovation experiment and in line with the sub-grant agreement.</p><p class=\"ql-align-justify\"><strong>Evaluation and Selection Process</strong></p><p class=\"ql-align-justify\">Applications will first be checked for completeness and eligibility. Eligible applications will then be evaluated by three evaluators using the published evaluation criteria. The evaluation will use the following main criteria:</p><ol><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Excellence: Quality of the proposal, understanding of the open call, relevance of selected Copernicus services and Space-IoT Box tools and suitability for the selected region.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Impact: Expected contribution to KijaniSpace project objectives, relevance to climate-smart agriculture, expected value for users or stakeholders and potential for dissemination, communication and exploitation.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Implementation: Feasibility of the proposed activities, quality of the implementation plan, team capacity, budget realism, expected deliverables and ability to complete the experiment within the program period.</li></ol><p class=\"ql-align-justify\">The evaluation process will produce a ranked list of proposals based on the scores received. In case of tied scores, a consensus meeting will be held to select the proposals for funding. Selected applicants will be contacted after the evaluation. Unsuccessful applicants will also be informed of the evaluation outcome.</p>"
-      ],
-      "sortStatus": [
-       "1"
-      ],
-      "description": [
-       "<p class=\"ql-align-justify\"><strong>Expected Innovation Experiments</strong></p><p class=\"ql-align-justify\">Applicants will propose an innovation experiment that improves an existing product, service or application using Space-IoT Box resources. The proposed experiment must:</p><ol><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Address a relevant climate-smart agriculture challenge.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Use Copernicus, Earth Observation, IoT or other Space-IoT Box-supported resources.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Demonstrate how the existing product, service or application will be improved.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Present a clear implementation plan, expected outputs and budget.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Show potential value for users, customers or stakeholders in the Lake Victoria Basin region or the wider target countries.</li></ol><p class=\"ql-align-justify\"><strong>Example Application Areas</strong></p><p class=\"ql-align-justify\">Applicants may propose innovation experiments linked to areas such as:</p><ol><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Weather and climate monitoring using IoT sensors and remote sensing data.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Water quality monitoring for fish farming.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Fish farming decision-support services.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Crop monitoring and crop phenology.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Farm input planning, irrigation support and farm management.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Crop disease risk monitoring and alerts.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Seasonal planning and agroclimatic zoning.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Precision agriculture using satellite imagery and IoT data.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Hydrological flow assessment using IoT observations and satellite image analysis.</li></ol><p class=\"ql-align-justify\">These are example areas. Applicants may propose other relevant climate-smart agriculture solutions that can benefit from Space-IoT Box resources.</p><p class=\"ql-align-justify\"><strong>What Selected Applicants Will Receive</strong></p><p class=\"ql-align-justify\">Selected SMEs and start-ups will receive:</p><ol><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Access to Space-IoT Box resources, tools, datasets and documentation.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Technical training on relevant Copernicus, Earth Observation and IoT resources.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Business development and entrepreneurial support.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Product and market validation support.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Pitch and investment readiness support.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Mentoring during the innovation experiment implementation period.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Opportunity to present the innovation experiment during the final showcase.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Financial support of up to EUR 5,000 for eligible costs linked to the approved innovation experiment.</li></ol>"
-      ],
-      "language": [
-       "en"
-      ],
-      "title": [
-       "Designing space-based downstream applications with international partners"
-      ],
-      "type": [
-       "8"
-      ],
-      "esST_checksum": [
-       "3B78940455911787596CAC379FD7C9BEDD2B8E24EC4ACF31995AA400C9EAA034"
-      ],
-      "duration": [
-       "8 months"
-      ],
-      "destinationDetails": [
-       "<p class=\"ql-align-justify\">The KijaniSpace Space-IoT Innovation Program will support selected SMEs and start-ups to improve existing agriculture-related products, services or applications using Copernicus and IoT resources. The program will support up to five selected SMEs or start-ups from Kenya, Uganda and Tanzania. Selected teams will carry out innovation experiments using Copernicus, Earth Observation and IoT resources made available through the \"Space-IoT Box\". The Innovation Program will include onboarding, online training, mentoring, innovation experiment implementation, product and market validation, pitch preparation and an in-person final showcase in Kenya.</p><p class=\"ql-align-justify\"><strong>Who Can Apply</strong></p><p class=\"ql-align-justify\">The open call is targeted at SMEs and start-ups that are legally established and operating in one of the following countries:</p><ol><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Kenya</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Uganda</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Tanzania</li></ol><p class=\"ql-align-justify\">Applicants may apply as a single organisation. Only one proposal will be accepted for funding per applicant or team member. Applicants must have an existing agriculture-related product, service or application linked to crop farming, fish farming or another relevant climate-smart agriculture use case.</p><p class=\"ql-align-justify\"><strong>Application Requirements</strong></p><p class=\"ql-align-justify\">Applicants need to complete an online application form available at:</p><p class=\"ql-align-justify\"><strong><u><a href=\"https://www.kijanispace.eu/space-iot-innovation-programme/\" rel=\"noopener noreferrer\" target=\"_blank\">https://www.kijanispace.eu/space-iot-innovation-programme/</a></u></strong></p><p class=\"ql-align-justify\">The proposals are submitted in PDF format using the provided proposal template. The proposal package will also include a declaration of honour and ethics self-assessment where required.</p><p class=\"ql-align-justify\"><strong>Financial Support</strong></p><p class=\"ql-align-justify\">Each selected SME or start-up may receive financial support of up to EUR 5,000. The financial support will cover eligible actual costs incurred during the implementation of the approved innovation experiment. Costs must be directly linked to the approved activities, milestones and expected deliverables. The payment arrangement will include:</p><ol><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>One pre-financing payment of 20% of the approved project budget.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>One final payment covering the remaining approved eligible costs after approval of the final report and corresponding deliverables.</li></ol><p class=\"ql-align-justify\">Selected beneficiaries will submit a financial statement at the end of the funded experiment for assessment by the KijaniSpace project coordinator.</p><p class=\"ql-align-justify\"><strong>Eligible Use of Funds</strong></p><p class=\"ql-align-justify\">Financial support may be used for activities directly linked to the approved innovation experiment, including:</p><ol><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Testing and improving the selected product, service or application using Space-IoT Box resources.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Implementing new features or services based on Copernicus and IoT technologies.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Collecting data, user feedback or stakeholder validation linked to the experiment.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Preparing technical documentation, validation evidence and impact summaries.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Participating in KijaniSpace virtual meetings, hackathons, showcase activities or related dissemination events.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Communication and dissemination activities linked to the funded experiment.</li></ol><p class=\"ql-align-justify\">Funding must be used only for the approved innovation experiment and in line with the sub-grant agreement.</p><p class=\"ql-align-justify\"><strong>Evaluation and Selection Process</strong></p><p class=\"ql-align-justify\">Applications will first be checked for completeness and eligibility. Eligible applications will then be evaluated by three evaluators using the published evaluation criteria. The evaluation will use the following main criteria:</p><ol><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Excellence: Quality of the proposal, understanding of the open call, relevance of selected Copernicus services and Space-IoT Box tools and suitability for the selected region.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Impact: Expected contribution to KijaniSpace project objectives, relevance to climate-smart agriculture, expected value for users or stakeholders and potential for dissemination, communication and exploitation.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Implementation: Feasibility of the proposed activities, quality of the implementation plan, team capacity, budget realism, expected deliverables and ability to complete the experiment within the program period.</li></ol><p class=\"ql-align-justify\">The evaluation process will produce a ranked list of proposals based on the scores received. In case of tied scores, a consensus meeting will be held to select the proposals for funding. Selected applicants will be contacted after the evaluation. Unsuccessful applicants will also be informed of the evaluation outcome.</p>"
-      ],
-      "esST_FileName": [
-       "file.txt"
-      ],
-      "ccm2Id": [
-       "46041400"
-      ],
-      "callccm2Id": [
-       "15662"
-      ],
-      "DATASOURCE": [
-       "SEDIA"
-      ],
-      "REFERENCE": [
-       "15662COMPETITIVE_CALLen"
-      ],
-      "projectAcronym": [
-       "KijaniSpace"
-      ],
-      "callTitle": [
-       "KijaniSpace Innovation Programme"
-      ],
-      "frameworkProgramme": [
-       "43108390"
-      ],
-      "budget": [
-       "25000"
-      ],
-      "identifier": [
-       "HORIZON-EUSPA-2023-SPACE-01-46"
-      ],
-      "furtherInformation": [
-       "<p class=\"ql-align-justify\"><strong>Obligations of Selected Beneficiaries</strong></p><p class=\"ql-align-justify\">Selected SMEs and start-ups will:</p><ol><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Sign a dedicated Sub-Grant Agreement with the KijaniSpace project coordinator.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Use the financial support only for the approved innovation experiment.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Participate in onboarding, training, mentoring, review meetings and final showcase activities.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Submit progress updates during the program.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Keep records of actual costs incurred.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Submit a final report, financial statement and supporting evidence.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Provide documentation of technical outputs, validation feedback, expected impacts and lessons learned.</li><li data-list=\"bullet\" class=\"ql-align-justify\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Support project communication and dissemination through approved non-confidential materials.</li></ol><p class=\"ql-align-justify\">If funds are misused or costs are found to be ineligible, the beneficiary will repay the affected amount to the KijaniSpace project coordinator in line with the financial support conditions.</p><p class=\"ql-align-justify\"><strong>Intellectual Property, Confidentiality and Data Protection</strong></p><p class=\"ql-align-justify\">Applicants will identify any pre-existing products, services, data, tools, software, know-how or materials they bring into the program. The applicant guidelines and sub-grant agreement will define the rules on intellectual property, data protection, confidentiality and liability. Public communication materials will use approved non-confidential information, summaries, photos, screenshots, presentations or demonstration materials provided by the selected beneficiaries.</p>"
-      ],
-      "caName": [
-       "KijaniSpace Innovation Programme"
-      ],
-      "es_ContentType": [
-       "text/plain"
-      ],
-      "esDA_FirstIngestDate": [
-       "2026-09-10T15:20:39.738+0200"
-      ],
-      "programmePeriod": [
-       "2021 - 2027"
-      ],
-      "deadlineDate": [
-       "2026-10-16T17:00:00.000+0000"
-      ],
-      "esDA_IngestDate": [
-       "2026-09-10T16:26:19.883+0200"
-      ],
-      "closingDate": [
-       "2026-09-10T00:00:00Z"
-      ],
-      "url": [
-       "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46041400"
-      ],
-      "es_Combine": [
-       "2"
-      ],
-      "esST_URL": [
-       "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46041400"
-      ],
-      "esDA_QueueDate": [
-       "2026-09-10T16:26:19.874+0200"
-      ],
-      "projectName": [
-       "Space-IoT Solution Box for Climate-Smart Agriculture in Africa"
-      ],
-      "projectId": [
-       "101180225"
-      ],
-      "startDate": [
-       "2026-09-15T00:00:00.000+0000"
-      ],
-      "deadlineModel": [
-       "single-stage"
-      ],
-      "status": [
-       "31094502"
-      ]
-     }
+    "reader": {
+     "ok": true,
+     "blocks": 17,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 121848
     }
-   ],
-   "types": [
-    "['0']",
-    "['8']"
-   ]
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 15.8
   },
   {
-   "name": "EC type 0 only",
-   "ok": true,
-   "total": 18,
-   "first": [
-    {
-     "reference": "11833en",
-     "url": "https://etendering.ted.europa.eu/cft/cft-display.html?cftId=11833",
-     "summary": "EU-Tanzania Communication and Visibility 2023-2026",
-     "metadata": {
-      "es_SortDate": [
-       "2022-08-16T00:00:00.000+0000"
-      ],
-      "cftPartyLegalEntityId": [
-       "47352462"
-      ],
-      "cftMaxNumberOfLots": [],
-      "contractType": [
-       "31095498"
-      ],
-      "awardMethod": [
-       "4"
-      ],
-      "cftContractingSystems": [
-       "PUBLIC_CONTRACT"
-      ],
-      "twoStageDeadlineDate": [
-       "2022-09-19T16:00:00Z"
-      ],
-      "language": [
-       "en"
-      ],
-      "type": [
-       "0"
-      ],
-      "cftDocuments": [
-       "{\"cftDocuments\":[{\"documentPublicationID\":\"142314\",\"languageCode\":\"ENG\",\"documentTitle\":\"Tanzania-Questions and Answers- Call Ref  INTPA-DAR-2022-EA-RP-0113\",\"documentType\":\"Other Document\",\"considerChangedUntilDate\":\"2022-09-06T12:00:00\",\"documentChangeCode\":\"NEW\",\"changedNotificationText\":\"NEW\",\"hermesDocumentReferences\":[{\"documentID\":\"142314\",\"attachmentID\":\"128464\",\"versionNR\":\"1\",\"isCurrentVersion\":\"Y\",\"publicationDate\":\"2022-09-06T12:00:00\",\"documentFileName\":\"11833_142314_EN-Tanzania-Questions and Answers- Call Ref  INTPA-DAR-2022-EA-RP-0113_ENG_V1.pdf\",\"publicationFormat\":\"1PD\"}],\"obsolete\":false},{\"documentPublicationID\":\"139289\",\"languageCode\":\"ENG\",\"documentTitle\":\"form A5F-additional information to the contract notice\",\"documentType\":\"Invitation\",\"considerChangedUntilDate\":\"2022-08-16T12:00:00\",\"documentChangeCode\":\"NEW\",\"changedNotificationText\":\"NEW\",\"hermesDocumentReferences\":[{\"documentID\":\"139289\",\"attachmentID\":\"125601\",\"versionNR\":\"1\",\"isCurrentVersion\":\"Y\",\"publicationDate\":\"2022-08-16T12:00:00\",\"documentFileName\":\"11833_139289_EN-A5F Additional Information abount the Contract notice-C&V_ENG_V1.pdf\",\"publicationFormat\":\"1PD\"}],\"obsolete\":false}]}"
-      ],
-      "callIdentifier": [
-       "INTPA/DAR/2022/EA-RP/0113"
-      ],
-      "cftSubmissionsAllowed": [],
-      "DATASOURCE": [
-       "SEDIA"
-      ],
-      "cftPublicationDisplayStatus": [],
-      "identifier": [
-       "aaeff3f4-8d32-488c-bc53-7325d19082e2"
-      ],
-      "es_ContentType": [
-       "text/plain"
-      ],
-      "programmePeriod": [
-       "2014 - 2020",
-       "2021 - 2027"
-      ],
-      "cftSubscriptionsAllowed": [],
-      "deadlineDate": [
-       "2023-05-12T16:00:00.000+0000"
-      ],
-      "cftCorrigendaList": [],
-      "closingDate": [
-       "2023-05-12T16:00:00Z"
-      ],
-      "es_Combine": [
-       "3"
-      ],
-      "esST_URL": [
-       "https://etendering.ted.europa.eu/cft/cft-display.html?cftId=11833"
-      ],
-      "esDA_QueueDate": [
-       "2024-09-30T11:20:41.321+0200"
-      ],
-      "mainCpv": [
-       "22140000",
-       "22210000"
-      ],
-      "mainCpvCode": [
-       "{\"mainCode\":\"73220000\",\"supplementaryCode\":[]}"
-      ],
-      "startDate": [
-       "2022-08-16T00:00:00.000+0000"
-      ],
-      "placesOfDeliveryOrPerformance": [
-       "TZ"
-      ],
-      "status": [
-       "31094503"
-      ],
-      "procedureType": [
-       "47396224"
-      ],
-      "sortStatus": [
-       "3"
-      ],
-      "conditionOfParticipation": [
-       "{\"id\":385470,\"cft_id\":11833,\"publishedDate\":null,\"language\":\"EN\",\"excCrit\":\"Please consult the procurement documents available at the address indicated in Section I.3.\",\"inInfo\":\"The economic and financial capacity required from the candidate or tenderer to perform the contract is detailed in the document A5f \\\"Additional information about the Contract Notice\\\".\",\"finMin\":null,\"tecInfo\":\"The professional and technical capacity required from the candidate or tenderer to perform the contract is detailed in the document  A5f \\\"Additional information about the Contract Notice\\\".\",\"tecMin\":null,\"accProc\":null}"
-      ],
-      "description": [
-       "This contract aims to ensure adequate communication and visibility of the EU-Tanzania partnership. This contract will implement and further develop the Delegation's communication strategy and continue to exemplify the partnership between the EU and Tanzania, notably through strengthened communication and visibility capacities of EU Delegation and its Member States in order to provide better reporting and increased visibility on the results and impact of its development cooperation"
-      ],
-      "title": [
-       "EU-Tanzania Communication and Visibility 2023-2026"
-      ],
-      "esST_checksum": [
-       "451F2E40DA4437DF1C33085E261FFB055C634A49AE71E92008D6655930777A3B"
-      ],
-      "cftId": [
-       "11833"
-      ],
-      "esST_FileName": [
-       "file.txt"
-      ],
-      "REFERENCE": [
-       "11833en"
-      ],
-      "cftTendersMayBeSubmitted": [
-       "NA"
-      ],
-      "cftTimezone": [],
-      "cftEstimatedTotalProcedureValue": [
-       "2000000.00 EUR"
-      ],
-      "additionalCpvs": [
-       "[{\"mainCode\":\"22140000\",\"supplementaryCode\":[]},{\"mainCode\":\"22160000\",\"supplementaryCode\":[]},{\"mainCode\":\"73220000\",\"supplementaryCode\":[]},{\"mainCode\":\"22120000\",\"supplementaryCode\":[]},{\"mainCode\":\"79800000\",\"supplementaryCode\":[]},{\"mainCode\":\"55120000\",\"supplementaryCode\":[]},{\"mainCode\":\"98300000\",\"supplementaryCode\":[]},{\"mainCode\":\"22210000\",\"supplementaryCode\":[]},{\"mainCode\":\"22150000\",\"supplementaryCode\":[]}]"
-      ],
-      "cftContractNoticeLink": [
-       "[{\"noticeType\":\"1\",\"publicationDate\":\"16/08/22\",\"publicationReference\":\"2022/S 156-446475\",\"link\":\"https://ted.europa.eu/udl?uri=TED:NOTICE:446475-2022:TEXT:EN:HTML\"}]"
-      ],
-      "cftRepublish": [],
-      "cftSubmissionMethodCode": [
-       "ESUBMISSION"
-      ],
-      "cftProcurementType": [],
-      "caName": [
-       "53"
-      ],
-      "cftPlannedDate": [],
-      "publicationDocuments": [
-       "[\"EN\"]"
-      ],
-      "esDA_IngestDate": [
-       "2024-09-30T11:20:41.888+0200"
-      ],
-      "cftInterinstitutional": [],
-      "cftQuestionsAnswersAllowed": [],
-      "url": [
-       "https://etendering.ted.europa.eu/cft/cft-display.html?cftId=11833"
-      ],
-      "lots": [
-       "[]"
-      ],
-      "cftEXARegistrationDeadline": [],
-      "indicativeLaunch": [],
-      "cftLeadContractingAuthorityCode": [
-       "null"
-      ],
-      "cftBuyerProfileUrl": [],
-      "cftPublicationDateEForm": [
-       "16/08/2022 00:00:00"
-      ],
-      "cftEstimatedOverallContractCurrency": []
-     }
-    },
-    {
-     "reference": "6304en",
-     "url": "https://etendering.ted.europa.eu/cft/cft-display.html?cftId=6304",
-     "summary": "Security Services Delegation to Tanzania",
-     "metadata": {
-      "es_SortDate": [
-       "2020-05-25T00:00:00.000+0000"
-      ],
-      "cftPartyLegalEntityId": [
-       "47352512"
-      ],
-      "cftMaxNumberOfLots": [],
-      "contractType": [
-       "31095498"
-      ],
-      "awardMethod": [
-       "4"
-      ],
-      "cftContractingSystems": [
-       "ESTABLISHMENT_FRAMEWORK_AGREEMENT"
-      ],
-      "twoStageDeadlineDate": [
-       "2020-06-22T23:59:00Z"
-      ],
-      "language": [
-       "en"
-      ],
-      "type": [
-       "0"
-      ],
-      "cftDocuments": [
-       "{\"cftDocuments\":[{\"documentPublicationID\":\"81840\",\"languageCode\":\"ENG\",\"documentTitle\":\"request to participate form\",\"documentType\":\"Declaration on honour\",\"considerChangedUntilDate\":\"2020-06-18T12:00:00\",\"documentChangeCode\":\"NEW\",\"changedNotificationText\":\"NEW\",\"hermesDocumentReferences\":[{\"documentID\":\"81840\",\"attachmentID\":\"72334\",\"versionNR\":\"1\",\"isCurrentVersion\":\"Y\",\"publicationDate\":\"2020-06-18T12:00:00\",\"documentFileName\":\"6304_81840_EN-Request to participate form_ENG_V1.doc\",\"publicationFormat\":\"1DO\"}],\"obsolete\":false},{\"documentPublicationID\":\"79880\",\"languageCode\":\"ENG\",\"documentTitle\":\"Draft framework contract\",\"documentType\":\"Invitation\",\"considerChangedUntilDate\":\"2020-05-25T12:00:00\",\"documentChangeCode\":\"NEW\",\"changedNotificationText\":\"NEW\",\"hermesDocumentReferences\":[{\"documentID\":\"79880\",\"attachmentID\":\"70657\",\"versionNR\":\"1\",\"isCurrentVersion\":\"Y\",\"publicationDate\":\"2020-05-25T12:00:00\",\"documentFileName\":\"6304_79880_EN-Draft framework contract_ENG_V1.pdf\",\"publicationFormat\":\"1PD\"}],\"obsolete\":false},{\"documentPublicationID\":\"79878\",\"languageCode\":\"ENG\",\"documentTitle\":\"Tender specifications\",\"documentType\":\"Invitation\",\"considerChangedUntilDate\":\"2020-05-25T12:00:00\",\"documentChangeCode\":\"NEW\",\"changedNotificationText\":\"NEW\",\"hermesDocumentReferences\":[{\"documentID\":\"79878\",\"attachmentID\":\"70655\",\"versionNR\":\"1\",\"isCurrentVersion\":\"Y\",\"publicationDate\":\"2020-05-25T12:00:00\",\"documentFileName\":\"6304_79878_EN-Tender specifications_ENG_V1.pdf\",\"publicationFormat\":\"1PD\"}],\"obsolete\":false},{\"documentPublicationID\":\"79877\",\"languageCode\":\"ENG\",\"documentTitle\":\"Invitation to submit request to participate\",\"documentType\":\"Invitation\",\"considerChangedUntilDate\":\"2020-05-25T12:00:00\",\"documentChangeCode\":\"NEW\",\"changedNotificationText\":\"NEW\",\"hermesDocumentReferences\":[{\"documentID\":\"79877\",\"attachmentID\":\"70654\",\"versionNR\":\"1\",\"isCurrentVersion\":\"Y\",\"publicationDate\":\"2020-05-25T12:00:00\",\"documentFileName\":\"6304_79877_EN-Invitation to submit request to participate_ENG_V1.pdf\",\"publicationFormat\":\"1PD\"}],\"obsolete\":false},{\"documentPublicationID\":\"79876\",\"languageCode\":\"ENG\",\"documentTitle\":\"Request to participate form\",\"documentType\":\"Invitation\",\"considerChangedUntilDate\":\"2020-05-25T12:00:00\",\"documentChangeCode\":\"NEW\",\"changedNotificationText\":\"NEW\",\"hermesDocumentReferences\":[{\"documentID\":\"79876\",\"attachmentID\":\"70653\",\"versionNR\":\"1\",\"isCurrentVersion\":\"Y\",\"publicationDate\":\"2020-05-25T12:00:00\",\"documentFileName\":\"6304_79876_EN-Request to participate form_ENG_V1.pdf\",\"publicationFormat\":\"1PD\"}],\"obsolete\":false}]}"
-      ],
-      "callIdentifier": [
-       "EEAS/DELTZAD/2020/CPN/0031"
-      ],
-      "cftSubmissionsAllowed": [],
-      "DATASOURCE": [
-       "SEDIA"
-      ],
-      "cftPublicationDisplayStatus": [],
-      "identifier": [
-       "4999dd03-3142-42dc-ae06-27f76c761bf2"
-      ],
-      "es_ContentType": [
-       "text/plain"
-      ],
-      "programmePeriod": [
-       "2014 - 2020",
-       "2021 - 2027"
-      ],
-      "cftSubscriptionsAllowed": [],
-      "deadlineDate": [
-       "2020-12-15T23:59:00.000+0000"
-      ],
-      "cftCorrigendaList": [],
-      "closingDate": [
-       "2020-12-15T23:59:00Z"
-      ],
-      "es_Combine": [
-       "3"
-      ],
-      "esST_URL": [
-       "https://etendering.ted.europa.eu/cft/cft-display.html?cftId=6304"
-      ],
-      "esDA_QueueDate": [
-       "2024-09-27T18:01:24.373+0200"
-      ],
-      "mainCpv": [
-       "79710000"
-      ],
-      "mainCpvCode": [
-       "{\"mainCode\":\"79710000\",\"supplementaryCode\":[]}"
-      ],
-      "startDate": [
-       "2020-05-25T00:00:00.000+0000"
-      ],
-      "placesOfDeliveryOrPerformance": [
-       "00"
-      ],
-      "status": [
-       "31094503"
-      ],
-      "procedureType": [
-       "47396208"
-      ],
-      "sortStatus": [
-       "3"
-      ],
-      "conditionOfParticipation": [
-       "{\"id\":440033,\"cft_id\":6304,\"publishedDate\":null,\"language\":\"EN\",\"excCrit\":\"See internet address provided in section I.3).\",\"inInfo\":\"Selection criteria as stated in the procurement documents\",\"finMin\":\"Selection criteria as stated in the procurement documents\",\"tecInfo\":\"Selection criteria as stated in the procurement documents\",\"tecMin\":\"Selection criteria as stated in the procurement documents\",\"accProc\":null}"
-      ],
-      "description": [
-       "The contractor shall provide the human and material resources necessary to ensure the security of persons and assets under the contracting authority's responsibility. The main services to be provided may include, among others, the provision of security guards, \u2018active\u2019 GPS/GPRS tracking systems, alarm systems and CCTV systems."
-      ],
-      "title": [
-       "Security Services Delegation to Tanzania"
-      ],
-      "esST_checksum": [
-       "8D98E102109A7D66E6E387BF73CB2F76CE39E3388B48A81D9B32E238543070F6"
-      ],
-      "cftId": [
-       "6304"
-      ],
-      "esST_FileName": [
-       "file.txt"
-      ],
-      "REFERENCE": [
-       "6304en"
-      ],
-      "cftTendersMayBeSubmitted": [
-       "NA"
-      ],
-      "cftTimezone": [],
-      "cftEstimatedTotalProcedureValue": [
-       "5437000.00 EUR"
-      ],
-      "additionalCpvs": [
-       "[{\"mainCode\":\"79710000\",\"supplementaryCode\":[]}]"
-      ],
-      "cftContractNoticeLink": [
-       "[{\"noticeType\":\"1\",\"publicationDate\":\"25/05/20\",\"publicationReference\":\"2020/S 100-238630\",\"link\":\"http://ted.europa.eu/udl?uri=TED:NOTICE:238630-2020:TEXT:EN:HTML\"}]"
-      ],
-      "cftRepublish": [],
-      "cftSubmissionMethodCode": [
-       "NONE_ESUBMISSION"
-      ],
-      "cftProcurementType": [],
-      "caName": [
-       "81"
-      ],
-      "cftPlannedDate": [],
-      "publicationDocuments": [
-       "[\"EN\"]"
-      ],
-      "esDA_IngestDate": [
-       "2024-09-27T18:01:24.683+0200"
-      ],
-      "cftInterinstitutional": [],
-      "cftQuestionsAnswersAllowed": [],
-      "url": [
-       "https://etendering.ted.europa.eu/cft/cft-display.html?cftId=6304"
-      ],
-      "lots": [
-       "[]"
-      ],
-      "cftEXARegistrationDeadline": [],
-      "indicativeLaunch": [],
-      "cftLeadContractingAuthorityCode": [
-       "null"
-      ],
-      "cftBuyerProfileUrl": [
-       "https://eeas.europa.eu/delegations/tanzania/area/jobs-funds_en"
-      ],
-      "cftPublicationDateEForm": [
-       "25/05/2020 00:00:00"
-      ],
-      "cftEstimatedOverallContractCurrency": []
-     }
+   "name": "OPEC Fund procurement",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 29,
+     "tenderish": 2,
+     "construction": 0,
+     "bytes": 73088
     }
+   },
+   "used": "direct",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 1.5
+  },
+  {
+   "name": "BADEA procurement",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 58,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 215243
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 58,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 202123
+    }
+   },
+   "used": "direct",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 19.6
+  },
+  {
+   "name": "Afreximbank procurement",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.afreximbank.com (HTTP Error 403: Forbidden)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 3,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 52659
+    }
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 5.2
+  },
+  {
+   "name": "Shelter Afrique procurement",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 139,
+     "tenderish": 3,
+     "construction": 0,
+     "bytes": 91975
+    }
+   },
+   "used": "direct",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 2.7
+  },
+  {
+   "name": "IUCEA procurement",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 100,
+     "tenderish": 26,
+     "construction": 7,
+     "bytes": 156213
+    }
+   },
+   "used": "direct",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 7.5
+  },
+  {
+   "name": "EALA procurement",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.eala.org (HTTP Error 404: Not Found)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 2,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 1508
+    }
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 7.7
+  },
+  {
+   "name": "EACJ procurement",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.eacj.org (HTTP Error 404: Not Found)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 5,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 1232
+    }
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 11.3
+  },
+  {
+   "name": "ESAMI procurement",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 29,
+     "tenderish": 22,
+     "construction": 0,
+     "bytes": 378496
+    }
+   },
+   "used": "direct",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 2.8
+  },
+  {
+   "name": "African Wildlife Foundation procurement",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.awf.org (HTTP Error 404: Not Found)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 29,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 32106
+    }
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 20.3
+  },
+  {
+   "name": "CHAI RFPs",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.clintonhealthaccess.org (HTTP Error 404: Not Found)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 44,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 110671
+    }
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 22.8
+  },
+  {
+   "name": "PSI procurement",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.psi.org (HTTP Error 404: Not Found)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 365,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 269795
+    }
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 57.4
+  },
+  {
+   "name": "IRC procurement",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 47,
+     "tenderish": 17,
+     "construction": 5,
+     "bytes": 128607
+    }
+   },
+   "used": "direct",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 0.7
+  },
+  {
+   "name": "NRC procurement",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 61,
+     "tenderish": 3,
+     "construction": 0,
+     "bytes": 109390
+    }
+   },
+   "used": "direct",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 0.4
+  },
+  {
+   "name": "DRC procurement",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach pro.drc.ngo (HTTP Error 404: Not Found)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 26,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 10128
+    }
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 27.3
+  },
+  {
+   "name": "Concern tenders",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.concern.net (HTTP Error 404: Not Found)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 166,
+     "tenderish": 3,
+     "construction": 0,
+     "bytes": 192005
+    }
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 23.8
+  },
+  {
+   "name": "Welthungerhilfe tenders",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 168,
+     "tenderish": 15,
+     "construction": 6,
+     "bytes": 96022
+    }
+   },
+   "used": "direct",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 1.8
+  },
+  {
+   "name": "Plan International procurement",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach plan-international.org (HTTP Error 404: Not Found)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 16,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 99249
+    }
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 29.1
+  },
+  {
+   "name": "IFRC procurement",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.ifrc.org (HTTP Error 403: Forbidden)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 5832
+    }
+   },
+   "used": "reader",
+   "ok": false,
+   "error": "no readable text on the page \u2013 it may load its list with JavaScript",
+   "sec": 29.6
+  },
+  {
+   "name": "Save the Children Tanzania",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 64,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 128921
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 5857
+    }
+   },
+   "used": "direct",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 31.1
+  },
+  {
+   "name": "CARE Tanzania",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.care.or.tz (HTTP Error 404: Not Found)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 35042
+    }
+   },
+   "used": "reader",
+   "ok": false,
+   "error": "no readable text on the page \u2013 it may load its list with JavaScript",
+   "sec": 38.5
+  },
+  {
+   "name": "World Vision Tanzania",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.wvi.org (HTTP Error 403: Forbidden)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 7,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 134435
+    }
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 37.5
+  },
+  {
+   "name": "Mercy Corps RFPs",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.mercycorps.org (HTTP Error 404: Not Found)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 21,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 13384
+    }
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 31.7
+  },
+  {
+   "name": "Lake Tanganyika Authority",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach lta-alt.org (HTTP Error 404: Not Found)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 9,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 180138
+    }
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 36.8
+  },
+  {
+   "name": "UN Tanzania",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 110,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 103451
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 110,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 96884
+    }
+   },
+   "used": "direct",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 35.6
+  },
+  {
+   "name": "GlobalTenders TZ construction",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 3,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 2239
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 3,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 2273
+    }
+   },
+   "used": "direct",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 34.6
+  },
+  {
+   "name": "TenderImpulse TZ construction",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.tenderimpulse.com (HTTP Error 404: Not Found)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 26,
+     "tenderish": 9,
+     "construction": 3,
+     "bytes": 62384
+    }
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 1,
+   "items": [
+    "404 This page could not be found The link may be broken, or the page may have been moved or removed. Let's get you back to the tenders. /tan"
    ],
-   "types": [
-    "['0']"
-   ]
+   "kept": [
+    "404 This page could not be found The link may be broken, or the page may have been moved or removed. Let's get || Auto (TenderImpulse TZ construction): Deadline not shown on "
+   ],
+   "sec": 36.3
+  },
+  {
+   "name": "Tendersglobal Tanzania",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.tendersglobal.net (HTTP Error 403: Forbidden)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 0,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 6023
+    }
+   },
+   "used": "reader",
+   "ok": false,
+   "error": "no readable text on the page \u2013 it may load its list with JavaScript",
+   "sec": 35.8
+  },
+  {
+   "name": "Africa Tenders Tanzania",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.africa-tenders.com (<urlopen error [Errno 104] Connection reset by peer>)"
+    },
+    "reader": {
+     "ok": false,
+     "error": "could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)"
+    }
+   },
+   "ok": false,
+   "error": "no route worked",
+   "sec": 38.0
+  },
+  {
+   "name": "EC tenders (TED eTendering Tanzania)",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach etendering.ted.europa.eu (HTTP Error 404: Not Found)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 1,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 144
+    }
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 27.9
+  },
+  {
+   "name": "WFP Tanzania",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": true,
+     "blocks": 100,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 101235
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 100,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 101060
+    }
+   },
+   "used": "direct",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 30.5
+  },
+  {
+   "name": "UNHCR Tanzania",
+   "grp": "intl",
+   "kind": "page",
+   "routes": {
+    "direct": {
+     "ok": false,
+     "error": "could not reach www.unhcr.org (HTTP Error 403: Forbidden)"
+    },
+    "reader": {
+     "ok": true,
+     "blocks": 6,
+     "tenderish": 0,
+     "construction": 0,
+     "bytes": 182726
+    }
+   },
+   "used": "reader",
+   "ok": true,
+   "n": 0,
+   "items": [],
+   "kept": [],
+   "sec": 31.0
   }
  ]
 }
