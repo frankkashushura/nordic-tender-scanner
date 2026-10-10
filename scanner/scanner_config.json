@@ -300,8 +300,9 @@
         "client": "UK Government (FCDO / British High Commission)",
         "client_type": "donor",
         "every_minutes": 120,
-        "enabled": true,
-        "group": "intl"
+        "enabled": false,
+        "group": "intl",
+        "about": "Switched off 10 Oct 2026: the search page returns site menus and non-Tanzanian notices (e.g. Malaysia) – UK Contracts Finder covers UK-government tenders instead"
       },
       {
         "name": "UK Contracts Finder – Tanzania",
@@ -332,7 +333,26 @@
           "deadline": "item.deadlineDate",
           "posted": "item.publishedDate"
         },
-        "every_item_is_a_tender": true
+        "every_item_is_a_tender": true,
+        "must_contain": [
+          "tanzania",
+          "dar es salaam",
+          "dodoma",
+          "arusha",
+          "mwanza",
+          "zanzibar",
+          "tanga",
+          "mbeya",
+          "morogoro",
+          "moshi",
+          "kigoma",
+          "mtwara",
+          "lindi",
+          "iringa",
+          "tabora",
+          "pwani",
+          "bagamoyo"
+        ]
       },
       {
         "name": "EU Funding & Tenders – Tanzania",
