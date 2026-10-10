@@ -311,7 +311,7 @@
         "client": "UK Government",
         "client_type": "donor",
         "every_minutes": 120,
-        "enabled": true,
+        "enabled": false,
         "group": "intl",
         "api": {
           "method": "POST",
@@ -352,7 +352,8 @@
           "tabora",
           "pwani",
           "bagamoyo"
-        ]
+        ],
+        "about": "Switched off 10 Oct 2026 (low value for Nordic: rarely Tanzanian construction works). Set enabled true to use again."
       },
       {
         "name": "EU Funding & Tenders – Tanzania",
@@ -437,7 +438,7 @@
         "client": "Islamic Development Bank",
         "client_type": "donor",
         "every_minutes": 120,
-        "enabled": true,
+        "enabled": false,
         "group": "intl",
         "must_contain": [
           "tanzania",
@@ -457,7 +458,8 @@
           "tabora",
           "pwani",
           "bagamoyo"
-        ]
+        ],
+        "about": "Switched off 10 Oct 2026 (low value for Nordic: rarely Tanzanian construction works). Set enabled true to use again."
       },
       {
         "name": "African Union bids",
@@ -466,7 +468,7 @@
         "client": "African Union",
         "client_type": "donor",
         "every_minutes": 120,
-        "enabled": true,
+        "enabled": false,
         "group": "intl",
         "must_contain": [
           "tanzania",
@@ -486,7 +488,8 @@
           "tabora",
           "pwani",
           "bagamoyo"
-        ]
+        ],
+        "about": "Switched off 10 Oct 2026 (low value for Nordic: rarely Tanzanian construction works). Set enabled true to use again."
       },
       {
         "name": "Enabel (Belgium) procurement",
@@ -495,7 +498,7 @@
         "client": "Enabel",
         "client_type": "donor",
         "every_minutes": 120,
-        "enabled": true,
+        "enabled": false,
         "group": "intl",
         "must_contain": [
           "tanzania",
@@ -515,7 +518,8 @@
           "tabora",
           "pwani",
           "bagamoyo"
-        ]
+        ],
+        "about": "Switched off 10 Oct 2026 (low value for Nordic: rarely Tanzanian construction works). Set enabled true to use again."
       },
       {
         "name": "Global Fund business opportunities",
@@ -524,7 +528,7 @@
         "client": "The Global Fund",
         "client_type": "donor",
         "every_minutes": 120,
-        "enabled": true,
+        "enabled": false,
         "group": "intl",
         "must_contain": [
           "tanzania",
@@ -544,7 +548,8 @@
           "tabora",
           "pwani",
           "bagamoyo"
-        ]
+        ],
+        "about": "Switched off 10 Oct 2026 (low value for Nordic: rarely Tanzanian construction works). Set enabled true to use again."
       },
       {
         "name": "SADC procurement",
@@ -553,7 +558,7 @@
         "client": "SADC",
         "client_type": "donor",
         "every_minutes": 120,
-        "enabled": true,
+        "enabled": false,
         "group": "intl",
         "must_contain": [
           "tanzania",
@@ -573,7 +578,8 @@
           "tabora",
           "pwani",
           "bagamoyo"
-        ]
+        ],
+        "about": "Switched off 10 Oct 2026 (low value for Nordic: rarely Tanzanian construction works). Set enabled true to use again."
       },
       {
         "name": "IOM procurement",
@@ -611,7 +617,7 @@
         "client": "UNESCO",
         "client_type": "donor",
         "every_minutes": 120,
-        "enabled": true,
+        "enabled": false,
         "group": "intl",
         "must_contain": [
           "tanzania",
@@ -631,7 +637,8 @@
           "tabora",
           "pwani",
           "bagamoyo"
-        ]
+        ],
+        "about": "Switched off 10 Oct 2026 (low value for Nordic: rarely Tanzanian construction works). Set enabled true to use again."
       },
       {
         "name": "WFP procurement",
@@ -669,8 +676,9 @@
         "client": "",
         "client_type": "",
         "every_minutes": 120,
-        "enabled": true,
-        "group": "intl"
+        "enabled": false,
+        "group": "intl",
+        "about": "Switched off 10 Oct 2026 (low value for Nordic: rarely Tanzanian construction works). Set enabled true to use again."
       },
       {
         "name": "TenderImpulse – Tanzania",
@@ -679,8 +687,9 @@
         "client": "",
         "client_type": "",
         "every_minutes": 120,
-        "enabled": true,
-        "group": "intl"
+        "enabled": false,
+        "group": "intl",
+        "about": "Switched off 10 Oct 2026 (low value for Nordic: rarely Tanzanian construction works). Set enabled true to use again."
       },
       {
         "name": "Lake Victoria Basin Commission procurement",
@@ -845,7 +854,7 @@
         "client": "OPEC Fund",
         "client_type": "donor",
         "every_minutes": 120,
-        "enabled": true,
+        "enabled": false,
         "group": "intl",
         "must_contain": [
           "tanzania",
@@ -865,7 +874,8 @@
           "tabora",
           "pwani",
           "bagamoyo"
-        ]
+        ],
+        "about": "Switched off 10 Oct 2026 (low value for Nordic: rarely Tanzanian construction works). Set enabled true to use again."
       },
       {
         "name": "IRC (International Rescue Committee) procurement",
@@ -874,7 +884,7 @@
         "client": "International Rescue Committee",
         "client_type": "donor",
         "every_minutes": 120,
-        "enabled": true,
+        "enabled": false,
         "group": "intl",
         "must_contain": [
           "tanzania",
@@ -894,7 +904,8 @@
           "tabora",
           "pwani",
           "bagamoyo"
-        ]
+        ],
+        "about": "Switched off 10 Oct 2026 (low value for Nordic: rarely Tanzanian construction works). Set enabled true to use again."
       },
       {
         "name": "Norwegian Refugee Council procurement",
@@ -903,7 +914,7 @@
         "client": "Norwegian Refugee Council",
         "client_type": "donor",
         "every_minutes": 120,
-        "enabled": true,
+        "enabled": false,
         "group": "intl",
         "must_contain": [
           "tanzania",
@@ -923,7 +934,8 @@
           "tabora",
           "pwani",
           "bagamoyo"
-        ]
+        ],
+        "about": "Switched off 10 Oct 2026 (low value for Nordic: rarely Tanzanian construction works). Set enabled true to use again."
       },
       {
         "name": "Welthungerhilfe tenders",
@@ -932,7 +944,7 @@
         "client": "Welthungerhilfe",
         "client_type": "donor",
         "every_minutes": 120,
-        "enabled": true,
+        "enabled": false,
         "group": "intl",
         "must_contain": [
           "tanzania",
@@ -952,7 +964,8 @@
           "tabora",
           "pwani",
           "bagamoyo"
-        ]
+        ],
+        "about": "Switched off 10 Oct 2026 (low value for Nordic: rarely Tanzanian construction works). Set enabled true to use again."
       },
       {
         "name": "Concern Worldwide tenders",
@@ -961,7 +974,7 @@
         "client": "Concern Worldwide",
         "client_type": "donor",
         "every_minutes": 120,
-        "enabled": true,
+        "enabled": false,
         "group": "intl",
         "must_contain": [
           "tanzania",
@@ -981,7 +994,8 @@
           "tabora",
           "pwani",
           "bagamoyo"
-        ]
+        ],
+        "about": "Switched off 10 Oct 2026 (low value for Nordic: rarely Tanzanian construction works). Set enabled true to use again."
       }
     ],
     "_web_pages_help": "To watch another Tanzanian tender page, copy one block, change name, url and client. The page must show its list without logging in. must_contain (optional) keeps only notices containing one of those words, e.g. [\"tanzania\"] on an international page. A page that keeps FAILING in last_scan.txt can be switched off with enabled: false. Removed 1 Oct 2026 because they could not be read from GitHub's computers: ZPPDA (address does not exist), NMB and AfDB (refuse automatic readers, 403), TANESCO (JavaScript list, bad certificate), TAA (page removed, 404), RUWASA (closes the connection to foreign servers). Their tenders still reach NEXUS through NeST, DDO Tenders and TanzaniaTenders.com. | v3.1: optional \"group\": \"intl\" shows a page under Embassies · UN · international in NEXUS; \"browser\": false sends the old scanner identity; \"via\": \"reader\" always uses the public page reader, \"direct\" never; \"api\": {...} reads a public JSON search API (see EU Funding & Tenders / UK Contracts Finder).",
