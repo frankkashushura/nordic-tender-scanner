@@ -1,0 +1,25 @@
+Tender Scan – Saturday 10 October 2026, 04:06
+
+Sources checked:
+  NeST: 39 notices read
+  TANROADS website: 7 notices read
+  DDO Tenders (newspapers, private, donors): 223 notices read
+  PPRA public notices: 1 notices read
+  Exim Bank Tanzania tenders: 0 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (5)
+  • closes Fri 16 Oct 14:00  TANROADS - Dar es Salaam Regional Office – Maintenance of Traffic signals and street lights along trunk and regional roads - Lot 6C: Mandela road, Ubungo  [Dar es Salaam (Ubungo)]  (TR36/002/2026/2027/W/35; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Fri 16 Oct 14:00  TANROADS - Dar es Salaam Regional Office – Road marking and signage along paved regional roads - Lot 4b: Mbezi Malamba Mawili-Kinyerezi, Morocco-Mlalakuw  [Dar es Salaam (Mbezi)]  (TR36/002/2026/2027/W/20; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Fri 16 Oct 14:00  TANROADS - Dar es Salaam Regional Office – Routine and Recurrent, Spot Improvement of Unpaved Regional roads - Lot 6B: Mbezi Victoria- Bunju Sport Motel   [Dar es Salaam (Mbezi)]  (TR36/002/2026/2027/W/43; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Fri 16 Oct 14:00  TANROADS - Dar es Salaam Regional Office – Routine and Recurrent Maintenance of paved regional roads - Lot 12: Temboni-Goba-Wazo Hill- Tegeta Kibaoni (15  [Dar es Salaam (Goba)]  (TR36/002/2026/2027/W/21; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Mon 19 Oct 14:00  Bank of Tanzania - Mwanza Branch – Proposed Rehabilitation of Stone Cladding, Mosaic Tiles, and Repainting of the Boundary Wall at the Bank of Ta  [Mwanza]  (TR152/006/2026/2027/W/04; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+
+Screened out (see the 'Screened Out' sheet): 1
+Empty Pipeline rows left: 391
