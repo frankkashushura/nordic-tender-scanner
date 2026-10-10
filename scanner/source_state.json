@@ -1,7 +1,7 @@
 {
 "NeST": {
-"last_try": 1791630071.7173812,
-"last_ok": "2026-10-10 14:01",
+"last_try": 1791631136.0634503,
+"last_ok": "2026-10-10 14:18",
 "fails": 0,
 "last_count": 39,
 "baseline_done": true,
@@ -15,8 +15,8 @@
 "baseline_done": true
 },
 "TANROADS website": {
-"last_try": 1791629466.4999893,
-"last_ok": "2026-10-10 13:51",
+"last_try": 1791631137.634307,
+"last_ok": "2026-10-10 14:18",
 "fails": 0,
 "last_count": 7,
 "baseline_done": true,
@@ -45,8 +45,8 @@
 "last_error": "2026-09-26 00:17 could not reach www.nmbbank.co.tz (HTTP Error 403: Forbidden)"
 },
 "DDO Tenders (newspapers, private, donors)": {
-"last_try": 1791629468.8398266,
-"last_ok": "2026-10-10 13:51",
+"last_try": 1791631140.4647577,
+"last_ok": "2026-10-10 14:18",
 "fails": 0,
 "last_count": 223,
 "baseline_done": true
@@ -250,15 +250,15 @@
 "baseline_done": true
 },
 "BidDetail \u2013 Tanzania tenders": {
-"last_try": 1791623669.6081533,
-"last_ok": "2026-10-10 12:14",
+"last_try": 1791631142.2186494,
+"last_ok": "2026-10-10 14:18",
 "fails": 0,
 "last_count": 3,
 "baseline_done": true
 },
 "ZoomTanzania tenders": {
-"last_try": 1791623671.1333296,
-"last_ok": "2026-10-10 12:14",
+"last_try": 1791631144.0400605,
+"last_ok": "2026-10-10 14:18",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true

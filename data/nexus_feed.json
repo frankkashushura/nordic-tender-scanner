@@ -1,12 +1,12 @@
 {
-"generated": "2026-10-10T14:02:32+03:00",
+"generated": "2026-10-10T14:19:05+03:00",
 "scanner": {
-"last_scan": "2026-10-10T14:01:00+03:00",
-"summary": "NeST: 39 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read; TRC tenders: 1 notices read; TCRA tenders: 4 notices read; Azania Bank tenders: 6 notices read; NBC Bank procurement: 0 notices read; Ministry of Water tenders: 0 notices read; REA t",
+"last_scan": "2026-10-10T14:18:00+03:00",
+"summary": "NeST: 39 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 223 notices read; BidDetail – Tanzania tenders: 3 notices read; ZoomTanzania tenders: 0 notices read → no new tenders",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-10-10 14:01",
+"last_ok": "2026-10-10 14:18",
 "error": "",
 "url": "https://nest.go.tz/tenders/published-tenders",
 "group": "tz"
@@ -20,7 +20,7 @@
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-10-10 13:51",
+"last_ok": "2026-10-10 14:18",
 "error": "",
 "url": "https://www.tanroads.go.tz/tenders",
 "group": "tz"
@@ -34,7 +34,7 @@
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-10-10 13:51",
+"last_ok": "2026-10-10 14:18",
 "error": "",
 "url": "https://www.ddotenders.co.tz/tender.php?page=home",
 "group": "tz"
@@ -209,14 +209,14 @@
 },
 {
 "name": "BidDetail – Tanzania tenders",
-"last_ok": "2026-10-10 12:14",
+"last_ok": "2026-10-10 14:18",
 "error": "",
 "url": "https://www.biddetail.com/tanzania-tenders",
 "group": "tz"
 },
 {
 "name": "ZoomTanzania tenders",
-"last_ok": "2026-10-10 12:14",
+"last_ok": "2026-10-10 14:18",
 "error": "",
 "url": "https://www.zoomtanzania.net/tenders",
 "group": "tz"
