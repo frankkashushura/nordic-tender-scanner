@@ -1,16 +1,16 @@
-2026-10-10 07:39  NeST: 39 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 223 notices read → no new tenders
+2026-10-10 07:56  NeST: 39 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 223 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; BidDetail – Tanzania tenders: 3 notices read; ZoomTanzania tenders: 0 notices read → no new tenders
 
 Per source:
-  NeST: last OK 2026-10-10 07:39
-  World Bank (Tanzania, civil works): last OK 2026-10-10 07:19
-  TANROADS website: last OK 2026-10-10 07:39
+  NeST: last OK 2026-10-10 07:56
+  World Bank (Tanzania, civil works): last OK 2026-10-10 07:56
+  TANROADS website: last OK 2026-10-10 07:56
   CRDB Bank tenders: last OK 2026-10-10 07:19
-  DDO Tenders (newspapers, private, donors): last OK 2026-10-10 07:39
+  DDO Tenders (newspapers, private, donors): last OK 2026-10-10 07:56
   TPA current tenders: last OK 2026-10-10 07:19
   TARURA tenders: last OK 2026-10-10 07:19
   Bank of Tanzania tenders: last OK 2026-10-10 07:19
   TEITI tenders: last OK 2026-10-10 07:19
-  TanzaniaTenders.com (newspapers, portals, private): last OK 2026-10-10 07:19
+  TanzaniaTenders.com (newspapers, portals, private): last OK 2026-10-10 07:56
   TRC tenders: last OK 2026-10-10 07:19
   TCRA tenders: last OK 2026-10-10 07:19
   Azania Bank tenders: last OK 2026-10-10 07:19
@@ -30,8 +30,8 @@ Per source:
   TAWA announcements: last OK 2026-10-10 07:19
   Ministry of Health notices: last OK 2026-10-10 07:19
   NM-AIST tenders: last OK 2026-10-10 07:19
-  BidDetail – Tanzania tenders: last OK 2026-10-10 05:53
-  ZoomTanzania tenders: last OK 2026-10-10 05:53
+  BidDetail – Tanzania tenders: last OK 2026-10-10 07:56
+  ZoomTanzania tenders: last OK 2026-10-10 07:56
   PPRA public notices: last OK 2026-10-10 07:19
   Exim Bank Tanzania tenders: last OK 2026-10-10 07:19
   UK Find a Tender – Tanzania: last OK 2026-10-10 06:59
