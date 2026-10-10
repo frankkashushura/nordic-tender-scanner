@@ -1,0 +1,42 @@
+Tender Scan – Saturday 10 October 2026, 08:59
+
+Sources checked:
+  NeST: 39 notices read
+  World Bank (Tanzania, civil works): 27 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+  UK Find a Tender – Tanzania: 0 notices read
+  UK Contracts Finder – Tanzania: 0 notices read
+  EU Funding & Tenders – Tanzania: 0 notices read
+  TradeMark Africa procurement: 0 notices read
+  Islamic Development Bank tenders: 0 notices read
+  African Union bids: 0 notices read
+  Enabel (Belgium) procurement: 0 notices read
+  Global Fund business opportunities: 0 notices read
+  SADC procurement: 0 notices read
+  IOM procurement: 0 notices read
+  UNESCO procurement: 0 notices read
+  WFP procurement: 0 notices read
+  GlobalTenders – Tanzania: 5 notices read
+  TenderImpulse – Tanzania: 2 notices read
+  Lake Victoria Basin Commission procurement: FAILED (could not reach www.lvbcom.org (<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity))
+  East African Development Bank procurement: 0 notices read
+  TDB Group procurement: 0 notices read
+  IUCEA procurement: 0 notices read
+  ESAMI (Arusha) procurement: 0 notices read
+  Shelter Afrique procurement: 0 notices read
+  OPEC Fund procurement: 0 notices read
+  IRC (International Rescue Committee) procurement: 0 notices read
+  Norwegian Refugee Council procurement: 0 notices read
+  Welthungerhilfe tenders: 0 notices read
+  Concern Worldwide tenders: 0 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (2)
+  • closes Wed 21 Oct 10:00  See advert – Provision of Labour Charges for Constructions of Tafori Buildings at Ifinga and Isinga in Madaba District, Ruv  [Ruvuma]  (no number; TanzaniaTenders.com (newspapers / portals / private))
+      https://www.tanzaniatenders.com/tender/provision-labour-charges-constructions-tafori-buildings-ifinga-and-isinga-madaba-district-ruvuma-re-8fc1ee5.php
+  • closes Thu 22 Oct 10:00  See advert – Kufagia Barabara, Kukusanya Takataka Na Ushuru Wa Takataka, Kwenye Maeneo Ya Makazi, Biashara, Barabara Na Taa  [Not stated – read the notice]  (no number; TanzaniaTenders.com (newspapers / portals / private))
+      https://www.tanzaniatenders.com/tender/kufagia-barabara-kukusanya-takataka-na-ushuru-wa-takataka-kwenye-maeneo-ya-makazi-biashara-barab-8fc1ee0.php
+
+Screened out (see the 'Screened Out' sheet): 0
+Empty Pipeline rows left: 374
