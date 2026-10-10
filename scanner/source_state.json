@@ -1,22 +1,22 @@
 {
 "NeST": {
-"last_try": 1791633669.3254192,
-"last_ok": "2026-10-10 15:01",
+"last_try": 1791635052.0847647,
+"last_ok": "2026-10-10 15:24",
 "fails": 0,
 "last_count": 39,
 "baseline_done": true,
 "last_error": "2026-09-30 13:23 could not reach nest.go.tz (<urlopen error timed out>)"
 },
 "World Bank (Tanzania, civil works)": {
-"last_try": 1791632129.2608168,
-"last_ok": "2026-10-10 14:35",
+"last_try": 1791635053.6062717,
+"last_ok": "2026-10-10 15:24",
 "fails": 0,
 "last_count": 27,
 "baseline_done": true
 },
 "TANROADS website": {
-"last_try": 1791633050.4634275,
-"last_ok": "2026-10-10 14:50",
+"last_try": 1791635054.060435,
+"last_ok": "2026-10-10 15:24",
 "fails": 0,
 "last_count": 7,
 "baseline_done": true,
@@ -45,8 +45,8 @@
 "last_error": "2026-09-26 00:17 could not reach www.nmbbank.co.tz (HTTP Error 403: Forbidden)"
 },
 "DDO Tenders (newspapers, private, donors)": {
-"last_try": 1791633052.924335,
-"last_ok": "2026-10-10 14:50",
+"last_try": 1791635056.6193523,
+"last_ok": "2026-10-10 15:24",
 "fails": 0,
 "last_count": 223,
 "baseline_done": true
@@ -110,8 +110,8 @@
 "last_error": "2026-10-01 14:37 could not reach www.afdb.org (HTTP Error 403: Forbidden)"
 },
 "TanzaniaTenders.com (newspapers, portals, private)": {
-"last_try": 1791632133.4637194,
-"last_ok": "2026-10-10 14:35",
+"last_try": 1791635057.9642417,
+"last_ok": "2026-10-10 15:24",
 "fails": 0,
 "last_count": 50,
 "baseline_done": true
@@ -278,99 +278,99 @@
 "baseline_done": true
 },
 "UK Find a Tender \u2013 Tanzania": {
-"last_try": 1791627560.4208977,
-"last_ok": "2026-10-10 13:19",
+"last_try": 1791635068.3178551,
+"last_ok": "2026-10-10 15:24",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "UK Contracts Finder \u2013 Tanzania": {
-"last_try": 1791627561.3853261,
-"last_ok": "2026-10-10 13:19",
+"last_try": 1791635069.346136,
+"last_ok": "2026-10-10 15:24",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "EU Funding & Tenders \u2013 Tanzania": {
-"last_try": 1791627562.3106897,
-"last_ok": "2026-10-10 13:19",
+"last_try": 1791635070.1830232,
+"last_ok": "2026-10-10 15:24",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "TradeMark Africa procurement": {
-"last_try": 1791627563.0080736,
-"last_ok": "2026-10-10 13:19",
+"last_try": 1791635070.8231122,
+"last_ok": "2026-10-10 15:24",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "Islamic Development Bank tenders": {
-"last_try": 1791627563.640032,
-"last_ok": "2026-10-10 13:19",
+"last_try": 1791635071.1627018,
+"last_ok": "2026-10-10 15:24",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "African Union bids": {
-"last_try": 1791627564.6883147,
-"last_ok": "2026-10-10 13:19",
+"last_try": 1791635071.9428873,
+"last_ok": "2026-10-10 15:24",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "Enabel (Belgium) procurement": {
-"last_try": 1791627565.1635208,
-"last_ok": "2026-10-10 13:19",
+"last_try": 1791635072.6560988,
+"last_ok": "2026-10-10 15:24",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "Global Fund business opportunities": {
-"last_try": 1791627566.1066437,
-"last_ok": "2026-10-10 13:19",
+"last_try": 1791635073.5897386,
+"last_ok": "2026-10-10 15:24",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "SADC procurement": {
-"last_try": 1791627566.511867,
-"last_ok": "2026-10-10 13:19",
+"last_try": 1791635073.980253,
+"last_ok": "2026-10-10 15:24",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "IOM procurement": {
-"last_try": 1791627577.4969008,
-"last_ok": "2026-10-10 13:19",
+"last_try": 1791635084.2845154,
+"last_ok": "2026-10-10 15:24",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "UNESCO procurement": {
-"last_try": 1791627583.7988894,
-"last_ok": "2026-10-10 13:19",
+"last_try": 1791635091.0748854,
+"last_ok": "2026-10-10 15:24",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "WFP procurement": {
-"last_try": 1791627585.125776,
-"last_ok": "2026-10-10 13:19",
+"last_try": 1791635092.3331,
+"last_ok": "2026-10-10 15:24",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "GlobalTenders \u2013 Tanzania": {
-"last_try": 1791627585.70636,
-"last_ok": "2026-10-10 13:19",
+"last_try": 1791635092.5730631,
+"last_ok": "2026-10-10 15:24",
 "fails": 0,
 "last_count": 5,
 "baseline_done": true
 },
 "TenderImpulse \u2013 Tanzania": {
-"last_try": 1791627586.149427,
-"last_ok": "2026-10-10 13:19",
+"last_try": 1791635092.8655272,
+"last_ok": "2026-10-10 15:24",
 "fails": 0,
 "last_count": 2,
 "baseline_done": true
@@ -385,71 +385,71 @@
 "paused": true
 },
 "East African Development Bank procurement": {
-"last_try": 1791627587.0817595,
-"last_ok": "2026-10-10 13:19",
+"last_try": 1791635094.0155783,
+"last_ok": "2026-10-10 15:24",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "TDB Group procurement": {
-"last_try": 1791627587.3996418,
-"last_ok": "2026-10-10 13:19",
+"last_try": 1791635094.1457682,
+"last_ok": "2026-10-10 15:24",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "IUCEA procurement": {
-"last_try": 1791627590.378747,
-"last_ok": "2026-10-10 13:19",
+"last_try": 1791635099.6255174,
+"last_ok": "2026-10-10 15:24",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "ESAMI (Arusha) procurement": {
-"last_try": 1791627598.038202,
-"last_ok": "2026-10-10 13:19",
+"last_try": 1791635108.5645666,
+"last_ok": "2026-10-10 15:24",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "Shelter Afrique procurement": {
-"last_try": 1791627600.6175737,
-"last_ok": "2026-10-10 13:19",
+"last_try": 1791635116.4052927,
+"last_ok": "2026-10-10 15:24",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "OPEC Fund procurement": {
-"last_try": 1791627604.154168,
-"last_ok": "2026-10-10 13:19",
+"last_try": 1791635118.9124134,
+"last_ok": "2026-10-10 15:24",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "IRC (International Rescue Committee) procurement": {
-"last_try": 1791627605.7342944,
-"last_ok": "2026-10-10 13:19",
+"last_try": 1791635120.140761,
+"last_ok": "2026-10-10 15:24",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "Norwegian Refugee Council procurement": {
-"last_try": 1791627606.3604808,
-"last_ok": "2026-10-10 13:19",
+"last_try": 1791635120.3027058,
+"last_ok": "2026-10-10 15:24",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "Welthungerhilfe tenders": {
-"last_try": 1791627607.4126215,
-"last_ok": "2026-10-10 13:19",
+"last_try": 1791635120.8433003,
+"last_ok": "2026-10-10 15:24",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "Concern Worldwide tenders": {
-"last_try": 1791627627.6743548,
-"last_ok": "2026-10-10 13:19",
+"last_try": 1791635121.591465,
+"last_ok": "2026-10-10 15:24",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
