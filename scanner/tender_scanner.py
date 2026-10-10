@@ -33,7 +33,7 @@ try:                      # use the Windows certificate store, so sites with inc
     truststore.inject_into_ssl()
 except Exception:
     pass
-VERSION = "3.1 NORDIC NEXUS (10 Oct 2026) – blocked-site fallbacks (page reader), JSON-API sources"
+VERSION = "3.2 NORDIC NEXUS (10 Oct 2026) – Tanzania check for international pages, menu-text filter"
 UA = "Nordic-Tender-Scanner/2.0 (tender monitoring for a Tanzanian contractor)"
 OPEN_STATUSES = ("Watching", "Preparing")
 LOGIN = "NeST login needed"
@@ -171,7 +171,7 @@ def _wanted(page_cfg, cfg, text):
     tl = text.lower()
     if not (page_cfg.get("every_item_is_a_tender") or has_any(tl, cfg["keywords"]["tender_words"]) or TENDER_NO.search(text)):
         return False
-    if page_cfg.get("must_contain") and not any(w.lower() in tl for w in page_cfg["must_contain"]):
+    if nav_junk(tl) or not place_ok(page_cfg, cfg, tl):
         return False
     return categorise(tl, cfg) is not None
 
@@ -553,6 +553,32 @@ class Blocks(HTMLParser):
             self.stack[-1]["text"].append(data)
 
 
+# Tanzania check for international pages (whole words, so "tanga" does not match "Tanganyika"-like words in other countries)
+TZ_PLACES = ["tanzania", "tanzanian", "united republic of tanzania", "dar es salaam", "dar-es-salaam", "dodoma", "arusha", "mwanza", "zanzibar",
+             "unguja", "pemba", "tanga", "mbeya", "morogoro", "moshi", "kilimanjaro", "kigoma", "mtwara", "lindi", "iringa", "tabora", "pwani",
+             "kibaha", "bagamoyo", "geita", "kagera", "bukoba", "katavi", "mpanda", "manyara", "babati", "mara region", "musoma", "njombe",
+             "rukwa", "sumbawanga", "ruvuma", "songea", "shinyanga", "kahama", "simiyu", "bariadi", "singida", "songwe", "tunduma", "kasulu",
+             "kibondo", "ngara", "kilwa", "ngorongoro", "serengeti", "tanroads", "tarura", "dawasa", "ruwasa", "tanesco"]
+NAV_JUNK = ("select all", "deselect all", "cookie", "sign in", "log in", "privacy policy", "terms of use", "subscribe to",
+            "skip to main content", "filter results", "sort by", "show more results")
+
+
+def place_ok(page_cfg, cfg, tl):
+    """International pages ("group": "intl", or "tanzania_only": true) must name a Tanzanian place in the notice itself.
+    "must_contain" (if given) replaces the list. "tanzania_only": false switches the check off (e.g. a search API already limited to Tanzania)."""
+    words = page_cfg.get("must_contain")
+    if not words and (page_cfg.get("tanzania_only") or (page_cfg.get("group") == "intl" and page_cfg.get("tanzania_only") is not False)):
+        words = cfg.get("keywords", {}).get("tanzania_places") or TZ_PLACES
+    if not words:
+        return True
+    return re.search(r"\b(?:" + "|".join(re.escape(w.lower()) for w in words) + r")\b", tl) is not None
+
+
+def nav_junk(tl):
+    """Menus, filter boxes and cookie banners that happen to contain tender words."""
+    return any(p in tl for p in NAV_JUNK)
+
+
 TENDER_NO = re.compile(r"\b(?:[A-Z]{1,6}\d{0,4}|\d{1,4}[A-Z]?\d*)(?:/[A-Za-z0-9.\-]{1,12}){1,7}/(?:W|WKS|WORKS)/\d{1,4}\b")
 
 
@@ -576,7 +602,7 @@ def src_json_list(page_cfg, cfg, fx, slug):
         tl = text.lower()
         if not (page_cfg.get("every_item_is_a_tender") or has_any(tl, kw["tender_words"]) or TENDER_NO.search(text)):
             continue
-        if page_cfg.get("must_contain") and not any(w.lower() in tl for w in page_cfg["must_contain"]):
+        if nav_junk(tl) or not place_ok(page_cfg, cfg, tl):
             continue
         if categorise(tl, cfg) is None:
             continue
@@ -621,7 +647,7 @@ def src_webpage(page_cfg, cfg, fx, idx):
         tl = text.lower()
         if not (page_cfg.get("every_item_is_a_tender") or has_any(tl, kw["tender_words"]) or TENDER_NO.search(text)):
             continue
-        if page_cfg.get("must_contain") and not any(w.lower() in tl for w in page_cfg["must_contain"]):
+        if nav_junk(tl) or not place_ok(page_cfg, cfg, tl):
             continue
         if categorise(tl, cfg) is None:
             continue

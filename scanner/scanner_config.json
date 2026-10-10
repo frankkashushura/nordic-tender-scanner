@@ -300,9 +300,8 @@
         "client": "UK Government (FCDO / British High Commission)",
         "client_type": "donor",
         "every_minutes": 120,
-        "enabled": false,
-        "group": "intl",
-        "about": "Switched off 10 Oct 2026: the search page returns site menus and non-Tanzanian notices (e.g. Malaysia) – UK Contracts Finder covers UK-government tenders instead"
+        "enabled": true,
+        "group": "intl"
       },
       {
         "name": "UK Contracts Finder – Tanzania",
@@ -311,7 +310,7 @@
         "client": "UK Government",
         "client_type": "donor",
         "every_minutes": 120,
-        "enabled": false,
+        "enabled": true,
         "group": "intl",
         "api": {
           "method": "POST",
@@ -333,27 +332,7 @@
           "deadline": "item.deadlineDate",
           "posted": "item.publishedDate"
         },
-        "every_item_is_a_tender": true,
-        "must_contain": [
-          "tanzania",
-          "dar es salaam",
-          "dodoma",
-          "arusha",
-          "mwanza",
-          "zanzibar",
-          "tanga",
-          "mbeya",
-          "morogoro",
-          "moshi",
-          "kigoma",
-          "mtwara",
-          "lindi",
-          "iringa",
-          "tabora",
-          "pwani",
-          "bagamoyo"
-        ],
-        "about": "Switched off 10 Oct 2026 (low value for Nordic: rarely Tanzanian construction works). Set enabled true to use again."
+        "every_item_is_a_tender": true
       },
       {
         "name": "EU Funding & Tenders – Tanzania",
@@ -400,7 +379,8 @@
           "deadline": "metadata.deadlineDate.0",
           "no": "metadata.callIdentifier.0"
         },
-        "every_item_is_a_tender": true
+        "every_item_is_a_tender": true,
+        "tanzania_only": false
       },
       {
         "name": "TradeMark Africa procurement",
@@ -410,26 +390,7 @@
         "client_type": "donor",
         "every_minutes": 120,
         "enabled": true,
-        "group": "intl",
-        "must_contain": [
-          "tanzania",
-          "dar es salaam",
-          "dodoma",
-          "arusha",
-          "mwanza",
-          "zanzibar",
-          "tanga",
-          "mbeya",
-          "morogoro",
-          "moshi",
-          "kigoma",
-          "mtwara",
-          "lindi",
-          "iringa",
-          "tabora",
-          "pwani",
-          "bagamoyo"
-        ]
+        "group": "intl"
       },
       {
         "name": "Islamic Development Bank tenders",
@@ -438,28 +399,8 @@
         "client": "Islamic Development Bank",
         "client_type": "donor",
         "every_minutes": 120,
-        "enabled": false,
-        "group": "intl",
-        "must_contain": [
-          "tanzania",
-          "dar es salaam",
-          "dodoma",
-          "arusha",
-          "mwanza",
-          "zanzibar",
-          "tanga",
-          "mbeya",
-          "morogoro",
-          "moshi",
-          "kigoma",
-          "mtwara",
-          "lindi",
-          "iringa",
-          "tabora",
-          "pwani",
-          "bagamoyo"
-        ],
-        "about": "Switched off 10 Oct 2026 (low value for Nordic: rarely Tanzanian construction works). Set enabled true to use again."
+        "enabled": true,
+        "group": "intl"
       },
       {
         "name": "African Union bids",
@@ -468,28 +409,8 @@
         "client": "African Union",
         "client_type": "donor",
         "every_minutes": 120,
-        "enabled": false,
-        "group": "intl",
-        "must_contain": [
-          "tanzania",
-          "dar es salaam",
-          "dodoma",
-          "arusha",
-          "mwanza",
-          "zanzibar",
-          "tanga",
-          "mbeya",
-          "morogoro",
-          "moshi",
-          "kigoma",
-          "mtwara",
-          "lindi",
-          "iringa",
-          "tabora",
-          "pwani",
-          "bagamoyo"
-        ],
-        "about": "Switched off 10 Oct 2026 (low value for Nordic: rarely Tanzanian construction works). Set enabled true to use again."
+        "enabled": true,
+        "group": "intl"
       },
       {
         "name": "Enabel (Belgium) procurement",
@@ -498,28 +419,8 @@
         "client": "Enabel",
         "client_type": "donor",
         "every_minutes": 120,
-        "enabled": false,
-        "group": "intl",
-        "must_contain": [
-          "tanzania",
-          "dar es salaam",
-          "dodoma",
-          "arusha",
-          "mwanza",
-          "zanzibar",
-          "tanga",
-          "mbeya",
-          "morogoro",
-          "moshi",
-          "kigoma",
-          "mtwara",
-          "lindi",
-          "iringa",
-          "tabora",
-          "pwani",
-          "bagamoyo"
-        ],
-        "about": "Switched off 10 Oct 2026 (low value for Nordic: rarely Tanzanian construction works). Set enabled true to use again."
+        "enabled": true,
+        "group": "intl"
       },
       {
         "name": "Global Fund business opportunities",
@@ -528,28 +429,8 @@
         "client": "The Global Fund",
         "client_type": "donor",
         "every_minutes": 120,
-        "enabled": false,
-        "group": "intl",
-        "must_contain": [
-          "tanzania",
-          "dar es salaam",
-          "dodoma",
-          "arusha",
-          "mwanza",
-          "zanzibar",
-          "tanga",
-          "mbeya",
-          "morogoro",
-          "moshi",
-          "kigoma",
-          "mtwara",
-          "lindi",
-          "iringa",
-          "tabora",
-          "pwani",
-          "bagamoyo"
-        ],
-        "about": "Switched off 10 Oct 2026 (low value for Nordic: rarely Tanzanian construction works). Set enabled true to use again."
+        "enabled": true,
+        "group": "intl"
       },
       {
         "name": "SADC procurement",
@@ -558,28 +439,8 @@
         "client": "SADC",
         "client_type": "donor",
         "every_minutes": 120,
-        "enabled": false,
-        "group": "intl",
-        "must_contain": [
-          "tanzania",
-          "dar es salaam",
-          "dodoma",
-          "arusha",
-          "mwanza",
-          "zanzibar",
-          "tanga",
-          "mbeya",
-          "morogoro",
-          "moshi",
-          "kigoma",
-          "mtwara",
-          "lindi",
-          "iringa",
-          "tabora",
-          "pwani",
-          "bagamoyo"
-        ],
-        "about": "Switched off 10 Oct 2026 (low value for Nordic: rarely Tanzanian construction works). Set enabled true to use again."
+        "enabled": true,
+        "group": "intl"
       },
       {
         "name": "IOM procurement",
@@ -589,26 +450,7 @@
         "client_type": "donor",
         "every_minutes": 120,
         "enabled": true,
-        "group": "intl",
-        "must_contain": [
-          "tanzania",
-          "dar es salaam",
-          "dodoma",
-          "arusha",
-          "mwanza",
-          "zanzibar",
-          "tanga",
-          "mbeya",
-          "morogoro",
-          "moshi",
-          "kigoma",
-          "mtwara",
-          "lindi",
-          "iringa",
-          "tabora",
-          "pwani",
-          "bagamoyo"
-        ]
+        "group": "intl"
       },
       {
         "name": "UNESCO procurement",
@@ -617,28 +459,8 @@
         "client": "UNESCO",
         "client_type": "donor",
         "every_minutes": 120,
-        "enabled": false,
-        "group": "intl",
-        "must_contain": [
-          "tanzania",
-          "dar es salaam",
-          "dodoma",
-          "arusha",
-          "mwanza",
-          "zanzibar",
-          "tanga",
-          "mbeya",
-          "morogoro",
-          "moshi",
-          "kigoma",
-          "mtwara",
-          "lindi",
-          "iringa",
-          "tabora",
-          "pwani",
-          "bagamoyo"
-        ],
-        "about": "Switched off 10 Oct 2026 (low value for Nordic: rarely Tanzanian construction works). Set enabled true to use again."
+        "enabled": true,
+        "group": "intl"
       },
       {
         "name": "WFP procurement",
@@ -648,26 +470,7 @@
         "client_type": "donor",
         "every_minutes": 120,
         "enabled": true,
-        "group": "intl",
-        "must_contain": [
-          "tanzania",
-          "dar es salaam",
-          "dodoma",
-          "arusha",
-          "mwanza",
-          "zanzibar",
-          "tanga",
-          "mbeya",
-          "morogoro",
-          "moshi",
-          "kigoma",
-          "mtwara",
-          "lindi",
-          "iringa",
-          "tabora",
-          "pwani",
-          "bagamoyo"
-        ]
+        "group": "intl"
       },
       {
         "name": "GlobalTenders – Tanzania",
@@ -676,9 +479,8 @@
         "client": "",
         "client_type": "",
         "every_minutes": 120,
-        "enabled": false,
-        "group": "intl",
-        "about": "Switched off 10 Oct 2026 (low value for Nordic: rarely Tanzanian construction works). Set enabled true to use again."
+        "enabled": true,
+        "group": "intl"
       },
       {
         "name": "TenderImpulse – Tanzania",
@@ -687,9 +489,8 @@
         "client": "",
         "client_type": "",
         "every_minutes": 120,
-        "enabled": false,
-        "group": "intl",
-        "about": "Switched off 10 Oct 2026 (low value for Nordic: rarely Tanzanian construction works). Set enabled true to use again."
+        "enabled": true,
+        "group": "intl"
       },
       {
         "name": "Lake Victoria Basin Commission procurement",
@@ -699,26 +500,7 @@
         "client_type": "donor",
         "every_minutes": 120,
         "enabled": true,
-        "group": "intl",
-        "must_contain": [
-          "tanzania",
-          "dar es salaam",
-          "dodoma",
-          "arusha",
-          "mwanza",
-          "zanzibar",
-          "tanga",
-          "mbeya",
-          "morogoro",
-          "moshi",
-          "kigoma",
-          "mtwara",
-          "lindi",
-          "iringa",
-          "tabora",
-          "pwani",
-          "bagamoyo"
-        ]
+        "group": "intl"
       },
       {
         "name": "East African Development Bank procurement",
@@ -728,26 +510,7 @@
         "client_type": "donor",
         "every_minutes": 120,
         "enabled": true,
-        "group": "intl",
-        "must_contain": [
-          "tanzania",
-          "dar es salaam",
-          "dodoma",
-          "arusha",
-          "mwanza",
-          "zanzibar",
-          "tanga",
-          "mbeya",
-          "morogoro",
-          "moshi",
-          "kigoma",
-          "mtwara",
-          "lindi",
-          "iringa",
-          "tabora",
-          "pwani",
-          "bagamoyo"
-        ]
+        "group": "intl"
       },
       {
         "name": "TDB Group procurement",
@@ -757,26 +520,7 @@
         "client_type": "donor",
         "every_minutes": 120,
         "enabled": true,
-        "group": "intl",
-        "must_contain": [
-          "tanzania",
-          "dar es salaam",
-          "dodoma",
-          "arusha",
-          "mwanza",
-          "zanzibar",
-          "tanga",
-          "mbeya",
-          "morogoro",
-          "moshi",
-          "kigoma",
-          "mtwara",
-          "lindi",
-          "iringa",
-          "tabora",
-          "pwani",
-          "bagamoyo"
-        ]
+        "group": "intl"
       },
       {
         "name": "IUCEA procurement",
@@ -786,26 +530,7 @@
         "client_type": "donor",
         "every_minutes": 120,
         "enabled": true,
-        "group": "intl",
-        "must_contain": [
-          "tanzania",
-          "dar es salaam",
-          "dodoma",
-          "arusha",
-          "mwanza",
-          "zanzibar",
-          "tanga",
-          "mbeya",
-          "morogoro",
-          "moshi",
-          "kigoma",
-          "mtwara",
-          "lindi",
-          "iringa",
-          "tabora",
-          "pwani",
-          "bagamoyo"
-        ]
+        "group": "intl"
       },
       {
         "name": "ESAMI (Arusha) procurement",
@@ -826,26 +551,7 @@
         "client_type": "donor",
         "every_minutes": 120,
         "enabled": true,
-        "group": "intl",
-        "must_contain": [
-          "tanzania",
-          "dar es salaam",
-          "dodoma",
-          "arusha",
-          "mwanza",
-          "zanzibar",
-          "tanga",
-          "mbeya",
-          "morogoro",
-          "moshi",
-          "kigoma",
-          "mtwara",
-          "lindi",
-          "iringa",
-          "tabora",
-          "pwani",
-          "bagamoyo"
-        ]
+        "group": "intl"
       },
       {
         "name": "OPEC Fund procurement",
@@ -854,28 +560,8 @@
         "client": "OPEC Fund",
         "client_type": "donor",
         "every_minutes": 120,
-        "enabled": false,
-        "group": "intl",
-        "must_contain": [
-          "tanzania",
-          "dar es salaam",
-          "dodoma",
-          "arusha",
-          "mwanza",
-          "zanzibar",
-          "tanga",
-          "mbeya",
-          "morogoro",
-          "moshi",
-          "kigoma",
-          "mtwara",
-          "lindi",
-          "iringa",
-          "tabora",
-          "pwani",
-          "bagamoyo"
-        ],
-        "about": "Switched off 10 Oct 2026 (low value for Nordic: rarely Tanzanian construction works). Set enabled true to use again."
+        "enabled": true,
+        "group": "intl"
       },
       {
         "name": "IRC (International Rescue Committee) procurement",
@@ -884,28 +570,8 @@
         "client": "International Rescue Committee",
         "client_type": "donor",
         "every_minutes": 120,
-        "enabled": false,
-        "group": "intl",
-        "must_contain": [
-          "tanzania",
-          "dar es salaam",
-          "dodoma",
-          "arusha",
-          "mwanza",
-          "zanzibar",
-          "tanga",
-          "mbeya",
-          "morogoro",
-          "moshi",
-          "kigoma",
-          "mtwara",
-          "lindi",
-          "iringa",
-          "tabora",
-          "pwani",
-          "bagamoyo"
-        ],
-        "about": "Switched off 10 Oct 2026 (low value for Nordic: rarely Tanzanian construction works). Set enabled true to use again."
+        "enabled": true,
+        "group": "intl"
       },
       {
         "name": "Norwegian Refugee Council procurement",
@@ -914,28 +580,8 @@
         "client": "Norwegian Refugee Council",
         "client_type": "donor",
         "every_minutes": 120,
-        "enabled": false,
-        "group": "intl",
-        "must_contain": [
-          "tanzania",
-          "dar es salaam",
-          "dodoma",
-          "arusha",
-          "mwanza",
-          "zanzibar",
-          "tanga",
-          "mbeya",
-          "morogoro",
-          "moshi",
-          "kigoma",
-          "mtwara",
-          "lindi",
-          "iringa",
-          "tabora",
-          "pwani",
-          "bagamoyo"
-        ],
-        "about": "Switched off 10 Oct 2026 (low value for Nordic: rarely Tanzanian construction works). Set enabled true to use again."
+        "enabled": true,
+        "group": "intl"
       },
       {
         "name": "Welthungerhilfe tenders",
@@ -944,28 +590,8 @@
         "client": "Welthungerhilfe",
         "client_type": "donor",
         "every_minutes": 120,
-        "enabled": false,
-        "group": "intl",
-        "must_contain": [
-          "tanzania",
-          "dar es salaam",
-          "dodoma",
-          "arusha",
-          "mwanza",
-          "zanzibar",
-          "tanga",
-          "mbeya",
-          "morogoro",
-          "moshi",
-          "kigoma",
-          "mtwara",
-          "lindi",
-          "iringa",
-          "tabora",
-          "pwani",
-          "bagamoyo"
-        ],
-        "about": "Switched off 10 Oct 2026 (low value for Nordic: rarely Tanzanian construction works). Set enabled true to use again."
+        "enabled": true,
+        "group": "intl"
       },
       {
         "name": "Concern Worldwide tenders",
@@ -974,31 +600,11 @@
         "client": "Concern Worldwide",
         "client_type": "donor",
         "every_minutes": 120,
-        "enabled": false,
-        "group": "intl",
-        "must_contain": [
-          "tanzania",
-          "dar es salaam",
-          "dodoma",
-          "arusha",
-          "mwanza",
-          "zanzibar",
-          "tanga",
-          "mbeya",
-          "morogoro",
-          "moshi",
-          "kigoma",
-          "mtwara",
-          "lindi",
-          "iringa",
-          "tabora",
-          "pwani",
-          "bagamoyo"
-        ],
-        "about": "Switched off 10 Oct 2026 (low value for Nordic: rarely Tanzanian construction works). Set enabled true to use again."
+        "enabled": true,
+        "group": "intl"
       }
     ],
-    "_web_pages_help": "To watch another Tanzanian tender page, copy one block, change name, url and client. The page must show its list without logging in. must_contain (optional) keeps only notices containing one of those words, e.g. [\"tanzania\"] on an international page. A page that keeps FAILING in last_scan.txt can be switched off with enabled: false. Removed 1 Oct 2026 because they could not be read from GitHub's computers: ZPPDA (address does not exist), NMB and AfDB (refuse automatic readers, 403), TANESCO (JavaScript list, bad certificate), TAA (page removed, 404), RUWASA (closes the connection to foreign servers). Their tenders still reach NEXUS through NeST, DDO Tenders and TanzaniaTenders.com. | v3.1: optional \"group\": \"intl\" shows a page under Embassies · UN · international in NEXUS; \"browser\": false sends the old scanner identity; \"via\": \"reader\" always uses the public page reader, \"direct\" never; \"api\": {...} reads a public JSON search API (see EU Funding & Tenders / UK Contracts Finder).",
+    "_web_pages_help": "To watch another Tanzanian tender page, copy one block, change name, url and client. The page must show its list without logging in. must_contain (optional) keeps only notices containing one of those words, e.g. [\"tanzania\"] on an international page. A page that keeps FAILING in last_scan.txt can be switched off with enabled: false. Removed 1 Oct 2026 because they could not be read from GitHub's computers: ZPPDA (address does not exist), NMB and AfDB (refuse automatic readers, 403), TANESCO (JavaScript list, bad certificate), TAA (page removed, 404), RUWASA (closes the connection to foreign servers). Their tenders still reach NEXUS through NeST, DDO Tenders and TanzaniaTenders.com. | v3.1: optional \"group\": \"intl\" shows a page under Embassies · UN · international in NEXUS; \"browser\": false sends the old scanner identity; \"via\": \"reader\" always uses the public page reader, \"direct\" never; \"api\": {...} reads a public JSON search API (see EU Funding & Tenders / UK Contracts Finder). | v3.2: pages with \"group\": \"intl\" only keep notices that name a Tanzanian place (whole words, list TZ_PLACES in tender_scanner.py); \"must_contain\" overrides the list, \"tanzania_only\": false switches it off. Menu/cookie/filter text is ignored on every page.",
     "ddo": {
       "enabled": true,
       "every_minutes": 15,
