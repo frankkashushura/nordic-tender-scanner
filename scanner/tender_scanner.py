@@ -33,7 +33,7 @@ try:                      # use the Windows certificate store, so sites with inc
     truststore.inject_into_ssl()
 except Exception:
     pass
-VERSION = "3.2 NORDIC NEXUS (10 Oct 2026) – Tanzania check for international pages, menu-text filter"
+VERSION = "3.3 NORDIC NEXUS (10 Oct 2026) – failing web pages paused and hidden, re-checked daily"
 UA = "Nordic-Tender-Scanner/2.0 (tender monitoring for a Tanzanian contractor)"
 OPEN_STATUSES = ("Watching", "Preparing")
 LOGIN = "NeST login needed"
@@ -1101,16 +1101,20 @@ def run(args, cfg):
             jobs.append((pg["name"], pg, (lambda pg=pg, i=i: src_webpage(pg, cfg, fx, i))))
 
     items, ok, lines, first_time = [], [], [], set()
+    PAUSE_AFTER, RECHECK_H = 2, 24     # web pages: hidden after 2 failures in a row, quietly re-checked once a day
     for name, sc, fn in jobs:
         st = state.get(name, {})
+        is_page = "name" in sc and "url" in sc
+        every = RECHECK_H * 60 if (is_page and st.get("paused")) else sc.get("every_minutes", 15)
         due = args.all or args.dry_run or fx is not None or \
-            (time.time() - st.get("last_try", 0)) >= sc.get("every_minutes", 15) * 60 - 30
+            (time.time() - st.get("last_try", 0)) >= every * 60 - 30
         if not due:
             continue
         st["last_try"] = time.time()
         try:
             got = fn()
             st.update(last_ok=f"{now:%Y-%m-%d %H:%M}", fails=0, last_count=len(got))
+            st.pop("paused", None)
             if st.get("baseline_done") is None:
                 first_time.add(name); st["baseline_done"] = True
             for g in got:
@@ -1120,6 +1124,8 @@ def run(args, cfg):
         except Exception as e:
             st["fails"] = st.get("fails", 0) + 1
             st["last_error"] = f"{now:%Y-%m-%d %H:%M} {e}"
+            if is_page and st["fails"] >= PAUSE_AFTER:
+                st["paused"] = True          # removed from NEXUS until it works again
             lines.append(f"{name}: FAILED ({e})" + ("  – failing repeatedly, check the source" if st["fails"] >= 3 else ""))
             log(f"{name}: FAILED – {e}")
         state[name] = st
@@ -1148,7 +1154,7 @@ def run(args, cfg):
         with open(os.path.join(HERE, "last_scan.txt"), "w", encoding="utf-8") as f:
             f.write(status + "\n\nPer source:\n" + "\n".join(
                 f"  {k}: last OK {v.get('last_ok', 'never')}" + (f"; last error {v['last_error']}" if v.get("fails") else "")
-                for k, v in state.items() if k in {j[0] for j in jobs}) + "\n")
+                for k, v in state.items() if k in {j[0] for j in jobs} and not v.get("paused")) + "\n")
     log(status.split("  ", 1)[1])
 
     fresh = [t for t in added if t["key"] not in seen]
