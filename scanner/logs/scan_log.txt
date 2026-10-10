@@ -1847,3 +1847,54 @@ Empty Pipeline rows left: 399
 
 2026-10-10 02:58:08  Report saved: /home/runner/work/nordic-tender-scanner/nordic-tender-scanner/scanner/reports/scan_2026-10-10_0256.txt
 2026-10-10 03:18:19  NeST: 33 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 223 notices read → no new tenders
+2026-10-10 03:50:01  NeST: 33 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 223 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read; TRC tenders: 1 notices read; TCRA tenders: 4 notices read; Azania Bank tenders: 6 notices read; NBC Bank procurement: 0 notices read; Ministry of Water tenders: 0 notices read; REA tenders: 1 notices read; DART tenders: 1 notices read; TASAC tenders: 0 notices read; TMDA tenders: 0 notices read; DUWASA tenders: 1 notices read; MWAUWASA tenders: 0 notices read; Ministry of Finance tenders: 0 notices read; SUA tenders (zabuni): 3 notices read; Tanzania Posts announcements: 0 notices read; TRA public notices: 0 notices read; UDSM announcements: 0 notices read; TAWA announcements: 0 notices read; Ministry of Health notices: 0 notices read; NM-AIST tenders: 0 notices read; BidDetail – Tanzania tenders: 3 notices read; ZoomTanzania tenders: 0 notices read → 3 new, 0 deadline change(s)
+
+Tender Scan – Saturday 10 October 2026, 03:48
+
+Sources checked:
+  NeST: 33 notices read
+  World Bank (Tanzania, civil works): 27 notices read
+  TANROADS website: 7 notices read
+  DDO Tenders (newspapers, private, donors): 223 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+  CRDB Bank tenders: 0 notices read
+  TPA current tenders: 0 notices read
+  TARURA tenders: 0 notices read
+  Bank of Tanzania tenders: 0 notices read
+  TEITI tenders: 0 notices read
+  TRC tenders: 1 notices read
+  TCRA tenders: 4 notices read
+  Azania Bank tenders: 6 notices read
+  NBC Bank procurement: 0 notices read
+  Ministry of Water tenders: 0 notices read
+  REA tenders: 1 notices read
+  DART tenders: 1 notices read
+  TASAC tenders: 0 notices read
+  TMDA tenders: 0 notices read
+  DUWASA tenders: 1 notices read
+  MWAUWASA tenders: 0 notices read
+  Ministry of Finance tenders: 0 notices read
+  SUA tenders (zabuni): 3 notices read
+  Tanzania Posts announcements: 0 notices read
+  TRA public notices: 0 notices read
+  UDSM announcements: 0 notices read
+  TAWA announcements: 0 notices read
+  Ministry of Health notices: 0 notices read
+  NM-AIST tenders: 0 notices read
+  BidDetail – Tanzania tenders: 3 notices read
+  ZoomTanzania tenders: 0 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (3)
+  • closing date: see notice  See notice – Construction Tenders  [Not stated – read the notice]  (no number; BidDetail – Tanzania tenders (web page))
+      https://www.biddetail.com/tanzania-tenders/construction-tenders
+  • closing date: see notice  See notice – Tenders Are Invited For Construction Of Perimeter Fence And Site ......  [Not stated – read the notice]  (no number; BidDetail – Tanzania tenders (web page))
+      https://www.biddetail.com/latest-tenders/118925699$c13e5f5e-7a4b-4be7-a2f2-2558c7049441
+  • closing date: see notice  See notice – Tenders are invited for Construction Of Lwanji I Bridge (200M) Sp ......  [Not stated – read the notice]  (no number; BidDetail – Tanzania tenders (web page))
+      https://www.biddetail.com/latest-tenders/119128722$8a01940b-aa90-4a08-9217-c0af8103e7de
+
+Screened out (see the 'Screened Out' sheet): 0
+Empty Pipeline rows left: 396
+
+2026-10-10 03:50:01  Report saved: /home/runner/work/nordic-tender-scanner/nordic-tender-scanner/scanner/reports/scan_2026-10-10_0348.txt

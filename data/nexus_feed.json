@@ -1,222 +1,222 @@
 {
-"generated": "2026-10-10T03:18:19+03:00",
+"generated": "2026-10-10T03:50:01+03:00",
 "scanner": {
-"last_scan": "2026-10-10T03:18:00+03:00",
-"summary": "NeST: 33 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 223 notices read → no new tenders",
+"last_scan": "2026-10-10T03:48:00+03:00",
+"summary": "NeST: 33 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 223 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices re",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-10-10 03:18",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://nest.go.tz/tenders/published-tenders",
 "group": "tz"
 },
 {
 "name": "World Bank (Tanzania, civil works)",
-"last_ok": "2026-10-10 02:56",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://projects.worldbank.org/en/projects-operations/procurement?countrycode_exact=TZ",
 "group": "intl"
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-10-10 03:18",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://www.tanroads.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "CRDB Bank tenders",
-"last_ok": "2026-10-10 02:26",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://crdbbank.co.tz/en/about-us/tender",
 "group": "tz"
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-10-10 03:18",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://www.ddotenders.co.tz/tender.php?page=home",
 "group": "tz"
 },
 {
 "name": "TPA current tenders",
-"last_ok": "2026-10-10 02:26",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://www.ports.go.tz/index.php/en/procurements/current-tenders-en",
 "group": "tz"
 },
 {
 "name": "TARURA tenders",
-"last_ok": "2026-10-10 02:26",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://tarura.go.tz/trr/matangazo",
 "group": "tz"
 },
 {
 "name": "Bank of Tanzania tenders",
-"last_ok": "2026-10-10 02:26",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://www.bot.go.tz/CallsforTender",
 "group": "tz"
 },
 {
 "name": "TEITI tenders",
-"last_ok": "2026-10-10 02:26",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://www.teiti.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "TanzaniaTenders.com (newspapers, portals, private)",
-"last_ok": "2026-10-10 02:56",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://www.tanzaniatenders.com/tenders.php",
 "group": "tz"
 },
 {
 "name": "TRC tenders",
-"last_ok": "2026-10-10 02:26",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://www.trc.co.tz/tenders",
 "group": "tz"
 },
 {
 "name": "TCRA tenders",
-"last_ok": "2026-10-10 02:26",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://www.tcra.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "Azania Bank tenders",
-"last_ok": "2026-10-10 02:26",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://www.azaniabank.co.tz/tenders",
 "group": "tz"
 },
 {
 "name": "NBC Bank procurement",
-"last_ok": "2026-10-10 02:26",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://www.nbc.co.tz/en/procurement/",
 "group": "tz"
 },
 {
 "name": "Ministry of Water tenders",
-"last_ok": "2026-10-10 02:26",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://www.maji.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "REA tenders",
-"last_ok": "2026-10-10 02:26",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://www.rea.go.tz/category/tenders",
 "group": "tz"
 },
 {
 "name": "DART tenders",
-"last_ok": "2026-10-10 02:26",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://www.dart.go.tz/publications/tenders",
 "group": "tz"
 },
 {
 "name": "TASAC tenders",
-"last_ok": "2026-10-10 02:26",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://www.tasac.go.tz/publications/tender",
 "group": "tz"
 },
 {
 "name": "TMDA tenders",
-"last_ok": "2026-10-10 02:26",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://www.tmda.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "DUWASA tenders",
-"last_ok": "2026-10-10 02:26",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://www.duwasa.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "MWAUWASA tenders",
-"last_ok": "2026-10-10 02:26",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://www.mwauwasa.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "Ministry of Finance tenders",
-"last_ok": "2026-10-10 02:26",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://www.mof.go.tz/pages/tenders",
 "group": "tz"
 },
 {
 "name": "SUA tenders (zabuni)",
-"last_ok": "2026-10-10 02:26",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://www.sua.ac.tz/zabuni",
 "group": "tz"
 },
 {
 "name": "Tanzania Posts announcements",
-"last_ok": "2026-10-10 02:26",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://www.posta.co.tz/sw/announcement/all-announcement/",
 "group": "tz"
 },
 {
 "name": "TRA public notices",
-"last_ok": "2026-10-10 02:26",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://www.tra.go.tz/public-notice/all",
 "group": "tz"
 },
 {
 "name": "UDSM announcements",
-"last_ok": "2026-10-10 02:26",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://www.udsm.ac.tz",
 "group": "tz"
 },
 {
 "name": "TAWA announcements",
-"last_ok": "2026-10-10 02:26",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://www.tawa.go.tz/announcements",
 "group": "tz"
 },
 {
 "name": "Ministry of Health notices",
-"last_ok": "2026-10-10 02:26",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://www.moh.go.tz",
 "group": "tz"
 },
 {
 "name": "NM-AIST tenders",
-"last_ok": "2026-10-10 02:26",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://www.nm-aist.ac.tz/tenders/all",
 "group": "tz"
 },
 {
 "name": "BidDetail – Tanzania tenders",
-"last_ok": "2026-10-10 01:20",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://www.biddetail.com/tanzania-tenders",
 "group": "tz"
 },
 {
 "name": "ZoomTanzania tenders",
-"last_ok": "2026-10-10 01:20",
+"last_ok": "2026-10-10 03:48",
 "error": "",
 "url": "https://www.zoomtanzania.net/tenders",
 "group": "tz"
@@ -412,7 +412,7 @@
 }
 ]
 },
-"workbook_rows": 101,
+"workbook_rows": 104,
 "tenders": [
 {
 "id": "7205-2026-2027-W-09",
@@ -3818,6 +3818,102 @@
 "next": "Read the notice and decide with the QS Director whether to pursue",
 "found_by": "Auto-scan",
 "source_id": "WEB:sua_tenders_zabuni:pa01220192020hqw22",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "WEB:biddetail_tanzania_tenders:5c649ceca911fe55",
+"title": "Construction Tenders",
+"deadline": "",
+"body": {
+"no": "(not shown)",
+"date_found": "2026-10-10T00:00:00+03:00",
+"source": "aggregator",
+"url": "https://www.biddetail.com/tanzania-tenders/construction-tenders",
+"client": "See notice",
+"client_type": "government",
+"title": "Construction Tenders",
+"scope": "From aggregator notice (1 lot) – read the tender document",
+"location": "Not stated – read the notice",
+"category": "building",
+"crb": "See tender document",
+"funding": "unknown",
+"site_visit": "See tender document",
+"clar": "See tender document",
+"bid_security": "See tender document",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"notice": "BidDetail – Tanzania tenders (web page)",
+"screen": "Check",
+"reason": "Auto (BidDetail – Tanzania tenders): Deadline not shown on the source page – open the link and read the notice",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "WEB:biddetail_tanzania_tenders:5c649ceca911fe55",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "WEB:biddetail_tanzania_tenders:e57e334c02ac1ab7",
+"title": "Tenders Are Invited For Construction Of Perimeter Fence And Site ......",
+"deadline": "",
+"body": {
+"no": "(not shown)",
+"date_found": "2026-10-10T00:00:00+03:00",
+"source": "aggregator",
+"url": "https://www.biddetail.com/latest-tenders/118925699$c13e5f5e-7a4b-4be7-a2f2-2558c7049441",
+"client": "See notice",
+"client_type": "government",
+"title": "Tenders Are Invited For Construction Of Perimeter Fence And Site ......",
+"scope": "From aggregator notice (1 lot) – read the tender document",
+"location": "Not stated – read the notice",
+"category": "building",
+"crb": "See tender document",
+"funding": "unknown",
+"site_visit": "See tender document",
+"clar": "See tender document",
+"bid_security": "See tender document",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"notice": "BidDetail – Tanzania tenders (web page)",
+"screen": "Check",
+"reason": "Auto (BidDetail – Tanzania tenders): Deadline not shown on the source page – open the link and read the notice",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "WEB:biddetail_tanzania_tenders:e57e334c02ac1ab7",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "WEB:biddetail_tanzania_tenders:6747e3d0e5f9315b",
+"title": "Tenders are invited for Construction Of Lwanji I Bridge (200M) Sp ......",
+"deadline": "",
+"body": {
+"no": "(not shown)",
+"date_found": "2026-10-10T00:00:00+03:00",
+"source": "aggregator",
+"url": "https://www.biddetail.com/latest-tenders/119128722$8a01940b-aa90-4a08-9217-c0af8103e7de",
+"client": "See notice",
+"client_type": "government",
+"title": "Tenders are invited for Construction Of Lwanji I Bridge (200M) Sp ......",
+"scope": "From aggregator notice (1 lot) – read the tender document",
+"location": "Not stated – read the notice",
+"category": "civil",
+"crb": "See tender document",
+"funding": "unknown",
+"site_visit": "See tender document",
+"clar": "See tender document",
+"bid_security": "See tender document",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"notice": "BidDetail – Tanzania tenders (web page)",
+"screen": "Check",
+"reason": "Auto (BidDetail – Tanzania tenders): Deadline not shown on the source page – open the link and read the notice",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "WEB:biddetail_tanzania_tenders:6747e3d0e5f9315b",
 "synced_by": "NEXUS auto-sync"
 }
 }
