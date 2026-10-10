@@ -1,12 +1,12 @@
 {
-"generated": "2026-10-10T02:58:08+03:00",
+"generated": "2026-10-10T03:18:19+03:00",
 "scanner": {
-"last_scan": "2026-10-10T02:56:00+03:00",
-"summary": "NeST: 33 notices read; World Bank (Tanzania, civil works): 27 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; PPRA public notices: 1 notices read; Exim Bank Tanzania tenders: 0 notices read; UK Find a Tender – Tanzania: 6 notices read; UK Contracts Finder – Tanzania: 0 notices read; EU Funding & Tenders – Tanzania: 0 notices read; TradeMark Afri",
+"last_scan": "2026-10-10T03:18:00+03:00",
+"summary": "NeST: 33 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 223 notices read → no new tenders",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-10-10 02:56",
+"last_ok": "2026-10-10 03:18",
 "error": "",
 "url": "https://nest.go.tz/tenders/published-tenders",
 "group": "tz"
@@ -20,7 +20,7 @@
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-10-10 02:42",
+"last_ok": "2026-10-10 03:18",
 "error": "",
 "url": "https://www.tanroads.go.tz/tenders",
 "group": "tz"
@@ -34,7 +34,7 @@
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-10-10 02:42",
+"last_ok": "2026-10-10 03:18",
 "error": "",
 "url": "https://www.ddotenders.co.tz/tender.php?page=home",
 "group": "tz"
