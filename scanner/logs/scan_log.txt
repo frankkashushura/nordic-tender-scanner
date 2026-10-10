@@ -1929,3 +1929,99 @@ Empty Pipeline rows left: 391
 2026-10-10 04:06:58  Report saved: /home/runner/work/nordic-tender-scanner/nordic-tender-scanner/scanner/reports/scan_2026-10-10_0406.txt
 2026-10-10 04:26:15  NeST: 39 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 223 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read → no new tenders
 2026-10-10 04:44:25  NeST: 39 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 223 notices read → no new tenders
+2026-10-10 05:01:23  NeST: 39 notices read; World Bank (Tanzania, civil works): 27 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read; TRC tenders: 1 notices read; TCRA tenders: 4 notices read; Azania Bank tenders: 6 notices read; NBC Bank procurement: 0 notices read; Ministry of Water tenders: 0 notices read; REA tenders: 1 notices read; DART tenders: 1 notices read; TASAC tenders: 0 notices read; TMDA tenders: 0 notices read; DUWASA tenders: 1 notices read; MWAUWASA tenders: 0 notices read; Ministry of Finance tenders: 0 notices read; SUA tenders (zabuni): 3 notices read; Tanzania Posts announcements: 0 notices read; TRA public notices: 0 notices read; UDSM announcements: 0 notices read; TAWA announcements: 0 notices read; Ministry of Health notices: 0 notices read; NM-AIST tenders: 0 notices read; UK Find a Tender – Tanzania: 7 notices read; UK Contracts Finder – Tanzania: 0 notices read; EU Funding & Tenders – Tanzania: 0 notices read; TradeMark Africa procurement: 0 notices read; Islamic Development Bank tenders: 0 notices read; African Union bids: 0 notices read; Enabel (Belgium) procurement: 0 notices read; Global Fund business opportunities: 0 notices read; SADC procurement: 0 notices read; IOM procurement: 0 notices read; UNESCO procurement: 0 notices read; WFP procurement: 0 notices read; GlobalTenders – Tanzania: 5 notices read; TenderImpulse – Tanzania: 3 notices read; Lake Victoria Basin Commission procurement: 0 notices read; East African Development Bank procurement: 0 notices read; TDB Group procurement: 0 notices read; IUCEA procurement: 0 notices read; ESAMI (Arusha) procurement: 0 notices read; Shelter Afrique procurement: 0 notices read; OPEC Fund procurement: 0 notices read; IRC (International Rescue Committee) procurement: 0 notices read; Norwegian Refugee Council procurement: 0 notices read; Welthungerhilfe tenders: 0 notices read; Concern Worldwide tenders: 0 notices read → 15 new, 0 deadline change(s)
+
+Tender Scan – Saturday 10 October 2026, 04:58
+
+Sources checked:
+  NeST: 39 notices read
+  World Bank (Tanzania, civil works): 27 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+  CRDB Bank tenders: 0 notices read
+  TPA current tenders: 0 notices read
+  TARURA tenders: 0 notices read
+  Bank of Tanzania tenders: 0 notices read
+  TEITI tenders: 0 notices read
+  TRC tenders: 1 notices read
+  TCRA tenders: 4 notices read
+  Azania Bank tenders: 6 notices read
+  NBC Bank procurement: 0 notices read
+  Ministry of Water tenders: 0 notices read
+  REA tenders: 1 notices read
+  DART tenders: 1 notices read
+  TASAC tenders: 0 notices read
+  TMDA tenders: 0 notices read
+  DUWASA tenders: 1 notices read
+  MWAUWASA tenders: 0 notices read
+  Ministry of Finance tenders: 0 notices read
+  SUA tenders (zabuni): 3 notices read
+  Tanzania Posts announcements: 0 notices read
+  TRA public notices: 0 notices read
+  UDSM announcements: 0 notices read
+  TAWA announcements: 0 notices read
+  Ministry of Health notices: 0 notices read
+  NM-AIST tenders: 0 notices read
+  UK Find a Tender – Tanzania: 7 notices read
+  UK Contracts Finder – Tanzania: 0 notices read
+  EU Funding & Tenders – Tanzania: 0 notices read
+  TradeMark Africa procurement: 0 notices read
+  Islamic Development Bank tenders: 0 notices read
+  African Union bids: 0 notices read
+  Enabel (Belgium) procurement: 0 notices read
+  Global Fund business opportunities: 0 notices read
+  SADC procurement: 0 notices read
+  IOM procurement: 0 notices read
+  UNESCO procurement: 0 notices read
+  WFP procurement: 0 notices read
+  GlobalTenders – Tanzania: 5 notices read
+  TenderImpulse – Tanzania: 3 notices read
+  Lake Victoria Basin Commission procurement: 0 notices read
+  East African Development Bank procurement: 0 notices read
+  TDB Group procurement: 0 notices read
+  IUCEA procurement: 0 notices read
+  ESAMI (Arusha) procurement: 0 notices read
+  Shelter Afrique procurement: 0 notices read
+  OPEC Fund procurement: 0 notices read
+  IRC (International Rescue Committee) procurement: 0 notices read
+  Norwegian Refugee Council procurement: 0 notices read
+  Welthungerhilfe tenders: 0 notices read
+  Concern Worldwide tenders: 0 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (15)
+  • closes Fri 23 Oct 16:30  UK Government (FCDO / British High Commission) – Malaysia Penang Centre Regear and Refit British Council The British Council currently occupies Wisma Great Eas  [Not stated – read the notice]  (no number; UK Find a Tender – Tanzania (web page))
+      https://www.find-tender.service.gov.uk/Notice/095873-2026?origin=SearchResults&p=1
+  • closing date: see notice  UK Government (FCDO / British High Commission) – Utilities dynamic market - A dynamic market that can only be used by utility organisations to award utilities   [Not stated – read the notice]  (no number; UK Find a Tender – Tanzania (web page))
+      https://www.find-tender.service.gov.uk/Search/Results?keywords=Tanzania
+  • closing date: see notice  UK Government (FCDO / British High Commission) – Dynamic market - Arrangements that suppliers who meet the conditions for membership can join, which allow them  [Not stated – read the notice]  (no number; UK Find a Tender – Tanzania (web page))
+      https://www.find-tender.service.gov.uk/Search/Results?keywords=Tanzania
+  • closing date: see notice  UK Government (FCDO / British High Commission) – Dynamic purchasing system - Similar to a dynamic market, but only allowed for commonly used purchases. Tender   [Not stated – read the notice]  (no number; UK Find a Tender – Tanzania (web page))
+      https://www.find-tender.service.gov.uk/Search/Results?keywords=Tanzania
+  • closing date: see notice  UK Government (FCDO / British High Commission) – Select all Deselect all UK1: Pipeline notice UK2: Preliminary market engagement notice UK3: Planned procuremen  [Not stated – read the notice]  (no number; UK Find a Tender – Tanzania (web page))
+      https://www.find-tender.service.gov.uk/Search/Results?keywords=Tanzania
+  • closing date: see notice  UK Government (FCDO / British High Commission) – Procurement Act 2023 Select all Deselect all UK1: Pipeline notice UK2: Preliminary market engagement notice UK  [Not stated – read the notice]  (no number; UK Find a Tender – Tanzania (web page))
+      https://www.find-tender.service.gov.uk/Search/Results?keywords=Tanzania
+  • closing date: see notice  UK Government (FCDO / British High Commission) – Open opportunities - Planning or Tender stage notices with deadlines in the future Pipeline - Potential future  [Not stated – read the notice]  (no number; UK Find a Tender – Tanzania (web page))
+      https://www.find-tender.service.gov.uk/Search/Results?keywords=Tanzania
+  • closing date: see notice  See notice – How big is the Tanzania tender market?  [Not stated – read the notice]  (no number; GlobalTenders – Tanzania (web page))
+      https://www.globaltenders.com/tanzania-tenders.php
+  • closing date: see notice  See notice – Research Tanzania market rates and competitor pricing by searching past Tanzania tenders and contract awards -  [Not stated – read the notice]  (no number; GlobalTenders – Tanzania (web page))
+      https://www.globaltenders.com/contract-awards/tender-awards-tanzania
+  • closing date: see notice  See notice – The Tanzania tender market is estimated to be worth over US$10 billion per year. This includes tenders for all  [Not stated – read the notice]  (no number; GlobalTenders – Tanzania (web page))
+      https://www.globaltenders.com/tanzania-tenders.php
+  • closing date: see notice  See notice – Find relevant Tanzania tenders on official and local websites, journals, newspapers or on aggregator portals l  [Not stated – read the notice]  (no number; GlobalTenders – Tanzania (web page))
+      https://www.globaltenders.com/contract-awards/tender-awards-tanzania
+  • closing date: see notice  See notice – How to bid on Tanzania tenders? Find relevant Tanzania tenders on official and local websites, journals, newsp  [Not stated – read the notice]  (no number; GlobalTenders – Tanzania (web page))
+      https://www.globaltenders.com/contract-awards/tender-awards-tanzania
+  • closing date: see notice  See notice – Infrastructure & Construction Tenders  [Not stated – read the notice]  (no number; TenderImpulse – Tanzania (web page))
+      https://www.tenderimpulse.com/infrastructure-and-construction-tenders
+  • closing date: see notice  See notice – Construction: Construct a bright future for Tanzania with a vast construction tenders.  [Not stated – read the notice]  (no number; TenderImpulse – Tanzania (web page))
+      https://www.tenderimpulse.com/tanzania-tenders
+  • closing date: see notice  See notice – Looking for the most updated opportunities in Tanzania's procurement market? Look no more. Tender Impulse is y  [Not stated – read the notice]  (no number; TenderImpulse – Tanzania (web page))
+      https://www.tenderimpulse.com/tanzania-tenders
+
+Screened out (see the 'Screened Out' sheet): 0
+Empty Pipeline rows left: 376
+
+2026-10-10 05:01:23  Report saved: /home/runner/work/nordic-tender-scanner/nordic-tender-scanner/scanner/reports/scan_2026-10-10_0458.txt
