@@ -1,39 +1,39 @@
-2026-10-11 15:02  NeST: 39 notices read; UK Find a Tender – Tanzania: 0 notices read; UK Contracts Finder – Tanzania: 0 notices read; EU Funding & Tenders – Tanzania: 0 notices read; TradeMark Africa procurement: 0 notices read; Islamic Development Bank tenders: 0 notices read; African Union bids: 0 notices read; Enabel (Belgium) procurement: 0 notices read; Global Fund business opportunities: 0 notices read; SADC procurement: 0 notices read; IOM procurement: 0 notices read; UNESCO procurement: 0 notices read; WFP procurement: 0 notices read; GlobalTenders – Tanzania: FAILED (could not reach www.globaltenders.com (The read operation timed out) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)); TenderImpulse – Tanzania: 2 notices read; East African Development Bank procurement: 0 notices read; TDB Group procurement: 0 notices read; IUCEA procurement: 0 notices read; ESAMI (Arusha) procurement: 0 notices read; Shelter Afrique procurement: 0 notices read; OPEC Fund procurement: 0 notices read; IRC (International Rescue Committee) procurement: 0 notices read; Norwegian Refugee Council procurement: 0 notices read; Welthungerhilfe tenders: 0 notices read; Concern Worldwide tenders: 0 notices read → no new tenders
+2026-10-11 15:27  NeST: 39 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 223 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read; TRC tenders: 1 notices read; TCRA tenders: 4 notices read; Azania Bank tenders: 6 notices read; NBC Bank procurement: 0 notices read; Ministry of Water tenders: 0 notices read; REA tenders: 1 notices read; DART tenders: 1 notices read; TASAC tenders: 0 notices read; TMDA tenders: 0 notices read; DUWASA tenders: 1 notices read; MWAUWASA tenders: 0 notices read; Ministry of Finance tenders: 0 notices read; SUA tenders (zabuni): 3 notices read; Tanzania Posts announcements: 0 notices read; TRA public notices: 0 notices read; UDSM announcements: 0 notices read; TAWA announcements: 0 notices read; Ministry of Health notices: 0 notices read; NM-AIST tenders: 0 notices read; BidDetail – Tanzania tenders: 3 notices read; ZoomTanzania tenders: 0 notices read; PPRA public notices: 1 notices read; Exim Bank Tanzania tenders: 0 notices read → no new tenders
 
 Per source:
-  NeST: last OK 2026-10-11 15:02
-  World Bank (Tanzania, civil works): last OK 2026-10-11 14:51
-  TANROADS website: last OK 2026-10-11 14:51
-  CRDB Bank tenders: last OK 2026-10-11 14:18
-  DDO Tenders (newspapers, private, donors): last OK 2026-10-11 14:51
-  TPA current tenders: last OK 2026-10-11 14:18
-  TARURA tenders: last OK 2026-10-11 14:18
-  Bank of Tanzania tenders: last OK 2026-10-11 14:18
-  TEITI tenders: last OK 2026-10-11 14:18
-  TanzaniaTenders.com (newspapers, portals, private): last OK 2026-10-11 14:51
-  TRC tenders: last OK 2026-10-11 14:18
-  TCRA tenders: last OK 2026-10-11 14:18
-  Azania Bank tenders: last OK 2026-10-11 14:18
-  NBC Bank procurement: last OK 2026-10-11 14:18
-  Ministry of Water tenders: last OK 2026-10-11 14:18
-  REA tenders: last OK 2026-10-11 14:18
-  DART tenders: last OK 2026-10-11 14:18
-  TASAC tenders: last OK 2026-10-11 14:18
-  TMDA tenders: last OK 2026-10-11 14:18
-  DUWASA tenders: last OK 2026-10-11 14:18
-  MWAUWASA tenders: last OK 2026-10-11 14:18
-  Ministry of Finance tenders: last OK 2026-10-11 14:18
-  SUA tenders (zabuni): last OK 2026-10-11 14:18
-  Tanzania Posts announcements: last OK 2026-10-11 14:18
-  TRA public notices: last OK 2026-10-11 14:18
-  UDSM announcements: last OK 2026-10-11 14:18
-  TAWA announcements: last OK 2026-10-11 14:18
-  Ministry of Health notices: last OK 2026-10-11 14:18
-  NM-AIST tenders: last OK 2026-10-11 14:18
-  BidDetail – Tanzania tenders: last OK 2026-10-11 13:14
-  ZoomTanzania tenders: last OK 2026-10-11 13:14
-  PPRA public notices: last OK 2026-10-11 14:18
-  Exim Bank Tanzania tenders: last OK 2026-10-11 14:18
+  NeST: last OK 2026-10-11 15:27
+  World Bank (Tanzania, civil works): last OK 2026-10-11 15:27
+  TANROADS website: last OK 2026-10-11 15:27
+  CRDB Bank tenders: last OK 2026-10-11 15:27
+  DDO Tenders (newspapers, private, donors): last OK 2026-10-11 15:27
+  TPA current tenders: last OK 2026-10-11 15:27
+  TARURA tenders: last OK 2026-10-11 15:27
+  Bank of Tanzania tenders: last OK 2026-10-11 15:27
+  TEITI tenders: last OK 2026-10-11 15:27
+  TanzaniaTenders.com (newspapers, portals, private): last OK 2026-10-11 15:27
+  TRC tenders: last OK 2026-10-11 15:27
+  TCRA tenders: last OK 2026-10-11 15:27
+  Azania Bank tenders: last OK 2026-10-11 15:27
+  NBC Bank procurement: last OK 2026-10-11 15:27
+  Ministry of Water tenders: last OK 2026-10-11 15:27
+  REA tenders: last OK 2026-10-11 15:27
+  DART tenders: last OK 2026-10-11 15:27
+  TASAC tenders: last OK 2026-10-11 15:27
+  TMDA tenders: last OK 2026-10-11 15:27
+  DUWASA tenders: last OK 2026-10-11 15:27
+  MWAUWASA tenders: last OK 2026-10-11 15:27
+  Ministry of Finance tenders: last OK 2026-10-11 15:27
+  SUA tenders (zabuni): last OK 2026-10-11 15:27
+  Tanzania Posts announcements: last OK 2026-10-11 15:27
+  TRA public notices: last OK 2026-10-11 15:27
+  UDSM announcements: last OK 2026-10-11 15:27
+  TAWA announcements: last OK 2026-10-11 15:27
+  Ministry of Health notices: last OK 2026-10-11 15:27
+  NM-AIST tenders: last OK 2026-10-11 15:27
+  BidDetail – Tanzania tenders: last OK 2026-10-11 15:27
+  ZoomTanzania tenders: last OK 2026-10-11 15:27
+  PPRA public notices: last OK 2026-10-11 15:27
+  Exim Bank Tanzania tenders: last OK 2026-10-11 15:27
   UK Find a Tender – Tanzania: last OK 2026-10-11 15:02
   UK Contracts Finder – Tanzania: last OK 2026-10-11 15:02
   EU Funding & Tenders – Tanzania: last OK 2026-10-11 15:02
