@@ -1,0 +1,19 @@
+Tender Scan – Monday 12 October 2026, 07:51
+
+Sources checked:
+  NeST: 41 notices read
+  World Bank (Tanzania, civil works): 27 notices read
+  TANROADS website: 7 notices read
+  DDO Tenders (newspapers, private, donors): 223 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (2)
+  • closes Mon 19 Oct 10:00  See advert – Procurement of Therapeutic and Patient Support Equipment (Mri Compatible Anesthesia Machine, Ventilators, Suct  [Not stated – read the notice]  (no number; TanzaniaTenders.com (newspapers / portals / private))
+      https://www.tanzaniatenders.com/tender/procurement-therapeutic-and-patient-support-equipment-mri-compatible-anesthesia-machine-ventilator-8fcd741.php
+  • closes Mon 19 Oct 10:00  See advert – Installation of Office Security System at Tbc1 Mikocheni  [Not stated – read the notice]  (no number; TanzaniaTenders.com (newspapers / portals / private))
+      https://www.tanzaniatenders.com/tender/installation-office-security-system-tbc1-mikocheni-8fcd73e.php
+
+Screened out (see the 'Screened Out' sheet): 0
+Empty Pipeline rows left: 370

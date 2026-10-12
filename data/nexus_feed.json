@@ -1,33 +1,33 @@
 {
-"generated": "2026-10-12T07:27:50+03:00",
+"generated": "2026-10-12T07:51:41+03:00",
 "scanner": {
-"last_scan": "2026-10-12T07:27:00+03:00",
-"summary": "NeST: 41 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 223 notices read → no new tenders",
+"last_scan": "2026-10-12T07:51:00+03:00",
+"summary": "NeST: 41 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 223 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read → 2 new, 0 deadline change(s)",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-10-12 07:27",
+"last_ok": "2026-10-12 07:51",
 "error": "",
 "url": "https://nest.go.tz/tenders/published-tenders",
 "group": "tz"
 },
 {
 "name": "World Bank (Tanzania, civil works)",
-"last_ok": "2026-10-12 07:05",
+"last_ok": "2026-10-12 07:51",
 "error": "",
 "url": "https://projects.worldbank.org/en/projects-operations/procurement?countrycode_exact=TZ",
 "group": "intl"
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-10-12 07:27",
+"last_ok": "2026-10-12 07:51",
 "error": "",
 "url": "https://www.tanroads.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-10-12 07:27",
+"last_ok": "2026-10-12 07:51",
 "error": "",
 "url": "https://www.ddotenders.co.tz/tender.php?page=home",
 "group": "tz"
@@ -62,7 +62,7 @@
 },
 {
 "name": "TanzaniaTenders.com (newspapers, portals, private)",
-"last_ok": "2026-10-12 07:05",
+"last_ok": "2026-10-12 07:51",
 "error": "",
 "url": "https://www.tanzaniatenders.com/tenders.php",
 "group": "tz"
@@ -391,7 +391,7 @@
 }
 ]
 },
-"workbook_rows": 128,
+"workbook_rows": 130,
 "tenders": [
 {
 "id": "7205-2026-2027-W-09",
@@ -4678,6 +4678,72 @@
 "next": "Read the notice and decide with the QS Director whether to pursue",
 "found_by": "Auto-scan",
 "source_id": "979dd485-d9ba-4160-8bf7-d100a0b4db7b",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TZT:150787905",
+"title": "Procurement of Therapeutic and Patient Support Equipment (Mri Compatible Anesthesia Machine, Ventilators, Suction Machine, Rehabilitation Instrument, Ect Machine, Child and Adolescent Ot Tools, Perine...",
+"deadline": "2026-10-19T10:00:00+03:00",
+"body": {
+"no": "(not shown)",
+"date_found": "2026-10-12T00:00:00+03:00",
+"source": "press",
+"url": "https://www.tanzaniatenders.com/tender/procurement-therapeutic-and-patient-support-equipment-mri-compatible-anesthesia-machine-ventilator-8fcd741.php",
+"client": "See advert",
+"client_type": "government",
+"title": "Procurement of Therapeutic and Patient Support Equipment (Mri Compatible Anesthesia Machine, Ventilators, Suction Machine, Rehabilitation Instrument, Ect Machine, Child and Adolescent Ot Tools, Perine...",
+"scope": "From press notice (1 lot) – read the tender document",
+"location": "Not stated – read the notice",
+"category": "renovation",
+"crb": "See tender document",
+"funding": "unknown",
+"site_visit": "See tender document",
+"clar": "See tender document",
+"deadline": "2026-10-19T10:00:00+03:00",
+"bid_security": "See tender document",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"notice": "TanzaniaTenders.com (newspapers / portals / private)",
+"screen": "Check",
+"reason": "Auto (TanzaniaTenders.com): Site not stated in the listing – read the notice · deadline read from the web page – confirm",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "TZT:150787905",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TZT:150787902",
+"title": "Installation of Office Security System at Tbc1 Mikocheni",
+"deadline": "2026-10-19T10:00:00+03:00",
+"body": {
+"no": "(not shown)",
+"date_found": "2026-10-12T00:00:00+03:00",
+"source": "press",
+"url": "https://www.tanzaniatenders.com/tender/installation-office-security-system-tbc1-mikocheni-8fcd73e.php",
+"client": "See advert",
+"client_type": "government",
+"title": "Installation of Office Security System at Tbc1 Mikocheni",
+"scope": "From press notice (1 lot) – read the tender document",
+"location": "Not stated – read the notice",
+"category": "building",
+"crb": "See tender document",
+"funding": "unknown",
+"site_visit": "See tender document",
+"clar": "See tender document",
+"deadline": "2026-10-19T10:00:00+03:00",
+"bid_security": "See tender document",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"notice": "TanzaniaTenders.com (newspapers / portals / private)",
+"screen": "Check",
+"reason": "Auto (TanzaniaTenders.com): Site not stated in the listing – read the notice · deadline read from the web page – confirm",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "TZT:150787902",
 "synced_by": "NEXUS auto-sync"
 }
 }
