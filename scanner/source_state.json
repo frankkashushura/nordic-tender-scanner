@@ -1,7 +1,7 @@
 {
 "NeST": {
-"last_try": 1791840143.2438252,
-"last_ok": "2026-10-13 00:22",
+"last_try": 1791841277.231072,
+"last_ok": "2026-10-13 00:41",
 "fails": 0,
 "last_count": 41,
 "baseline_done": true,
@@ -15,8 +15,8 @@
 "baseline_done": true
 },
 "TANROADS website": {
-"last_try": 1791840145.5313876,
-"last_ok": "2026-10-13 00:22",
+"last_try": 1791841278.6342373,
+"last_ok": "2026-10-13 00:41",
 "fails": 0,
 "last_count": 7,
 "baseline_done": true,
@@ -47,8 +47,8 @@
 "last_error": "2026-09-26 00:17 could not reach www.nmbbank.co.tz (HTTP Error 403: Forbidden)"
 },
 "DDO Tenders (newspapers, private, donors)": {
-"last_try": 1791840148.3377872,
-"last_ok": "2026-10-13 00:22",
+"last_try": 1791841281.1884217,
+"last_ok": "2026-10-13 00:41",
 "fails": 0,
 "last_count": 225,
 "baseline_done": true
@@ -384,8 +384,8 @@
 "baseline_done": true
 },
 "Lake Victoria Basin Commission procurement": {
-"last_try": 1791833839.8312666,
-"last_ok": "2026-10-12 22:33",
+"last_try": 1791841282.5320733,
+"last_ok": "2026-10-13 00:41",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true,
