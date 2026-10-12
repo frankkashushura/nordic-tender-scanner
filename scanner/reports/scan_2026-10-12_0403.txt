@@ -1,0 +1,43 @@
+Tender Scan – Monday 12 October 2026, 04:03
+
+Sources checked:
+  NeST: 41 notices read
+  TANROADS website: 7 notices read
+  DDO Tenders (newspapers, private, donors): 223 notices read
+  BidDetail – Tanzania tenders: 3 notices read
+  ZoomTanzania tenders: 0 notices read
+  UK Find a Tender – Tanzania: 0 notices read
+  UK Contracts Finder – Tanzania: 0 notices read
+  EU Funding & Tenders – Tanzania: 0 notices read
+  TradeMark Africa procurement: 0 notices read
+  Islamic Development Bank tenders: 0 notices read
+  African Union bids: 0 notices read
+  Enabel (Belgium) procurement: 0 notices read
+  Global Fund business opportunities: 0 notices read
+  SADC procurement: 0 notices read
+  IOM procurement: 0 notices read
+  UNESCO procurement: 0 notices read
+  WFP procurement: 0 notices read
+  GlobalTenders – Tanzania: FAILED (could not reach www.globaltenders.com (The read operation timed out) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity))
+  TenderImpulse – Tanzania: 2 notices read
+  East African Development Bank procurement: 0 notices read
+  TDB Group procurement: 0 notices read
+  IUCEA procurement: 0 notices read
+  ESAMI (Arusha) procurement: 0 notices read
+  Shelter Afrique procurement: 0 notices read
+  OPEC Fund procurement: 0 notices read
+  IRC (International Rescue Committee) procurement: 0 notices read
+  Norwegian Refugee Council procurement: 0 notices read
+  Welthungerhilfe tenders: 0 notices read
+  Concern Worldwide tenders: 0 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (2)
+  • closes Mon 19 Oct 14:00  Tanzania Electric Supply Company Limited – Repair of Substation Yard Concrete Roads and Kerbstones at Ubungo Substation  [Dar es Salaam (Ubungo)]  (TR212/2026/2027/W/23; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Mon 19 Oct 14:00  Tanzania Broadcasting Corporation – Rehabilitation of Tanzania Safari Channel Office Building  [Dar es Salaam (Temeke) (from client's office – confirm site)]  (TR61/2026/2027/W/04; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+
+Screened out (see the 'Screened Out' sheet): 0
+Empty Pipeline rows left: 372

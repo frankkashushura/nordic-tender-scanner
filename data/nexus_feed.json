@@ -1,12 +1,12 @@
 {
-"generated": "2026-10-12T03:38:34+03:00",
+"generated": "2026-10-12T04:07:42+03:00",
 "scanner": {
-"last_scan": "2026-10-12T03:36:00+03:00",
-"summary": "NeST: 39 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 223 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: FAILED (could not reach crdbbank.co.tz (HTTP Error 500: Internal Server Error) | reader: page reader returned an empty page",
+"last_scan": "2026-10-12T04:03:00+03:00",
+"summary": "NeST: 41 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 223 notices read; BidDetail – Tanzania tenders: 3 notices read; ZoomTanzania tenders: 0 notices read; UK Find a Tender – Tanzania: 0 notices read; UK Contracts Finder – Tanzania: 0 notices read; EU Funding & Tenders – Tanzania: 0 notices read; TradeMark Africa procurement: 0 notice",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-10-12 03:36",
+"last_ok": "2026-10-12 04:03",
 "error": "",
 "url": "https://nest.go.tz/tenders/published-tenders",
 "group": "tz"
@@ -20,14 +20,14 @@
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-10-12 03:36",
+"last_ok": "2026-10-12 04:03",
 "error": "",
 "url": "https://www.tanroads.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-10-12 03:36",
+"last_ok": "2026-10-12 04:03",
 "error": "",
 "url": "https://www.ddotenders.co.tz/tender.php?page=home",
 "group": "tz"
@@ -202,14 +202,14 @@
 },
 {
 "name": "BidDetail – Tanzania tenders",
-"last_ok": "2026-10-12 02:01",
+"last_ok": "2026-10-12 04:03",
 "error": "",
 "url": "https://www.biddetail.com/tanzania-tenders",
 "group": "tz"
 },
 {
 "name": "ZoomTanzania tenders",
-"last_ok": "2026-10-12 02:01",
+"last_ok": "2026-10-12 04:03",
 "error": "",
 "url": "https://www.zoomtanzania.net/tenders",
 "group": "tz"
@@ -230,175 +230,168 @@
 },
 {
 "name": "UK Find a Tender – Tanzania",
-"last_ok": "2026-10-12 02:01",
+"last_ok": "2026-10-12 04:03",
 "error": "",
 "url": "https://www.find-tender.service.gov.uk/Search/Results?keywords=Tanzania",
 "group": "intl"
 },
 {
 "name": "UK Contracts Finder – Tanzania",
-"last_ok": "2026-10-12 02:01",
+"last_ok": "2026-10-12 04:03",
 "error": "",
 "url": "https://www.contractsfinder.service.gov.uk/Search/Results?keywords=Tanzania",
 "group": "intl"
 },
 {
 "name": "EU Funding & Tenders – Tanzania",
-"last_ok": "2026-10-12 02:01",
+"last_ok": "2026-10-12 04:03",
 "error": "",
 "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-tenders?keywords=Tanzania",
 "group": "intl"
 },
 {
 "name": "TradeMark Africa procurement",
-"last_ok": "2026-10-12 02:01",
+"last_ok": "2026-10-12 04:03",
 "error": "",
 "url": "https://www.trademarkafrica.com/procurement/",
 "group": "intl"
 },
 {
 "name": "Islamic Development Bank tenders",
-"last_ok": "2026-10-12 02:01",
+"last_ok": "2026-10-12 04:03",
 "error": "",
 "url": "https://www.isdb.org/project-procurement/tenders",
 "group": "intl"
 },
 {
 "name": "African Union bids",
-"last_ok": "2026-10-12 02:01",
+"last_ok": "2026-10-12 04:03",
 "error": "",
 "url": "https://au.int/en/bids",
 "group": "intl"
 },
 {
 "name": "Enabel (Belgium) procurement",
-"last_ok": "2026-10-12 02:01",
+"last_ok": "2026-10-12 04:03",
 "error": "",
 "url": "https://www.enabel.be/public-procurement/",
 "group": "intl"
 },
 {
 "name": "Global Fund business opportunities",
-"last_ok": "2026-10-12 02:01",
+"last_ok": "2026-10-12 04:03",
 "error": "",
 "url": "https://www.theglobalfund.org/en/business-opportunities/",
 "group": "intl"
 },
 {
 "name": "SADC procurement",
-"last_ok": "2026-10-12 02:01",
+"last_ok": "2026-10-12 04:03",
 "error": "",
 "url": "https://www.sadc.int/procurement",
 "group": "intl"
 },
 {
 "name": "IOM procurement",
-"last_ok": "2026-10-12 02:01",
+"last_ok": "2026-10-12 04:03",
 "error": "",
 "url": "https://www.iom.int/procurement-opportunities",
 "group": "intl"
 },
 {
 "name": "UNESCO procurement",
-"last_ok": "2026-10-12 02:01",
+"last_ok": "2026-10-12 04:03",
 "error": "",
 "url": "https://www.unesco.org/en/procurement",
 "group": "intl"
 },
 {
 "name": "WFP procurement",
-"last_ok": "2026-10-12 02:01",
+"last_ok": "2026-10-12 04:03",
 "error": "",
 "url": "https://www.wfp.org/procurement",
 "group": "intl"
 },
 {
-"name": "GlobalTenders – Tanzania",
-"last_ok": "2026-10-11 23:52",
-"error": "2026-10-12 02:01 could not reach www.globaltenders.com (The read operation timed out) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)",
-"url": "https://www.globaltenders.com/tanzania-tenders.php",
-"group": "intl"
-},
-{
 "name": "TenderImpulse – Tanzania",
-"last_ok": "2026-10-12 02:01",
+"last_ok": "2026-10-12 04:03",
 "error": "",
 "url": "https://www.tenderimpulse.com/tanzania-tenders",
 "group": "intl"
 },
 {
 "name": "East African Development Bank procurement",
-"last_ok": "2026-10-12 02:01",
+"last_ok": "2026-10-12 04:03",
 "error": "",
 "url": "https://eadb.org/procurement/",
 "group": "intl"
 },
 {
 "name": "TDB Group procurement",
-"last_ok": "2026-10-12 02:01",
+"last_ok": "2026-10-12 04:03",
 "error": "",
 "url": "https://www.tdbgroup.org/procurement/",
 "group": "intl"
 },
 {
 "name": "IUCEA procurement",
-"last_ok": "2026-10-12 02:01",
+"last_ok": "2026-10-12 04:03",
 "error": "",
 "url": "https://www.iucea.org/procurement/",
 "group": "intl"
 },
 {
 "name": "ESAMI (Arusha) procurement",
-"last_ok": "2026-10-12 02:01",
+"last_ok": "2026-10-12 04:03",
 "error": "",
 "url": "https://esami-africa.org/procurement",
 "group": "intl"
 },
 {
 "name": "Shelter Afrique procurement",
-"last_ok": "2026-10-12 02:01",
+"last_ok": "2026-10-12 04:03",
 "error": "",
 "url": "https://www.shelterafrique.org/procurement/",
 "group": "intl"
 },
 {
 "name": "OPEC Fund procurement",
-"last_ok": "2026-10-12 02:01",
+"last_ok": "2026-10-12 04:03",
 "error": "",
 "url": "https://opecfund.org/procurement",
 "group": "intl"
 },
 {
 "name": "IRC (International Rescue Committee) procurement",
-"last_ok": "2026-10-12 02:01",
+"last_ok": "2026-10-12 04:03",
 "error": "",
 "url": "https://www.rescue.org/procurement",
 "group": "intl"
 },
 {
 "name": "Norwegian Refugee Council procurement",
-"last_ok": "2026-10-12 02:01",
+"last_ok": "2026-10-12 04:03",
 "error": "",
 "url": "https://www.nrc.no/procurement/",
 "group": "intl"
 },
 {
 "name": "Welthungerhilfe tenders",
-"last_ok": "2026-10-12 02:01",
+"last_ok": "2026-10-12 04:03",
 "error": "",
 "url": "https://www.welthungerhilfe.org/tenders",
 "group": "intl"
 },
 {
 "name": "Concern Worldwide tenders",
-"last_ok": "2026-10-12 02:01",
+"last_ok": "2026-10-12 04:03",
 "error": "",
 "url": "https://www.concern.net/tenders",
 "group": "intl"
 }
 ]
 },
-"workbook_rows": 126,
+"workbook_rows": 128,
 "tenders": [
 {
 "id": "7205-2026-2027-W-09",
@@ -4617,6 +4610,74 @@
 "next": "Read the notice and decide with the QS Director whether to pursue",
 "found_by": "Auto-scan",
 "source_id": "TZT:150740704",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TR212-2026-2027-W-23",
+"title": "Repair of Substation Yard Concrete Roads and Kerbstones at Ubungo Substation",
+"deadline": "2026-10-19T14:00:00+03:00",
+"body": {
+"no": "TR212/2026/2027/W/23",
+"date_found": "2026-10-12T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "Tanzania Electric Supply Company Limited",
+"client_type": "parastatal (verify)",
+"title": "Repair of Substation Yard Concrete Roads and Kerbstones at Ubungo Substation",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Dar es Salaam (Ubungo)",
+"category": "civil",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-10-19T14:00:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-10-12T00:00:00+03:00",
+"notice": "Small Works / Tender",
+"screen": "Check",
+"reason": "Auto (Small Works / Tender): Civil works in Dar/Coast – confirm CRB class and margin",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "97b7d5a5-18af-4ac9-bd29-f26652a06ad1",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TR61-2026-2027-W-04",
+"title": "Rehabilitation of Tanzania Safari Channel Office Building",
+"deadline": "2026-10-19T14:00:00+03:00",
+"body": {
+"no": "TR61/2026/2027/W/04",
+"date_found": "2026-10-12T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "Tanzania Broadcasting Corporation",
+"client_type": "parastatal (verify)",
+"title": "Rehabilitation of Tanzania Safari Channel Office Building",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Dar es Salaam (Temeke) (from client's office – confirm site)",
+"category": "renovation",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-10-19T14:00:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-10-12T00:00:00+03:00",
+"notice": "Standard Invitation for Quotations -Works / Planned Tender",
+"screen": "Check",
+"reason": "Auto (Standard Invitation for Quotations -Works / Planned Tender): Quotation route – value may be below TZS 200m",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "979dd485-d9ba-4160-8bf7-d100a0b4db7b",
 "synced_by": "NEXUS auto-sync"
 }
 }
