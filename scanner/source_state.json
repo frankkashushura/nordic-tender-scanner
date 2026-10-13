@@ -1,7 +1,7 @@
 {
 "NeST": {
-"last_try": 1791852978.9844055,
-"last_ok": "2026-10-13 03:56",
+"last_try": 1791854276.6730487,
+"last_ok": "2026-10-13 04:17",
 "fails": 0,
 "last_count": 41,
 "baseline_done": true,
@@ -15,8 +15,8 @@
 "baseline_done": true
 },
 "TANROADS website": {
-"last_try": 1791852980.7332926,
-"last_ok": "2026-10-13 03:56",
+"last_try": 1791854278.1143885,
+"last_ok": "2026-10-13 04:17",
 "fails": 0,
 "last_count": 7,
 "baseline_done": true,
@@ -46,8 +46,8 @@
 "last_error": "2026-09-26 00:17 could not reach www.nmbbank.co.tz (HTTP Error 403: Forbidden)"
 },
 "DDO Tenders (newspapers, private, donors)": {
-"last_try": 1791852983.191878,
-"last_ok": "2026-10-13 03:56",
+"last_try": 1791854280.4662504,
+"last_ok": "2026-10-13 04:17",
 "fails": 0,
 "last_count": 225,
 "baseline_done": true
@@ -367,13 +367,12 @@
 "baseline_done": true
 },
 "GlobalTenders \u2013 Tanzania": {
-"last_try": 1791767048.4138114,
-"last_ok": "2026-10-11 23:52",
-"fails": 2,
+"last_try": 1791854281.7681825,
+"last_ok": "2026-10-13 04:17",
+"fails": 0,
 "last_count": 5,
 "baseline_done": true,
-"last_error": "2026-10-12 04:03 could not reach www.globaltenders.com (The read operation timed out) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)",
-"paused": true
+"last_error": "2026-10-12 04:03 could not reach www.globaltenders.com (The read operation timed out) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)"
 },
 "TenderImpulse \u2013 Tanzania": {
 "last_try": 1791853022.803078,
