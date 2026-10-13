@@ -1,0 +1,29 @@
+Tender Scan – Tuesday 13 October 2026, 05:18
+
+Sources checked:
+  NeST: 45 notices read
+  World Bank (Tanzania, civil works): 27 notices read
+  TANROADS website: 7 notices read
+  DDO Tenders (newspapers, private, donors): 225 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+
+NEW – PURSUE (2)
+  • closes Mon 19 Oct 10:00  Ulanga District Council – CONSTUCTION OF HEAD OF DEPARTMENT HOUSES  [Morogoro (from client's office – confirm site)]  (79K3/2026/2027/W/02; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Mon 19 Oct 14:00  Kinondoni Municipal Council – PROPOSED CONSTRUCTION OF MUNICIPAL DIRECTOR HOUSE AT MSASANI PENINSULA IN KMC  [Dar es Salaam (Kinondoni) (from client's office – confirm site)]  (88Z3/2026/2027/W/125; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+
+NEW – CHECK (5)
+  • closes Fri 16 Oct 10:00  Kinondoni Municipal Council – To complete construction of 6 classrooms of storey building at Mkwawa primary school by june 2027  [Dar es Salaam (Kinondoni) (from client's office – confirm site)]  (88Z3/2026/2027/W/117; Small Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Mon 19 Oct 14:00  RUWASA - Manyara Regional Office – Procure of Contractor for Construction of Point Source at Mulbadaw Villages at RUWASA Hanang District, Constru  [Manyara (Kiteto)]  (TR140/010/2026/2027/W/05; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Mon 19 Oct 14:00  Ngorongoro Conservation Area Authority – Upgrading of Endoro walking tray to Harden standard, Construction of Staff House and Pedestrial suspended brid  [Arusha (Ngorongoro) (from client's office – confirm site)]  (TR193/2026/2027/W/13; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Mon 19 Oct 14:00  Mbeya Regional Secretariat – PROPOSED CONSTRUCTION OF DISTRICT COMMISSIONER'S OFFICE TO BE BUILT AT KYELA DISTRICT (PHASE II)  [Mbeya (from client's office – confirm site)]  (78/2026/2027/W/05; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Mon 19 Oct 14:00  Kinondoni Municipal Council – PROPOSED CONSTRUCTION OF FENCE WALL AND PAVING BLOCKS AT KINONDONI MUNICIPAL COUNCIL  [Dar es Salaam (Kinondoni)]  (88Z3/2026/2027/W/131; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+
+Screened out (see the 'Screened Out' sheet): 4
+Empty Pipeline rows left: 361
