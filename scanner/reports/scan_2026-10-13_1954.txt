@@ -1,0 +1,20 @@
+Tender Scan – Tuesday 13 October 2026, 19:54
+
+Sources checked:
+  NeST: 45 notices read
+  World Bank (Tanzania, civil works): 27 notices read
+  TANROADS website: 7 notices read
+  DDO Tenders (newspapers, private, donors): 229 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+  CRDB Bank tenders: 0 notices read
+
+NEW – PURSUE (1)
+  • closes Tue 10 Nov 10:00  See advert – The tender involves construction works for integrated tourism development, infrastructure, and livelihood impr  [Zanzibar (Unguja)]  (no number; TanzaniaTenders.com (newspapers / portals / private))
+      https://www.tanzaniatenders.com/tender/the-tender-involves-construction-works-integrated-tourism-development-infrastructure-and-livelihoo-8fe3851.php
+
+NEW – CHECK (1)
+  • closes Fri 30 Oct 10:00  See advert – Specialized monitoring of AC voltage induced on the pipeline by powerlines, AC corrosion assessments, telluric  [Not stated – read the notice]  (no number; TanzaniaTenders.com (newspapers / portals / private))
+      https://www.tanzaniatenders.com/tender/specialized-monitoring-ac-voltage-induced-pipeline-powerlines-ac-corrosion-assessments-telluric-cu-8fe384d.php
+
+Screened out (see the 'Screened Out' sheet): 0
+Empty Pipeline rows left: 358
