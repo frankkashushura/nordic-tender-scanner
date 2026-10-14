@@ -1,11 +1,11 @@
-2026-10-15 01:58  NeST: 45 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 229 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read → no new tenders
+2026-10-15 02:26  NeST: 45 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 229 notices read; BidDetail – Tanzania tenders: 2 notices read; ZoomTanzania tenders: 0 notices read; UK Find a Tender – Tanzania: 0 notices read; UK Contracts Finder – Tanzania: 0 notices read; EU Funding & Tenders – Tanzania: 0 notices read; TradeMark Africa procurement: 0 notices read; Islamic Development Bank tenders: 0 notices read; African Union bids: 0 notices read; Enabel (Belgium) procurement: 0 notices read; Global Fund business opportunities: 0 notices read; SADC procurement: 0 notices read; IOM procurement: 0 notices read; UNESCO procurement: 0 notices read; WFP procurement: 0 notices read; GlobalTenders – Tanzania: 5 notices read; TenderImpulse – Tanzania: 1 notices read; East African Development Bank procurement: 0 notices read; TDB Group procurement: 0 notices read; IUCEA procurement: 0 notices read; ESAMI (Arusha) procurement: 0 notices read; Shelter Afrique procurement: 0 notices read; OPEC Fund procurement: 0 notices read; IRC (International Rescue Committee) procurement: 0 notices read; Norwegian Refugee Council procurement: 0 notices read; Welthungerhilfe tenders: 0 notices read; Concern Worldwide tenders: 0 notices read → no new tenders
 
 Per source:
-  NeST: last OK 2026-10-15 01:58
+  NeST: last OK 2026-10-15 02:26
   World Bank (Tanzania, civil works): last OK 2026-10-15 01:58
-  TANROADS website: last OK 2026-10-15 01:58
+  TANROADS website: last OK 2026-10-15 02:26
   CRDB Bank tenders: last OK 2026-10-15 01:31
-  DDO Tenders (newspapers, private, donors): last OK 2026-10-15 01:58
+  DDO Tenders (newspapers, private, donors): last OK 2026-10-15 02:26
   TPA current tenders: last OK 2026-10-15 01:31
   TARURA tenders: last OK 2026-10-15 01:31
   Bank of Tanzania tenders: last OK 2026-10-15 01:31
@@ -30,32 +30,32 @@ Per source:
   TAWA announcements: last OK 2026-10-15 01:31
   Ministry of Health notices: last OK 2026-10-15 01:31
   NM-AIST tenders: last OK 2026-10-15 01:31
-  BidDetail – Tanzania tenders: last OK 2026-10-15 00:01
-  ZoomTanzania tenders: last OK 2026-10-15 00:01
+  BidDetail – Tanzania tenders: last OK 2026-10-15 02:26
+  ZoomTanzania tenders: last OK 2026-10-15 02:26
   PPRA public notices: last OK 2026-10-15 01:31
   Exim Bank Tanzania tenders: last OK 2026-10-15 01:31
-  UK Find a Tender – Tanzania: last OK 2026-10-15 00:01
-  UK Contracts Finder – Tanzania: last OK 2026-10-15 00:01
-  EU Funding & Tenders – Tanzania: last OK 2026-10-15 00:01
-  TradeMark Africa procurement: last OK 2026-10-15 00:01
-  Islamic Development Bank tenders: last OK 2026-10-15 00:01
-  African Union bids: last OK 2026-10-15 00:01
-  Enabel (Belgium) procurement: last OK 2026-10-15 00:01
-  Global Fund business opportunities: last OK 2026-10-15 00:01
-  SADC procurement: last OK 2026-10-15 00:01
-  IOM procurement: last OK 2026-10-15 00:01
-  UNESCO procurement: last OK 2026-10-15 00:01
-  WFP procurement: last OK 2026-10-15 00:01
-  GlobalTenders – Tanzania: last OK 2026-10-15 00:01
-  TenderImpulse – Tanzania: last OK 2026-10-15 00:01
+  UK Find a Tender – Tanzania: last OK 2026-10-15 02:26
+  UK Contracts Finder – Tanzania: last OK 2026-10-15 02:26
+  EU Funding & Tenders – Tanzania: last OK 2026-10-15 02:26
+  TradeMark Africa procurement: last OK 2026-10-15 02:26
+  Islamic Development Bank tenders: last OK 2026-10-15 02:26
+  African Union bids: last OK 2026-10-15 02:26
+  Enabel (Belgium) procurement: last OK 2026-10-15 02:26
+  Global Fund business opportunities: last OK 2026-10-15 02:26
+  SADC procurement: last OK 2026-10-15 02:26
+  IOM procurement: last OK 2026-10-15 02:26
+  UNESCO procurement: last OK 2026-10-15 02:26
+  WFP procurement: last OK 2026-10-15 02:26
+  GlobalTenders – Tanzania: last OK 2026-10-15 02:26
+  TenderImpulse – Tanzania: last OK 2026-10-15 02:26
   Lake Victoria Basin Commission procurement: last OK 2026-10-15 00:31
-  East African Development Bank procurement: last OK 2026-10-15 00:01
-  TDB Group procurement: last OK 2026-10-15 00:01
-  IUCEA procurement: last OK 2026-10-15 00:01
-  ESAMI (Arusha) procurement: last OK 2026-10-15 00:01
-  Shelter Afrique procurement: last OK 2026-10-15 00:01
-  OPEC Fund procurement: last OK 2026-10-15 00:01
-  IRC (International Rescue Committee) procurement: last OK 2026-10-15 00:01
-  Norwegian Refugee Council procurement: last OK 2026-10-15 00:01
-  Welthungerhilfe tenders: last OK 2026-10-15 00:01
-  Concern Worldwide tenders: last OK 2026-10-15 00:01
+  East African Development Bank procurement: last OK 2026-10-15 02:26
+  TDB Group procurement: last OK 2026-10-15 02:26
+  IUCEA procurement: last OK 2026-10-15 02:26
+  ESAMI (Arusha) procurement: last OK 2026-10-15 02:26
+  Shelter Afrique procurement: last OK 2026-10-15 02:26
+  OPEC Fund procurement: last OK 2026-10-15 02:26
+  IRC (International Rescue Committee) procurement: last OK 2026-10-15 02:26
+  Norwegian Refugee Council procurement: last OK 2026-10-15 02:26
+  Welthungerhilfe tenders: last OK 2026-10-15 02:26
+  Concern Worldwide tenders: last OK 2026-10-15 02:26
