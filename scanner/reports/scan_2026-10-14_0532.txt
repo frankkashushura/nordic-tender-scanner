@@ -1,0 +1,19 @@
+Tender Scan – Wednesday 14 October 2026, 05:32
+
+Sources checked:
+  NeST: 45 notices read
+  TANROADS website: 7 notices read
+  DDO Tenders (newspapers, private, donors): 229 notices read
+
+NEW – PURSUE (2)
+  • closes Mon 19 Oct 14:00  Ubungo Municipal Council – CONSTRUCTION OF SINGLE STOREY BUILDING OPD, MATERNITY AND RCH BUILDING FOR GOGONI DISPENSARY IN UBUNGO MUNICIP  [Dar es Salaam (Ubungo)]  (88Z4/2026/2027/W/45; Small Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Wed 21 Oct 14:00  Kinondoni Municipal Council – The proposed construction of Tandale Health Center in Kinondoni Municipality  [Dar es Salaam (Kinondoni)]  (88Z3/2026/2027/W/121; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+
+NEW – CHECK (1)
+  • closes Tue 20 Oct 14:00  Mcdgwsg - Rungemba Community Development Training Institute – Construction of Girls hostel at Rungemba CDTI  [Iringa (Mufindi) (from client's office – confirm site)]  (53/004/2026/2027/W/02; Design and Build / Tender)
+      https://nest.go.tz/tenders/published-tenders
+
+Screened out (see the 'Screened Out' sheet): 2
+Empty Pipeline rows left: 355
