@@ -1,7 +1,7 @@
 {
 "NeST": {
-"last_try": 1791956527.6697552,
-"last_ok": "2026-10-14 08:42",
+"last_try": 1791958182.4321516,
+"last_ok": "2026-10-14 09:09",
 "fails": 0,
 "last_count": 45,
 "baseline_done": true,
@@ -15,8 +15,8 @@
 "baseline_done": true
 },
 "TANROADS website": {
-"last_try": 1791956529.5776665,
-"last_ok": "2026-10-14 08:42",
+"last_try": 1791958183.9495292,
+"last_ok": "2026-10-14 09:09",
 "fails": 0,
 "last_count": 7,
 "baseline_done": true,
@@ -46,8 +46,8 @@
 "last_error": "2026-09-26 00:17 could not reach www.nmbbank.co.tz (HTTP Error 403: Forbidden)"
 },
 "DDO Tenders (newspapers, private, donors)": {
-"last_try": 1791956532.460421,
-"last_ok": "2026-10-14 08:42",
+"last_try": 1791958186.6481872,
+"last_ok": "2026-10-14 09:09",
 "fails": 0,
 "last_count": 229,
 "baseline_done": true
@@ -382,13 +382,12 @@
 "baseline_done": true
 },
 "Lake Victoria Basin Commission procurement": {
-"last_try": 1791870603.5579689,
-"last_ok": "2026-10-13 04:40",
-"fails": 2,
+"last_try": 1791958187.9832788,
+"last_ok": "2026-10-14 09:09",
+"fails": 0,
 "last_count": 0,
 "baseline_done": true,
-"last_error": "2026-10-13 08:47 could not reach www.lvbcom.org (<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)",
-"paused": true
+"last_error": "2026-10-13 08:47 could not reach www.lvbcom.org (<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)"
 },
 "East African Development Bank procurement": {
 "last_try": 1791954809.030591,

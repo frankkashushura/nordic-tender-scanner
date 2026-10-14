@@ -1,11 +1,11 @@
-2026-10-14 08:42  NeST: 45 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 229 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read → 1 new, 0 deadline change(s)
+2026-10-14 09:09  NeST: 45 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 229 notices read; Lake Victoria Basin Commission procurement: 0 notices read → no new tenders
 
 Per source:
-  NeST: last OK 2026-10-14 08:42
+  NeST: last OK 2026-10-14 09:09
   World Bank (Tanzania, civil works): last OK 2026-10-14 08:42
-  TANROADS website: last OK 2026-10-14 08:42
+  TANROADS website: last OK 2026-10-14 09:09
   CRDB Bank tenders: last OK 2026-10-14 08:10
-  DDO Tenders (newspapers, private, donors): last OK 2026-10-14 08:42
+  DDO Tenders (newspapers, private, donors): last OK 2026-10-14 09:09
   TPA current tenders: last OK 2026-10-14 08:10
   TARURA tenders: last OK 2026-10-14 08:10
   Bank of Tanzania tenders: last OK 2026-10-14 08:10
@@ -48,6 +48,7 @@ Per source:
   WFP procurement: last OK 2026-10-14 08:10
   GlobalTenders – Tanzania: last OK 2026-10-14 08:10
   TenderImpulse – Tanzania: last OK 2026-10-14 08:10
+  Lake Victoria Basin Commission procurement: last OK 2026-10-14 09:09
   East African Development Bank procurement: last OK 2026-10-14 08:10
   TDB Group procurement: last OK 2026-10-14 08:10
   IUCEA procurement: last OK 2026-10-14 08:10
