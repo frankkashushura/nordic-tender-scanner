@@ -1,26 +1,26 @@
 {
-"generated": "2026-10-14T09:53:52+03:00",
+"generated": "2026-10-14T10:31:23+03:00",
 "scanner": {
-"last_scan": "2026-10-14T09:52:00+03:00",
-"summary": "NeST: 45 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 229 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices re",
+"last_scan": "2026-10-14T10:30:00+03:00",
+"summary": "NeST: 45 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 229 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; BidDetail – Tanzania tenders: 3 notices read; ZoomTanzania tenders: 0 notices read; UK Find a Tender – Tanzania: 0 notices read; UK Contracts ",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-10-14 09:52",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://nest.go.tz/tenders/published-tenders",
 "group": "tz"
 },
 {
 "name": "World Bank (Tanzania, civil works)",
-"last_ok": "2026-10-14 09:52",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://projects.worldbank.org/en/projects-operations/procurement?countrycode_exact=TZ",
 "group": "intl"
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-10-14 09:52",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://www.tanroads.go.tz/tenders",
 "group": "tz"
@@ -34,7 +34,7 @@
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-10-14 09:52",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://www.ddotenders.co.tz/tender.php?page=home",
 "group": "tz"
@@ -69,7 +69,7 @@
 },
 {
 "name": "TanzaniaTenders.com (newspapers, portals, private)",
-"last_ok": "2026-10-14 09:52",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://www.tanzaniatenders.com/tenders.php",
 "group": "tz"
@@ -209,14 +209,14 @@
 },
 {
 "name": "BidDetail – Tanzania tenders",
-"last_ok": "2026-10-14 08:10",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://www.biddetail.com/tanzania-tenders",
 "group": "tz"
 },
 {
 "name": "ZoomTanzania tenders",
-"last_ok": "2026-10-14 08:10",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://www.zoomtanzania.net/tenders",
 "group": "tz"
@@ -237,98 +237,98 @@
 },
 {
 "name": "UK Find a Tender – Tanzania",
-"last_ok": "2026-10-14 08:10",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://www.find-tender.service.gov.uk/Search/Results?keywords=Tanzania",
 "group": "intl"
 },
 {
 "name": "UK Contracts Finder – Tanzania",
-"last_ok": "2026-10-14 08:10",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://www.contractsfinder.service.gov.uk/Search/Results?keywords=Tanzania",
 "group": "intl"
 },
 {
 "name": "EU Funding & Tenders – Tanzania",
-"last_ok": "2026-10-14 08:10",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-tenders?keywords=Tanzania",
 "group": "intl"
 },
 {
 "name": "TradeMark Africa procurement",
-"last_ok": "2026-10-14 08:10",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://www.trademarkafrica.com/procurement/",
 "group": "intl"
 },
 {
 "name": "Islamic Development Bank tenders",
-"last_ok": "2026-10-14 08:10",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://www.isdb.org/project-procurement/tenders",
 "group": "intl"
 },
 {
 "name": "African Union bids",
-"last_ok": "2026-10-14 08:10",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://au.int/en/bids",
 "group": "intl"
 },
 {
 "name": "Enabel (Belgium) procurement",
-"last_ok": "2026-10-14 08:10",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://www.enabel.be/public-procurement/",
 "group": "intl"
 },
 {
 "name": "Global Fund business opportunities",
-"last_ok": "2026-10-14 08:10",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://www.theglobalfund.org/en/business-opportunities/",
 "group": "intl"
 },
 {
 "name": "SADC procurement",
-"last_ok": "2026-10-14 08:10",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://www.sadc.int/procurement",
 "group": "intl"
 },
 {
 "name": "IOM procurement",
-"last_ok": "2026-10-14 08:10",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://www.iom.int/procurement-opportunities",
 "group": "intl"
 },
 {
 "name": "UNESCO procurement",
-"last_ok": "2026-10-14 08:10",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://www.unesco.org/en/procurement",
 "group": "intl"
 },
 {
 "name": "WFP procurement",
-"last_ok": "2026-10-14 08:10",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://www.wfp.org/procurement",
 "group": "intl"
 },
 {
 "name": "GlobalTenders – Tanzania",
-"last_ok": "2026-10-14 08:10",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://www.globaltenders.com/tanzania-tenders.php",
 "group": "intl"
 },
 {
 "name": "TenderImpulse – Tanzania",
-"last_ok": "2026-10-14 08:10",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://www.tenderimpulse.com/tanzania-tenders",
 "group": "intl"
@@ -342,77 +342,77 @@
 },
 {
 "name": "East African Development Bank procurement",
-"last_ok": "2026-10-14 08:10",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://eadb.org/procurement/",
 "group": "intl"
 },
 {
 "name": "TDB Group procurement",
-"last_ok": "2026-10-14 08:10",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://www.tdbgroup.org/procurement/",
 "group": "intl"
 },
 {
 "name": "IUCEA procurement",
-"last_ok": "2026-10-14 08:10",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://www.iucea.org/procurement/",
 "group": "intl"
 },
 {
 "name": "ESAMI (Arusha) procurement",
-"last_ok": "2026-10-14 08:10",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://esami-africa.org/procurement",
 "group": "intl"
 },
 {
 "name": "Shelter Afrique procurement",
-"last_ok": "2026-10-14 08:10",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://www.shelterafrique.org/procurement/",
 "group": "intl"
 },
 {
 "name": "OPEC Fund procurement",
-"last_ok": "2026-10-14 08:10",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://opecfund.org/procurement",
 "group": "intl"
 },
 {
 "name": "IRC (International Rescue Committee) procurement",
-"last_ok": "2026-10-14 08:10",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://www.rescue.org/procurement",
 "group": "intl"
 },
 {
 "name": "Norwegian Refugee Council procurement",
-"last_ok": "2026-10-14 08:10",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://www.nrc.no/procurement/",
 "group": "intl"
 },
 {
 "name": "Welthungerhilfe tenders",
-"last_ok": "2026-10-14 08:10",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://www.welthungerhilfe.org/tenders",
 "group": "intl"
 },
 {
 "name": "Concern Worldwide tenders",
-"last_ok": "2026-10-14 08:10",
+"last_ok": "2026-10-14 10:30",
 "error": "",
 "url": "https://www.concern.net/tenders",
 "group": "intl"
 }
 ]
 },
-"workbook_rows": 146,
+"workbook_rows": 147,
 "tenders": [
 {
 "id": "7205-2026-2027-W-09",
@@ -5301,6 +5301,38 @@
 "next": "Read the notice and decide with the QS Director whether to pursue",
 "found_by": "Auto-scan",
 "source_id": "TZT:150901876",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "WEB:tenderimpulse_tanzania:f507631fe5d8e789",
+"title": "Main buyers in Tanzania on Tender Impulse include the Tanzania National Roads Agency (TANROADS), the Tanzania Rural and Urban Roads Agency (TARURA), the Ministry of Education and development agencies such as the Belgian agency Enabel. Development partners fund many of the larger Tanzanian projects.",
+"deadline": "",
+"body": {
+"no": "(not shown)",
+"date_found": "2026-10-14T00:00:00+03:00",
+"source": "aggregator",
+"url": "https://www.tenderimpulse.com/tanzania-tenders",
+"client": "See notice",
+"client_type": "government",
+"title": "Main buyers in Tanzania on Tender Impulse include the Tanzania National Roads Agency (TANROADS), the Tanzania Rural and Urban Roads Agency (TARURA), the Ministry of Education and development agencies such as the Belgian agency Enabel. Development partners fund many of the larger Tanzanian projects.",
+"scope": "From aggregator notice (1 lot) – read the tender document",
+"location": "Not stated – read the notice",
+"category": "civil",
+"crb": "See tender document",
+"funding": "unknown",
+"site_visit": "See tender document",
+"clar": "See tender document",
+"bid_security": "See tender document",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"notice": "TenderImpulse – Tanzania (web page)",
+"screen": "Check",
+"reason": "Auto (TenderImpulse – Tanzania): Deadline not shown on the source page – open the link and read the notice",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "WEB:tenderimpulse_tanzania:f507631fe5d8e789",
 "synced_by": "NEXUS auto-sync"
 }
 }
