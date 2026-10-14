@@ -1,26 +1,26 @@
 {
-"generated": "2026-10-14T11:10:10+03:00",
+"generated": "2026-10-14T11:41:48+03:00",
 "scanner": {
-"last_scan": "2026-10-14T11:07:00+03:00",
-"summary": "NeST: 45 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 229 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices re",
+"last_scan": "2026-10-14T11:41:00+03:00",
+"summary": "NeST: 45 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 229 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read → 1 new, 0 deadline change(s)",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-10-14 11:07",
+"last_ok": "2026-10-14 11:41",
 "error": "",
 "url": "https://nest.go.tz/tenders/published-tenders",
 "group": "tz"
 },
 {
 "name": "World Bank (Tanzania, civil works)",
-"last_ok": "2026-10-14 11:07",
+"last_ok": "2026-10-14 11:41",
 "error": "",
 "url": "https://projects.worldbank.org/en/projects-operations/procurement?countrycode_exact=TZ",
 "group": "intl"
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-10-14 11:07",
+"last_ok": "2026-10-14 11:41",
 "error": "",
 "url": "https://www.tanroads.go.tz/tenders",
 "group": "tz"
@@ -34,7 +34,7 @@
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-10-14 11:07",
+"last_ok": "2026-10-14 11:41",
 "error": "",
 "url": "https://www.ddotenders.co.tz/tender.php?page=home",
 "group": "tz"
@@ -69,7 +69,7 @@
 },
 {
 "name": "TanzaniaTenders.com (newspapers, portals, private)",
-"last_ok": "2026-10-14 11:07",
+"last_ok": "2026-10-14 11:41",
 "error": "",
 "url": "https://www.tanzaniatenders.com/tenders.php",
 "group": "tz"
@@ -412,7 +412,7 @@
 }
 ]
 },
-"workbook_rows": 147,
+"workbook_rows": 148,
 "tenders": [
 {
 "id": "7205-2026-2027-W-09",
@@ -5333,6 +5333,39 @@
 "next": "Read the notice and decide with the QS Director whether to pursue",
 "found_by": "Auto-scan",
 "source_id": "WEB:tenderimpulse_tanzania:f507631fe5d8e789",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TZT:150914529",
+"title": "Time Release Study Plus (TRS+) for the Port of Dar Es Salaam",
+"deadline": "2026-10-27T10:00:00+03:00",
+"body": {
+"no": "(not shown)",
+"date_found": "2026-10-14T00:00:00+03:00",
+"source": "press",
+"url": "https://www.tanzaniatenders.com/tender/time-release-study-plus-trs-port-dar-es-salaam-8fec5e1.php",
+"client": "See advert",
+"client_type": "government",
+"title": "Time Release Study Plus (TRS+) for the Port of Dar Es Salaam",
+"scope": "From press notice (1 lot) – read the tender document",
+"location": "Dar es Salaam",
+"category": "civil",
+"crb": "See tender document",
+"funding": "unknown",
+"site_visit": "See tender document",
+"clar": "See tender document",
+"deadline": "2026-10-27T10:00:00+03:00",
+"bid_security": "See tender document",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"notice": "TanzaniaTenders.com (newspapers / portals / private)",
+"screen": "Check",
+"reason": "Auto (TanzaniaTenders.com): Civil works in Dar/Coast – confirm CRB class and margin · deadline read from the web page – confirm",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "TZT:150914529",
 "synced_by": "NEXUS auto-sync"
 }
 }
