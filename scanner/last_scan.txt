@@ -1,39 +1,39 @@
-2026-10-15 17:19  NeST: 50 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 233 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read → no new tenders
+2026-10-15 17:55  NeST: 50 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 233 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read; TRC tenders: 1 notices read; TCRA tenders: 4 notices read; Azania Bank tenders: 6 notices read; NBC Bank procurement: 0 notices read; Ministry of Water tenders: 0 notices read; REA tenders: 1 notices read; DART tenders: FAILED (could not reach www.dart.go.tz (<urlopen error timed out>) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)); TASAC tenders: FAILED (could not reach www.tasac.go.tz (<urlopen error timed out>) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)); TMDA tenders: FAILED (could not reach www.tmda.go.tz (<urlopen error timed out>) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)); DUWASA tenders: 1 notices read; MWAUWASA tenders: 0 notices read; Ministry of Finance tenders: FAILED (could not reach www.mof.go.tz (<urlopen error timed out>) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)); SUA tenders (zabuni): 3 notices read; Tanzania Posts announcements: 0 notices read; TRA public notices: 0 notices read; UDSM announcements: 0 notices read; TAWA announcements: 0 notices read; Ministry of Health notices: 0 notices read; NM-AIST tenders: 0 notices read; PPRA public notices: 1 notices read; Exim Bank Tanzania tenders: 0 notices read → no new tenders
 
 Per source:
-  NeST: last OK 2026-10-15 17:19
-  World Bank (Tanzania, civil works): last OK 2026-10-15 17:19
-  TANROADS website: last OK 2026-10-15 17:19
-  CRDB Bank tenders: last OK 2026-10-15 16:45
-  DDO Tenders (newspapers, private, donors): last OK 2026-10-15 17:19
-  TPA current tenders: last OK 2026-10-15 16:45
-  TARURA tenders: last OK 2026-10-15 16:45
-  Bank of Tanzania tenders: last OK 2026-10-15 16:45
-  TEITI tenders: last OK 2026-10-15 16:45
-  TanzaniaTenders.com (newspapers, portals, private): last OK 2026-10-15 17:19
-  TRC tenders: last OK 2026-10-15 16:45
-  TCRA tenders: last OK 2026-10-15 16:45
-  Azania Bank tenders: last OK 2026-10-15 16:45
-  NBC Bank procurement: last OK 2026-10-15 16:45
-  Ministry of Water tenders: last OK 2026-10-15 16:45
-  REA tenders: last OK 2026-10-15 16:45
-  DART tenders: last OK 2026-10-15 16:45
-  TASAC tenders: last OK 2026-10-15 16:45
-  TMDA tenders: last OK 2026-10-15 16:45
-  DUWASA tenders: last OK 2026-10-15 16:45
-  MWAUWASA tenders: last OK 2026-10-15 16:45
-  Ministry of Finance tenders: last OK 2026-10-15 16:45
-  SUA tenders (zabuni): last OK 2026-10-15 16:45
-  Tanzania Posts announcements: last OK 2026-10-15 16:45
-  TRA public notices: last OK 2026-10-15 16:45
-  UDSM announcements: last OK 2026-10-15 16:45
-  TAWA announcements: last OK 2026-10-15 16:45
-  Ministry of Health notices: last OK 2026-10-15 16:45
-  NM-AIST tenders: last OK 2026-10-15 16:45
+  NeST: last OK 2026-10-15 17:55
+  World Bank (Tanzania, civil works): last OK 2026-10-15 17:55
+  TANROADS website: last OK 2026-10-15 17:55
+  CRDB Bank tenders: last OK 2026-10-15 17:55
+  DDO Tenders (newspapers, private, donors): last OK 2026-10-15 17:55
+  TPA current tenders: last OK 2026-10-15 17:55
+  TARURA tenders: last OK 2026-10-15 17:55
+  Bank of Tanzania tenders: last OK 2026-10-15 17:55
+  TEITI tenders: last OK 2026-10-15 17:55
+  TanzaniaTenders.com (newspapers, portals, private): last OK 2026-10-15 17:55
+  TRC tenders: last OK 2026-10-15 17:55
+  TCRA tenders: last OK 2026-10-15 17:55
+  Azania Bank tenders: last OK 2026-10-15 17:55
+  NBC Bank procurement: last OK 2026-10-15 17:55
+  Ministry of Water tenders: last OK 2026-10-15 17:55
+  REA tenders: last OK 2026-10-15 17:55
+  DART tenders: last OK 2026-10-15 16:45; last error 2026-10-15 17:55 could not reach www.dart.go.tz (<urlopen error timed out>) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)
+  TASAC tenders: last OK 2026-10-15 16:45; last error 2026-10-15 17:55 could not reach www.tasac.go.tz (<urlopen error timed out>) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)
+  TMDA tenders: last OK 2026-10-15 16:45; last error 2026-10-15 17:55 could not reach www.tmda.go.tz (<urlopen error timed out>) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)
+  DUWASA tenders: last OK 2026-10-15 17:55
+  MWAUWASA tenders: last OK 2026-10-15 17:55
+  Ministry of Finance tenders: last OK 2026-10-15 16:45; last error 2026-10-15 17:55 could not reach www.mof.go.tz (<urlopen error timed out>) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)
+  SUA tenders (zabuni): last OK 2026-10-15 17:55
+  Tanzania Posts announcements: last OK 2026-10-15 17:55
+  TRA public notices: last OK 2026-10-15 17:55
+  UDSM announcements: last OK 2026-10-15 17:55
+  TAWA announcements: last OK 2026-10-15 17:55
+  Ministry of Health notices: last OK 2026-10-15 17:55
+  NM-AIST tenders: last OK 2026-10-15 17:55
   BidDetail – Tanzania tenders: last OK 2026-10-15 16:45
   ZoomTanzania tenders: last OK 2026-10-15 16:45
-  PPRA public notices: last OK 2026-10-15 16:45
-  Exim Bank Tanzania tenders: last OK 2026-10-15 16:45
+  PPRA public notices: last OK 2026-10-15 17:55
+  Exim Bank Tanzania tenders: last OK 2026-10-15 17:55
   UK Find a Tender – Tanzania: last OK 2026-10-15 16:45
   UK Contracts Finder – Tanzania: last OK 2026-10-15 16:45
   EU Funding & Tenders – Tanzania: last OK 2026-10-15 16:45
