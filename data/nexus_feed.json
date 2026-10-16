@@ -1,12 +1,12 @@
 {
-"generated": "2026-10-17T02:27:44+03:00",
+"generated": "2026-10-17T02:50:27+03:00",
 "scanner": {
-"last_scan": "2026-10-17T02:26:00+03:00",
-"summary": "NeST: 38 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 239 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; BidDetail – Tanzania tenders: 2 notices read; ZoomTanzania tenders: 0 notices read; UK Find a Tender – Tanzania: 0 notices read; UK Contracts ",
+"last_scan": "2026-10-17T02:49:00+03:00",
+"summary": "NeST: 38 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 239 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read; TRC tenders: 1 notices read; TCRA tenders: 4 notices read; Azania Bank tenders: 6 notic",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-10-17 02:26",
+"last_ok": "2026-10-17 02:49",
 "error": "",
 "url": "https://nest.go.tz/tenders/published-tenders",
 "group": "tz"
@@ -20,49 +20,49 @@
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-10-17 02:26",
+"last_ok": "2026-10-17 02:49",
 "error": "",
 "url": "https://www.tanroads.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "CRDB Bank tenders",
-"last_ok": "2026-10-17 01:35",
+"last_ok": "2026-10-17 02:49",
 "error": "",
 "url": "https://crdbbank.co.tz/en/about-us/tender",
 "group": "tz"
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-10-17 02:26",
+"last_ok": "2026-10-17 02:49",
 "error": "",
 "url": "https://www.ddotenders.co.tz/tender.php?page=home",
 "group": "tz"
 },
 {
 "name": "TPA current tenders",
-"last_ok": "2026-10-17 01:35",
+"last_ok": "2026-10-17 02:49",
 "error": "",
 "url": "https://www.ports.go.tz/index.php/en/procurements/current-tenders-en",
 "group": "tz"
 },
 {
 "name": "TARURA tenders",
-"last_ok": "2026-10-17 01:35",
+"last_ok": "2026-10-17 02:49",
 "error": "",
 "url": "https://tarura.go.tz/trr/matangazo",
 "group": "tz"
 },
 {
 "name": "Bank of Tanzania tenders",
-"last_ok": "2026-10-17 01:35",
+"last_ok": "2026-10-17 02:49",
 "error": "",
 "url": "https://www.bot.go.tz/CallsforTender",
 "group": "tz"
 },
 {
 "name": "TEITI tenders",
-"last_ok": "2026-10-17 01:35",
+"last_ok": "2026-10-17 02:49",
 "error": "",
 "url": "https://www.teiti.go.tz/tenders",
 "group": "tz"
@@ -76,42 +76,42 @@
 },
 {
 "name": "TRC tenders",
-"last_ok": "2026-10-17 01:35",
+"last_ok": "2026-10-17 02:49",
 "error": "",
 "url": "https://www.trc.co.tz/tenders",
 "group": "tz"
 },
 {
 "name": "TCRA tenders",
-"last_ok": "2026-10-17 01:35",
+"last_ok": "2026-10-17 02:49",
 "error": "",
 "url": "https://www.tcra.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "Azania Bank tenders",
-"last_ok": "2026-10-17 01:35",
+"last_ok": "2026-10-17 02:49",
 "error": "",
 "url": "https://www.azaniabank.co.tz/tenders",
 "group": "tz"
 },
 {
 "name": "NBC Bank procurement",
-"last_ok": "2026-10-17 01:35",
+"last_ok": "2026-10-17 02:49",
 "error": "",
 "url": "https://www.nbc.co.tz/en/procurement/",
 "group": "tz"
 },
 {
 "name": "Ministry of Water tenders",
-"last_ok": "2026-10-17 01:35",
+"last_ok": "2026-10-17 02:49",
 "error": "",
 "url": "https://www.maji.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "REA tenders",
-"last_ok": "2026-10-17 01:35",
+"last_ok": "2026-10-17 02:49",
 "error": "",
 "url": "https://www.rea.go.tz/category/tenders",
 "group": "tz"
