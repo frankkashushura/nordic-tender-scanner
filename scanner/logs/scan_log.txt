@@ -3067,3 +3067,4 @@ Screened out (see the 'Screened Out' sheet): 1
 Empty Pipeline rows left: 347
 
 2026-10-16 04:02:57  Report saved: /home/runner/work/nordic-tender-scanner/nordic-tender-scanner/scanner/reports/scan_2026-10-16_0400.txt
+2026-10-16 04:32:14  NeST: 38 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 233 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read → no new tenders
