@@ -1,26 +1,26 @@
 {
-"generated": "2026-10-16T07:10:05+03:00",
+"generated": "2026-10-16T07:38:52+03:00",
 "scanner": {
-"last_scan": "2026-10-16T07:07:00+03:00",
-"summary": "NeST: 38 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 233 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices re",
+"last_scan": "2026-10-16T07:38:00+03:00",
+"summary": "NeST: 38 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 233 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read → 1 new, 0 deadline change(s)",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-10-16 07:07",
+"last_ok": "2026-10-16 07:38",
 "error": "",
 "url": "https://nest.go.tz/tenders/published-tenders",
 "group": "tz"
 },
 {
 "name": "World Bank (Tanzania, civil works)",
-"last_ok": "2026-10-16 07:07",
+"last_ok": "2026-10-16 07:38",
 "error": "",
 "url": "https://projects.worldbank.org/en/projects-operations/procurement?countrycode_exact=TZ",
 "group": "intl"
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-10-16 07:07",
+"last_ok": "2026-10-16 07:38",
 "error": "",
 "url": "https://www.tanroads.go.tz/tenders",
 "group": "tz"
@@ -34,7 +34,7 @@
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-10-16 07:07",
+"last_ok": "2026-10-16 07:38",
 "error": "",
 "url": "https://www.ddotenders.co.tz/tender.php?page=home",
 "group": "tz"
@@ -69,7 +69,7 @@
 },
 {
 "name": "TanzaniaTenders.com (newspapers, portals, private)",
-"last_ok": "2026-10-16 07:07",
+"last_ok": "2026-10-16 07:38",
 "error": "",
 "url": "https://www.tanzaniatenders.com/tenders.php",
 "group": "tz"
@@ -398,7 +398,7 @@
 }
 ]
 },
-"workbook_rows": 153,
+"workbook_rows": 154,
 "tenders": [
 {
 "id": "7205-2026-2027-W-09",
@@ -5521,6 +5521,39 @@
 "next": "Get the tender document, confirm value, CRB class, site visit and bid security; brief the MD",
 "found_by": "Auto-scan",
 "source_id": "d17aec02-c41f-49c0-aa64-3260b5e0d94e",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TZT:151019483",
+"title": "Provision Service for Fire Alarm Systems at Sukari House",
+"deadline": "2026-10-22T10:00:00+03:00",
+"body": {
+"no": "(not shown)",
+"date_found": "2026-10-16T00:00:00+03:00",
+"source": "press",
+"url": "https://www.tanzaniatenders.com/tender/provision-service-fire-alarm-systems-sukari-house-9005fdb.php",
+"client": "See advert",
+"client_type": "government",
+"title": "Provision Service for Fire Alarm Systems at Sukari House",
+"scope": "From press notice (1 lot) – read the tender document",
+"location": "Not stated – read the notice",
+"category": "building",
+"crb": "See tender document",
+"funding": "unknown",
+"site_visit": "See tender document",
+"clar": "See tender document",
+"deadline": "2026-10-22T10:00:00+03:00",
+"bid_security": "See tender document",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"notice": "TanzaniaTenders.com (newspapers / portals / private)",
+"screen": "Check",
+"reason": "Auto (TanzaniaTenders.com): Site not stated in the listing – read the notice · deadline read from the web page – confirm",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "TZT:151019483",
 "synced_by": "NEXUS auto-sync"
 }
 }

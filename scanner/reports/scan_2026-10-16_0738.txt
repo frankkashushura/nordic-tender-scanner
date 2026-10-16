@@ -1,0 +1,17 @@
+Tender Scan – Friday 16 October 2026, 07:38
+
+Sources checked:
+  NeST: 38 notices read
+  World Bank (Tanzania, civil works): 27 notices read
+  TANROADS website: 7 notices read
+  DDO Tenders (newspapers, private, donors): 233 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (1)
+  • closes Thu 22 Oct 10:00  See advert – Provision Service for Fire Alarm Systems at Sukari House  [Not stated – read the notice]  (no number; TanzaniaTenders.com (newspapers / portals / private))
+      https://www.tanzaniatenders.com/tender/provision-service-fire-alarm-systems-sukari-house-9005fdb.php
+
+Screened out (see the 'Screened Out' sheet): 1
+Empty Pipeline rows left: 346
