@@ -1,0 +1,17 @@
+Tender Scan – Friday 16 October 2026, 12:11
+
+Sources checked:
+  NeST: 38 notices read
+  World Bank (Tanzania, civil works): 27 notices read
+  TANROADS website: 7 notices read
+  DDO Tenders (newspapers, private, donors): 238 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+
+NEW – PURSUE (1)
+  • closes Fri 06 Nov 10:00  UNHCR – Logistics & Warehouse Management  [Dar es Salaam]  (no number; DDO Tenders (newspaper / private / donor))
+      https://www.ddotenders.co.tz/tender.php?page=home
+
+NEW – CHECK (0)
+
+Screened out (see the 'Screened Out' sheet): 0
+Empty Pipeline rows left: 345

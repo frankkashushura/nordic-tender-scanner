@@ -1,26 +1,26 @@
 {
-"generated": "2026-10-16T11:41:43+03:00",
+"generated": "2026-10-16T12:11:27+03:00",
 "scanner": {
-"last_scan": "2026-10-16T11:37:00+03:00",
-"summary": "NeST: 38 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 233 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices re",
+"last_scan": "2026-10-16T12:11:00+03:00",
+"summary": "NeST: 38 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 238 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read → 1 new, 0 deadline change(s)",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-10-16 11:37",
+"last_ok": "2026-10-16 12:11",
 "error": "",
 "url": "https://nest.go.tz/tenders/published-tenders",
 "group": "tz"
 },
 {
 "name": "World Bank (Tanzania, civil works)",
-"last_ok": "2026-10-16 11:37",
+"last_ok": "2026-10-16 12:11",
 "error": "",
 "url": "https://projects.worldbank.org/en/projects-operations/procurement?countrycode_exact=TZ",
 "group": "intl"
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-10-16 11:37",
+"last_ok": "2026-10-16 12:11",
 "error": "",
 "url": "https://www.tanroads.go.tz/tenders",
 "group": "tz"
@@ -34,7 +34,7 @@
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-10-16 11:37",
+"last_ok": "2026-10-16 12:11",
 "error": "",
 "url": "https://www.ddotenders.co.tz/tender.php?page=home",
 "group": "tz"
@@ -69,7 +69,7 @@
 },
 {
 "name": "TanzaniaTenders.com (newspapers, portals, private)",
-"last_ok": "2026-10-16 11:37",
+"last_ok": "2026-10-16 12:11",
 "error": "",
 "url": "https://www.tanzaniatenders.com/tenders.php",
 "group": "tz"
@@ -398,7 +398,7 @@
 }
 ]
 },
-"workbook_rows": 154,
+"workbook_rows": 155,
 "tenders": [
 {
 "id": "7205-2026-2027-W-09",
@@ -5554,6 +5554,40 @@
 "next": "Read the notice and decide with the QS Director whether to pursue",
 "found_by": "Auto-scan",
 "source_id": "TZT:151019483",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "DDO:3095",
+"title": "Logistics & Warehouse Management",
+"deadline": "2026-11-06T10:00:00+03:00",
+"body": {
+"no": "(not shown)",
+"date_found": "2026-10-16T00:00:00+03:00",
+"source": "press",
+"url": "https://www.ddotenders.co.tz/tender.php?page=home",
+"client": "UNHCR",
+"client_type": "parastatal (verify)",
+"title": "Logistics & Warehouse Management",
+"scope": "From press notice (1 lot) – read the tender document",
+"location": "Dar es Salaam",
+"category": "building",
+"crb": "See tender document",
+"funding": "unknown",
+"site_visit": "See tender document",
+"clar": "See tender document",
+"deadline": "2026-11-06T10:00:00+03:00",
+"bid_security": "See tender document",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-10-16T00:00:00+03:00",
+"notice": "DDO Tenders (newspaper / private / donor)",
+"screen": "Pursue",
+"reason": "Auto (DDO Tenders): Building works within reach of Dar · deadline read from the web page – confirm",
+"next": "Get the tender document, confirm value, CRB class, site visit and bid security; brief the MD",
+"found_by": "Auto-scan",
+"source_id": "DDO:3095",
 "synced_by": "NEXUS auto-sync"
 }
 }
