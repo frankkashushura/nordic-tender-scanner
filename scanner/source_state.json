@@ -1,8 +1,8 @@
 {
 "NeST": {
-"last_try": 1792266203.205957,
-"last_ok": "2026-10-17 22:19",
-"fails": 1,
+"last_try": 1792267313.523248,
+"last_ok": "2026-10-17 23:01",
+"fails": 0,
 "last_count": 48,
 "baseline_done": true,
 "last_error": "2026-10-17 22:43 could not reach nest.go.tz (<urlopen error timed out>)"
@@ -15,9 +15,9 @@
 "baseline_done": true
 },
 "TANROADS website": {
-"last_try": 1792266405.7769592,
-"last_ok": "2026-10-17 22:19",
-"fails": 1,
+"last_try": 1792267314.9153972,
+"last_ok": "2026-10-17 23:01",
+"fails": 0,
 "last_count": 7,
 "baseline_done": true,
 "last_error": "2026-10-17 22:43 could not reach www.tanroads.go.tz (<urlopen error timed out>)"

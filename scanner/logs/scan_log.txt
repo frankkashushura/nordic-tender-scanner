@@ -3428,3 +3428,4 @@ Screened out (see the 'Screened Out' sheet): 5
 Empty Pipeline rows left: 328
 
 2026-10-17 22:52:50  Report saved: /home/runner/work/nordic-tender-scanner/nordic-tender-scanner/scanner/reports/scan_2026-10-17_2243.txt
+2026-10-17 23:01:57  NeST: 48 notices read; TANROADS website: 7 notices read → no new tenders
