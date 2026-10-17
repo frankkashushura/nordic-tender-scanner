@@ -3369,3 +3369,62 @@ Empty Pipeline rows left: 334
 2026-10-17 21:57:54  NeST: 48 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 239 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read → no new tenders
 2026-10-17 22:20:33  EU Funding & Tenders – Tanzania: FAILED – HTTP Error 500: Internal Server Error
 2026-10-17 22:21:39  NeST: 48 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 239 notices read; BidDetail – Tanzania tenders: 2 notices read; ZoomTanzania tenders: 0 notices read; UK Find a Tender – Tanzania: 0 notices read; UK Contracts Finder – Tanzania: 0 notices read; EU Funding & Tenders – Tanzania: FAILED (HTTP Error 500: Internal Server Error); TradeMark Africa procurement: 0 notices read; Islamic Development Bank tenders: 0 notices read; African Union bids: 0 notices read; Global Fund business opportunities: 0 notices read; SADC procurement: 0 notices read; IOM procurement: 0 notices read; UNESCO procurement: 0 notices read; WFP procurement: 0 notices read; GlobalTenders – Tanzania: 5 notices read; TenderImpulse – Tanzania: 1 notices read; Lake Victoria Basin Commission procurement: 0 notices read; East African Development Bank procurement: 0 notices read; TDB Group procurement: 0 notices read; IUCEA procurement: 0 notices read; ESAMI (Arusha) procurement: 0 notices read; Shelter Afrique procurement: 0 notices read; OPEC Fund procurement: 0 notices read; IRC (International Rescue Committee) procurement: 0 notices read; Norwegian Refugee Council procurement: 0 notices read; Welthungerhilfe tenders: 0 notices read; Concern Worldwide tenders: 0 notices read → no new tenders
+2026-10-17 22:46:45  NeST: FAILED – could not reach nest.go.tz (<urlopen error timed out>)
+2026-10-17 22:50:07  TANROADS website: FAILED – could not reach www.tanroads.go.tz (<urlopen error timed out>)
+2026-10-17 22:52:50  NeST: FAILED (could not reach nest.go.tz (<urlopen error timed out>)); World Bank (Tanzania, civil works): 26 notices read; TANROADS website: FAILED (could not reach www.tanroads.go.tz (<urlopen error timed out>)); DDO Tenders (newspapers, private, donors): 239 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read; TRC tenders: 1 notices read; TCRA tenders: 4 notices read; Azania Bank tenders: 6 notices read; NBC Bank procurement: 0 notices read; Ministry of Water tenders: 0 notices read; REA tenders: 1 notices read; DART tenders: 1 notices read; TASAC tenders: 0 notices read; TMDA tenders: 0 notices read; DUWASA tenders: 1 notices read; MWAUWASA tenders: 0 notices read; Ministry of Finance tenders: 0 notices read; SUA tenders (zabuni): 3 notices read; Tanzania Posts announcements: 0 notices read; TRA public notices: 0 notices read; UDSM announcements: 0 notices read; TAWA announcements: 0 notices read; Ministry of Health notices: 0 notices read; NM-AIST tenders: 0 notices read; PPRA public notices: 1 notices read; Exim Bank Tanzania tenders: 0 notices read → 6 new, 0 deadline change(s)
+
+Tender Scan – Saturday 17 October 2026, 22:43
+
+Sources checked:
+  NeST: FAILED (could not reach nest.go.tz (<urlopen error timed out>))
+  World Bank (Tanzania, civil works): 26 notices read
+  TANROADS website: FAILED (could not reach www.tanroads.go.tz (<urlopen error timed out>))
+  DDO Tenders (newspapers, private, donors): 239 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+  CRDB Bank tenders: 0 notices read
+  TPA current tenders: 0 notices read
+  TARURA tenders: 0 notices read
+  Bank of Tanzania tenders: 0 notices read
+  TEITI tenders: 0 notices read
+  TRC tenders: 1 notices read
+  TCRA tenders: 4 notices read
+  Azania Bank tenders: 6 notices read
+  NBC Bank procurement: 0 notices read
+  Ministry of Water tenders: 0 notices read
+  REA tenders: 1 notices read
+  DART tenders: 1 notices read
+  TASAC tenders: 0 notices read
+  TMDA tenders: 0 notices read
+  DUWASA tenders: 1 notices read
+  MWAUWASA tenders: 0 notices read
+  Ministry of Finance tenders: 0 notices read
+  SUA tenders (zabuni): 3 notices read
+  Tanzania Posts announcements: 0 notices read
+  TRA public notices: 0 notices read
+  UDSM announcements: 0 notices read
+  TAWA announcements: 0 notices read
+  Ministry of Health notices: 0 notices read
+  NM-AIST tenders: 0 notices read
+  PPRA public notices: 1 notices read
+  Exim Bank Tanzania tenders: 0 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (6)
+  • closes Thu 22 Oct 10:00  See advert – Proposed Construction of National Prosecutions Service (Nps) Regional Office Building at Mara on Plot No.611 B  [Mara (Musoma)]  (no number; TanzaniaTenders.com (newspapers / portals / private))
+      https://www.tanzaniatenders.com/tender/proposed-construction-national-prosecutions-service-nps-regional-office-building-mara-plot-no-611-9015d0f.php
+  • closes Fri 23 Oct 10:00  See advert – Rehabilitation Works between Km 46 + 900 - Km 51 + 400 Along Mkalama - Mwangeza - Kidarafa Unpaved Regional Ro  [Not stated – read the notice]  (no number; TanzaniaTenders.com (newspapers / portals / private))
+      https://www.tanzaniatenders.com/tender/rehabilitation-works-between-km-46-900-km-51-400-along-mkalama-mwangeza-kidarafa-unpaved-r-9015cdf.php
+  • closes Fri 23 Oct 10:00  See advert – Rehabilitation Works between Sanza - Chaliigongo Road Section Along Manyoni East - Heka - Sanza - Chali Igongo  [Not stated – read the notice]  (no number; TanzaniaTenders.com (newspapers / portals / private))
+      https://www.tanzaniatenders.com/tender/rehabilitation-works-between-sanza-chaliigongo-road-section-along-manyoni-east-heka-sanza-ch-9015cde.php
+  • closes Fri 23 Oct 10:00  See advert – Proposed Upgrading of the 0.8 Km Dampo Road to Rigid Pavement Standard  [Not stated – read the notice]  (no number; TanzaniaTenders.com (newspapers / portals / private))
+      https://www.tanzaniatenders.com/tender/proposed-upgrading-0-8-km-dampo-road-rigid-pavement-standard-9015cd1.php
+  • closes Fri 23 Oct 10:00  See advert – Tender for Repair of Residential House  [Not stated – read the notice]  (no number; TanzaniaTenders.com (newspapers / portals / private))
+      https://www.tanzaniatenders.com/tender/tender-repair-residential-house-9015cc6.php
+  • closes Fri 23 Oct 10:00  See advert – Rehabilitation Works between Km 27 + 500 - Km 34 + 500 Along Iguguno Shamba - Nduguti - Gumanga Unpaved Region  [Not stated – read the notice]  (no number; TanzaniaTenders.com (newspapers / portals / private))
+      https://www.tanzaniatenders.com/tender/rehabilitation-works-between-km-27-500-km-34-500-along-iguguno-shamba-nduguti-gumanga-unpa-9015cc2.php
+
+Screened out (see the 'Screened Out' sheet): 5
+Empty Pipeline rows left: 328
+
+2026-10-17 22:52:50  Report saved: /home/runner/work/nordic-tender-scanner/nordic-tender-scanner/scanner/reports/scan_2026-10-17_2243.txt
