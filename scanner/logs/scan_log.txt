@@ -3154,3 +3154,64 @@ Empty Pipeline rows left: 345
 2026-10-17 02:50:27  NeST: 38 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 239 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read; TRC tenders: 1 notices read; TCRA tenders: 4 notices read; Azania Bank tenders: 6 notices read; NBC Bank procurement: 0 notices read; Ministry of Water tenders: 0 notices read; REA tenders: 1 notices read → no new tenders
 2026-10-17 03:07:24  NeST: 38 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 239 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; DART tenders: 1 notices read; TASAC tenders: 0 notices read; TMDA tenders: 0 notices read; DUWASA tenders: 1 notices read; MWAUWASA tenders: 0 notices read; Ministry of Finance tenders: 0 notices read; SUA tenders (zabuni): 3 notices read; Tanzania Posts announcements: 0 notices read; TRA public notices: 0 notices read; UDSM announcements: 0 notices read; TAWA announcements: 0 notices read; Ministry of Health notices: 0 notices read; NM-AIST tenders: 0 notices read; PPRA public notices: 1 notices read; Exim Bank Tanzania tenders: 0 notices read → no new tenders
 2026-10-17 03:47:44  NeST: 38 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 239 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read → no new tenders
+2026-10-17 04:22:30  NeST: 48 notices read; World Bank (Tanzania, civil works): 27 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 239 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read; TRC tenders: 1 notices read; TCRA tenders: 4 notices read; Azania Bank tenders: 6 notices read; NBC Bank procurement: 0 notices read; Ministry of Water tenders: 0 notices read; REA tenders: 1 notices read; DART tenders: 1 notices read; TASAC tenders: 0 notices read; TMDA tenders: 0 notices read; DUWASA tenders: 1 notices read; MWAUWASA tenders: 0 notices read; Ministry of Finance tenders: 0 notices read; SUA tenders (zabuni): 3 notices read; Tanzania Posts announcements: 0 notices read; TRA public notices: 0 notices read; UDSM announcements: 0 notices read; TAWA announcements: 0 notices read; Ministry of Health notices: 0 notices read; NM-AIST tenders: 0 notices read; PPRA public notices: 1 notices read; Exim Bank Tanzania tenders: 0 notices read → 8 new, 0 deadline change(s)
+
+Tender Scan – Saturday 17 October 2026, 04:20
+
+Sources checked:
+  NeST: 48 notices read
+  World Bank (Tanzania, civil works): 27 notices read
+  TANROADS website: 7 notices read
+  DDO Tenders (newspapers, private, donors): 239 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+  CRDB Bank tenders: 0 notices read
+  TPA current tenders: 0 notices read
+  TARURA tenders: 0 notices read
+  Bank of Tanzania tenders: 0 notices read
+  TEITI tenders: 0 notices read
+  TRC tenders: 1 notices read
+  TCRA tenders: 4 notices read
+  Azania Bank tenders: 6 notices read
+  NBC Bank procurement: 0 notices read
+  Ministry of Water tenders: 0 notices read
+  REA tenders: 1 notices read
+  DART tenders: 1 notices read
+  TASAC tenders: 0 notices read
+  TMDA tenders: 0 notices read
+  DUWASA tenders: 1 notices read
+  MWAUWASA tenders: 0 notices read
+  Ministry of Finance tenders: 0 notices read
+  SUA tenders (zabuni): 3 notices read
+  Tanzania Posts announcements: 0 notices read
+  TRA public notices: 0 notices read
+  UDSM announcements: 0 notices read
+  TAWA announcements: 0 notices read
+  Ministry of Health notices: 0 notices read
+  NM-AIST tenders: 0 notices read
+  PPRA public notices: 1 notices read
+  Exim Bank Tanzania tenders: 0 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (8)
+  • closes Thu 22 Oct 14:00  Mbinga Town Council – CONSTRUCTION OF COMMERCIAL SHOPS AT JUMBA LA MAENDELEO AREA IN MBINGA TOWN COUNCIL  [Ruvuma (Mbinga)]  (82N7/2026/2027/W/24; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Thu 22 Oct 14:00  Mbinga Town Council – CONSTRUCTION OF COMMERCIAL SHOPS AT MAKTABA AREA IN MBINGA TOWN COUNCIL  [Ruvuma (Mbinga)]  (82N7/2026/2027/W/23; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Fri 23 Oct 10:00  TANROADS - Singida Regional Office – Construction of Box Culverts (Composite Box Culverts) Size 2.5m X 2.0m Along Soweto (Kiomboi) - Kisiriri - Che  [Singida (from client's office – confirm site)]  (TR36/023/2026/2027/W/33; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Fri 23 Oct 10:00  Monduli District Council – CONSTRUCTION OF DIPPING TANKS (JOSHO) TO MESERANI CHINI, NAALARAMI, ALKATANI & NANJA VILLAGES IN MONDULI DISTR  [Arusha (Monduli)]  (70A2/2026/2027/W/10; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Fri 23 Oct 10:00  TANROADS - Singida Regional Office – Construction of Reinforced Concrete Drift Size 20mx6.5 Along Sibiti (SMY/SGD Brd.) - Nyahaa - Matala (SGD/Arus  [Arusha]  (TR36/023/2026/2027/W/32; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Fri 23 Oct 10:00  TANROADS - Singida Regional Office – Rehabilitation Works Between Km 14 + 000 - KM 18 + 000 along Iyumbu (TBR/SGD Brd.) - Mgungira - Magereza (R436  [Singida (from client's office – confirm site)]  (TR36/023/2026/2027/W/26; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Fri 23 Oct 10:00  TANROADS - Singida Regional Office – Rehabilitation Works Between Km 60 + 000 - Km 64 + 000 along Shelui - Sekenke - Tulya - Tyegelo Unpaved Region  [Singida (from client's office – confirm site)]  (TR36/023/2026/2027/W/31; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Fri 23 Oct 10:00  TANROADS - Singida Regional Office – Rehabilitation Works to Gravel Standard Between Km 60 + 000 - Km 63 + 000 along Sepuka - Mlandala - Mgungira U  [Singida (from client's office – confirm site)]  (TR36/023/2026/2027/W/30; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+
+Screened out (see the 'Screened Out' sheet): 11
+Empty Pipeline rows left: 337
+
+2026-10-17 04:22:30  Report saved: /home/runner/work/nordic-tender-scanner/nordic-tender-scanner/scanner/reports/scan_2026-10-17_0420.txt
