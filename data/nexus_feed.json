@@ -1,26 +1,26 @@
 {
-"generated": "2026-10-17T14:33:56+03:00",
+"generated": "2026-10-17T14:57:59+03:00",
 "scanner": {
-"last_scan": "2026-10-17T14:33:00+03:00",
-"summary": "NeST: 48 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 239 notices read → no new tenders",
+"last_scan": "2026-10-17T14:57:00+03:00",
+"summary": "NeST: 48 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 239 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read → 1 new, 0 deadline change(s)",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-10-17 14:33",
+"last_ok": "2026-10-17 14:57",
 "error": "",
 "url": "https://nest.go.tz/tenders/published-tenders",
 "group": "tz"
 },
 {
 "name": "World Bank (Tanzania, civil works)",
-"last_ok": "2026-10-17 14:07",
+"last_ok": "2026-10-17 14:57",
 "error": "",
 "url": "https://projects.worldbank.org/en/projects-operations/procurement?countrycode_exact=TZ",
 "group": "intl"
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-10-17 14:33",
+"last_ok": "2026-10-17 14:57",
 "error": "",
 "url": "https://www.tanroads.go.tz/tenders",
 "group": "tz"
@@ -34,7 +34,7 @@
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-10-17 14:33",
+"last_ok": "2026-10-17 14:57",
 "error": "",
 "url": "https://www.ddotenders.co.tz/tender.php?page=home",
 "group": "tz"
@@ -69,7 +69,7 @@
 },
 {
 "name": "TanzaniaTenders.com (newspapers, portals, private)",
-"last_ok": "2026-10-17 14:07",
+"last_ok": "2026-10-17 14:57",
 "error": "",
 "url": "https://www.tanzaniatenders.com/tenders.php",
 "group": "tz"
@@ -405,7 +405,7 @@
 }
 ]
 },
-"workbook_rows": 164,
+"workbook_rows": 165,
 "tenders": [
 {
 "id": "7205-2026-2027-W-09",
@@ -5900,6 +5900,39 @@
 "next": "Read the notice and decide with the QS Director whether to pursue",
 "found_by": "Auto-scan",
 "source_id": "TZT:151084215",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TZT:151099867",
+"title": "Provision of Construction of Two (2) Market Sheds with 64 Stalls and Associated External Works including paving, storm-water drainage, rainwater-harvesting tanks and wash points at Mkigo Ward, Kigoma District Council.",
+"deadline": "2026-11-13T10:00:00+03:00",
+"body": {
+"no": "(not shown)",
+"date_found": "2026-10-17T00:00:00+03:00",
+"source": "press",
+"url": "https://www.tanzaniatenders.com/tender/provision-construction-two-2-market-sheds-64-stalls-and-associated-external-works-including-paving-90199db.php",
+"client": "See advert",
+"client_type": "government",
+"title": "Provision of Construction of Two (2) Market Sheds with 64 Stalls and Associated External Works including paving, storm-water drainage, rainwater-harvesting tanks and wash points at Mkigo Ward, Kigoma District Council.",
+"scope": "From press notice (1 lot) – read the tender document",
+"location": "Kigoma",
+"category": "civil",
+"crb": "See tender document",
+"funding": "unknown",
+"site_visit": "See tender document",
+"clar": "See tender document",
+"deadline": "2026-11-13T10:00:00+03:00",
+"bid_security": "See tender document",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"notice": "TanzaniaTenders.com (newspapers / portals / private)",
+"screen": "Check",
+"reason": "Auto (TanzaniaTenders.com): Construction tender kept for review (would have been dropped: Remote civil works) · deadline read from the web page – confirm",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "TZT:151099867",
 "synced_by": "NEXUS auto-sync"
 }
 }
