@@ -1,7 +1,7 @@
 {
 "NeST": {
-"last_try": 1792357573.1909328,
-"last_ok": "2026-10-19 00:06",
+"last_try": 1792359182.6016893,
+"last_ok": "2026-10-19 00:33",
 "fails": 0,
 "last_count": 48,
 "baseline_done": true,
@@ -15,8 +15,8 @@
 "baseline_done": true
 },
 "TANROADS website": {
-"last_try": 1792357575.41816,
-"last_ok": "2026-10-19 00:06",
+"last_try": 1792359184.4123647,
+"last_ok": "2026-10-19 00:33",
 "fails": 0,
 "last_count": 7,
 "baseline_done": true,
@@ -46,8 +46,8 @@
 "last_error": "2026-09-26 00:17 could not reach www.nmbbank.co.tz (HTTP Error 403: Forbidden)"
 },
 "DDO Tenders (newspapers, private, donors)": {
-"last_try": 1792357578.53209,
-"last_ok": "2026-10-19 00:06",
+"last_try": 1792359187.2332058,
+"last_ok": "2026-10-19 00:33",
 "fails": 0,
 "last_count": 239,
 "baseline_done": true
@@ -331,12 +331,12 @@
 "baseline_done": true
 },
 "Enabel (Belgium) procurement": {
-"last_try": 1792350595.8143902,
+"last_try": 1792359189.0344338,
 "last_ok": "2026-10-18 22:09",
-"fails": 0,
+"fails": 1,
 "last_count": 0,
 "baseline_done": true,
-"last_error": "2026-10-18 20:07 IncompleteRead(49048 bytes read)"
+"last_error": "2026-10-19 00:33 IncompleteRead(49048 bytes read)"
 },
 "Global Fund business opportunities": {
 "last_try": 1792353394.805049,
