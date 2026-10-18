@@ -1,7 +1,7 @@
 {
 "NeST": {
-"last_try": 1792349422.4649727,
-"last_ok": "2026-10-18 21:50",
+"last_try": 1792350589.6410148,
+"last_ok": "2026-10-18 22:09",
 "fails": 0,
 "last_count": 48,
 "baseline_done": true,
@@ -15,8 +15,8 @@
 "baseline_done": true
 },
 "TANROADS website": {
-"last_try": 1792349424.9920964,
-"last_ok": "2026-10-18 21:50",
+"last_try": 1792350591.3079045,
+"last_ok": "2026-10-18 22:09",
 "fails": 0,
 "last_count": 7,
 "baseline_done": true,
@@ -46,8 +46,8 @@
 "last_error": "2026-09-26 00:17 could not reach www.nmbbank.co.tz (HTTP Error 403: Forbidden)"
 },
 "DDO Tenders (newspapers, private, donors)": {
-"last_try": 1792349427.9597394,
-"last_ok": "2026-10-18 21:50",
+"last_try": 1792350594.1297705,
+"last_ok": "2026-10-18 22:09",
 "fails": 0,
 "last_count": 239,
 "baseline_done": true
@@ -331,9 +331,9 @@
 "baseline_done": true
 },
 "Enabel (Belgium) procurement": {
-"last_try": 1792343346.7369845,
-"last_ok": "2026-10-18 18:00",
-"fails": 1,
+"last_try": 1792350595.8143902,
+"last_ok": "2026-10-18 22:09",
+"fails": 0,
 "last_count": 0,
 "baseline_done": true,
 "last_error": "2026-10-18 20:07 IncompleteRead(49048 bytes read)"

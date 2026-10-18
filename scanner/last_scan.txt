@@ -1,11 +1,11 @@
-2026-10-18 21:50  NeST: 48 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 239 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read → no new tenders
+2026-10-18 22:09  NeST: 48 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 239 notices read; Enabel (Belgium) procurement: 0 notices read → no new tenders
 
 Per source:
-  NeST: last OK 2026-10-18 21:50
+  NeST: last OK 2026-10-18 22:09
   World Bank (Tanzania, civil works): last OK 2026-10-18 21:50
-  TANROADS website: last OK 2026-10-18 21:50
+  TANROADS website: last OK 2026-10-18 22:09
   CRDB Bank tenders: last OK 2026-10-18 21:16
-  DDO Tenders (newspapers, private, donors): last OK 2026-10-18 21:50
+  DDO Tenders (newspapers, private, donors): last OK 2026-10-18 22:09
   TPA current tenders: last OK 2026-10-18 21:16
   TARURA tenders: last OK 2026-10-18 21:16
   Bank of Tanzania tenders: last OK 2026-10-18 21:16
@@ -39,7 +39,7 @@ Per source:
   TradeMark Africa procurement: last OK 2026-10-18 20:55
   Islamic Development Bank tenders: last OK 2026-10-18 20:55
   African Union bids: last OK 2026-10-18 20:55
-  Enabel (Belgium) procurement: last OK 2026-10-18 18:00; last error 2026-10-18 20:07 IncompleteRead(49048 bytes read)
+  Enabel (Belgium) procurement: last OK 2026-10-18 22:09
   Global Fund business opportunities: last OK 2026-10-18 20:55
   SADC procurement: last OK 2026-10-18 20:55
   IOM procurement: last OK 2026-10-18 20:55
