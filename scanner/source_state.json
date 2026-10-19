@@ -1,22 +1,22 @@
 {
 "NeST": {
-"last_try": 1792412086.320404,
-"last_ok": "2026-10-19 15:14",
+"last_try": 1792415024.00634,
+"last_ok": "2026-10-19 16:03",
 "fails": 0,
 "last_count": 54,
 "baseline_done": true,
 "last_error": "2026-10-17 22:43 could not reach nest.go.tz (<urlopen error timed out>)"
 },
 "World Bank (Tanzania, civil works)": {
-"last_try": 1792412089.8781064,
-"last_ok": "2026-10-19 15:14",
+"last_try": 1792415029.1075087,
+"last_ok": "2026-10-19 16:03",
 "fails": 0,
 "last_count": 26,
 "baseline_done": true
 },
 "TANROADS website": {
-"last_try": 1792412090.2493186,
-"last_ok": "2026-10-19 15:14",
+"last_try": 1792415029.4999847,
+"last_ok": "2026-10-19 16:03",
 "fails": 0,
 "last_count": 7,
 "baseline_done": true,
@@ -46,8 +46,8 @@
 "last_error": "2026-09-26 00:17 could not reach www.nmbbank.co.tz (HTTP Error 403: Forbidden)"
 },
 "DDO Tenders (newspapers, private, donors)": {
-"last_try": 1792412093.813594,
-"last_ok": "2026-10-19 15:14",
+"last_try": 1792415033.2025526,
+"last_ok": "2026-10-19 16:03",
 "fails": 0,
 "last_count": 242,
 "baseline_done": true
@@ -111,8 +111,8 @@
 "last_error": "2026-10-01 14:37 could not reach www.afdb.org (HTTP Error 403: Forbidden)"
 },
 "TanzaniaTenders.com (newspapers, portals, private)": {
-"last_try": 1792412095.6601193,
-"last_ok": "2026-10-19 15:14",
+"last_try": 1792415034.616524,
+"last_ok": "2026-10-19 16:03",
 "fails": 0,
 "last_count": 50,
 "baseline_done": true,
