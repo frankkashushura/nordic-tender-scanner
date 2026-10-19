@@ -1,26 +1,26 @@
 {
-"generated": "2026-10-19T16:51:59+03:00",
+"generated": "2026-10-19T17:27:09+03:00",
 "scanner": {
-"last_scan": "2026-10-19T16:49:00+03:00",
-"summary": "NeST: FAILED (could not reach nest.go.tz (HTTP Error 500: Internal Server Error)); World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 242 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA ten",
+"last_scan": "2026-10-19T17:25:00+03:00",
+"summary": "NeST: 54 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 242 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; BidDetail – Tanzania tenders: 3 notices read; ZoomTanzania tenders: 0 notices read; UK Find a Tender – Tanzania: 0 notices read; UK Contracts ",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-10-19 16:03",
-"error": "2026-10-19 16:49 could not reach nest.go.tz (HTTP Error 500: Internal Server Error)",
+"last_ok": "2026-10-19 17:25",
+"error": "",
 "url": "https://nest.go.tz/tenders/published-tenders",
 "group": "tz"
 },
 {
 "name": "World Bank (Tanzania, civil works)",
-"last_ok": "2026-10-19 16:49",
+"last_ok": "2026-10-19 17:25",
 "error": "",
 "url": "https://projects.worldbank.org/en/projects-operations/procurement?countrycode_exact=TZ",
 "group": "intl"
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-10-19 16:49",
+"last_ok": "2026-10-19 17:25",
 "error": "",
 "url": "https://www.tanroads.go.tz/tenders",
 "group": "tz"
@@ -34,7 +34,7 @@
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-10-19 16:49",
+"last_ok": "2026-10-19 17:25",
 "error": "",
 "url": "https://www.ddotenders.co.tz/tender.php?page=home",
 "group": "tz"
@@ -69,7 +69,7 @@
 },
 {
 "name": "TanzaniaTenders.com (newspapers, portals, private)",
-"last_ok": "2026-10-19 16:49",
+"last_ok": "2026-10-19 17:25",
 "error": "",
 "url": "https://www.tanzaniatenders.com/tenders.php",
 "group": "tz"
@@ -209,14 +209,14 @@
 },
 {
 "name": "BidDetail – Tanzania tenders",
-"last_ok": "2026-10-19 15:14",
+"last_ok": "2026-10-19 17:25",
 "error": "",
 "url": "https://www.biddetail.com/tanzania-tenders",
 "group": "tz"
 },
 {
 "name": "ZoomTanzania tenders",
-"last_ok": "2026-10-19 15:14",
+"last_ok": "2026-10-19 17:25",
 "error": "",
 "url": "https://www.zoomtanzania.net/tenders",
 "group": "tz"
@@ -237,42 +237,42 @@
 },
 {
 "name": "UK Find a Tender – Tanzania",
-"last_ok": "2026-10-19 15:14",
+"last_ok": "2026-10-19 17:25",
 "error": "",
 "url": "https://www.find-tender.service.gov.uk/Search/Results?keywords=Tanzania",
 "group": "intl"
 },
 {
 "name": "UK Contracts Finder – Tanzania",
-"last_ok": "2026-10-19 15:14",
+"last_ok": "2026-10-19 17:25",
 "error": "",
 "url": "https://www.contractsfinder.service.gov.uk/Search/Results?keywords=Tanzania",
 "group": "intl"
 },
 {
 "name": "EU Funding & Tenders – Tanzania",
-"last_ok": "2026-10-19 15:14",
+"last_ok": "2026-10-19 17:25",
 "error": "",
 "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-tenders?keywords=Tanzania",
 "group": "intl"
 },
 {
 "name": "TradeMark Africa procurement",
-"last_ok": "2026-10-19 15:14",
+"last_ok": "2026-10-19 17:25",
 "error": "",
 "url": "https://www.trademarkafrica.com/procurement/",
 "group": "intl"
 },
 {
 "name": "Islamic Development Bank tenders",
-"last_ok": "2026-10-19 15:14",
+"last_ok": "2026-10-19 17:25",
 "error": "",
 "url": "https://www.isdb.org/project-procurement/tenders",
 "group": "intl"
 },
 {
 "name": "African Union bids",
-"last_ok": "2026-10-19 15:14",
+"last_ok": "2026-10-19 17:25",
 "error": "",
 "url": "https://au.int/en/bids",
 "group": "intl"
@@ -286,133 +286,133 @@
 },
 {
 "name": "Global Fund business opportunities",
-"last_ok": "2026-10-19 15:14",
+"last_ok": "2026-10-19 17:25",
 "error": "",
 "url": "https://www.theglobalfund.org/en/business-opportunities/",
 "group": "intl"
 },
 {
 "name": "SADC procurement",
-"last_ok": "2026-10-19 15:14",
+"last_ok": "2026-10-19 17:25",
 "error": "",
 "url": "https://www.sadc.int/procurement",
 "group": "intl"
 },
 {
 "name": "IOM procurement",
-"last_ok": "2026-10-19 15:14",
+"last_ok": "2026-10-19 17:25",
 "error": "",
 "url": "https://www.iom.int/procurement-opportunities",
 "group": "intl"
 },
 {
 "name": "UNESCO procurement",
-"last_ok": "2026-10-19 15:14",
+"last_ok": "2026-10-19 17:25",
 "error": "",
 "url": "https://www.unesco.org/en/procurement",
 "group": "intl"
 },
 {
 "name": "WFP procurement",
-"last_ok": "2026-10-19 15:14",
+"last_ok": "2026-10-19 17:25",
 "error": "",
 "url": "https://www.wfp.org/procurement",
 "group": "intl"
 },
 {
 "name": "GlobalTenders – Tanzania",
-"last_ok": "2026-10-19 15:14",
+"last_ok": "2026-10-19 17:25",
 "error": "",
 "url": "https://www.globaltenders.com/tanzania-tenders.php",
 "group": "intl"
 },
 {
 "name": "TenderImpulse – Tanzania",
-"last_ok": "2026-10-19 15:14",
+"last_ok": "2026-10-19 17:25",
 "error": "",
 "url": "https://www.tenderimpulse.com/tanzania-tenders",
 "group": "intl"
 },
 {
 "name": "Lake Victoria Basin Commission procurement",
-"last_ok": "2026-10-19 15:14",
+"last_ok": "2026-10-19 17:25",
 "error": "",
 "url": "https://www.lvbcom.org/procurement",
 "group": "intl"
 },
 {
 "name": "East African Development Bank procurement",
-"last_ok": "2026-10-19 13:02",
-"error": "2026-10-19 15:14 could not reach eadb.org (The read operation timed out) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)",
+"last_ok": "2026-10-19 17:25",
+"error": "",
 "url": "https://eadb.org/procurement/",
 "group": "intl"
 },
 {
 "name": "TDB Group procurement",
-"last_ok": "2026-10-19 15:14",
+"last_ok": "2026-10-19 17:25",
 "error": "",
 "url": "https://www.tdbgroup.org/procurement/",
 "group": "intl"
 },
 {
 "name": "IUCEA procurement",
-"last_ok": "2026-10-19 15:14",
+"last_ok": "2026-10-19 17:25",
 "error": "",
 "url": "https://www.iucea.org/procurement/",
 "group": "intl"
 },
 {
 "name": "ESAMI (Arusha) procurement",
-"last_ok": "2026-10-19 15:14",
+"last_ok": "2026-10-19 17:25",
 "error": "",
 "url": "https://esami-africa.org/procurement",
 "group": "intl"
 },
 {
 "name": "Shelter Afrique procurement",
-"last_ok": "2026-10-19 15:14",
+"last_ok": "2026-10-19 17:25",
 "error": "",
 "url": "https://www.shelterafrique.org/procurement/",
 "group": "intl"
 },
 {
 "name": "OPEC Fund procurement",
-"last_ok": "2026-10-19 15:14",
+"last_ok": "2026-10-19 17:25",
 "error": "",
 "url": "https://opecfund.org/procurement",
 "group": "intl"
 },
 {
 "name": "IRC (International Rescue Committee) procurement",
-"last_ok": "2026-10-19 15:14",
+"last_ok": "2026-10-19 17:25",
 "error": "",
 "url": "https://www.rescue.org/procurement",
 "group": "intl"
 },
 {
 "name": "Norwegian Refugee Council procurement",
-"last_ok": "2026-10-19 15:14",
+"last_ok": "2026-10-19 17:25",
 "error": "",
 "url": "https://www.nrc.no/procurement/",
 "group": "intl"
 },
 {
 "name": "Welthungerhilfe tenders",
-"last_ok": "2026-10-19 15:14",
+"last_ok": "2026-10-19 17:25",
 "error": "",
 "url": "https://www.welthungerhilfe.org/tenders",
 "group": "intl"
 },
 {
 "name": "Concern Worldwide tenders",
-"last_ok": "2026-10-19 15:14",
+"last_ok": "2026-10-19 17:25",
 "error": "",
 "url": "https://www.concern.net/tenders",
 "group": "intl"
 }
 ]
 },
-"workbook_rows": 176,
+"workbook_rows": 177,
 "tenders": [
 {
 "id": "7205-2026-2027-W-09",
@@ -6306,6 +6306,38 @@
 "next": "Get the tender document, confirm value, CRB class, site visit and bid security; brief the MD",
 "found_by": "Auto-scan",
 "source_id": "3e80dce1-510c-4d41-9f04-251418bf36f0",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "WEB:biddetail_tanzania_tenders:80f93a46a31b4c34",
+"title": "Quotation Are Invited For Provision Of Construction Of Market She ......",
+"deadline": "",
+"body": {
+"no": "(not shown)",
+"date_found": "2026-10-19T00:00:00+03:00",
+"source": "aggregator",
+"url": "https://www.biddetail.com/latest-tenders/119546998$0d5d3e50-b63a-45a0-9172-15928b8c8805",
+"client": "See notice",
+"client_type": "government",
+"title": "Quotation Are Invited For Provision Of Construction Of Market She ......",
+"scope": "From aggregator notice (1 lot) – read the tender document",
+"location": "Not stated – read the notice",
+"category": "building",
+"crb": "See tender document",
+"funding": "unknown",
+"site_visit": "See tender document",
+"clar": "See tender document",
+"bid_security": "See tender document",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"notice": "BidDetail – Tanzania tenders (web page)",
+"screen": "Check",
+"reason": "Auto (BidDetail – Tanzania tenders): Deadline not shown on the source page – open the link and read the notice",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "WEB:biddetail_tanzania_tenders:80f93a46a31b4c34",
 "synced_by": "NEXUS auto-sync"
 }
 }
