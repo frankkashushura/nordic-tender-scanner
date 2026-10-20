@@ -1,0 +1,46 @@
+Tender Scan – Tuesday 20 October 2026, 04:19
+
+Sources checked:
+  NeST: 65 notices read
+  World Bank (Tanzania, civil works): 26 notices read
+  TANROADS website: 7 notices read
+  DDO Tenders (newspapers, private, donors): 242 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (14)
+  • closes Mon 26 Oct 10:00  Busega District Council – CONSTRUCTION OF FENCE AND EXTERNAL WORKS AND LANDSCAPING AT BUSEGA DC  [Simiyu (from client's office – confirm site)]  (47BB5/2026/2027/W/06; Small Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Mon 26 Oct 10:00  TARURA - Iringa Regional Office – CONSTRUCTION OF STORM WATER DRAINAGE ALONG MGOVANO, KITASENGWA MKOGA ROAD AND CLEMENT ROAD, CONSTRUCTION OF BO  [Iringa (from client's office – confirm site)]  (S10/005/2026/2027/W/105; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Mon 26 Oct 11:00  Busega District Council – Construction of HOD residential house  [Simiyu (from client's office – confirm site)]  (47BB5/2026/2027/W/03; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Tue 27 Oct 14:00  Tabora Regional Secretariat – COMPLETE REHABILITATION OF SIKONGE DISTRICT ADMINISTRATIVE SECRETARY'S HOUSE (FENCING AND EXTERNAL WORKS)  [Tabora (Sikonge)]  (85/2026/2027/W/12; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Tue 27 Oct 14:00  Tabora Regional Secretariat – COMPLETE CONSTRUCTION OF KALIUA DISTRICT COMMISSIONER'S OFFICE (FENCING AND EXTERNAL WORKS)  [Tabora (from client's office – confirm site)]  (85/2026/2027/W/03; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Tue 27 Oct 14:00  Tabora Regional Secretariat – CONSTRUCTION OF BUKENE DIVISION OFFICER'S OFFICE  [Tabora (from client's office – confirm site)]  (85/2026/2027/W/11; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Tue 27 Oct 14:00  Tabora Regional Secretariat – COMPLETE CONSTRUCTION OF KALIUA DISTRICT ADMINISTRATIVE SECRETARY'S HOUSE (FENCING AND EXTERNAL WORKS)  [Tabora (from client's office – confirm site)]  (85/2026/2027/W/06; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Tue 27 Oct 14:00  Tabora Regional Secretariat – CONSTRUCTION OF IGUNGA DISTRICT ADMINISTRATIVE SECRETARY'S HOUSE.  [Tabora (Igunga)]  (85/2026/2027/W/01; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Tue 27 Oct 14:00  Tabora Regional Secretariat – CONSTRUCTION OF UYUI DISTRICT ADMINISTRATIVE SECRETARY'S HOUSE.  [Tabora (from client's office – confirm site)]  (85/2026/2027/W/02; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Tue 27 Oct 14:00  Tabora Regional Secretariat – COMPLETE REHABILITATION OF SIKONGE DISTRICT COMMISSIONER'S HOUSE(FENCING AND EXTERNAL WORKS  [Tabora (Sikonge)]  (85/2026/2027/W/05; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Tue 27 Oct 14:00  Tabora Regional Secretariat – CONSTRUCTION OF URAMBO DISTRICT ADMINISTRATIVE SECRETARY'S HOUSE.  [Tabora (from client's office – confirm site)]  (85/2026/2027/W/07; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Tue 27 Oct 14:00  Tabora Regional Secretariat – CONSTRUCTION OF NZEGA DISTRICT ADMINISTRATIVE SECRETARY'S HOUSE.  [Tabora (from client's office – confirm site)]  (85/2026/2027/W/04; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Tue 27 Oct 14:00  Tabora Regional Secretariat – CONSTRUCTION OF TABORA DISTRICT COMMISSIONER'S HOUSE.  [Tabora]  (85/2026/2027/W/10; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Thu 29 Oct 14:00  Tanzania National Parks – CONSTRUCTION OF BRIDGES AT BONA, MOKASI AND WARANGI YA CHINI IN SERENGETI NATIONAL PARK  [Arusha (from client's office – confirm site)]  (TR219/2026/2027/W/13; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+
+DEADLINE CHANGED AT SOURCE
+  • 88Z3/2026/2027/W/121: was 21 Oct 14:00, now 02 Nov 14:00
+
+Screened out (see the 'Screened Out' sheet): 5
+Empty Pipeline rows left: 309

@@ -3696,3 +3696,53 @@ Empty Pipeline rows left: 323
 2026-10-20 02:37:31  NeST: 54 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 242 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read; TRC tenders: 1 notices read; TCRA tenders: 4 notices read; Azania Bank tenders: 6 notices read; NBC Bank procurement: 0 notices read; Ministry of Water tenders: 0 notices read; REA tenders: 1 notices read; DART tenders: 1 notices read; TASAC tenders: 0 notices read; TMDA tenders: 0 notices read; DUWASA tenders: 1 notices read; MWAUWASA tenders: 0 notices read; Ministry of Finance tenders: 0 notices read; SUA tenders (zabuni): 3 notices read; Tanzania Posts announcements: 0 notices read; TRA public notices: 0 notices read; UDSM announcements: 0 notices read; TAWA announcements: 0 notices read; Ministry of Health notices: 0 notices read; NM-AIST tenders: 0 notices read; BidDetail – Tanzania tenders: 3 notices read; ZoomTanzania tenders: 0 notices read; PPRA public notices: 1 notices read; Exim Bank Tanzania tenders: 0 notices read; UK Find a Tender – Tanzania: 0 notices read; UK Contracts Finder – Tanzania: 0 notices read; EU Funding & Tenders – Tanzania: 0 notices read; TradeMark Africa procurement: 0 notices read; Islamic Development Bank tenders: 0 notices read; African Union bids: 0 notices read; Global Fund business opportunities: 0 notices read; SADC procurement: 0 notices read; IOM procurement: 0 notices read; UNESCO procurement: 0 notices read; WFP procurement: 0 notices read; GlobalTenders – Tanzania: 5 notices read; TenderImpulse – Tanzania: 1 notices read; Lake Victoria Basin Commission procurement: 0 notices read; East African Development Bank procurement: 0 notices read; TDB Group procurement: 0 notices read; IUCEA procurement: 0 notices read; ESAMI (Arusha) procurement: 0 notices read; Shelter Afrique procurement: 0 notices read; OPEC Fund procurement: 0 notices read; IRC (International Rescue Committee) procurement: 0 notices read; Norwegian Refugee Council procurement: 0 notices read; Welthungerhilfe tenders: 0 notices read; Concern Worldwide tenders: 0 notices read → no new tenders
 2026-10-20 03:01:23  NeST: 54 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 242 notices read → no new tenders
 2026-10-20 03:44:11  NeST: 54 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 242 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read; TRC tenders: 1 notices read; TCRA tenders: 4 notices read; Azania Bank tenders: 6 notices read; NBC Bank procurement: 0 notices read; Ministry of Water tenders: 0 notices read; REA tenders: 1 notices read; DART tenders: 1 notices read; TASAC tenders: 0 notices read; TMDA tenders: 0 notices read; DUWASA tenders: 1 notices read; MWAUWASA tenders: 0 notices read; Ministry of Finance tenders: 0 notices read; SUA tenders (zabuni): 3 notices read; Tanzania Posts announcements: 0 notices read; TRA public notices: 0 notices read; UDSM announcements: 0 notices read; TAWA announcements: 0 notices read; Ministry of Health notices: 0 notices read; NM-AIST tenders: 0 notices read; PPRA public notices: 1 notices read; Exim Bank Tanzania tenders: 0 notices read → no new tenders
+2026-10-20 04:19:41  NeST: 65 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 242 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read → 14 new, 1 deadline change(s)
+
+Tender Scan – Tuesday 20 October 2026, 04:19
+
+Sources checked:
+  NeST: 65 notices read
+  World Bank (Tanzania, civil works): 26 notices read
+  TANROADS website: 7 notices read
+  DDO Tenders (newspapers, private, donors): 242 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (14)
+  • closes Mon 26 Oct 10:00  Busega District Council – CONSTRUCTION OF FENCE AND EXTERNAL WORKS AND LANDSCAPING AT BUSEGA DC  [Simiyu (from client's office – confirm site)]  (47BB5/2026/2027/W/06; Small Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Mon 26 Oct 10:00  TARURA - Iringa Regional Office – CONSTRUCTION OF STORM WATER DRAINAGE ALONG MGOVANO, KITASENGWA MKOGA ROAD AND CLEMENT ROAD, CONSTRUCTION OF BO  [Iringa (from client's office – confirm site)]  (S10/005/2026/2027/W/105; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Mon 26 Oct 11:00  Busega District Council – Construction of HOD residential house  [Simiyu (from client's office – confirm site)]  (47BB5/2026/2027/W/03; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Tue 27 Oct 14:00  Tabora Regional Secretariat – COMPLETE REHABILITATION OF SIKONGE DISTRICT ADMINISTRATIVE SECRETARY'S HOUSE (FENCING AND EXTERNAL WORKS)  [Tabora (Sikonge)]  (85/2026/2027/W/12; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Tue 27 Oct 14:00  Tabora Regional Secretariat – COMPLETE CONSTRUCTION OF KALIUA DISTRICT COMMISSIONER'S OFFICE (FENCING AND EXTERNAL WORKS)  [Tabora (from client's office – confirm site)]  (85/2026/2027/W/03; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Tue 27 Oct 14:00  Tabora Regional Secretariat – CONSTRUCTION OF BUKENE DIVISION OFFICER'S OFFICE  [Tabora (from client's office – confirm site)]  (85/2026/2027/W/11; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Tue 27 Oct 14:00  Tabora Regional Secretariat – COMPLETE CONSTRUCTION OF KALIUA DISTRICT ADMINISTRATIVE SECRETARY'S HOUSE (FENCING AND EXTERNAL WORKS)  [Tabora (from client's office – confirm site)]  (85/2026/2027/W/06; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Tue 27 Oct 14:00  Tabora Regional Secretariat – CONSTRUCTION OF IGUNGA DISTRICT ADMINISTRATIVE SECRETARY'S HOUSE.  [Tabora (Igunga)]  (85/2026/2027/W/01; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Tue 27 Oct 14:00  Tabora Regional Secretariat – CONSTRUCTION OF UYUI DISTRICT ADMINISTRATIVE SECRETARY'S HOUSE.  [Tabora (from client's office – confirm site)]  (85/2026/2027/W/02; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Tue 27 Oct 14:00  Tabora Regional Secretariat – COMPLETE REHABILITATION OF SIKONGE DISTRICT COMMISSIONER'S HOUSE(FENCING AND EXTERNAL WORKS  [Tabora (Sikonge)]  (85/2026/2027/W/05; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Tue 27 Oct 14:00  Tabora Regional Secretariat – CONSTRUCTION OF URAMBO DISTRICT ADMINISTRATIVE SECRETARY'S HOUSE.  [Tabora (from client's office – confirm site)]  (85/2026/2027/W/07; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Tue 27 Oct 14:00  Tabora Regional Secretariat – CONSTRUCTION OF NZEGA DISTRICT ADMINISTRATIVE SECRETARY'S HOUSE.  [Tabora (from client's office – confirm site)]  (85/2026/2027/W/04; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Tue 27 Oct 14:00  Tabora Regional Secretariat – CONSTRUCTION OF TABORA DISTRICT COMMISSIONER'S HOUSE.  [Tabora]  (85/2026/2027/W/10; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Thu 29 Oct 14:00  Tanzania National Parks – CONSTRUCTION OF BRIDGES AT BONA, MOKASI AND WARANGI YA CHINI IN SERENGETI NATIONAL PARK  [Arusha (from client's office – confirm site)]  (TR219/2026/2027/W/13; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+
+DEADLINE CHANGED AT SOURCE
+  • 88Z3/2026/2027/W/121: was 21 Oct 14:00, now 02 Nov 14:00
+
+Screened out (see the 'Screened Out' sheet): 5
+Empty Pipeline rows left: 309
+
+2026-10-20 04:19:41  Report saved: /home/runner/work/nordic-tender-scanner/nordic-tender-scanner/scanner/reports/scan_2026-10-20_0419.txt
