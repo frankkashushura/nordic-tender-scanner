@@ -1,26 +1,26 @@
 {
-"generated": "2026-10-21T05:18:25+03:00",
+"generated": "2026-10-21T05:54:47+03:00",
 "scanner": {
-"last_scan": "2026-10-21T05:17:00+03:00",
-"summary": "NeST: 65 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 244 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read; TRC tenders: 1 notices read; TCRA tenders: 4 notices read; Azania Bank tenders: 6 notic",
+"last_scan": "2026-10-21T05:53:00+03:00",
+"summary": "NeST: 66 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 244 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; BidDetail – Tanzania tenders: 3 notices read; ZoomTanzania tenders: 0 notices read; UK Find a Tender – Tanzania: 0 notices read; UK Contracts ",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-10-21 05:17",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://nest.go.tz/tenders/published-tenders",
 "group": "tz"
 },
 {
 "name": "World Bank (Tanzania, civil works)",
-"last_ok": "2026-10-21 04:51",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://projects.worldbank.org/en/projects-operations/procurement?countrycode_exact=TZ",
 "group": "intl"
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-10-21 05:17",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://www.tanroads.go.tz/tenders",
 "group": "tz"
@@ -34,7 +34,7 @@
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-10-21 05:17",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://www.ddotenders.co.tz/tender.php?page=home",
 "group": "tz"
@@ -69,7 +69,7 @@
 },
 {
 "name": "TanzaniaTenders.com (newspapers, portals, private)",
-"last_ok": "2026-10-21 04:51",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://www.tanzaniatenders.com/tenders.php",
 "group": "tz"
@@ -209,14 +209,14 @@
 },
 {
 "name": "BidDetail – Tanzania tenders",
-"last_ok": "2026-10-21 03:30",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://www.biddetail.com/tanzania-tenders",
 "group": "tz"
 },
 {
 "name": "ZoomTanzania tenders",
-"last_ok": "2026-10-21 03:30",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://www.zoomtanzania.net/tenders",
 "group": "tz"
@@ -237,42 +237,42 @@
 },
 {
 "name": "UK Find a Tender – Tanzania",
-"last_ok": "2026-10-21 03:30",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://www.find-tender.service.gov.uk/Search/Results?keywords=Tanzania",
 "group": "intl"
 },
 {
 "name": "UK Contracts Finder – Tanzania",
-"last_ok": "2026-10-21 03:30",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://www.contractsfinder.service.gov.uk/Search/Results?keywords=Tanzania",
 "group": "intl"
 },
 {
 "name": "EU Funding & Tenders – Tanzania",
-"last_ok": "2026-10-21 03:30",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-tenders?keywords=Tanzania",
 "group": "intl"
 },
 {
 "name": "TradeMark Africa procurement",
-"last_ok": "2026-10-21 03:30",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://www.trademarkafrica.com/procurement/",
 "group": "intl"
 },
 {
 "name": "Islamic Development Bank tenders",
-"last_ok": "2026-10-21 03:30",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://www.isdb.org/project-procurement/tenders",
 "group": "intl"
 },
 {
 "name": "African Union bids",
-"last_ok": "2026-10-21 03:30",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://au.int/en/bids",
 "group": "intl"
@@ -286,133 +286,133 @@
 },
 {
 "name": "Global Fund business opportunities",
-"last_ok": "2026-10-21 03:30",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://www.theglobalfund.org/en/business-opportunities/",
 "group": "intl"
 },
 {
 "name": "SADC procurement",
-"last_ok": "2026-10-21 03:30",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://www.sadc.int/procurement",
 "group": "intl"
 },
 {
 "name": "IOM procurement",
-"last_ok": "2026-10-21 03:30",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://www.iom.int/procurement-opportunities",
 "group": "intl"
 },
 {
 "name": "UNESCO procurement",
-"last_ok": "2026-10-21 03:30",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://www.unesco.org/en/procurement",
 "group": "intl"
 },
 {
 "name": "WFP procurement",
-"last_ok": "2026-10-21 03:30",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://www.wfp.org/procurement",
 "group": "intl"
 },
 {
 "name": "GlobalTenders – Tanzania",
-"last_ok": "2026-10-21 03:30",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://www.globaltenders.com/tanzania-tenders.php",
 "group": "intl"
 },
 {
 "name": "TenderImpulse – Tanzania",
-"last_ok": "2026-10-21 03:30",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://www.tenderimpulse.com/tanzania-tenders",
 "group": "intl"
 },
 {
 "name": "Lake Victoria Basin Commission procurement",
-"last_ok": "2026-10-21 03:30",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://www.lvbcom.org/procurement",
 "group": "intl"
 },
 {
 "name": "East African Development Bank procurement",
-"last_ok": "2026-10-21 03:30",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://eadb.org/procurement/",
 "group": "intl"
 },
 {
 "name": "TDB Group procurement",
-"last_ok": "2026-10-21 03:30",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://www.tdbgroup.org/procurement/",
 "group": "intl"
 },
 {
 "name": "IUCEA procurement",
-"last_ok": "2026-10-21 03:30",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://www.iucea.org/procurement/",
 "group": "intl"
 },
 {
 "name": "ESAMI (Arusha) procurement",
-"last_ok": "2026-10-21 03:30",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://esami-africa.org/procurement",
 "group": "intl"
 },
 {
 "name": "Shelter Afrique procurement",
-"last_ok": "2026-10-21 03:30",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://www.shelterafrique.org/procurement/",
 "group": "intl"
 },
 {
 "name": "OPEC Fund procurement",
-"last_ok": "2026-10-21 03:30",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://opecfund.org/procurement",
 "group": "intl"
 },
 {
 "name": "IRC (International Rescue Committee) procurement",
-"last_ok": "2026-10-21 03:30",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://www.rescue.org/procurement",
 "group": "intl"
 },
 {
 "name": "Norwegian Refugee Council procurement",
-"last_ok": "2026-10-21 03:30",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://www.nrc.no/procurement/",
 "group": "intl"
 },
 {
 "name": "Welthungerhilfe tenders",
-"last_ok": "2026-10-21 03:30",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://www.welthungerhilfe.org/tenders",
 "group": "intl"
 },
 {
 "name": "Concern Worldwide tenders",
-"last_ok": "2026-10-21 03:30",
+"last_ok": "2026-10-21 05:53",
 "error": "",
 "url": "https://www.concern.net/tenders",
 "group": "intl"
 }
 ]
 },
-"workbook_rows": 192,
+"workbook_rows": 195,
 "tenders": [
 {
 "id": "7205-2026-2027-W-09",
@@ -6847,6 +6847,108 @@
 "next": "Read the notice and decide with the QS Director whether to pursue",
 "found_by": "Auto-scan",
 "source_id": "TZT:151201963",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "70A8-2026-2027-W-03",
+"title": "Construction 2 staff houses (Head of Division/Unit) at Simanjiro District Council",
+"deadline": "2026-10-26T14:00:00+03:00",
+"body": {
+"no": "70A8/2026/2027/W/03",
+"date_found": "2026-10-21T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "Simanjiro District Council",
+"client_type": "government",
+"title": "Construction 2 staff houses (Head of Division/Unit) at Simanjiro District Council",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Manyara (from client's office – confirm site)",
+"category": "building",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-10-26T14:00:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-10-20T00:00:00+03:00",
+"notice": "Small Works / Tender",
+"screen": "Check",
+"reason": "Auto (Small Works / Tender): Construction tender kept for review (would have been dropped: Remote and closing soon)",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "997fd8a5-514e-4276-95bb-75656e422f29",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TR168-2026-2027-W-11",
+"title": "CONSTRUCTION OF A WATER STORAGE TANK WITH A CAPACITY OF 1,000 CUBIC METERS AND WATER NETWORK IMPROVEMENT PROJECT AT MWANDIGA",
+"deadline": "2026-10-27T10:00:00+03:00",
+"body": {
+"no": "TR168/2026/2027/W/11",
+"date_found": "2026-10-21T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "Kigoma Urban Water Supply and Sanitation Authority",
+"client_type": "government",
+"title": "CONSTRUCTION OF A WATER STORAGE TANK WITH A CAPACITY OF 1,000 CUBIC METERS AND WATER NETWORK IMPROVEMENT PROJECT AT MWANDIGA",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Kigoma (from client's office – confirm site)",
+"category": "building",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-10-27T10:00:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-10-20T00:00:00+03:00",
+"notice": "Small Works / Tender",
+"screen": "Check",
+"reason": "Auto (Small Works / Tender): Construction tender kept for review (would have been dropped: Remote and closing soon)",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "81e48106-cebd-413d-b4b7-80904a5299f3",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TR36-014-2026-2027-W-56",
+"title": "Bridge capacity improvement in Morogoro Region",
+"deadline": "2026-10-28T15:00:00+03:00",
+"body": {
+"no": "TR36/014/2026/2027/W/56",
+"date_found": "2026-10-21T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "TANROADS - Morogoro Regional Office",
+"client_type": "government",
+"title": "Bridge capacity improvement in Morogoro Region",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Morogoro",
+"category": "civil",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-10-28T15:00:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-10-21T00:00:00+03:00",
+"notice": "Small Works / Tender",
+"screen": "Check",
+"reason": "Auto (Small Works / Tender): Civil works – confirm site, CRB class and margin",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "d0ceb39c-0f55-4a0a-82a7-009152479e47",
 "synced_by": "NEXUS auto-sync"
 }
 }
