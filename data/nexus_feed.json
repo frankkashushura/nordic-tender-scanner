@@ -1,173 +1,173 @@
 {
-"generated": "2026-10-22T09:48:42+03:00",
+"generated": "2026-10-22T10:33:33+03:00",
 "scanner": {
-"last_scan": "2026-10-22T09:48:00+03:00",
-"summary": "NeST: 76 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 244 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; TRA public notices: 0 notices read; UDSM announcements: 0 notices read; TAWA announcements: 0 notices read; Ministry of Health notices: 0 noti",
+"last_scan": "2026-10-22T10:31:00+03:00",
+"summary": "NeST: 76 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 244 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices re",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-10-22 09:48",
+"last_ok": "2026-10-22 10:31",
 "error": "",
 "url": "https://nest.go.tz/tenders/published-tenders",
 "group": "tz"
 },
 {
 "name": "World Bank (Tanzania, civil works)",
-"last_ok": "2026-10-22 09:48",
+"last_ok": "2026-10-22 10:31",
 "error": "",
 "url": "https://projects.worldbank.org/en/projects-operations/procurement?countrycode_exact=TZ",
 "group": "intl"
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-10-22 09:48",
+"last_ok": "2026-10-22 10:31",
 "error": "",
 "url": "https://www.tanroads.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "CRDB Bank tenders",
-"last_ok": "2026-10-22 09:08",
+"last_ok": "2026-10-22 10:31",
 "error": "",
 "url": "https://crdbbank.co.tz/en/about-us/tender",
 "group": "tz"
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-10-22 09:48",
+"last_ok": "2026-10-22 10:31",
 "error": "",
 "url": "https://www.ddotenders.co.tz/tender.php?page=home",
 "group": "tz"
 },
 {
 "name": "TPA current tenders",
-"last_ok": "2026-10-22 09:08",
+"last_ok": "2026-10-22 10:31",
 "error": "",
 "url": "https://www.ports.go.tz/index.php/en/procurements/current-tenders-en",
 "group": "tz"
 },
 {
 "name": "TARURA tenders",
-"last_ok": "2026-10-22 09:08",
+"last_ok": "2026-10-22 10:31",
 "error": "",
 "url": "https://tarura.go.tz/trr/matangazo",
 "group": "tz"
 },
 {
 "name": "Bank of Tanzania tenders",
-"last_ok": "2026-10-22 09:08",
+"last_ok": "2026-10-22 10:31",
 "error": "",
 "url": "https://www.bot.go.tz/CallsforTender",
 "group": "tz"
 },
 {
 "name": "TEITI tenders",
-"last_ok": "2026-10-22 09:08",
+"last_ok": "2026-10-22 10:31",
 "error": "",
 "url": "https://www.teiti.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "TanzaniaTenders.com (newspapers, portals, private)",
-"last_ok": "2026-10-22 09:48",
+"last_ok": "2026-10-22 10:31",
 "error": "",
 "url": "https://www.tanzaniatenders.com/tenders.php",
 "group": "tz"
 },
 {
 "name": "TRC tenders",
-"last_ok": "2026-10-22 09:08",
+"last_ok": "2026-10-22 10:31",
 "error": "",
 "url": "https://www.trc.co.tz/tenders",
 "group": "tz"
 },
 {
 "name": "TCRA tenders",
-"last_ok": "2026-10-22 09:08",
+"last_ok": "2026-10-22 10:31",
 "error": "",
 "url": "https://www.tcra.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "Azania Bank tenders",
-"last_ok": "2026-10-22 09:08",
+"last_ok": "2026-10-22 10:31",
 "error": "",
 "url": "https://www.azaniabank.co.tz/tenders",
 "group": "tz"
 },
 {
 "name": "NBC Bank procurement",
-"last_ok": "2026-10-22 09:08",
+"last_ok": "2026-10-22 10:31",
 "error": "",
 "url": "https://www.nbc.co.tz/en/procurement/",
 "group": "tz"
 },
 {
 "name": "Ministry of Water tenders",
-"last_ok": "2026-10-22 09:08",
+"last_ok": "2026-10-22 10:31",
 "error": "",
 "url": "https://www.maji.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "REA tenders",
-"last_ok": "2026-10-22 09:08",
+"last_ok": "2026-10-22 10:31",
 "error": "",
 "url": "https://www.rea.go.tz/category/tenders",
 "group": "tz"
 },
 {
 "name": "DART tenders",
-"last_ok": "2026-10-22 09:08",
+"last_ok": "2026-10-22 10:31",
 "error": "",
 "url": "https://www.dart.go.tz/publications/tenders",
 "group": "tz"
 },
 {
 "name": "TASAC tenders",
-"last_ok": "2026-10-22 09:08",
+"last_ok": "2026-10-22 10:31",
 "error": "",
 "url": "https://www.tasac.go.tz/publications/tender",
 "group": "tz"
 },
 {
 "name": "TMDA tenders",
-"last_ok": "2026-10-22 09:08",
+"last_ok": "2026-10-22 10:31",
 "error": "",
 "url": "https://www.tmda.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "DUWASA tenders",
-"last_ok": "2026-10-22 09:08",
+"last_ok": "2026-10-22 10:31",
 "error": "",
 "url": "https://www.duwasa.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "MWAUWASA tenders",
-"last_ok": "2026-10-22 08:03",
-"error": "2026-10-22 09:08 no readable text on the page – it may load its list with JavaScript",
+"last_ok": "2026-10-22 10:31",
+"error": "",
 "url": "https://www.mwauwasa.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "Ministry of Finance tenders",
-"last_ok": "2026-10-22 09:08",
+"last_ok": "2026-10-22 10:31",
 "error": "",
 "url": "https://www.mof.go.tz/pages/tenders",
 "group": "tz"
 },
 {
 "name": "SUA tenders (zabuni)",
-"last_ok": "2026-10-22 09:08",
+"last_ok": "2026-10-22 10:31",
 "error": "",
 "url": "https://www.sua.ac.tz/zabuni",
 "group": "tz"
 },
 {
 "name": "Tanzania Posts announcements",
-"last_ok": "2026-10-22 09:08",
+"last_ok": "2026-10-22 10:31",
 "error": "",
 "url": "https://www.posta.co.tz/sw/announcement/all-announcement/",
 "group": "tz"
@@ -279,7 +279,7 @@
 },
 {
 "name": "Enabel (Belgium) procurement",
-"last_ok": "2026-10-22 08:03",
+"last_ok": "2026-10-22 10:31",
 "error": "",
 "url": "https://www.enabel.be/public-procurement/",
 "group": "intl"
@@ -289,6 +289,13 @@
 "last_ok": "2026-10-22 08:34",
 "error": "",
 "url": "https://www.theglobalfund.org/en/business-opportunities/",
+"group": "intl"
+},
+{
+"name": "SADC procurement",
+"last_ok": "2026-10-22 10:31",
+"error": "",
+"url": "https://www.sadc.int/procurement",
 "group": "intl"
 },
 {
