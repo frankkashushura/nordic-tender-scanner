@@ -1,0 +1,57 @@
+Tender Scan – Thursday 22 October 2026, 04:09
+
+Sources checked:
+  NeST: 76 notices read
+  World Bank (Tanzania, civil works): 26 notices read
+  TANROADS website: 7 notices read
+  DDO Tenders (newspapers, private, donors): 244 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+  TRA public notices: 0 notices read
+  UDSM announcements: 0 notices read
+  TAWA announcements: 0 notices read
+  Ministry of Health notices: 0 notices read
+  NM-AIST tenders: 0 notices read
+  BidDetail – Tanzania tenders: 3 notices read
+  ZoomTanzania tenders: 0 notices read
+  PPRA public notices: 1 notices read
+  Exim Bank Tanzania tenders: 0 notices read
+  UK Find a Tender – Tanzania: 0 notices read
+  UK Contracts Finder – Tanzania: 0 notices read
+  EU Funding & Tenders – Tanzania: 0 notices read
+  TradeMark Africa procurement: 0 notices read
+  Islamic Development Bank tenders: 0 notices read
+  African Union bids: 0 notices read
+  Global Fund business opportunities: 0 notices read
+  IOM procurement: 0 notices read
+  UNESCO procurement: 0 notices read
+  WFP procurement: 0 notices read
+  GlobalTenders – Tanzania: 5 notices read
+  TenderImpulse – Tanzania: 1 notices read
+  Lake Victoria Basin Commission procurement: 0 notices read
+  East African Development Bank procurement: 0 notices read
+  TDB Group procurement: 0 notices read
+  IUCEA procurement: 0 notices read
+  ESAMI (Arusha) procurement: 0 notices read
+  Shelter Afrique procurement: 0 notices read
+  OPEC Fund procurement: 0 notices read
+  IRC (International Rescue Committee) procurement: 0 notices read
+  Norwegian Refugee Council procurement: 0 notices read
+  Welthungerhilfe tenders: 0 notices read
+  Concern Worldwide tenders: 0 notices read
+
+NEW – PURSUE (2)
+  • closes Wed 28 Oct 14:00  Tumbi Regional Referral Hospital (kibaha) – CONSTRUCTION OF CUSTOMER CARE POINT AT TUMBI RRH  [Pwani (Kibaha) (from client's office – confirm site)]  (52/074/2026/2027/W/07; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Thu 29 Oct 14:00  National Development Corporation – Rehabilitation of Registry (Open and Confidential) and Library  [Dar es Salaam (Ilala) (from client's office – confirm site)]  (TR185/2026/2027/W/14; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+
+NEW – CHECK (3)
+  • closes Wed 28 Oct 10:00  Moshi District Council – HEAVY CONSTRUCTION SERVICES  [Kilimanjaro (Moshi) (from client's office – confirm site)]  (75F1/2026/2027/W/04; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Thu 29 Oct 15:00  TANROADS - Morogoro Regional Office – IMPROVEMENT OF ECONOMICAL CORRIDOR ALONG MOROGORO - DODOMA TRUNK ROAD T.003  [Morogoro]  (TR36/014/2026/2027/W/57; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Thu 29 Oct 15:00  TANROADS - Morogoro Regional Office – SPOT IMPROVEMENT WORKS ALONG DUMILA - KILOSA - MIKUMI(142.6KM).  [Morogoro (Kilosa)]  (TR36/014/2026/2027/W/60; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+
+Screened out (see the 'Screened Out' sheet): 0
+Empty Pipeline rows left: 296
