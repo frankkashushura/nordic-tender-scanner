@@ -1,0 +1,32 @@
+Tender Scan – Friday 23 October 2026, 04:22
+
+Sources checked:
+  NeST: 83 notices read
+  World Bank (Tanzania, civil works): 26 notices read
+  TANROADS website: 7 notices read
+  DDO Tenders (newspapers, private, donors): 244 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+
+NEW – PURSUE (3)
+  • closes Thu 29 Oct 14:00  Kibaha District Council – CONSTRUCTION OF HOTEL AT MTONGANI AREA  [Pwani (Kibaha) (from client's office – confirm site)]  (71B4/2026/2027/W/16; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Fri 30 Oct 14:00  National Museum of Tanzania – Renovation of Tourism Infrastructures at MHOC  [Dar es Salaam (Ilala) (from client's office – confirm site)]  (TR72/2026/2027/W/02; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Tue 10 Nov 10:00  Agricultural Seeds Agency – CONSTRUCTION OF STAFF HOUSE AT ASA SEED FARM  [Morogoro (from client's office – confirm site)]  (TR103/2026/2027/W/06; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+
+NEW – CHECK (4)
+  • closes Thu 29 Oct 14:00  Karagwe District Council – Construction of modern Kayanga Market  [Kagera (from client's office – confirm site)]  (87V3/2026/2027/W/04; Design and Build / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Thu 29 Oct 14:00  Mcdgwsg - Rungemba Community Development Training Institute – Provision of continue of construction of computer lab  [Iringa (Mufindi) (from client's office – confirm site)]  (53/004/2026/2027/W/01; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Fri 30 Oct 14:00  Shinyanga Regional Secretariat – Completion of Construction for Kishapu District Commissioner Office, Rehabilitation of Residence House for Kis  [Shinyanga (from client's office – confirm site)]  (83/2026/2027/W/06; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Fri 30 Oct 14:00  Land Transport Regulatory Authority – Construction of Fence at Mikocheni  [Dodoma (from client's office – confirm site)]  (TR170/2025/2026/W/01; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+
+DEADLINE CHANGED AT SOURCE
+  • 88Z3/2026/2027/W/131: was 26 Oct 14:00, now 30 Oct 14:00
+
+Screened out (see the 'Screened Out' sheet): 2
+Empty Pipeline rows left: 287
