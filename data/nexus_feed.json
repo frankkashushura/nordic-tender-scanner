@@ -1,26 +1,26 @@
 {
-"generated": "2026-10-23T16:00:38+03:00",
+"generated": "2026-10-23T16:35:56+03:00",
 "scanner": {
-"last_scan": "2026-10-23T15:57:00+03:00",
-"summary": "NeST: 83 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 246 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices re",
+"last_scan": "2026-10-23T16:35:00+03:00",
+"summary": "NeST: 83 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 246 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read → 1 new, 0 deadline change(s)",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-10-23 15:57",
+"last_ok": "2026-10-23 16:35",
 "error": "",
 "url": "https://nest.go.tz/tenders/published-tenders",
 "group": "tz"
 },
 {
 "name": "World Bank (Tanzania, civil works)",
-"last_ok": "2026-10-23 15:57",
+"last_ok": "2026-10-23 16:35",
 "error": "",
 "url": "https://projects.worldbank.org/en/projects-operations/procurement?countrycode_exact=TZ",
 "group": "intl"
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-10-23 15:57",
+"last_ok": "2026-10-23 16:35",
 "error": "",
 "url": "https://www.tanroads.go.tz/tenders",
 "group": "tz"
@@ -34,7 +34,7 @@
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-10-23 15:57",
+"last_ok": "2026-10-23 16:35",
 "error": "",
 "url": "https://www.ddotenders.co.tz/tender.php?page=home",
 "group": "tz"
@@ -69,7 +69,7 @@
 },
 {
 "name": "TanzaniaTenders.com (newspapers, portals, private)",
-"last_ok": "2026-10-23 15:57",
+"last_ok": "2026-10-23 16:35",
 "error": "",
 "url": "https://www.tanzaniatenders.com/tenders.php",
 "group": "tz"
@@ -412,7 +412,7 @@
 }
 ]
 },
-"workbook_rows": 214,
+"workbook_rows": 215,
 "tenders": [
 {
 "id": "7205-2026-2027-W-09",
@@ -7587,6 +7587,39 @@
 "next": "Read the notice and decide with the QS Director whether to pursue",
 "found_by": "Auto-scan",
 "source_id": "TZT:151336304",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TZT:151360907",
+"title": "Establishment of Lta for Building Maintenance Services",
+"deadline": "2026-11-18T10:00:00+03:00",
+"body": {
+"no": "(not shown)",
+"date_found": "2026-10-23T00:00:00+03:00",
+"source": "press",
+"url": "https://www.tanzaniatenders.com/tender/establishment-lta-building-maintenance-services-905958b.php",
+"client": "See advert",
+"client_type": "government",
+"title": "Establishment of Lta for Building Maintenance Services",
+"scope": "From press notice (1 lot) – read the tender document",
+"location": "Not stated – read the notice",
+"category": "building",
+"crb": "See tender document",
+"funding": "unknown",
+"site_visit": "See tender document",
+"clar": "See tender document",
+"deadline": "2026-11-18T10:00:00+03:00",
+"bid_security": "See tender document",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"notice": "TanzaniaTenders.com (newspapers / portals / private)",
+"screen": "Check",
+"reason": "Auto (TanzaniaTenders.com): Site not stated in the listing – read the notice · deadline read from the web page – confirm",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "TZT:151360907",
 "synced_by": "NEXUS auto-sync"
 }
 }
