@@ -1,22 +1,22 @@
 {
 "NeST": {
-"last_try": 1792757567.1970675,
-"last_ok": "2026-10-23 15:12",
+"last_try": 1792760225.7479541,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 83,
 "baseline_done": true,
 "last_error": "2026-10-19 16:49 could not reach nest.go.tz (HTTP Error 500: Internal Server Error)"
 },
 "World Bank (Tanzania, civil works)": {
-"last_try": 1792756192.0391927,
-"last_ok": "2026-10-23 14:49",
+"last_try": 1792760227.116032,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 26,
 "baseline_done": true
 },
 "TANROADS website": {
-"last_try": 1792757568.6096544,
-"last_ok": "2026-10-23 15:12",
+"last_try": 1792760227.4080904,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 7,
 "baseline_done": true,
@@ -33,8 +33,8 @@
 "last_error": "2026-09-26 00:17 could not reach www.tenders.zppda.go.tz (<urlopen error [Errno 11001] getaddrinfo failed>)"
 },
 "CRDB Bank tenders": {
-"last_try": 1792754059.7616837,
-"last_ok": "2026-10-23 14:14",
+"last_try": 1792760241.92988,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true,
@@ -46,8 +46,8 @@
 "last_error": "2026-09-26 00:17 could not reach www.nmbbank.co.tz (HTTP Error 403: Forbidden)"
 },
 "DDO Tenders (newspapers, private, donors)": {
-"last_try": 1792757571.0586493,
-"last_ok": "2026-10-23 15:12",
+"last_try": 1792760229.8314524,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 246,
 "baseline_done": true
@@ -58,18 +58,18 @@
 "last_error": "2026-09-26 01:15 no readable text on the page \u2013 it may load its list with JavaScript"
 },
 "TPA current tenders": {
-"last_try": 1792754061.2446315,
-"last_ok": "2026-10-23 14:14",
+"last_try": 1792760243.3530538,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true,
 "last_error": "2026-10-12 18:58 could not reach www.ports.go.tz (<urlopen error [Errno 111] Connection refused>) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)"
 },
 "TARURA tenders": {
-"last_try": 1792754063.857397,
+"last_try": 1792760245.3668058,
 "fails": 0,
 "last_error": "2026-09-30 13:23 could not reach tarura.go.tz:6032 (<urlopen error timed out>)",
-"last_ok": "2026-10-23 14:14",
+"last_ok": "2026-10-23 15:57",
 "last_count": 0,
 "baseline_done": true
 },
@@ -87,16 +87,16 @@
 "last_error": "2026-09-26 01:13 could not reach www.taa.go.tz (HTTP Error 404: Not Found)"
 },
 "Bank of Tanzania tenders": {
-"last_try": 1792754065.5149496,
-"last_ok": "2026-10-23 14:14",
+"last_try": 1792760247.0260715,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true,
 "last_error": "2026-09-29 15:52 could not reach www.bot.go.tz (Remote end closed connection without response)"
 },
 "TEITI tenders": {
-"last_try": 1792754067.852847,
-"last_ok": "2026-10-23 14:14",
+"last_try": 1792760249.0798614,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true,
@@ -111,152 +111,153 @@
 "last_error": "2026-10-01 14:37 could not reach www.afdb.org (HTTP Error 403: Forbidden)"
 },
 "TanzaniaTenders.com (newspapers, portals, private)": {
-"last_try": 1792756196.6973684,
-"last_ok": "2026-10-23 14:49",
+"last_try": 1792760230.9133368,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 50,
 "baseline_done": true,
 "last_error": "2026-10-11 16:43 could not reach www.tanzaniatenders.com (<urlopen error timed out>)"
 },
 "TRC tenders": {
-"last_try": 1792754070.677938,
-"last_ok": "2026-10-23 14:14",
+"last_try": 1792760251.5334477,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 1,
 "baseline_done": true
 },
 "TCRA tenders": {
-"last_try": 1792754073.8443875,
-"last_ok": "2026-10-23 14:14",
+"last_try": 1792760253.4946969,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 4,
 "baseline_done": true
 },
 "Azania Bank tenders": {
-"last_try": 1792754076.333237,
-"last_ok": "2026-10-23 14:14",
+"last_try": 1792760255.8594375,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 6,
 "baseline_done": true
 },
 "NBC Bank procurement": {
-"last_try": 1792754078.4015644,
-"last_ok": "2026-10-23 14:14",
+"last_try": 1792760257.621799,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "Ministry of Water tenders": {
-"last_try": 1792754079.9804456,
-"last_ok": "2026-10-23 14:14",
+"last_try": 1792760259.312743,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "REA tenders": {
-"last_try": 1792754082.0873454,
-"last_ok": "2026-10-23 14:14",
+"last_try": 1792760261.1001055,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 1,
 "baseline_done": true
 },
 "DART tenders": {
-"last_try": 1792754083.167911,
-"last_ok": "2026-10-23 14:14",
+"last_try": 1792760261.6396396,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 1,
 "baseline_done": true,
 "last_error": "2026-10-15 17:55 could not reach www.dart.go.tz (<urlopen error timed out>) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)"
 },
 "TASAC tenders": {
-"last_try": 1792754085.6637263,
-"last_ok": "2026-10-23 14:14",
+"last_try": 1792760263.5984597,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true,
 "last_error": "2026-10-15 17:55 could not reach www.tasac.go.tz (<urlopen error timed out>) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)"
 },
 "TMDA tenders": {
-"last_try": 1792754088.069304,
-"last_ok": "2026-10-23 14:14",
+"last_try": 1792760265.831963,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true,
 "last_error": "2026-10-20 11:39 could not reach www.tmda.go.tz (The read operation timed out) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)"
 },
 "DUWASA tenders": {
-"last_try": 1792754090.7556667,
-"last_ok": "2026-10-23 14:14",
+"last_try": 1792760268.4611638,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 1,
 "baseline_done": true
 },
 "MWAUWASA tenders": {
-"last_try": 1792754092.7285237,
-"last_ok": "2026-10-23 14:14",
+"last_try": 1792760270.7052062,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true,
 "last_error": "2026-10-22 09:08 no readable text on the page \u2013 it may load its list with JavaScript"
 },
 "Ministry of Finance tenders": {
-"last_try": 1792754095.043002,
-"last_ok": "2026-10-23 14:14",
+"last_try": 1792760272.9467106,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true,
 "last_error": "2026-10-15 17:55 could not reach www.mof.go.tz (<urlopen error timed out>) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)"
 },
 "SUA tenders (zabuni)": {
-"last_try": 1792754098.774389,
-"last_ok": "2026-10-23 14:14",
+"last_try": 1792760276.2060826,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 3,
 "baseline_done": true
 },
 "Tanzania Posts announcements": {
-"last_try": 1792754103.3899581,
-"last_ok": "2026-10-23 14:14",
+"last_try": 1792760280.3018506,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "TRA public notices": {
-"last_try": 1792754115.4814153,
-"last_ok": "2026-10-23 14:14",
+"last_try": 1792760290.4433553,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true,
 "last_error": "2026-10-15 13:10 could not reach www.tra.go.tz (<urlopen error timed out>) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)"
 },
 "UDSM announcements": {
-"last_try": 1792754118.8923473,
-"last_ok": "2026-10-23 14:14",
+"last_try": 1792760293.4901783,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true,
 "last_error": "2026-10-10 17:04 could not reach www.udsm.ac.tz (<urlopen error _ssl.c:993: The handshake operation timed out>) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)"
 },
 "TAWA announcements": {
-"last_try": 1792754120.9935632,
-"last_ok": "2026-10-23 14:14",
+"last_try": 1792760403.7393332,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "Ministry of Health notices": {
-"last_try": 1792754123.8391805,
-"last_ok": "2026-10-23 14:14",
+"last_try": 1792760405.7964666,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "NM-AIST tenders": {
-"last_try": 1792754137.401796,
+"last_try": 1792760408.704462,
 "last_ok": "2026-10-23 14:14",
-"fails": 0,
+"fails": 1,
 "last_count": 0,
-"baseline_done": true
+"baseline_done": true,
+"last_error": "2026-10-23 15:57 could not reach www.nm-aist.ac.tz (<urlopen error [Errno -2] Name or service not known>) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)"
 },
 "BidDetail \u2013 Tanzania tenders": {
 "last_try": 1792757572.353218,
@@ -273,15 +274,15 @@
 "baseline_done": true
 },
 "PPRA public notices": {
-"last_try": 1792754147.117541,
-"last_ok": "2026-10-23 14:14",
+"last_try": 1792760419.2244563,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 1,
 "baseline_done": true
 },
 "Exim Bank Tanzania tenders": {
-"last_try": 1792754149.8491166,
-"last_ok": "2026-10-23 14:14",
+"last_try": 1792760421.499757,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
@@ -331,8 +332,8 @@
 "baseline_done": true
 },
 "Enabel (Belgium) procurement": {
-"last_try": 1792752238.9075577,
-"last_ok": "2026-10-23 13:43",
+"last_try": 1792760421.7519398,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true,
@@ -346,8 +347,8 @@
 "baseline_done": true
 },
 "SADC procurement": {
-"last_try": 1792752241.1749697,
-"last_ok": "2026-10-23 13:43",
+"last_try": 1792760423.4495115,
+"last_ok": "2026-10-23 15:57",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true,
