@@ -1,26 +1,26 @@
 {
-"generated": "2026-10-24T03:57:41+03:00",
+"generated": "2026-10-24T04:35:00+03:00",
 "scanner": {
-"last_scan": "2026-10-24T03:56:00+03:00",
-"summary": "NeST: 83 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 246 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices re",
+"last_scan": "2026-10-24T04:34:00+03:00",
+"summary": "NeST: 73 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 246 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read → 2 new, 0 deadline change(s)",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-10-24 03:56",
+"last_ok": "2026-10-24 04:34",
 "error": "",
 "url": "https://nest.go.tz/tenders/published-tenders",
 "group": "tz"
 },
 {
 "name": "World Bank (Tanzania, civil works)",
-"last_ok": "2026-10-24 03:56",
+"last_ok": "2026-10-24 04:34",
 "error": "",
 "url": "https://projects.worldbank.org/en/projects-operations/procurement?countrycode_exact=TZ",
 "group": "intl"
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-10-24 03:56",
+"last_ok": "2026-10-24 04:34",
 "error": "",
 "url": "https://www.tanroads.go.tz/tenders",
 "group": "tz"
@@ -34,7 +34,7 @@
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-10-24 03:56",
+"last_ok": "2026-10-24 04:34",
 "error": "",
 "url": "https://www.ddotenders.co.tz/tender.php?page=home",
 "group": "tz"
@@ -69,7 +69,7 @@
 },
 {
 "name": "TanzaniaTenders.com (newspapers, portals, private)",
-"last_ok": "2026-10-24 03:56",
+"last_ok": "2026-10-24 04:34",
 "error": "",
 "url": "https://www.tanzaniatenders.com/tenders.php",
 "group": "tz"
@@ -405,7 +405,7 @@
 }
 ]
 },
-"workbook_rows": 215,
+"workbook_rows": 217,
 "tenders": [
 {
 "id": "7205-2026-2027-W-09",
@@ -7613,6 +7613,74 @@
 "next": "Read the notice and decide with the QS Director whether to pursue",
 "found_by": "Auto-scan",
 "source_id": "TZT:151360907",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "70Q2-2026-2027-W-07",
+"title": "Construction of Box culvert along Tingatinga - Elerai Road",
+"deadline": "2026-10-30T10:00:00+03:00",
+"body": {
+"no": "70Q2/2026/2027/W/07",
+"date_found": "2026-10-24T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "Longido District Council",
+"client_type": "government",
+"title": "Construction of Box culvert along Tingatinga - Elerai Road",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Arusha (from client's office – confirm site)",
+"category": "civil",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-10-30T10:00:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-10-23T00:00:00+03:00",
+"notice": "Small Works / Tender",
+"screen": "Check",
+"reason": "Auto (Small Works / Tender): Construction tender kept for review (would have been dropped: Remote civil works)",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "b0733687-ba40-4fee-b5c9-04c694af739e",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "S10-025-2026-2027-W-87",
+"title": "Periodic Maintenance (1.4km), Construction of Concrete side drains 1200m, Nine (9) lines of stone masonry Box Culverts works along Sengu, Periodic Maintenance (0.55km), Repair of stone masonry side drains bothsides 550m, Four (4) lines of stone masonry Box Culverts works along Ukwala - Nzega Day, Periodic Maintenance (0.25km), Construction of Concrete side drains 300m along Kitongo FPCT CHURCH - Fundi Emma, Periodic Maintenance (1.0km), Repair of stone masonry side drains bothsides 600m, Two (2) lines of stone masonry Box Culverts works along Imelida, Periodic Maintenance (3.0km), Construction of Concrete side drains 900m, Seven (7) lines of stone masonry Box Culverts works along Uswiru-Marco kuzwa, Periodic Maintenance (3.0km), Construction of Concrete side drains 900m, Seven (7) lines of stone masonry Box Culverts works along Dr. Solonyo - Jack Maharage - Daraja la Ipilili, Periodic Maintenance (6.5km), Construction of Five (5) lines of stone masonry Box Culverts works along Ijanija Centre -Shila - Shigamba, Periodic Maintenance (8.0km) along Nzega - Igilali - Idudumo, Periodic Maintenance (7.11km), Construction of Three (3) lines of stone masonry Box Culverts works along Nzega - Idala - Undomo roads and Victoria road in Nzega Town Council",
+"deadline": "2026-10-30T11:00:00+03:00",
+"body": {
+"no": "S10/025/2026/2027/W/87",
+"date_found": "2026-10-24T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "TARURA - Tabora Regional Office",
+"client_type": "government",
+"title": "Periodic Maintenance (1.4km), Construction of Concrete side drains 1200m, Nine (9) lines of stone masonry Box Culverts works along Sengu, Periodic Maintenance (0.55km), Repair of stone masonry side drains bothsides 550m, Four (4) lines of stone masonry Box Culverts works along Ukwala - Nzega Day, Periodic Maintenance (0.25km), Construction of Concrete side drains 300m along Kitongo FPCT CHURCH - Fundi Emma, Periodic Maintenance (1.0km), Repair of stone masonry side drains bothsides 600m, Two (2) lines of stone masonry Box Culverts works along Imelida, Periodic Maintenance (3.0km), Construction of Concrete side drains 900m, Seven (7) lines of stone masonry Box Culverts works along Uswiru-Marco kuzwa, Periodic Maintenance (3.0km), Construction of Concrete side drains 900m, Seven (7) lines of stone masonry Box Culverts works along Dr. Solonyo - Jack Maharage - Daraja la Ipilili, Periodic Maintenance (6.5km), Construction of Five (5) lines of stone masonry Box Culverts works along Ijanija Centre -Shila - Shigamba, Periodic Maintenance (8.0km) along Nzega - Igilali - Idudumo, Periodic Maintenance (7.11km), Construction of Three (3) lines of stone masonry Box Culverts works along Nzega - Idala - Undomo roads and Victoria road in Nzega Town Council",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Tabora (Sikonge) (from client's office – confirm site)",
+"category": "civil",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-10-30T11:00:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-10-23T00:00:00+03:00",
+"notice": "Small Works / Tender",
+"screen": "Check",
+"reason": "Auto (Small Works / Tender): Construction tender kept for review (would have been dropped: Remote civil works)",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "4665abf7-d189-4fe0-96a7-ef0c04369154",
 "synced_by": "NEXUS auto-sync"
 }
 }

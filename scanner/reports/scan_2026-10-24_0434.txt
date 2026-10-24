@@ -1,0 +1,19 @@
+Tender Scan – Saturday 24 October 2026, 04:34
+
+Sources checked:
+  NeST: 73 notices read
+  World Bank (Tanzania, civil works): 26 notices read
+  TANROADS website: 7 notices read
+  DDO Tenders (newspapers, private, donors): 246 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (2)
+  • closes Fri 30 Oct 10:00  Longido District Council – Construction of Box culvert along Tingatinga - Elerai Road  [Arusha (from client's office – confirm site)]  (70Q2/2026/2027/W/07; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Fri 30 Oct 11:00  TARURA - Tabora Regional Office – Periodic Maintenance (1.4km), Construction of Concrete side drains 1200m, Nine (9) lines of stone masonry Box   [Tabora (Sikonge) (from client's office – confirm site)]  (S10/025/2026/2027/W/87; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+
+Screened out (see the 'Screened Out' sheet): 3
+Empty Pipeline rows left: 283
