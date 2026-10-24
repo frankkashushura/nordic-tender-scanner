@@ -1,11 +1,11 @@
-2026-10-24 17:23  NeST: 73 notices read; World Bank (Tanzania, civil works): 25 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 246 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; NM-AIST tenders: FAILED (could not reach www.nm-aist.ac.tz (<urlopen error [Errno -2] Name or service not known>) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity))  – failing repeatedly, check the source → no new tenders
+2026-10-24 17:52  NeST: 73 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 246 notices read → no new tenders
 
 Per source:
-  NeST: last OK 2026-10-24 17:23
+  NeST: last OK 2026-10-24 17:52
   World Bank (Tanzania, civil works): last OK 2026-10-24 17:23
-  TANROADS website: last OK 2026-10-24 17:23
+  TANROADS website: last OK 2026-10-24 17:52
   CRDB Bank tenders: last OK 2026-10-24 16:58
-  DDO Tenders (newspapers, private, donors): last OK 2026-10-24 17:23
+  DDO Tenders (newspapers, private, donors): last OK 2026-10-24 17:52
   TPA current tenders: last OK 2026-10-24 16:58
   TARURA tenders: last OK 2026-10-24 16:58
   Bank of Tanzania tenders: last OK 2026-10-24 16:58
