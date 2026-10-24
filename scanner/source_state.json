@@ -1,7 +1,7 @@
 {
 "NeST": {
-"last_try": 1792836005.7889764,
-"last_ok": "2026-10-24 13:00",
+"last_try": 1792837643.5259616,
+"last_ok": "2026-10-24 13:27",
 "fails": 0,
 "last_count": 73,
 "baseline_done": true,
@@ -15,8 +15,8 @@
 "baseline_done": true
 },
 "TANROADS website": {
-"last_try": 1792836007.5791059,
-"last_ok": "2026-10-24 13:00",
+"last_try": 1792837645.224024,
+"last_ok": "2026-10-24 13:27",
 "fails": 0,
 "last_count": 7,
 "baseline_done": true,
@@ -46,8 +46,8 @@
 "last_error": "2026-09-26 00:17 could not reach www.nmbbank.co.tz (HTTP Error 403: Forbidden)"
 },
 "DDO Tenders (newspapers, private, donors)": {
-"last_try": 1792836009.903477,
-"last_ok": "2026-10-24 13:00",
+"last_try": 1792837648.0726302,
+"last_ok": "2026-10-24 13:27",
 "fails": 0,
 "last_count": 246,
 "baseline_done": true
@@ -275,15 +275,15 @@
 "baseline_done": true
 },
 "PPRA public notices": {
-"last_try": 1792832525.638538,
-"last_ok": "2026-10-24 12:00",
+"last_try": 1792837649.4952443,
+"last_ok": "2026-10-24 13:27",
 "fails": 0,
 "last_count": 1,
 "baseline_done": true
 },
 "Exim Bank Tanzania tenders": {
-"last_try": 1792832528.0467727,
-"last_ok": "2026-10-24 12:00",
+"last_try": 1792837652.1775973,
+"last_ok": "2026-10-24 13:27",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
