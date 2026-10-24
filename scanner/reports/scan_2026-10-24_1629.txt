@@ -1,0 +1,44 @@
+Tender Scan – Saturday 24 October 2026, 16:29
+
+Sources checked:
+  NeST: 73 notices read
+  World Bank (Tanzania, civil works): 25 notices read
+  TANROADS website: 7 notices read
+  DDO Tenders (newspapers, private, donors): 246 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+  BidDetail – Tanzania tenders: 3 notices read
+  ZoomTanzania tenders: 0 notices read
+  UK Find a Tender – Tanzania: 0 notices read
+  UK Contracts Finder – Tanzania: 0 notices read
+  EU Funding & Tenders – Tanzania: 0 notices read
+  TradeMark Africa procurement: 0 notices read
+  Islamic Development Bank tenders: 0 notices read
+  African Union bids: 0 notices read
+  Global Fund business opportunities: 0 notices read
+  IOM procurement: 0 notices read
+  UNESCO procurement: 0 notices read
+  WFP procurement: 0 notices read
+  GlobalTenders – Tanzania: 5 notices read
+  TenderImpulse – Tanzania: 1 notices read
+  Lake Victoria Basin Commission procurement: 0 notices read
+  East African Development Bank procurement: 0 notices read
+  TDB Group procurement: 0 notices read
+  IUCEA procurement: 0 notices read
+  ESAMI (Arusha) procurement: 0 notices read
+  Shelter Afrique procurement: 0 notices read
+  OPEC Fund procurement: 0 notices read
+  IRC (International Rescue Committee) procurement: 0 notices read
+  Norwegian Refugee Council procurement: 0 notices read
+  Welthungerhilfe tenders: 0 notices read
+  Concern Worldwide tenders: 0 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (2)
+  • closing date: see notice  See notice – Request For Quotation For Establishment Of Lta For Building Maint ......  [Not stated – read the notice]  (no number; BidDetail – Tanzania tenders (web page))
+      https://www.biddetail.com/latest-tenders/119785507$cb4b4987-225e-4b60-8951-f45db16f8ff9
+  • closing date: see notice  See notice – Ministry Of Water And Irrigation; Africa Request For Expression Of Interest For Sustainable Rural Water Su ...  [Not stated – read the notice]  (no number; BidDetail – Tanzania tenders (web page))
+      https://www.biddetail.com/latest-tenders/119785512$e70aff49-b921-494c-925b-6b0a82fab66c
+
+Screened out (see the 'Screened Out' sheet): 0
+Empty Pipeline rows left: 278
