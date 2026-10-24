@@ -1,22 +1,22 @@
 {
 "NeST": {
-"last_try": 1792850306.0368257,
-"last_ok": "2026-10-24 16:58",
+"last_try": 1792851834.7260077,
+"last_ok": "2026-10-24 17:23",
 "fails": 0,
 "last_count": 73,
 "baseline_done": true,
 "last_error": "2026-10-19 16:49 could not reach nest.go.tz (HTTP Error 500: Internal Server Error)"
 },
 "World Bank (Tanzania, civil works)": {
-"last_try": 1792848550.2850196,
-"last_ok": "2026-10-24 16:29",
+"last_try": 1792851836.4448388,
+"last_ok": "2026-10-24 17:23",
 "fails": 0,
 "last_count": 25,
 "baseline_done": true
 },
 "TANROADS website": {
-"last_try": 1792850307.937204,
-"last_ok": "2026-10-24 16:58",
+"last_try": 1792851836.7970042,
+"last_ok": "2026-10-24 17:23",
 "fails": 0,
 "last_count": 7,
 "baseline_done": true,
@@ -46,8 +46,8 @@
 "last_error": "2026-09-26 00:17 could not reach www.nmbbank.co.tz (HTTP Error 403: Forbidden)"
 },
 "DDO Tenders (newspapers, private, donors)": {
-"last_try": 1792850310.871615,
-"last_ok": "2026-10-24 16:58",
+"last_try": 1792851839.9331946,
+"last_ok": "2026-10-24 17:23",
 "fails": 0,
 "last_count": 246,
 "baseline_done": true
@@ -111,8 +111,8 @@
 "last_error": "2026-10-01 14:37 could not reach www.afdb.org (HTTP Error 403: Forbidden)"
 },
 "TanzaniaTenders.com (newspapers, portals, private)": {
-"last_try": 1792848554.3699389,
-"last_ok": "2026-10-24 16:29",
+"last_try": 1792851841.8861094,
+"last_ok": "2026-10-24 17:23",
 "fails": 0,
 "last_count": 50,
 "baseline_done": true,
@@ -252,12 +252,12 @@
 "baseline_done": true
 },
 "NM-AIST tenders": {
-"last_try": 1792765142.462053,
+"last_try": 1792851852.4316378,
 "last_ok": "2026-10-23 14:14",
-"fails": 2,
+"fails": 3,
 "last_count": 0,
 "baseline_done": true,
-"last_error": "2026-10-23 17:17 could not reach www.nm-aist.ac.tz (<urlopen error [Errno -2] Name or service not known>) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)",
+"last_error": "2026-10-24 17:23 could not reach www.nm-aist.ac.tz (<urlopen error [Errno -2] Name or service not known>) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)",
 "paused": true
 },
 "BidDetail \u2013 Tanzania tenders": {
