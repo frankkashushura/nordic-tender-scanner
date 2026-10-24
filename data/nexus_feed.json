@@ -1,12 +1,12 @@
 {
-"generated": "2026-10-24T02:51:47+03:00",
+"generated": "2026-10-24T03:08:42+03:00",
 "scanner": {
-"last_scan": "2026-10-24T02:48:00+03:00",
-"summary": "NeST: 83 notices read; World Bank (Tanzania, civil works): 26 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 246 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; REA tenders: 1 notices read; DART tenders: 1 notices read; TASAC tenders: 0 notices read; TMDA tenders: 0 notices read; DUWASA tenders: 1 noti",
+"last_scan": "2026-10-24T03:08:00+03:00",
+"summary": "NeST: 83 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 246 notices read → no new tenders",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-10-24 02:48",
+"last_ok": "2026-10-24 03:08",
 "error": "",
 "url": "https://nest.go.tz/tenders/published-tenders",
 "group": "tz"
@@ -20,7 +20,7 @@
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-10-24 02:48",
+"last_ok": "2026-10-24 03:08",
 "error": "",
 "url": "https://www.tanroads.go.tz/tenders",
 "group": "tz"
@@ -34,7 +34,7 @@
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-10-24 02:48",
+"last_ok": "2026-10-24 03:08",
 "error": "",
 "url": "https://www.ddotenders.co.tz/tender.php?page=home",
 "group": "tz"
