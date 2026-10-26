@@ -1,26 +1,26 @@
 {
 "NeST": {
-"last_try": 1792999816.3526328,
+"last_try": 1793002789.2178774,
 "last_ok": "2026-10-26 10:30",
-"fails": 0,
+"fails": 1,
 "last_count": 78,
 "baseline_done": true,
-"last_error": "2026-10-19 16:49 could not reach nest.go.tz (HTTP Error 500: Internal Server Error)"
+"last_error": "2026-10-26 11:19 could not reach nest.go.tz (<urlopen error timed out>)"
 },
 "World Bank (Tanzania, civil works)": {
-"last_try": 1792999817.8839862,
-"last_ok": "2026-10-26 10:30",
+"last_try": 1793002985.7922287,
+"last_ok": "2026-10-26 11:19",
 "fails": 0,
 "last_count": 25,
 "baseline_done": true
 },
 "TANROADS website": {
-"last_try": 1792999818.1037037,
+"last_try": 1793002986.149853,
 "last_ok": "2026-10-26 10:30",
-"fails": 0,
+"fails": 1,
 "last_count": 7,
 "baseline_done": true,
-"last_error": "2026-10-17 22:43 could not reach www.tanroads.go.tz (<urlopen error timed out>)"
+"last_error": "2026-10-26 11:19 could not reach www.tanroads.go.tz (<urlopen error timed out>)"
 },
 "ZPPDA Zanzibar - open tenders": {
 "last_try": 1790371033.0076451,
@@ -46,8 +46,8 @@
 "last_error": "2026-09-26 00:17 could not reach www.nmbbank.co.tz (HTTP Error 403: Forbidden)"
 },
 "DDO Tenders (newspapers, private, donors)": {
-"last_try": 1792999820.699583,
-"last_ok": "2026-10-26 10:30",
+"last_try": 1793003183.0721812,
+"last_ok": "2026-10-26 11:19",
 "fails": 0,
 "last_count": 248,
 "baseline_done": true
@@ -111,8 +111,8 @@
 "last_error": "2026-10-01 14:37 could not reach www.afdb.org (HTTP Error 403: Forbidden)"
 },
 "TanzaniaTenders.com (newspapers, portals, private)": {
-"last_try": 1792999822.0858662,
-"last_ok": "2026-10-26 10:30",
+"last_try": 1793003184.6842632,
+"last_ok": "2026-10-26 11:19",
 "fails": 0,
 "last_count": 50,
 "baseline_done": true,
@@ -261,15 +261,15 @@
 "paused": true
 },
 "BidDetail \u2013 Tanzania tenders": {
-"last_try": 1792994326.9123535,
-"last_ok": "2026-10-26 08:56",
+"last_try": 1793003195.10686,
+"last_ok": "2026-10-26 11:19",
 "fails": 0,
 "last_count": 3,
 "baseline_done": true
 },
 "ZoomTanzania tenders": {
-"last_try": 1792994328.7490795,
-"last_ok": "2026-10-26 08:56",
+"last_try": 1793003196.7643814,
+"last_ok": "2026-10-26 11:19",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
@@ -289,188 +289,188 @@
 "baseline_done": true
 },
 "UK Find a Tender \u2013 Tanzania": {
-"last_try": 1792994333.6355147,
-"last_ok": "2026-10-26 08:56",
+"last_try": 1793003197.9052062,
+"last_ok": "2026-10-26 11:19",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true,
 "last_error": "2026-10-24 23:06 could not reach www.find-tender.service.gov.uk (The read operation timed out) | reader: page reader returned an empty page"
 },
 "UK Contracts Finder \u2013 Tanzania": {
-"last_try": 1792994334.7180085,
-"last_ok": "2026-10-26 08:56",
+"last_try": 1793003199.8225203,
+"last_ok": "2026-10-26 11:19",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true,
 "last_error": "2026-10-19 19:51 Expecting value: line 1 column 3 (char 2)"
 },
 "EU Funding & Tenders \u2013 Tanzania": {
-"last_try": 1792994335.73279,
-"last_ok": "2026-10-26 08:56",
+"last_try": 1793003201.0971396,
+"last_ok": "2026-10-26 11:19",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true,
 "last_error": "2026-10-18 00:45 HTTP Error 500: Internal Server Error"
 },
 "TradeMark Africa procurement": {
-"last_try": 1792994336.334528,
-"last_ok": "2026-10-26 08:56",
+"last_try": 1793003201.7150145,
+"last_ok": "2026-10-26 11:19",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "Islamic Development Bank tenders": {
-"last_try": 1792994337.2257438,
-"last_ok": "2026-10-26 08:56",
+"last_try": 1793003202.195055,
+"last_ok": "2026-10-26 11:19",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "African Union bids": {
-"last_try": 1792994339.4230347,
-"last_ok": "2026-10-26 08:56",
+"last_try": 1793003203.3540654,
+"last_ok": "2026-10-26 11:19",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "Enabel (Belgium) procurement": {
-"last_try": 1792994339.8205082,
-"last_ok": "2026-10-26 08:56",
+"last_try": 1793003203.7217653,
+"last_ok": "2026-10-26 11:19",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true,
 "last_error": "2026-10-19 19:13 IncompleteRead(49048 bytes read)"
 },
 "Global Fund business opportunities": {
-"last_try": 1792994341.763559,
-"last_ok": "2026-10-26 08:56",
+"last_try": 1793003205.8811686,
+"last_ok": "2026-10-26 11:19",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "SADC procurement": {
-"last_try": 1792994344.086072,
-"last_ok": "2026-10-26 08:56",
+"last_try": 1793003208.5349512,
+"last_ok": "2026-10-26 11:19",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true,
 "last_error": "2026-10-22 19:46 could not reach www.sadc.int (HTTP Error 404: Not Found) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)"
 },
 "IOM procurement": {
-"last_try": 1792994354.1261973,
-"last_ok": "2026-10-26 08:56",
+"last_try": 1793003219.0885913,
+"last_ok": "2026-10-26 11:19",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true,
 "last_error": "2026-10-22 20:49 could not reach www.iom.int (HTTP Error 403: Forbidden) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)"
 },
 "UNESCO procurement": {
-"last_try": 1792994361.9686692,
-"last_ok": "2026-10-26 08:56",
+"last_try": 1793003225.4277284,
+"last_ok": "2026-10-26 11:19",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true,
 "last_error": "2026-10-21 12:58 no readable text on the page \u2013 it may load its list with JavaScript"
 },
 "WFP procurement": {
-"last_try": 1792994363.548578,
-"last_ok": "2026-10-26 08:56",
+"last_try": 1793003226.7540793,
+"last_ok": "2026-10-26 11:19",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "GlobalTenders \u2013 Tanzania": {
-"last_try": 1792994364.4064388,
-"last_ok": "2026-10-26 08:56",
+"last_try": 1793003227.6669421,
+"last_ok": "2026-10-26 11:19",
 "fails": 0,
 "last_count": 5,
 "baseline_done": true,
 "last_error": "2026-10-12 04:03 could not reach www.globaltenders.com (The read operation timed out) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)"
 },
 "TenderImpulse \u2013 Tanzania": {
-"last_try": 1792994364.63452,
-"last_ok": "2026-10-26 08:56",
+"last_try": 1793003228.058269,
+"last_ok": "2026-10-26 11:19",
 "fails": 0,
 "last_count": 1,
 "baseline_done": true
 },
 "Lake Victoria Basin Commission procurement": {
-"last_try": 1792994365.2098243,
-"last_ok": "2026-10-26 08:56",
+"last_try": 1793003228.753886,
+"last_ok": "2026-10-26 11:19",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true,
 "last_error": "2026-10-25 21:54 could not reach www.lvbcom.org (<urlopen error [Errno -3] Temporary failure in name resolution>) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)"
 },
 "East African Development Bank procurement": {
-"last_try": 1792994380.3762536,
-"last_ok": "2026-10-26 08:56",
+"last_try": 1793003260.031639,
+"last_ok": "2026-10-26 11:19",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true,
 "last_error": "2026-10-19 15:14 could not reach eadb.org (The read operation timed out) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)"
 },
 "TDB Group procurement": {
-"last_try": 1792994380.8018508,
-"last_ok": "2026-10-26 08:56",
+"last_try": 1793003260.2724,
+"last_ok": "2026-10-26 11:19",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true,
 "last_error": "2026-10-26 03:57 no readable text on the page \u2013 it may load its list with JavaScript"
 },
 "IUCEA procurement": {
-"last_try": 1792994395.7256064,
-"last_ok": "2026-10-26 08:56",
+"last_try": 1793003262.2593856,
+"last_ok": "2026-10-26 11:19",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "ESAMI (Arusha) procurement": {
-"last_try": 1792994405.4748595,
-"last_ok": "2026-10-26 08:56",
+"last_try": 1793003269.2241318,
+"last_ok": "2026-10-26 11:19",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "Shelter Afrique procurement": {
-"last_try": 1792994425.9435036,
-"last_ok": "2026-10-26 08:56",
+"last_try": 1793003274.7620797,
+"last_ok": "2026-10-26 11:19",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true,
 "last_error": "2026-10-23 10:53 could not reach www.shelterafrique.org (HTTP Error 500: Internal Server Error) | reader: page reader returned an empty page"
 },
 "OPEC Fund procurement": {
-"last_try": 1792994429.1079912,
-"last_ok": "2026-10-26 08:56",
+"last_try": 1793003277.248689,
+"last_ok": "2026-10-26 11:19",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "IRC (International Rescue Committee) procurement": {
-"last_try": 1792994436.0006688,
-"last_ok": "2026-10-26 08:56",
+"last_try": 1793003280.566549,
+"last_ok": "2026-10-26 11:19",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "Norwegian Refugee Council procurement": {
-"last_try": 1792994436.5969129,
-"last_ok": "2026-10-26 08:56",
+"last_try": 1793003280.7899942,
+"last_ok": "2026-10-26 11:19",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "Welthungerhilfe tenders": {
-"last_try": 1792994437.704796,
-"last_ok": "2026-10-26 08:56",
+"last_try": 1793003281.9084466,
+"last_ok": "2026-10-26 11:19",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true
 },
 "Concern Worldwide tenders": {
-"last_try": 1792994438.7721915,
-"last_ok": "2026-10-26 08:56",
+"last_try": 1793003282.6411128,
+"last_ok": "2026-10-26 11:19",
 "fails": 0,
 "last_count": 0,
 "baseline_done": true,
