@@ -1,411 +1,411 @@
 {
-"generated": "2026-10-30T06:00:55+03:00",
+"generated": "2026-10-30T12:49:12+03:00",
 "scanner": {
-"last_scan": "2026-10-30T05:57:00+03:00",
+"last_scan": "2026-10-30T12:44:00+03:00",
 "summary": "NeST: 68 notices read; World Bank (Tanzania, civil works): 25 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 253 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices rea",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://nest.go.tz/tenders/published-tenders",
 "group": "tz"
 },
 {
 "name": "World Bank (Tanzania, civil works)",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://projects.worldbank.org/en/projects-operations/procurement?countrycode_exact=TZ",
 "group": "intl"
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.tanroads.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "CRDB Bank tenders",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://crdbbank.co.tz/en/about-us/tender",
 "group": "tz"
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.ddotenders.co.tz/tender.php?page=home",
 "group": "tz"
 },
 {
 "name": "TPA current tenders",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.ports.go.tz/index.php/en/procurements/current-tenders-en",
 "group": "tz"
 },
 {
 "name": "Bank of Tanzania tenders",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.bot.go.tz/CallsforTender",
 "group": "tz"
 },
 {
 "name": "TEITI tenders",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.teiti.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "TanzaniaTenders.com (newspapers, portals, private)",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.tanzaniatenders.com/tenders.php",
 "group": "tz"
 },
 {
 "name": "TRC tenders",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.trc.co.tz/tenders",
 "group": "tz"
 },
 {
 "name": "TCRA tenders",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.tcra.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "Azania Bank tenders",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.azaniabank.co.tz/tenders",
 "group": "tz"
 },
 {
 "name": "NBC Bank procurement",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.nbc.co.tz/en/procurement/",
 "group": "tz"
 },
 {
 "name": "Ministry of Water tenders",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.maji.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "REA tenders",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.rea.go.tz/category/tenders",
 "group": "tz"
 },
 {
 "name": "DART tenders",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.dart.go.tz/publications/tenders",
 "group": "tz"
 },
 {
 "name": "TASAC tenders",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.tasac.go.tz/publications/tender",
 "group": "tz"
 },
 {
 "name": "TMDA tenders",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.tmda.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "DUWASA tenders",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.duwasa.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "MWAUWASA tenders",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.mwauwasa.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "Ministry of Finance tenders",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.mof.go.tz/pages/tenders",
 "group": "tz"
 },
 {
 "name": "SUA tenders (zabuni)",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.sua.ac.tz/zabuni",
 "group": "tz"
 },
 {
 "name": "Tanzania Posts announcements",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.posta.co.tz/sw/announcement/all-announcement/",
 "group": "tz"
 },
 {
 "name": "TRA public notices",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.tra.go.tz/public-notice/all",
 "group": "tz"
 },
 {
 "name": "UDSM announcements",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.udsm.ac.tz",
 "group": "tz"
 },
 {
 "name": "TAWA announcements",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.tawa.go.tz/announcements",
 "group": "tz"
 },
 {
 "name": "Ministry of Health notices",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.moh.go.tz",
 "group": "tz"
 },
 {
 "name": "NM-AIST tenders",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.nm-aist.ac.tz/tenders/all",
 "group": "tz"
 },
 {
 "name": "BidDetail – Tanzania tenders",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.biddetail.com/tanzania-tenders",
 "group": "tz"
 },
 {
 "name": "ZoomTanzania tenders",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.zoomtanzania.net/tenders",
 "group": "tz"
 },
 {
 "name": "PPRA public notices",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.ppra.go.tz/publications/public-notices",
 "group": "tz"
 },
 {
 "name": "Exim Bank Tanzania tenders",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.eximbank.co.tz/tenders",
 "group": "tz"
 },
 {
 "name": "UK Find a Tender – Tanzania",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.find-tender.service.gov.uk/Search/Results?keywords=Tanzania",
 "group": "intl"
 },
 {
 "name": "UK Contracts Finder – Tanzania",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.contractsfinder.service.gov.uk/Search/Results?keywords=Tanzania",
 "group": "intl"
 },
 {
 "name": "EU Funding & Tenders – Tanzania",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-tenders?keywords=Tanzania",
 "group": "intl"
 },
 {
 "name": "TradeMark Africa procurement",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.trademarkafrica.com/procurement/",
 "group": "intl"
 },
 {
 "name": "Islamic Development Bank tenders",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.isdb.org/project-procurement/tenders",
 "group": "intl"
 },
 {
 "name": "African Union bids",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://au.int/en/bids",
 "group": "intl"
 },
 {
 "name": "Enabel (Belgium) procurement",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.enabel.be/public-procurement/",
 "group": "intl"
 },
 {
 "name": "Global Fund business opportunities",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.theglobalfund.org/en/business-opportunities/",
 "group": "intl"
 },
 {
 "name": "SADC procurement",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.sadc.int/procurement",
 "group": "intl"
 },
 {
 "name": "IOM procurement",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.iom.int/procurement-opportunities",
 "group": "intl"
 },
 {
 "name": "UNESCO procurement",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.unesco.org/en/procurement",
 "group": "intl"
 },
 {
 "name": "WFP procurement",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.wfp.org/procurement",
 "group": "intl"
 },
 {
 "name": "GlobalTenders – Tanzania",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.globaltenders.com/tanzania-tenders.php",
 "group": "intl"
 },
 {
 "name": "TenderImpulse – Tanzania",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.tenderimpulse.com/tanzania-tenders",
 "group": "intl"
 },
 {
 "name": "Lake Victoria Basin Commission procurement",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.lvbcom.org/procurement",
 "group": "intl"
 },
 {
 "name": "East African Development Bank procurement",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://eadb.org/procurement/",
 "group": "intl"
 },
 {
 "name": "TDB Group procurement",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.tdbgroup.org/procurement/",
 "group": "intl"
 },
 {
 "name": "IUCEA procurement",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.iucea.org/procurement/",
 "group": "intl"
 },
 {
 "name": "ESAMI (Arusha) procurement",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://esami-africa.org/procurement",
 "group": "intl"
 },
 {
 "name": "Shelter Afrique procurement",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.shelterafrique.org/procurement/",
 "group": "intl"
 },
 {
 "name": "OPEC Fund procurement",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://opecfund.org/procurement",
 "group": "intl"
 },
 {
 "name": "IRC (International Rescue Committee) procurement",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.rescue.org/procurement",
 "group": "intl"
 },
 {
 "name": "Norwegian Refugee Council procurement",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.nrc.no/procurement/",
 "group": "intl"
 },
 {
 "name": "Welthungerhilfe tenders",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.welthungerhilfe.org/tenders",
 "group": "intl"
 },
 {
 "name": "Concern Worldwide tenders",
-"last_ok": "2026-10-30 05:57",
+"last_ok": "2026-10-30 12:44",
 "error": "",
 "url": "https://www.concern.net/tenders",
 "group": "intl"
 }
 ]
 },
-"workbook_rows": 246,
+"workbook_rows": 249,
 "tenders": [
 {
 "id": "7205-2026-2027-W-09",
@@ -8658,6 +8658,105 @@
 "next": "Get the tender document, confirm value, CRB class, site visit and bid security; brief the MD",
 "found_by": "Auto-scan",
 "source_id": "11be6d69-fa8a-4f84-add6-519b9b4ddc42",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TZT:151693622",
+"title": "Lease of Space for Operating Kitchen 3 at Kia Staff Canteen",
+"deadline": "2026-11-05T10:00:00+03:00",
+"body": {
+"no": "(not shown)",
+"date_found": "2026-10-30T00:00:00+03:00",
+"source": "press",
+"url": "https://www.tanzaniatenders.com/tender/lease-space-operating-kitchen-3-kia-staff-canteen-90aa936.php",
+"client": "See advert",
+"client_type": "government",
+"title": "Lease of Space for Operating Kitchen 3 at Kia Staff Canteen",
+"scope": "From press notice (1 lot) – read the tender document",
+"location": "Not stated – read the notice",
+"category": "building",
+"crb": "See tender document",
+"funding": "unknown",
+"site_visit": "See tender document",
+"clar": "See tender document",
+"deadline": "2026-11-05T10:00:00+03:00",
+"bid_security": "See tender document",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"notice": "TanzaniaTenders.com (newspapers / portals / private)",
+"screen": "Check",
+"reason": "Auto (TanzaniaTenders.com): Site not stated in the listing – read the notice · deadline read from the web page – confirm",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "TZT:151693622",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TZT:151693582",
+"title": "Lease of Space for Operating Soft Drink Service at Kia Staff Canteen",
+"deadline": "2026-11-05T10:00:00+03:00",
+"body": {
+"no": "(not shown)",
+"date_found": "2026-10-30T00:00:00+03:00",
+"source": "press",
+"url": "https://www.tanzaniatenders.com/tender/lease-space-operating-soft-drink-service-kia-staff-canteen-90aa90e.php",
+"client": "See advert",
+"client_type": "government",
+"title": "Lease of Space for Operating Soft Drink Service at Kia Staff Canteen",
+"scope": "From press notice (1 lot) – read the tender document",
+"location": "Not stated – read the notice",
+"category": "building",
+"crb": "See tender document",
+"funding": "unknown",
+"site_visit": "See tender document",
+"clar": "See tender document",
+"deadline": "2026-11-05T10:00:00+03:00",
+"bid_security": "See tender document",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"notice": "TanzaniaTenders.com (newspapers / portals / private)",
+"screen": "Check",
+"reason": "Auto (TanzaniaTenders.com): Site not stated in the listing – read the notice · deadline read from the web page – confirm",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "TZT:151693582",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TZT:151693477",
+"title": "Lease of Space for Operating Kitchen 1 at Kia Staff Canteen",
+"deadline": "2026-11-06T10:00:00+03:00",
+"body": {
+"no": "(not shown)",
+"date_found": "2026-10-30T00:00:00+03:00",
+"source": "press",
+"url": "https://www.tanzaniatenders.com/tender/lease-space-operating-kitchen-1-kia-staff-canteen-90aa8a5.php",
+"client": "See advert",
+"client_type": "government",
+"title": "Lease of Space for Operating Kitchen 1 at Kia Staff Canteen",
+"scope": "From press notice (1 lot) – read the tender document",
+"location": "Not stated – read the notice",
+"category": "building",
+"crb": "See tender document",
+"funding": "unknown",
+"site_visit": "See tender document",
+"clar": "See tender document",
+"deadline": "2026-11-06T10:00:00+03:00",
+"bid_security": "See tender document",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"notice": "TanzaniaTenders.com (newspapers / portals / private)",
+"screen": "Check",
+"reason": "Auto (TanzaniaTenders.com): Site not stated in the listing – read the notice · deadline read from the web page – confirm",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "TZT:151693477",
 "synced_by": "NEXUS auto-sync"
 }
 }
