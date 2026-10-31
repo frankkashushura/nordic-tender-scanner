@@ -1,0 +1,84 @@
+Tender Scan – Saturday 31 October 2026, 08:55
+
+Sources checked:
+  NeST: 61 notices read
+  World Bank (Tanzania, civil works): 24 notices read
+  TANROADS website: 7 notices read
+  DDO Tenders (newspapers, private, donors): 253 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+  CRDB Bank tenders: 0 notices read
+  TPA current tenders: 0 notices read
+  Bank of Tanzania tenders: 0 notices read
+  TEITI tenders: 0 notices read
+  TRC tenders: 1 notices read
+  TCRA tenders: 4 notices read
+  Azania Bank tenders: 6 notices read
+  NBC Bank procurement: 0 notices read
+  Ministry of Water tenders: 0 notices read
+  REA tenders: 1 notices read
+  DART tenders: 1 notices read
+  TASAC tenders: 0 notices read
+  TMDA tenders: 0 notices read
+  DUWASA tenders: 1 notices read
+  MWAUWASA tenders: 0 notices read
+  Ministry of Finance tenders: 0 notices read
+  SUA tenders (zabuni): 3 notices read
+  Tanzania Posts announcements: 0 notices read
+  TRA public notices: 0 notices read
+  UDSM announcements: 0 notices read
+  TAWA announcements: 0 notices read
+  Ministry of Health notices: 0 notices read
+  NM-AIST tenders: 0 notices read
+  BidDetail – Tanzania tenders: 3 notices read
+  ZoomTanzania tenders: 0 notices read
+  PPRA public notices: 1 notices read
+  Exim Bank Tanzania tenders: 0 notices read
+  UK Find a Tender – Tanzania: 0 notices read
+  UK Contracts Finder – Tanzania: 0 notices read
+  EU Funding & Tenders – Tanzania: 0 notices read
+  TradeMark Africa procurement: 0 notices read
+  Islamic Development Bank tenders: 0 notices read
+  African Union bids: 0 notices read
+  Enabel (Belgium) procurement: 0 notices read
+  Global Fund business opportunities: 0 notices read
+  SADC procurement: 0 notices read
+  IOM procurement: 0 notices read
+  UNESCO procurement: 0 notices read
+  WFP procurement: 0 notices read
+  GlobalTenders – Tanzania: 7 notices read
+  TenderImpulse – Tanzania: 1 notices read
+  Lake Victoria Basin Commission procurement: 0 notices read
+  East African Development Bank procurement: 0 notices read
+  TDB Group procurement: 0 notices read
+  IUCEA procurement: 0 notices read
+  ESAMI (Arusha) procurement: 0 notices read
+  Shelter Afrique procurement: 0 notices read
+  OPEC Fund procurement: 0 notices read
+  IRC (International Rescue Committee) procurement: 0 notices read
+  Norwegian Refugee Council procurement: 0 notices read
+  Welthungerhilfe tenders: 0 notices read
+  Concern Worldwide tenders: 0 notices read
+
+NEW – PURSUE (1)
+  • closes Fri 06 Nov 14:00  City Council of Dodoma – Construction of Park House for Agricultural Product in Ihumwa Ward in the City Council of Dodoma  [Dodoma]  (7205/2026/2027/W/14; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+
+NEW – CHECK (6)
+  • closes Thu 05 Nov 10:00  See advert – Provision of Construction Service of X-Ray Block, for Mkongo Dispensary.  [Not stated – read the notice]  (no number; TanzaniaTenders.com (newspapers / portals / private))
+      https://www.tanzaniatenders.com/tender/provision-construction-service-x-ray-block-mkongo-dispensary-90bd988.php
+  • closes Thu 05 Nov 10:00  See advert – Provision of Construction Service of Laboratory Block, for Mkongo Dispensary  [Not stated – read the notice]  (no number; TanzaniaTenders.com (newspapers / portals / private))
+      https://www.tanzaniatenders.com/tender/provision-construction-service-laboratory-block-mkongo-dispensary-90bd987.php
+  • closes Fri 06 Nov 00:00  See notice – Tender For Spot Improvement Of Nsimbo District Roads. Tanzania 30 Oct 2026 06 Nov 2026 View Detail  [Not stated – read the notice]  (no number; GlobalTenders – Tanzania (web page))
+      https://www.globaltenders.com/tender-detail/tender-for-spot-improvement-of-nsimbo-distri-2hyZ8h43yn3cQzXA
+  • closes Fri 06 Nov 10:00  Monduli District Council – Construction of Two Staff Houses for Heads of Departments at Monduli District Council  [Arusha (Monduli)]  (70A2/2026/2027/W/13; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Fri 06 Nov 10:00  See advert – Provision of Construction Service of Staff House 3-In 1, for Mkongo Dispensary.  [Not stated – read the notice]  (no number; TanzaniaTenders.com (newspapers / portals / private))
+      https://www.tanzaniatenders.com/tender/provision-construction-service-staff-house-3-in-1-mkongo-dispensary-90bd8e2.php
+  • closes Fri 06 Nov 14:00  TARURA - Kagera Regional Office – Routine Maintenance Works (10.23km), Periodic Maintenance Works (3.50km), Spot Improvement (4.43km) and Constr  [Kagera (Bukoba) (from client's office – confirm site)]  (S10/006/2026/2027/W/109; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+
+DEADLINE CHANGED AT SOURCE
+  • 88Z3/2026/2027/W/121: was 02 Nov 14:00, now 03 Nov 14:00
+
+Screened out (see the 'Screened Out' sheet): 2
+Empty Pipeline rows left: 244
