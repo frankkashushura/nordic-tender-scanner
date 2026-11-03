@@ -1267,3 +1267,93 @@ Empty Pipeline rows left: 235
 
 2026-11-02 13:31:45  Report saved: /home/runner/work/nordic-tender-scanner/nordic-tender-scanner/scanner/reports/scan_2026-11-02_1328.txt
 2026-11-02 23:32:07  NeST: 68 notices read; World Bank (Tanzania, civil works): 24 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 259 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read; TRC tenders: 1 notices read; TCRA tenders: 4 notices read; Azania Bank tenders: 6 notices read; NBC Bank procurement: 0 notices read; Ministry of Water tenders: 0 notices read; REA tenders: 1 notices read; DART tenders: 1 notices read; TASAC tenders: 0 notices read; TMDA tenders: 0 notices read; DUWASA tenders: 1 notices read; MWAUWASA tenders: 0 notices read; Ministry of Finance tenders: 0 notices read; SUA tenders (zabuni): 3 notices read; Tanzania Posts announcements: 0 notices read; TRA public notices: 0 notices read; UDSM announcements: 0 notices read; TAWA announcements: 0 notices read; Ministry of Health notices: 0 notices read; NM-AIST tenders: 0 notices read; BidDetail – Tanzania tenders: 3 notices read; ZoomTanzania tenders: 0 notices read; PPRA public notices: 1 notices read; Exim Bank Tanzania tenders: 0 notices read; UK Find a Tender – Tanzania: 0 notices read; UK Contracts Finder – Tanzania: 0 notices read; EU Funding & Tenders – Tanzania: 0 notices read; TradeMark Africa procurement: 0 notices read; Islamic Development Bank tenders: 0 notices read; African Union bids: 0 notices read; Enabel (Belgium) procurement: 0 notices read; Global Fund business opportunities: 0 notices read; SADC procurement: 0 notices read; IOM procurement: 0 notices read; UNESCO procurement: 0 notices read; WFP procurement: 0 notices read; GlobalTenders – Tanzania: 5 notices read; TenderImpulse – Tanzania: 1 notices read; Lake Victoria Basin Commission procurement: 0 notices read; East African Development Bank procurement: 0 notices read; TDB Group procurement: 0 notices read; IUCEA procurement: 0 notices read; ESAMI (Arusha) procurement: 0 notices read; Shelter Afrique procurement: 0 notices read; OPEC Fund procurement: 0 notices read; IRC (International Rescue Committee) procurement: 0 notices read; Norwegian Refugee Council procurement: 0 notices read; Welthungerhilfe tenders: 0 notices read; Concern Worldwide tenders: 0 notices read → no new tenders
+2026-11-03 05:38:50  TARURA tenders: FAILED – could not reach tarura.go.tz:6032 (<urlopen error _ssl.c:993: The handshake operation timed out>)
+2026-11-03 05:42:55  GlobalTenders – Tanzania: FAILED – could not reach www.globaltenders.com (The read operation timed out) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)
+2026-11-03 05:43:43  NeST: 73 notices read; World Bank (Tanzania, civil works): 24 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 259 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: FAILED (could not reach tarura.go.tz:6032 (<urlopen error _ssl.c:993: The handshake operation timed out>))  – failing repeatedly, check the source; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read; TRC tenders: 1 notices read; TCRA tenders: 4 notices read; Azania Bank tenders: 6 notices read; NBC Bank procurement: 0 notices read; Ministry of Water tenders: 0 notices read; REA tenders: 1 notices read; DART tenders: 1 notices read; TASAC tenders: 0 notices read; TMDA tenders: 0 notices read; DUWASA tenders: 1 notices read; MWAUWASA tenders: 0 notices read; Ministry of Finance tenders: 0 notices read; SUA tenders (zabuni): 3 notices read; Tanzania Posts announcements: 0 notices read; TRA public notices: 0 notices read; UDSM announcements: 0 notices read; TAWA announcements: 0 notices read; Ministry of Health notices: 0 notices read; NM-AIST tenders: 0 notices read; BidDetail – Tanzania tenders: 3 notices read; ZoomTanzania tenders: 0 notices read; PPRA public notices: 1 notices read; Exim Bank Tanzania tenders: 0 notices read; UK Find a Tender – Tanzania: 0 notices read; UK Contracts Finder – Tanzania: 0 notices read; EU Funding & Tenders – Tanzania: 0 notices read; TradeMark Africa procurement: 0 notices read; Islamic Development Bank tenders: 0 notices read; African Union bids: 0 notices read; Enabel (Belgium) procurement: 0 notices read; Global Fund business opportunities: 0 notices read; SADC procurement: 0 notices read; IOM procurement: 0 notices read; UNESCO procurement: 0 notices read; WFP procurement: 0 notices read; GlobalTenders – Tanzania: FAILED (could not reach www.globaltenders.com (The read operation timed out) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity)); TenderImpulse – Tanzania: 1 notices read; Lake Victoria Basin Commission procurement: 0 notices read; East African Development Bank procurement: 0 notices read; TDB Group procurement: 0 notices read; IUCEA procurement: 0 notices read; ESAMI (Arusha) procurement: 0 notices read; Shelter Afrique procurement: 0 notices read; OPEC Fund procurement: 0 notices read; IRC (International Rescue Committee) procurement: 0 notices read; Norwegian Refugee Council procurement: 0 notices read; Welthungerhilfe tenders: 0 notices read; Concern Worldwide tenders: 0 notices read → 8 new, 0 deadline change(s)
+
+Tender Scan – Tuesday 03 November 2026, 05:35
+
+Sources checked:
+  NeST: 73 notices read
+  World Bank (Tanzania, civil works): 24 notices read
+  TANROADS website: 7 notices read
+  DDO Tenders (newspapers, private, donors): 259 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+  CRDB Bank tenders: 0 notices read
+  TPA current tenders: 0 notices read
+  TARURA tenders: FAILED (could not reach tarura.go.tz:6032 (<urlopen error _ssl.c:993: The handshake operation timed out>))  – failing repeatedly, check the source
+  Bank of Tanzania tenders: 0 notices read
+  TEITI tenders: 0 notices read
+  TRC tenders: 1 notices read
+  TCRA tenders: 4 notices read
+  Azania Bank tenders: 6 notices read
+  NBC Bank procurement: 0 notices read
+  Ministry of Water tenders: 0 notices read
+  REA tenders: 1 notices read
+  DART tenders: 1 notices read
+  TASAC tenders: 0 notices read
+  TMDA tenders: 0 notices read
+  DUWASA tenders: 1 notices read
+  MWAUWASA tenders: 0 notices read
+  Ministry of Finance tenders: 0 notices read
+  SUA tenders (zabuni): 3 notices read
+  Tanzania Posts announcements: 0 notices read
+  TRA public notices: 0 notices read
+  UDSM announcements: 0 notices read
+  TAWA announcements: 0 notices read
+  Ministry of Health notices: 0 notices read
+  NM-AIST tenders: 0 notices read
+  BidDetail – Tanzania tenders: 3 notices read
+  ZoomTanzania tenders: 0 notices read
+  PPRA public notices: 1 notices read
+  Exim Bank Tanzania tenders: 0 notices read
+  UK Find a Tender – Tanzania: 0 notices read
+  UK Contracts Finder – Tanzania: 0 notices read
+  EU Funding & Tenders – Tanzania: 0 notices read
+  TradeMark Africa procurement: 0 notices read
+  Islamic Development Bank tenders: 0 notices read
+  African Union bids: 0 notices read
+  Enabel (Belgium) procurement: 0 notices read
+  Global Fund business opportunities: 0 notices read
+  SADC procurement: 0 notices read
+  IOM procurement: 0 notices read
+  UNESCO procurement: 0 notices read
+  WFP procurement: 0 notices read
+  GlobalTenders – Tanzania: FAILED (could not reach www.globaltenders.com (The read operation timed out) | reader: could not reach r.jina.ai (HTTP Error 422: Unprocessable Entity))
+  TenderImpulse – Tanzania: 1 notices read
+  Lake Victoria Basin Commission procurement: 0 notices read
+  East African Development Bank procurement: 0 notices read
+  TDB Group procurement: 0 notices read
+  IUCEA procurement: 0 notices read
+  ESAMI (Arusha) procurement: 0 notices read
+  Shelter Afrique procurement: 0 notices read
+  OPEC Fund procurement: 0 notices read
+  IRC (International Rescue Committee) procurement: 0 notices read
+  Norwegian Refugee Council procurement: 0 notices read
+  Welthungerhilfe tenders: 0 notices read
+  Concern Worldwide tenders: 0 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (8)
+  • closes Mon 09 Nov 10:00  Kongwa District Council – Construction of Tank Tower, Cattle Trough and Irrigation Scheme  [Dodoma (Kongwa) (from client's office – confirm site)]  (72C4/2026/2027/W/02; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Mon 09 Nov 14:00  TANROADS - Dar es Salaam Regional Office – Reconstruction of Mjimwema - Kimbiji - Pembamnazi Road (0.45KM) to Bitumen Standard  [Dar es Salaam (Ilala) (from client's office – confirm site)]  (TR36/002/2026/2027/W/54; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Mon 09 Nov 14:00  RUWASA - Singida Regional Office – Construction of 4 (Four) Vioski Water Supply Scheme at Mnyange,Kinyamwandyoat Ikungi District and Ipalalyu,Chi  [Singida (Ikungi)]  (TR140/022/2026/2027/W/29; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Mon 09 Nov 14:00  TANROADS - Dar es Salaam Regional Office – Upgrading of Makabe - Msakuzi, Kwembe - Makondeko and Kibamba Shule - Mpiji Magoe (1.5Km)  [Dar es Salaam (Ilala) (from client's office – confirm site)]  (TR36/002/2026/2027/W/61; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Mon 09 Nov 14:00  RUWASA - Songwe Regional Office – Provision for construction of Point Sources in Momba District under 1575 programme  [Songwe (from client's office – confirm site)]  (TR140/023/2026/2027/W/07; Standard Invitation for Quotations -Works / Planned Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Mon 09 Nov 14:00  TARURA - Mwanza Regional Office – Construction of Nantare Bridge and maintenance of Structure along Hamkoko - Bukimwi road 5.6km in Ukerewe Dist  [Mwanza (Ilemela) (from client's office – confirm site)]  (S10/016/2026/2027/W/58; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Mon 09 Nov 14:00  TANROADS - Dar es Salaam Regional Office – Upgrading of Msongola -Mbande Roads (2.2Km) Including Construction of Open Drainage (3.8)Km  [Dar es Salaam (Ilala) (from client's office – confirm site)]  (TR36/002/2026/2027/W/60; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Tue 10 Nov 14:00  TANAPA - Northern Zone – The Construction of 2 Nos VIP Tourist's Cotteges at Kibo Hut in Kilimanjaro National Park  [Kilimanjaro]  (TR219/002/2026/2027/W/39; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+
+Screened out (see the 'Screened Out' sheet): 4
+Empty Pipeline rows left: 227
+
+2026-11-03 05:43:43  Report saved: /home/runner/work/nordic-tender-scanner/nordic-tender-scanner/scanner/reports/scan_2026-11-03_0535.txt
