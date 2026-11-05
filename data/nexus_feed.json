@@ -1,411 +1,411 @@
 {
-"generated": "2026-11-05T06:02:22+03:00",
+"generated": "2026-11-05T13:44:02+03:00",
 "scanner": {
-"last_scan": "2026-11-05T05:58:00+03:00",
-"summary": "NeST: 73 notices read; World Bank (Tanzania, civil works): 23 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 263 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: FAILED (could not reach tarura.go.tz:6032 (<urlopen er",
+"last_scan": "2026-11-05T13:40:00+03:00",
+"summary": "NeST: 72 notices read; World Bank (Tanzania, civil works): 23 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 268 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices rea",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://nest.go.tz/tenders/published-tenders",
 "group": "tz"
 },
 {
 "name": "World Bank (Tanzania, civil works)",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://projects.worldbank.org/en/projects-operations/procurement?countrycode_exact=TZ",
 "group": "intl"
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.tanroads.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "CRDB Bank tenders",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://crdbbank.co.tz/en/about-us/tender",
 "group": "tz"
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.ddotenders.co.tz/tender.php?page=home",
 "group": "tz"
 },
 {
 "name": "TPA current tenders",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.ports.go.tz/index.php/en/procurements/current-tenders-en",
 "group": "tz"
 },
 {
 "name": "Bank of Tanzania tenders",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.bot.go.tz/CallsforTender",
 "group": "tz"
 },
 {
 "name": "TEITI tenders",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.teiti.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "TanzaniaTenders.com (newspapers, portals, private)",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.tanzaniatenders.com/tenders.php",
 "group": "tz"
 },
 {
 "name": "TRC tenders",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.trc.co.tz/tenders",
 "group": "tz"
 },
 {
 "name": "TCRA tenders",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.tcra.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "Azania Bank tenders",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.azaniabank.co.tz/tenders",
 "group": "tz"
 },
 {
 "name": "NBC Bank procurement",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.nbc.co.tz/en/procurement/",
 "group": "tz"
 },
 {
 "name": "Ministry of Water tenders",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.maji.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "REA tenders",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.rea.go.tz/category/tenders",
 "group": "tz"
 },
 {
 "name": "DART tenders",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.dart.go.tz/publications/tenders",
 "group": "tz"
 },
 {
 "name": "TASAC tenders",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.tasac.go.tz/publications/tender",
 "group": "tz"
 },
 {
 "name": "TMDA tenders",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.tmda.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "DUWASA tenders",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.duwasa.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "MWAUWASA tenders",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.mwauwasa.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "Ministry of Finance tenders",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.mof.go.tz/pages/tenders",
 "group": "tz"
 },
 {
 "name": "SUA tenders (zabuni)",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.sua.ac.tz/zabuni",
 "group": "tz"
 },
 {
 "name": "Tanzania Posts announcements",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.posta.co.tz/sw/announcement/all-announcement/",
 "group": "tz"
 },
 {
 "name": "TRA public notices",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.tra.go.tz/public-notice/all",
 "group": "tz"
 },
 {
 "name": "UDSM announcements",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.udsm.ac.tz",
 "group": "tz"
 },
 {
 "name": "TAWA announcements",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.tawa.go.tz/announcements",
 "group": "tz"
 },
 {
 "name": "Ministry of Health notices",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.moh.go.tz",
 "group": "tz"
 },
 {
 "name": "NM-AIST tenders",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.nm-aist.ac.tz/tenders/all",
 "group": "tz"
 },
 {
 "name": "BidDetail – Tanzania tenders",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.biddetail.com/tanzania-tenders",
 "group": "tz"
 },
 {
 "name": "ZoomTanzania tenders",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.zoomtanzania.net/tenders",
 "group": "tz"
 },
 {
 "name": "PPRA public notices",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.ppra.go.tz/publications/public-notices",
 "group": "tz"
 },
 {
 "name": "Exim Bank Tanzania tenders",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.eximbank.co.tz/tenders",
 "group": "tz"
 },
 {
 "name": "UK Find a Tender – Tanzania",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.find-tender.service.gov.uk/Search/Results?keywords=Tanzania",
 "group": "intl"
 },
 {
 "name": "UK Contracts Finder – Tanzania",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.contractsfinder.service.gov.uk/Search/Results?keywords=Tanzania",
 "group": "intl"
 },
 {
 "name": "EU Funding & Tenders – Tanzania",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-tenders?keywords=Tanzania",
 "group": "intl"
 },
 {
 "name": "TradeMark Africa procurement",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.trademarkafrica.com/procurement/",
 "group": "intl"
 },
 {
 "name": "Islamic Development Bank tenders",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.isdb.org/project-procurement/tenders",
 "group": "intl"
 },
 {
 "name": "African Union bids",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://au.int/en/bids",
 "group": "intl"
 },
 {
 "name": "Enabel (Belgium) procurement",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.enabel.be/public-procurement/",
 "group": "intl"
 },
 {
 "name": "Global Fund business opportunities",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.theglobalfund.org/en/business-opportunities/",
 "group": "intl"
 },
 {
 "name": "SADC procurement",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.sadc.int/procurement",
 "group": "intl"
 },
 {
 "name": "IOM procurement",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.iom.int/procurement-opportunities",
 "group": "intl"
 },
 {
 "name": "UNESCO procurement",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.unesco.org/en/procurement",
 "group": "intl"
 },
 {
 "name": "WFP procurement",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.wfp.org/procurement",
 "group": "intl"
 },
 {
 "name": "GlobalTenders – Tanzania",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.globaltenders.com/tanzania-tenders.php",
 "group": "intl"
 },
 {
 "name": "TenderImpulse – Tanzania",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.tenderimpulse.com/tanzania-tenders",
 "group": "intl"
 },
 {
 "name": "Lake Victoria Basin Commission procurement",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.lvbcom.org/procurement",
 "group": "intl"
 },
 {
 "name": "East African Development Bank procurement",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://eadb.org/procurement/",
 "group": "intl"
 },
 {
 "name": "TDB Group procurement",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.tdbgroup.org/procurement/",
 "group": "intl"
 },
 {
 "name": "IUCEA procurement",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.iucea.org/procurement/",
 "group": "intl"
 },
 {
 "name": "ESAMI (Arusha) procurement",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://esami-africa.org/procurement",
 "group": "intl"
 },
 {
 "name": "Shelter Afrique procurement",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.shelterafrique.org/procurement/",
 "group": "intl"
 },
 {
 "name": "OPEC Fund procurement",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://opecfund.org/procurement",
 "group": "intl"
 },
 {
 "name": "IRC (International Rescue Committee) procurement",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.rescue.org/procurement",
 "group": "intl"
 },
 {
 "name": "Norwegian Refugee Council procurement",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.nrc.no/procurement/",
 "group": "intl"
 },
 {
 "name": "Welthungerhilfe tenders",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.welthungerhilfe.org/tenders",
 "group": "intl"
 },
 {
 "name": "Concern Worldwide tenders",
-"last_ok": "2026-11-05 05:58",
+"last_ok": "2026-11-05 13:40",
 "error": "",
 "url": "https://www.concern.net/tenders",
 "group": "intl"
 }
 ]
 },
-"workbook_rows": 282,
+"workbook_rows": 292,
 "tenders": [
 {
 "id": "7205-2026-2027-W-09",
@@ -8528,7 +8528,7 @@
 {
 "id": "7205-2026-2027-W-13",
 "title": "Construction of Chinyoya Secondary school at Kilimani ward in the City Council of Dodoma",
-"deadline": "2026-11-05T10:00:00+03:00",
+"deadline": "2026-11-09T10:00:00+03:00",
 "body": {
 "no": "7205/2026/2027/W/13",
 "date_found": "2026-10-30T00:00:00+03:00",
@@ -8544,7 +8544,7 @@
 "funding": "unknown",
 "site_visit": "NeST login needed",
 "clar": "NeST login needed",
-"deadline": "2026-11-05T10:00:00+03:00",
+"deadline": "2026-11-09T10:00:00+03:00",
 "bid_security": "NeST login needed",
 "docs": "N",
 "status": "Watching",
@@ -8553,7 +8553,7 @@
 "notice": "Small Works / Tender",
 "screen": "Pursue",
 "reason": "Auto (Small Works / Tender): Building works within reach of Dar",
-"next": "Get the tender document, confirm value, CRB class, site visit and bid security; brief the MD",
+"next": "Deadline changed at source 05-Nov (was 05-Nov 10:00). Get the tender document, confirm value, CRB class, site visit and bid security; brief the MD",
 "found_by": "Auto-scan",
 "source_id": "63499a79-7b39-4f52-814c-37d3d6da0043",
 "synced_by": "NEXUS auto-sync"
@@ -9865,6 +9865,345 @@
 "next": "Read the notice and decide with the QS Director whether to pursue",
 "found_by": "Auto-scan",
 "source_id": "TZT:151950567",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "74E7-2026-2027-W-20",
+"title": "To facilitate construction of X-RAY block at GWANUMPU health centre in Kakonko District Council by june 2027",
+"deadline": "2026-11-11T10:00:00+03:00",
+"body": {
+"no": "74E7/2026/2027/W/20",
+"date_found": "2026-11-05T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "Kakonko District Council",
+"client_type": "government",
+"title": "To facilitate construction of X-RAY block at GWANUMPU health centre in Kakonko District Council by june 2027",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Kigoma (from client's office – confirm site)",
+"category": "building",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-11-11T10:00:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-11-04T00:00:00+03:00",
+"notice": "Standard Invitation for Quotations -Works / Planned Tender",
+"screen": "Check",
+"reason": "Auto (Standard Invitation for Quotations -Works / Planned Tender): Construction tender kept for review (would have been dropped: Remote and closing soon)",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "d1fe5a64-a969-4009-a4f1-f04582385f35",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "80L3-2026-2027-W-05",
+"title": "Completion of Construction of Wards at Mchemo District Hospital",
+"deadline": "2026-11-11T14:00:00+03:00",
+"body": {
+"no": "80L3/2026/2027/W/05",
+"date_found": "2026-11-05T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "Newala District Council",
+"client_type": "government",
+"title": "Completion of Construction of Wards at Mchemo District Hospital",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Mtwara (Newala) (from client's office – confirm site)",
+"category": "building",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-11-11T14:00:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-11-04T00:00:00+03:00",
+"notice": "Small Works / Tender",
+"screen": "Check",
+"reason": "Auto (Small Works / Tender): Lindi/Mtwara – Nordic has worked there (Likong'o)",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "b66d8e61-b1bf-4c69-bf8a-858bc2cfd8ab",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "71B4-2026-2027-W-17",
+"title": "PROPOSED CONSTRUCTION ENGLISH MEDIUM PRIMARY SCHOOL TO BE BUILT AT MLANDIZI AREA IN KIBAHA DISTRICT COAST REGION",
+"deadline": "2026-11-11T14:00:00+03:00",
+"body": {
+"no": "71B4/2026/2027/W/17",
+"date_found": "2026-11-05T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "Kibaha District Council",
+"client_type": "government",
+"title": "PROPOSED CONSTRUCTION ENGLISH MEDIUM PRIMARY SCHOOL TO BE BUILT AT MLANDIZI AREA IN KIBAHA DISTRICT COAST REGION",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Pwani (Kibaha)",
+"category": "building",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-11-11T14:00:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-11-04T00:00:00+03:00",
+"notice": "Small Works / Tender",
+"screen": "Pursue",
+"reason": "Auto (Small Works / Tender): Building works within reach of Dar",
+"next": "Get the tender document, confirm value, CRB class, site visit and bid security; brief the MD",
+"found_by": "Auto-scan",
+"source_id": "be6fd66a-bb65-4a9c-bf00-e7b965b1d7a4",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TR36-002-2026-2027-W-57",
+"title": "Reconstruction of Kongowe - Mjimwema - Kivukoni - Ferry Road (0.300KM) to bitumen standard",
+"deadline": "2026-11-11T14:00:00+03:00",
+"body": {
+"no": "TR36/002/2026/2027/W/57",
+"date_found": "2026-11-05T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "TANROADS - Dar es Salaam Regional Office",
+"client_type": "government",
+"title": "Reconstruction of Kongowe - Mjimwema - Kivukoni - Ferry Road (0.300KM) to bitumen standard",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Dar es Salaam (Ilala) (from client's office – confirm site)",
+"category": "civil",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-11-11T14:00:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-11-04T00:00:00+03:00",
+"notice": "Small Works / Tender",
+"screen": "Check",
+"reason": "Auto (Small Works / Tender): Civil works in Dar/Coast – confirm CRB class and margin",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "2588a52d-7407-4e38-ab5f-57c296d6828d",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TR36-002-2026-2027-W-58",
+"title": "Rehabilitation of Paved Regional Roads Along UN Road and Ally Hassan Mwinyi-Kinondoni Roads",
+"deadline": "2026-11-11T14:00:00+03:00",
+"body": {
+"no": "TR36/002/2026/2027/W/58",
+"date_found": "2026-11-05T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "TANROADS - Dar es Salaam Regional Office",
+"client_type": "government",
+"title": "Rehabilitation of Paved Regional Roads Along UN Road and Ally Hassan Mwinyi-Kinondoni Roads",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Dar es Salaam (Kinondoni)",
+"category": "civil",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-11-11T14:00:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-11-04T00:00:00+03:00",
+"notice": "Small Works / Tender",
+"screen": "Check",
+"reason": "Auto (Small Works / Tender): Civil works in Dar/Coast – confirm CRB class and margin",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "b337c157-eed8-410c-8dc5-506b92a5145f",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "70Q2-2026-2027-W-01",
+"title": "CONSTRUCTION OF HEAD OF DEPARTMENTS HOUSE TO BE BUILT AT LONGIDO-ARUSHA",
+"deadline": "2026-11-12T10:30:00+03:00",
+"body": {
+"no": "70Q2/2026/2027/W/01",
+"date_found": "2026-11-05T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "Longido District Council",
+"client_type": "government",
+"title": "CONSTRUCTION OF HEAD OF DEPARTMENTS HOUSE TO BE BUILT AT LONGIDO-ARUSHA",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Arusha",
+"category": "building",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-11-12T10:30:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-11-05T00:00:00+03:00",
+"notice": "Small Works / Tender",
+"screen": "Check",
+"reason": "Auto (Small Works / Tender): Construction tender kept for review (would have been dropped: Remote and closing soon)",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "6474cfad-6da4-44f4-8813-606f8b513400",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TR185-2026-2027-W-17",
+"title": "Construction of Internal Roads and Bridge at Nyanza Industrial Park in Mwanza",
+"deadline": "2026-11-12T14:00:00+03:00",
+"body": {
+"no": "TR185/2026/2027/W/17",
+"date_found": "2026-11-05T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "National Development Corporation",
+"client_type": "parastatal (verify)",
+"title": "Construction of Internal Roads and Bridge at Nyanza Industrial Park in Mwanza",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Mwanza",
+"category": "civil",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-11-12T14:00:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-11-05T00:00:00+03:00",
+"notice": "Small Works / Tender",
+"screen": "Check",
+"reason": "Auto (Small Works / Tender): Construction tender kept for review (would have been dropped: Remote civil works)",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "89920d57-9df8-4f76-841f-44429f9d4e5d",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "83-2026-2027-W-10",
+"title": "Rehabilitation of Office Building for Shinyanga District Commisioner, Rehabilitation of Residence House for Shinyanga District Commissioner, Rehabilitation of Residence House for Shinyanga District Administative Secretary and Rehabilitation of Shinyanga Division Offices",
+"deadline": "2026-11-13T14:00:00+03:00",
+"body": {
+"no": "83/2026/2027/W/10",
+"date_found": "2026-11-05T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "Shinyanga Regional Secretariat",
+"client_type": "government",
+"title": "Rehabilitation of Office Building for Shinyanga District Commisioner, Rehabilitation of Residence House for Shinyanga District Commissioner, Rehabilitation of Residence House for Shinyanga District Administative Secretary and Rehabilitation of Shinyanga Division Offices",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Shinyanga",
+"category": "renovation",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-11-13T14:00:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-11-05T00:00:00+03:00",
+"notice": "Small Works / Tender",
+"screen": "Check",
+"reason": "Auto (Small Works / Tender): Building works but remote from Dar",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "11f99a88-465c-4391-b601-29ac35df1b55",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TANECU-TAND-2026-2027-W-01",
+"title": "Ujenzi wa Kiwanda",
+"deadline": "2026-11-17T10:00:00+03:00",
+"body": {
+"no": "TANECU/TAND/2026-2027/W/01",
+"date_found": "2026-11-05T00:00:00+03:00",
+"source": "press",
+"url": "https://www.ddotenders.co.tz/tender.php?page=home",
+"client": "TANECU LTD",
+"client_type": "government",
+"title": "Ujenzi wa Kiwanda",
+"scope": "From press notice (1 lot) – read the tender document",
+"location": "Dar es Salaam",
+"category": "building",
+"crb": "See tender document",
+"funding": "unknown",
+"site_visit": "See tender document",
+"clar": "See tender document",
+"deadline": "2026-11-17T10:00:00+03:00",
+"bid_security": "See tender document",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-11-05T00:00:00+03:00",
+"notice": "DDO Tenders (newspaper / private / donor)",
+"screen": "Pursue",
+"reason": "Auto (DDO Tenders): Building works within reach of Dar · deadline read from the web page – confirm",
+"next": "Get the tender document, confirm value, CRB class, site visit and bid security; brief the MD",
+"found_by": "Auto-scan",
+"source_id": "DDO:3122",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TZT:152039880",
+"title": "Construction of Three (3) Market Stalls with Sanitary Facilities in Kuzuramimba",
+"deadline": "2026-11-26T10:00:00+03:00",
+"body": {
+"no": "(not shown)",
+"date_found": "2026-11-05T00:00:00+03:00",
+"source": "press",
+"url": "https://www.tanzaniatenders.com/tender/construction-three-3-market-stalls-sanitary-facilities-kuzuramimba-90ff1c8.php",
+"client": "See advert",
+"client_type": "government",
+"title": "Construction of Three (3) Market Stalls with Sanitary Facilities in Kuzuramimba",
+"scope": "From press notice (1 lot) – read the tender document",
+"location": "Not stated – read the notice",
+"category": "building",
+"crb": "See tender document",
+"funding": "unknown",
+"site_visit": "See tender document",
+"clar": "See tender document",
+"deadline": "2026-11-26T10:00:00+03:00",
+"bid_security": "See tender document",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"notice": "TanzaniaTenders.com (newspapers / portals / private)",
+"screen": "Check",
+"reason": "Auto (TanzaniaTenders.com): Site not stated in the listing – read the notice · deadline read from the web page – confirm",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "TZT:152039880",
 "synced_by": "NEXUS auto-sync"
 }
 }
