@@ -1,0 +1,77 @@
+Tender Scan – Monday 09 November 2026, 08:05
+
+Sources checked:
+  NeST: 61 notices read
+  World Bank (Tanzania, civil works): 23 notices read
+  TANROADS website: 7 notices read
+  DDO Tenders (newspapers, private, donors): 268 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+  CRDB Bank tenders: 0 notices read
+  TPA current tenders: 0 notices read
+  Bank of Tanzania tenders: 0 notices read
+  TEITI tenders: 0 notices read
+  TRC tenders: 1 notices read
+  TCRA tenders: 4 notices read
+  Azania Bank tenders: 6 notices read
+  NBC Bank procurement: 0 notices read
+  Ministry of Water tenders: 0 notices read
+  REA tenders: 1 notices read
+  DART tenders: 1 notices read
+  TASAC tenders: 0 notices read
+  TMDA tenders: 0 notices read
+  DUWASA tenders: 1 notices read
+  MWAUWASA tenders: 0 notices read
+  Ministry of Finance tenders: 0 notices read
+  SUA tenders (zabuni): 3 notices read
+  Tanzania Posts announcements: 0 notices read
+  TRA public notices: 0 notices read
+  UDSM announcements: 0 notices read
+  TAWA announcements: 0 notices read
+  Ministry of Health notices: 0 notices read
+  NM-AIST tenders: 0 notices read
+  BidDetail – Tanzania tenders: 5 notices read
+  ZoomTanzania tenders: 0 notices read
+  PPRA public notices: 1 notices read
+  Exim Bank Tanzania tenders: 0 notices read
+  UK Find a Tender – Tanzania: 0 notices read
+  UK Contracts Finder – Tanzania: 0 notices read
+  EU Funding & Tenders – Tanzania: 0 notices read
+  TradeMark Africa procurement: 0 notices read
+  Islamic Development Bank tenders: 0 notices read
+  African Union bids: 0 notices read
+  Enabel (Belgium) procurement: 0 notices read
+  Global Fund business opportunities: 0 notices read
+  SADC procurement: 0 notices read
+  IOM procurement: 0 notices read
+  UNESCO procurement: 0 notices read
+  WFP procurement: 0 notices read
+  GlobalTenders – Tanzania: 5 notices read
+  TenderImpulse – Tanzania: 1 notices read
+  Lake Victoria Basin Commission procurement: 0 notices read
+  East African Development Bank procurement: 0 notices read
+  TDB Group procurement: 0 notices read
+  IUCEA procurement: 0 notices read
+  ESAMI (Arusha) procurement: 0 notices read
+  Shelter Afrique procurement: 0 notices read
+  OPEC Fund procurement: 0 notices read
+  IRC (International Rescue Committee) procurement: 0 notices read
+  Norwegian Refugee Council procurement: 0 notices read
+  Welthungerhilfe tenders: 0 notices read
+  Concern Worldwide tenders: 0 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (5)
+  • closes Thu 12 Nov 10:00  See advert – Procurement of Reinforcement 16Mm Bs 500 for Construction of Conference Hall at Handeni Town Council  [Tanga (Handeni)]  (no number; TanzaniaTenders.com (newspapers / portals / private))
+      https://www.tanzaniatenders.com/tender/procurement-reinforcement-16mm-bs-500-construction-conference-hall-handeni-town-council-912c397.php
+  • closes Thu 12 Nov 10:00  See advert – Procurement of Paving Blocks for Construction of Landscaping at Town Director Residence  [Not stated – read the notice]  (no number; TanzaniaTenders.com (newspapers / portals / private))
+      https://www.tanzaniatenders.com/tender/procurement-paving-blocks-construction-landscaping-town-director-residence-912c393.php
+  • closes Mon 16 Nov 14:00  RUWASA - Kagera Regional Office – To construct Makongora-Kizinga Phase 1 water supply project in Muleba District  [Kagera (Bukoba) (from client's office – confirm site)]  (TR140/005/2026/2027/W/02; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Mon 16 Nov 14:00  Busega District Council – CONSTRUCTION OF NYASHIMO BUS STAND AT BUSEGA DISTRICT COUNCIL  [Simiyu (from client's office – confirm site)]  (47BB5/2026/2027/W/10; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Tue 17 Nov 10:00  See advert – Provision of Labour Services of Construction of Shop Frame  [Not stated – read the notice]  (no number; TanzaniaTenders.com (newspapers / portals / private))
+      https://www.tanzaniatenders.com/tender/provision-labour-services-construction-shop-frame-912c395.php
+
+Screened out (see the 'Screened Out' sheet): 0
+Empty Pipeline rows left: 193
