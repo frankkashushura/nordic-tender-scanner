@@ -1,418 +1,418 @@
 {
-"generated": "2026-11-13T06:44:58+03:00",
+"generated": "2026-11-13T14:40:14+03:00",
 "scanner": {
-"last_scan": "2026-11-13T06:40:00+03:00",
-"summary": "NeST: 51 notices read; World Bank (Tanzania, civil works): 23 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 279 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices re",
+"last_scan": "2026-11-13T14:35:00+03:00",
+"summary": "NeST: 50 notices read; World Bank (Tanzania, civil works): 23 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 280 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices re",
 "sources": [
 {
 "name": "NeST",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://nest.go.tz/tenders/published-tenders",
 "group": "tz"
 },
 {
 "name": "World Bank (Tanzania, civil works)",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://projects.worldbank.org/en/projects-operations/procurement?countrycode_exact=TZ",
 "group": "intl"
 },
 {
 "name": "TANROADS website",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.tanroads.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "CRDB Bank tenders",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://crdbbank.co.tz/en/about-us/tender",
 "group": "tz"
 },
 {
 "name": "DDO Tenders (newspapers, private, donors)",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.ddotenders.co.tz/tender.php?page=home",
 "group": "tz"
 },
 {
 "name": "TPA current tenders",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.ports.go.tz/index.php/en/procurements/current-tenders-en",
 "group": "tz"
 },
 {
 "name": "TARURA tenders",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://tarura.go.tz/trr/matangazo",
 "group": "tz"
 },
 {
 "name": "Bank of Tanzania tenders",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.bot.go.tz/CallsforTender",
 "group": "tz"
 },
 {
 "name": "TEITI tenders",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.teiti.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "TanzaniaTenders.com (newspapers, portals, private)",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.tanzaniatenders.com/tenders.php",
 "group": "tz"
 },
 {
 "name": "TRC tenders",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.trc.co.tz/tenders",
 "group": "tz"
 },
 {
 "name": "TCRA tenders",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.tcra.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "Azania Bank tenders",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.azaniabank.co.tz/tenders",
 "group": "tz"
 },
 {
 "name": "NBC Bank procurement",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.nbc.co.tz/en/procurement/",
 "group": "tz"
 },
 {
 "name": "Ministry of Water tenders",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.maji.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "REA tenders",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.rea.go.tz/category/tenders",
 "group": "tz"
 },
 {
 "name": "DART tenders",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.dart.go.tz/publications/tenders",
 "group": "tz"
 },
 {
 "name": "TASAC tenders",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.tasac.go.tz/publications/tender",
 "group": "tz"
 },
 {
 "name": "TMDA tenders",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.tmda.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "DUWASA tenders",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.duwasa.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "MWAUWASA tenders",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.mwauwasa.go.tz/tenders",
 "group": "tz"
 },
 {
 "name": "Ministry of Finance tenders",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.mof.go.tz/pages/tenders",
 "group": "tz"
 },
 {
 "name": "SUA tenders (zabuni)",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.sua.ac.tz/zabuni",
 "group": "tz"
 },
 {
 "name": "Tanzania Posts announcements",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.posta.co.tz/sw/announcement/all-announcement/",
 "group": "tz"
 },
 {
 "name": "TRA public notices",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.tra.go.tz/public-notice/all",
 "group": "tz"
 },
 {
 "name": "UDSM announcements",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.udsm.ac.tz",
 "group": "tz"
 },
 {
 "name": "TAWA announcements",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.tawa.go.tz/announcements",
 "group": "tz"
 },
 {
 "name": "Ministry of Health notices",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.moh.go.tz",
 "group": "tz"
 },
 {
 "name": "NM-AIST tenders",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.nm-aist.ac.tz/tenders/all",
 "group": "tz"
 },
 {
 "name": "BidDetail – Tanzania tenders",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.biddetail.com/tanzania-tenders",
 "group": "tz"
 },
 {
 "name": "ZoomTanzania tenders",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.zoomtanzania.net/tenders",
 "group": "tz"
 },
 {
 "name": "PPRA public notices",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.ppra.go.tz/publications/public-notices",
 "group": "tz"
 },
 {
 "name": "Exim Bank Tanzania tenders",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.eximbank.co.tz/tenders",
 "group": "tz"
 },
 {
 "name": "UK Find a Tender – Tanzania",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.find-tender.service.gov.uk/Search/Results?keywords=Tanzania",
 "group": "intl"
 },
 {
 "name": "UK Contracts Finder – Tanzania",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.contractsfinder.service.gov.uk/Search/Results?keywords=Tanzania",
 "group": "intl"
 },
 {
 "name": "EU Funding & Tenders – Tanzania",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-tenders?keywords=Tanzania",
 "group": "intl"
 },
 {
 "name": "TradeMark Africa procurement",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.trademarkafrica.com/procurement/",
 "group": "intl"
 },
 {
 "name": "Islamic Development Bank tenders",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.isdb.org/project-procurement/tenders",
 "group": "intl"
 },
 {
 "name": "African Union bids",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://au.int/en/bids",
 "group": "intl"
 },
 {
 "name": "Enabel (Belgium) procurement",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.enabel.be/public-procurement/",
 "group": "intl"
 },
 {
 "name": "Global Fund business opportunities",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.theglobalfund.org/en/business-opportunities/",
 "group": "intl"
 },
 {
 "name": "SADC procurement",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.sadc.int/procurement",
 "group": "intl"
 },
 {
 "name": "IOM procurement",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.iom.int/procurement-opportunities",
 "group": "intl"
 },
 {
 "name": "UNESCO procurement",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.unesco.org/en/procurement",
 "group": "intl"
 },
 {
 "name": "WFP procurement",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.wfp.org/procurement",
 "group": "intl"
 },
 {
 "name": "GlobalTenders – Tanzania",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.globaltenders.com/tanzania-tenders.php",
 "group": "intl"
 },
 {
 "name": "TenderImpulse – Tanzania",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.tenderimpulse.com/tanzania-tenders",
 "group": "intl"
 },
 {
 "name": "Lake Victoria Basin Commission procurement",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.lvbcom.org/procurement",
 "group": "intl"
 },
 {
 "name": "East African Development Bank procurement",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://eadb.org/procurement/",
 "group": "intl"
 },
 {
 "name": "TDB Group procurement",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.tdbgroup.org/procurement/",
 "group": "intl"
 },
 {
 "name": "IUCEA procurement",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.iucea.org/procurement/",
 "group": "intl"
 },
 {
 "name": "ESAMI (Arusha) procurement",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://esami-africa.org/procurement",
 "group": "intl"
 },
 {
 "name": "Shelter Afrique procurement",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.shelterafrique.org/procurement/",
 "group": "intl"
 },
 {
 "name": "OPEC Fund procurement",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://opecfund.org/procurement",
 "group": "intl"
 },
 {
 "name": "IRC (International Rescue Committee) procurement",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.rescue.org/procurement",
 "group": "intl"
 },
 {
 "name": "Norwegian Refugee Council procurement",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.nrc.no/procurement/",
 "group": "intl"
 },
 {
 "name": "Welthungerhilfe tenders",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.welthungerhilfe.org/tenders",
 "group": "intl"
 },
 {
 "name": "Concern Worldwide tenders",
-"last_ok": "2026-11-13 06:40",
+"last_ok": "2026-11-13 14:35",
 "error": "",
 "url": "https://www.concern.net/tenders",
 "group": "intl"
 }
 ]
 },
-"workbook_rows": 326,
+"workbook_rows": 330,
 "tenders": [
 {
 "id": "7205-2026-2027-W-09",
@@ -11352,6 +11352,142 @@
 "next": "Read the notice and decide with the QS Director whether to pursue",
 "found_by": "Auto-scan",
 "source_id": "TZT:152364620",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "87V8-2026-2027-W-03",
+"title": "Proposed Construction of Two (2) Residential Houses for Heads of Departments (HODs).",
+"deadline": "2026-11-19T14:00:00+03:00",
+"body": {
+"no": "87V8/2026/2027/W/03",
+"date_found": "2026-11-13T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "Kyerwa District Council",
+"client_type": "government",
+"title": "Proposed Construction of Two (2) Residential Houses for Heads of Departments (HODs).",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Kagera (from client's office – confirm site)",
+"category": "building",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-11-19T14:00:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-11-12T00:00:00+03:00",
+"notice": "Standard Invitation for Quotations -Works / Planned Tender",
+"screen": "Check",
+"reason": "Auto (Standard Invitation for Quotations -Works / Planned Tender): Construction tender kept for review (would have been dropped: Remote and closing soon)",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "c9803d0a-7aca-4ef2-9703-9111c797adc2",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "43-2026-2027-W-07",
+"title": "Proposed Renovation of Staff Houses at MATI - Mtwara in Mtwara Region",
+"deadline": "2026-11-20T14:00:00+03:00",
+"body": {
+"no": "43/2026/2027/W/07",
+"date_found": "2026-11-13T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "Ministry of Agriculture",
+"client_type": "government",
+"title": "Proposed Renovation of Staff Houses at MATI - Mtwara in Mtwara Region",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Mtwara",
+"category": "renovation",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-11-20T14:00:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-11-12T00:00:00+03:00",
+"notice": "Small Works / Tender",
+"screen": "Check",
+"reason": "Auto (Small Works / Tender): Lindi/Mtwara – Nordic has worked there (Likong'o)",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "04ff934b-d0d8-4f8d-ad2c-d623f30fbf0e",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "81M2-2026-2027-W-05",
+"title": "Proposed Construction of Hungumalwa Bus Stand",
+"deadline": "2026-11-24T12:00:00+03:00",
+"body": {
+"no": "81M2/2026/2027/W/05",
+"date_found": "2026-11-13T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "Kwimba District Council",
+"client_type": "government",
+"title": "Proposed Construction of Hungumalwa Bus Stand",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Mwanza (Kwimba) (from client's office – confirm site)",
+"category": "building",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-11-24T12:00:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-11-13T00:00:00+03:00",
+"notice": "Small Works / Tender",
+"screen": "Check",
+"reason": "Auto (Small Works / Tender): Building works but remote from Dar",
+"next": "Read the notice and decide with the QS Director whether to pursue",
+"found_by": "Auto-scan",
+"source_id": "a025f01a-4a12-4a0d-bbf9-9f11111e7046",
+"synced_by": "NEXUS auto-sync"
+}
+},
+{
+"id": "TR99-TASFAM-P179969-2026-2027-W-01",
+"title": "Construction and facilitation of New Administration Block, Fish Processing Building and Small Business Building at Bagamoyo Fish Market in Bagamoyo District",
+"deadline": "2026-11-27T14:00:00+03:00",
+"body": {
+"no": "TR99/TASFAM/P179969/2026/2027/W/01",
+"date_found": "2026-11-13T00:00:00+03:00",
+"source": "NeST",
+"url": "https://nest.go.tz/tenders/published-tenders",
+"client": "Ministry of Livestock and Fisheries - Tasfam",
+"client_type": "government",
+"title": "Construction and facilitation of New Administration Block, Fish Processing Building and Small Business Building at Bagamoyo Fish Market in Bagamoyo District",
+"scope": "From NeST notice (1 lot) – read the tender document",
+"location": "Pwani (Bagamoyo)",
+"category": "building",
+"crb": "NeST login needed",
+"funding": "unknown",
+"site_visit": "NeST login needed",
+"clar": "NeST login needed",
+"deadline": "2026-11-27T14:00:00+03:00",
+"bid_security": "NeST login needed",
+"docs": "N",
+"status": "Watching",
+"owner": "Frank",
+"advertised": "2026-11-13T00:00:00+03:00",
+"notice": "World Bank - Request for Bids (Small Works) / Tender",
+"screen": "Pursue",
+"reason": "Auto (World Bank - Request for Bids): Building works within reach of Dar",
+"next": "Get the tender document, confirm value, CRB class, site visit and bid security; brief the MD",
+"found_by": "Auto-scan",
+"source_id": "962ee86a-d876-4776-b350-4d736a799440",
 "synced_by": "NEXUS auto-sync"
 }
 }
