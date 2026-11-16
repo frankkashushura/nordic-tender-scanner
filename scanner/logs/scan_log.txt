@@ -3113,3 +3113,84 @@ Screened out (see the 'Screened Out' sheet): 0
 Empty Pipeline rows left: 165
 
 2026-11-16 03:27:19  Report saved: /home/runner/work/nordic-tender-scanner/nordic-tender-scanner/scanner/reports/scan_2026-11-16_0321.txt
+2026-11-16 09:52:57  TCRA tenders: FAILED – no readable text on the page – it may load its list with JavaScript
+2026-11-16 09:55:43  NeST: 51 notices read; World Bank (Tanzania, civil works): 21 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 280 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read; TRC tenders: 1 notices read; TCRA tenders: FAILED (no readable text on the page – it may load its list with JavaScript); Azania Bank tenders: 6 notices read; NBC Bank procurement: 0 notices read; Ministry of Water tenders: 0 notices read; REA tenders: 1 notices read; DART tenders: 1 notices read; TASAC tenders: 0 notices read; TMDA tenders: 0 notices read; DUWASA tenders: 0 notices read; MWAUWASA tenders: 0 notices read; Ministry of Finance tenders: 0 notices read; SUA tenders (zabuni): 3 notices read; Tanzania Posts announcements: 0 notices read; TRA public notices: 0 notices read; UDSM announcements: 0 notices read; TAWA announcements: 0 notices read; Ministry of Health notices: 0 notices read; NM-AIST tenders: 0 notices read; BidDetail – Tanzania tenders: 4 notices read; ZoomTanzania tenders: 0 notices read; PPRA public notices: 1 notices read; Exim Bank Tanzania tenders: 0 notices read; UK Find a Tender – Tanzania: 0 notices read; UK Contracts Finder – Tanzania: 0 notices read; EU Funding & Tenders – Tanzania: 0 notices read; TradeMark Africa procurement: 0 notices read; Islamic Development Bank tenders: 0 notices read; African Union bids: 0 notices read; Enabel (Belgium) procurement: 0 notices read; Global Fund business opportunities: 0 notices read; SADC procurement: 0 notices read; IOM procurement: 0 notices read; UNESCO procurement: 0 notices read; WFP procurement: 0 notices read; GlobalTenders – Tanzania: 5 notices read; TenderImpulse – Tanzania: 1 notices read; Lake Victoria Basin Commission procurement: 0 notices read; East African Development Bank procurement: 0 notices read; TDB Group procurement: 0 notices read; IUCEA procurement: 0 notices read; ESAMI (Arusha) procurement: 0 notices read; Shelter Afrique procurement: 0 notices read; OPEC Fund procurement: 0 notices read; IRC (International Rescue Committee) procurement: 0 notices read; Norwegian Refugee Council procurement: 0 notices read; Welthungerhilfe tenders: 0 notices read; Concern Worldwide tenders: 0 notices read → 4 new, 0 deadline change(s)
+
+Tender Scan – Monday 16 November 2026, 09:52
+
+Sources checked:
+  NeST: 51 notices read
+  World Bank (Tanzania, civil works): 21 notices read
+  TANROADS website: 7 notices read
+  DDO Tenders (newspapers, private, donors): 280 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+  CRDB Bank tenders: 0 notices read
+  TPA current tenders: 0 notices read
+  TARURA tenders: 0 notices read
+  Bank of Tanzania tenders: 0 notices read
+  TEITI tenders: 0 notices read
+  TRC tenders: 1 notices read
+  TCRA tenders: FAILED (no readable text on the page – it may load its list with JavaScript)
+  Azania Bank tenders: 6 notices read
+  NBC Bank procurement: 0 notices read
+  Ministry of Water tenders: 0 notices read
+  REA tenders: 1 notices read
+  DART tenders: 1 notices read
+  TASAC tenders: 0 notices read
+  TMDA tenders: 0 notices read
+  DUWASA tenders: 0 notices read
+  MWAUWASA tenders: 0 notices read
+  Ministry of Finance tenders: 0 notices read
+  SUA tenders (zabuni): 3 notices read
+  Tanzania Posts announcements: 0 notices read
+  TRA public notices: 0 notices read
+  UDSM announcements: 0 notices read
+  TAWA announcements: 0 notices read
+  Ministry of Health notices: 0 notices read
+  NM-AIST tenders: 0 notices read
+  BidDetail – Tanzania tenders: 4 notices read
+  ZoomTanzania tenders: 0 notices read
+  PPRA public notices: 1 notices read
+  Exim Bank Tanzania tenders: 0 notices read
+  UK Find a Tender – Tanzania: 0 notices read
+  UK Contracts Finder – Tanzania: 0 notices read
+  EU Funding & Tenders – Tanzania: 0 notices read
+  TradeMark Africa procurement: 0 notices read
+  Islamic Development Bank tenders: 0 notices read
+  African Union bids: 0 notices read
+  Enabel (Belgium) procurement: 0 notices read
+  Global Fund business opportunities: 0 notices read
+  SADC procurement: 0 notices read
+  IOM procurement: 0 notices read
+  UNESCO procurement: 0 notices read
+  WFP procurement: 0 notices read
+  GlobalTenders – Tanzania: 5 notices read
+  TenderImpulse – Tanzania: 1 notices read
+  Lake Victoria Basin Commission procurement: 0 notices read
+  East African Development Bank procurement: 0 notices read
+  TDB Group procurement: 0 notices read
+  IUCEA procurement: 0 notices read
+  ESAMI (Arusha) procurement: 0 notices read
+  Shelter Afrique procurement: 0 notices read
+  OPEC Fund procurement: 0 notices read
+  IRC (International Rescue Committee) procurement: 0 notices read
+  Norwegian Refugee Council procurement: 0 notices read
+  Welthungerhilfe tenders: 0 notices read
+  Concern Worldwide tenders: 0 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (4)
+  • closes Fri 20 Nov 14:00  TARURA - Singida Regional Office – CONSTRUCTION OF MKIMBII CULVERTS ALONG MWAGHUMPI ROAD PHASE ONE.  [Singida (Ikungi) (from client's office – confirm site)]  (S10/023/2026/2027/W/57; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Mon 23 Nov 11:00  Missenyi District Council – CONSTRUCTION OF BUNAZI MARKET INFRASTRUCTURE PHASE II AT KASSAMBYA WARD IN MISSENYI DISTRICT COUNCIL  [Kagera (from client's office – confirm site)]  (87V6/2026/2027/W/09; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Mon 23 Nov 14:00  Mbozi District Council – CONSTRUTION OF ADMINISTRATION BLOCK PHASE 3 ( WALL PARTITION, PLUMBING, ELECTRICITY, ICT, PAINTING AND DECORAT  [Songwe (from client's office – confirm site)]  (78J3/2026/2027/W/04; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+  • closes Mon 23 Nov 14:00  Busega District Council – Construction of residential house for head of division at Busega Dc 2026/27  [Simiyu (from client's office – confirm site)]  (47BB5/2026/2027/W/12; Small Works / Tender)
+      https://nest.go.tz/tenders/published-tenders
+
+Screened out (see the 'Screened Out' sheet): 2
+Empty Pipeline rows left: 161
+
+2026-11-16 09:55:43  Report saved: /home/runner/work/nordic-tender-scanner/nordic-tender-scanner/scanner/reports/scan_2026-11-16_0952.txt
