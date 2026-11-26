@@ -4655,3 +4655,84 @@ Screened out (see the 'Screened Out' sheet): 0
 Empty Pipeline rows left: 112
 
 2026-11-26 05:48:48  Report saved: /home/runner/work/nordic-tender-scanner/nordic-tender-scanner/scanner/reports/scan_2026-11-26_0544.txt
+2026-11-26 14:34:13  NeST: 56 notices read; World Bank (Tanzania, civil works): 19 notices read; TANROADS website: 7 notices read; DDO Tenders (newspapers, private, donors): 278 notices read; TanzaniaTenders.com (newspapers, portals, private): 50 notices read; CRDB Bank tenders: 0 notices read; TPA current tenders: 0 notices read; TARURA tenders: 0 notices read; Bank of Tanzania tenders: 0 notices read; TEITI tenders: 0 notices read; TRC tenders: 1 notices read; TCRA tenders: 4 notices read; Azania Bank tenders: 6 notices read; NBC Bank procurement: 0 notices read; Ministry of Water tenders: 0 notices read; REA tenders: 1 notices read; DART tenders: 1 notices read; TASAC tenders: 0 notices read; TMDA tenders: 0 notices read; DUWASA tenders: 1 notices read; MWAUWASA tenders: 0 notices read; Ministry of Finance tenders: 0 notices read; SUA tenders (zabuni): 3 notices read; TRA public notices: 0 notices read; UDSM announcements: 0 notices read; TAWA announcements: 0 notices read; Ministry of Health notices: 0 notices read; NM-AIST tenders: 0 notices read; BidDetail – Tanzania tenders: 2 notices read; ZoomTanzania tenders: 0 notices read; PPRA public notices: 1 notices read; Exim Bank Tanzania tenders: 0 notices read; UK Find a Tender – Tanzania: 0 notices read; UK Contracts Finder – Tanzania: 0 notices read; EU Funding & Tenders – Tanzania: 0 notices read; TradeMark Africa procurement: 0 notices read; Islamic Development Bank tenders: 0 notices read; African Union bids: 0 notices read; Enabel (Belgium) procurement: 0 notices read; Global Fund business opportunities: 0 notices read; SADC procurement: 0 notices read; IOM procurement: 0 notices read; UNESCO procurement: 0 notices read; WFP procurement: 0 notices read; GlobalTenders – Tanzania: 5 notices read; TenderImpulse – Tanzania: 1 notices read; Lake Victoria Basin Commission procurement: 0 notices read; East African Development Bank procurement: 0 notices read; TDB Group procurement: 0 notices read; IUCEA procurement: 0 notices read; ESAMI (Arusha) procurement: 0 notices read; Shelter Afrique procurement: 0 notices read; OPEC Fund procurement: 0 notices read; IRC (International Rescue Committee) procurement: 0 notices read; Norwegian Refugee Council procurement: 0 notices read; Welthungerhilfe tenders: 0 notices read; Concern Worldwide tenders: 0 notices read → 5 new, 0 deadline change(s)
+
+Tender Scan – Thursday 26 November 2026, 14:31
+
+Sources checked:
+  NeST: 56 notices read
+  World Bank (Tanzania, civil works): 19 notices read
+  TANROADS website: 7 notices read
+  DDO Tenders (newspapers, private, donors): 278 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+  CRDB Bank tenders: 0 notices read
+  TPA current tenders: 0 notices read
+  TARURA tenders: 0 notices read
+  Bank of Tanzania tenders: 0 notices read
+  TEITI tenders: 0 notices read
+  TRC tenders: 1 notices read
+  TCRA tenders: 4 notices read
+  Azania Bank tenders: 6 notices read
+  NBC Bank procurement: 0 notices read
+  Ministry of Water tenders: 0 notices read
+  REA tenders: 1 notices read
+  DART tenders: 1 notices read
+  TASAC tenders: 0 notices read
+  TMDA tenders: 0 notices read
+  DUWASA tenders: 1 notices read
+  MWAUWASA tenders: 0 notices read
+  Ministry of Finance tenders: 0 notices read
+  SUA tenders (zabuni): 3 notices read
+  TRA public notices: 0 notices read
+  UDSM announcements: 0 notices read
+  TAWA announcements: 0 notices read
+  Ministry of Health notices: 0 notices read
+  NM-AIST tenders: 0 notices read
+  BidDetail – Tanzania tenders: 2 notices read
+  ZoomTanzania tenders: 0 notices read
+  PPRA public notices: 1 notices read
+  Exim Bank Tanzania tenders: 0 notices read
+  UK Find a Tender – Tanzania: 0 notices read
+  UK Contracts Finder – Tanzania: 0 notices read
+  EU Funding & Tenders – Tanzania: 0 notices read
+  TradeMark Africa procurement: 0 notices read
+  Islamic Development Bank tenders: 0 notices read
+  African Union bids: 0 notices read
+  Enabel (Belgium) procurement: 0 notices read
+  Global Fund business opportunities: 0 notices read
+  SADC procurement: 0 notices read
+  IOM procurement: 0 notices read
+  UNESCO procurement: 0 notices read
+  WFP procurement: 0 notices read
+  GlobalTenders – Tanzania: 5 notices read
+  TenderImpulse – Tanzania: 1 notices read
+  Lake Victoria Basin Commission procurement: 0 notices read
+  East African Development Bank procurement: 0 notices read
+  TDB Group procurement: 0 notices read
+  IUCEA procurement: 0 notices read
+  ESAMI (Arusha) procurement: 0 notices read
+  Shelter Afrique procurement: 0 notices read
+  OPEC Fund procurement: 0 notices read
+  IRC (International Rescue Committee) procurement: 0 notices read
+  Norwegian Refugee Council procurement: 0 notices read
+  Welthungerhilfe tenders: 0 notices read
+  Concern Worldwide tenders: 0 notices read
+
+NEW – PURSUE (2)
+  • closes Tue 01 Dec 10:00  Embassy of the Republic of the Sudan – Construction works Company  [Dar es Salaam]  (E.S.D./1/2026; DDO Tenders (newspaper / private / donor))
+      https://www.ddotenders.co.tz/tender.php?page=home
+  • closes Sat 12 Dec 10:00  MWALIMU JULIUS NYERERE LEADERSHIP SCHOOL – Rehabilitation and repainting works  [Dar es Salaam]  (MJNLS/WKS/REHAB/2026/01; DDO Tenders (newspaper / private / donor))
+      https://www.ddotenders.co.tz/tender.php?page=home
+
+NEW – CHECK (3)
+  • closes Fri 04 Dec 10:00  See advert – Provision of Maintenance and Repair of Cooling Equipment (Cold-Rooms, Air-Conditioners, Air Chillers) at Msd H  [Not stated – read the notice]  (no number; TanzaniaTenders.com (newspapers / portals / private))
+      https://www.tanzaniatenders.com/tender/provision-maintenance-and-repair-cooling-equipment-cold-rooms-air-conditioners-air-chillers-msd-91f4db5.php
+  • closes Fri 04 Dec 10:00  See advert – Rehabilitation Service for Dryshed at Namtumbo Seed Farm  [Not stated – read the notice]  (no number; TanzaniaTenders.com (newspapers / portals / private))
+      https://www.tanzaniatenders.com/tender/rehabilitation-service-dryshed-namtumbo-seed-farm-91f4db1.php
+  • closes Tue 08 Dec 10:00  See advert – Leasing of a Canteen Building  [Not stated – read the notice]  (no number; TanzaniaTenders.com (newspapers / portals / private))
+      https://www.tanzaniatenders.com/tender/leasing-canteen-building-91f4db8.php
+
+Screened out (see the 'Screened Out' sheet): 0
+Empty Pipeline rows left: 107
+
+2026-11-26 14:34:13  Report saved: /home/runner/work/nordic-tender-scanner/nordic-tender-scanner/scanner/reports/scan_2026-11-26_1431.txt
