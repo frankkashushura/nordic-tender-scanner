@@ -1,0 +1,76 @@
+Tender Scan – Saturday 28 November 2026, 15:07
+
+Sources checked:
+  NeST: 51 notices read
+  World Bank (Tanzania, civil works): 18 notices read
+  TANROADS website: 7 notices read
+  DDO Tenders (newspapers, private, donors): 278 notices read
+  TanzaniaTenders.com (newspapers, portals, private): 50 notices read
+  CRDB Bank tenders: 0 notices read
+  TPA current tenders: 0 notices read
+  TARURA tenders: 0 notices read
+  Bank of Tanzania tenders: 0 notices read
+  TEITI tenders: 0 notices read
+  TRC tenders: 1 notices read
+  TCRA tenders: 4 notices read
+  Azania Bank tenders: 6 notices read
+  NBC Bank procurement: 0 notices read
+  Ministry of Water tenders: 0 notices read
+  REA tenders: 1 notices read
+  DART tenders: 1 notices read
+  TASAC tenders: 0 notices read
+  TMDA tenders: 0 notices read
+  DUWASA tenders: 1 notices read
+  MWAUWASA tenders: 0 notices read
+  Ministry of Finance tenders: 0 notices read
+  SUA tenders (zabuni): 3 notices read
+  Tanzania Posts announcements: 0 notices read
+  TRA public notices: 0 notices read
+  UDSM announcements: 0 notices read
+  TAWA announcements: 0 notices read
+  Ministry of Health notices: 0 notices read
+  NM-AIST tenders: 0 notices read
+  BidDetail – Tanzania tenders: 2 notices read
+  ZoomTanzania tenders: 0 notices read
+  PPRA public notices: 1 notices read
+  Exim Bank Tanzania tenders: 0 notices read
+  UK Find a Tender – Tanzania: 0 notices read
+  UK Contracts Finder – Tanzania: 0 notices read
+  EU Funding & Tenders – Tanzania: 0 notices read
+  TradeMark Africa procurement: 1 notices read
+  Islamic Development Bank tenders: 0 notices read
+  African Union bids: 0 notices read
+  Enabel (Belgium) procurement: 0 notices read
+  Global Fund business opportunities: 0 notices read
+  SADC procurement: 0 notices read
+  IOM procurement: 0 notices read
+  UNESCO procurement: 0 notices read
+  WFP procurement: 0 notices read
+  GlobalTenders – Tanzania: 5 notices read
+  TenderImpulse – Tanzania: 1 notices read
+  Lake Victoria Basin Commission procurement: 0 notices read
+  East African Development Bank procurement: 0 notices read
+  TDB Group procurement: 0 notices read
+  IUCEA procurement: 0 notices read
+  ESAMI (Arusha) procurement: 0 notices read
+  Shelter Afrique procurement: 0 notices read
+  OPEC Fund procurement: 0 notices read
+  IRC (International Rescue Committee) procurement: 0 notices read
+  Norwegian Refugee Council procurement: 0 notices read
+  Welthungerhilfe tenders: 0 notices read
+  Concern Worldwide tenders: 0 notices read
+
+NEW – PURSUE (0)
+
+NEW – CHECK (4)
+  • closes Fri 04 Dec 10:00  See advert – Building Material for Completion of Administration Block at Lingaula  [Not stated – read the notice]  (no number; TanzaniaTenders.com (newspapers / portals / private))
+      https://www.tanzaniatenders.com/tender/building-material-completion-administration-block-lingaula-9217c97.php
+  • closes Fri 04 Dec 10:00  See advert – Construstion of Residential House for Heads of Departments Block (1)  [Not stated – read the notice]  (no number; TanzaniaTenders.com (newspapers / portals / private))
+      https://www.tanzaniatenders.com/tender/construstion-residential-house-heads-departments-block-1-9217c93.php
+  • closes Fri 04 Dec 10:00  See advert – : Provision of Local Artisan for the Construction of Perimeter Fence at the City Director's House  [Not stated – read the notice]  (no number; TanzaniaTenders.com (newspapers / portals / private))
+      https://www.tanzaniatenders.com/tender/provision-local-artisan-construction-perimeter-fence-city-director-s-house-9217c92.php
+  • closes Fri 04 Dec 10:00  See advert – Construction of Residential House for Heads of Department Block (2)  [Not stated – read the notice]  (no number; TanzaniaTenders.com (newspapers / portals / private))
+      https://www.tanzaniatenders.com/tender/construction-residential-house-heads-department-block-2-9217c80.php
+
+Screened out (see the 'Screened Out' sheet): 0
+Empty Pipeline rows left: 87
